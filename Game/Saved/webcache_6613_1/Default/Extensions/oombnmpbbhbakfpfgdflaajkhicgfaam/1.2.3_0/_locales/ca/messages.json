@@ -1,0 +1,608 @@
+{
+   "advanced_setup_menu_item": {
+      "message": "Configuració avançada"
+   },
+   "ai_conversation_security_description": {
+      "message": "Prioritza la seguretat quan facis servir ChatGPT. Analitzem cada resposta abans que hi interactuïs amb l'objectiu de detectar fonts potencialment poc fiables o insegures i codi maliciós."
+   },
+   "ai_conversation_security_detection_result_bad": {
+      "message": "Aquesta resposta fa referència a contingut d'una font que vam identificar com a insegura."
+   },
+   "ai_conversation_security_detection_result_bad_script": {
+      "message": "Aquesta resposta conté codi insegur. Executar-lo pot posar en risc el teu sistema o les teves dades."
+   },
+   "ai_conversation_security_detection_result_warning": {
+      "message": "Aquesta resposta fa referència al contingut d'una font que vam identificar com a potencialment poc fiable."
+   },
+   "ai_conversation_security_header": {
+      "message": "Seguretat de les converses amb IA"
+   },
+   "ai_conversation_security_onboarding": {
+      "message": "\u003Cp class=\"onboarding-info\">Les teves converses ara estan protegides. Analitzem cada resposta de ChatGPT per detectar referències a fonts potencialment poc fiables o insegures i codi maliciós.\u003C/p>\u003Cp class=\"onboarding-info\">Pots ajustar aquesta configuració \u003Cspan class=\"extension-popup-link\">aquí\u003C/span>.\u003C/p>"
+   },
+   "ai_conversation_security_scan_func_description": {
+      "message": "Comprova els possibles riscos de les respostes de la IA abans d'utilitzar-les."
+   },
+   "ai_conversation_security_scan_func_header": {
+      "message": "Anàlisi de converses"
+   },
+   "ai_conversation_security_summary": {
+      "message": "Comprova els possibles riscos de les respostes de ChatGPT."
+   },
+   "alert_icon_alt": {
+      "message": "Icona d'alerta"
+   },
+   "alert_page_connection_lost_btn": {
+      "message": "Tornar-ho a provar"
+   },
+   "alert_page_connection_lost_header": {
+      "message": "Connexió perduda"
+   },
+   "alert_page_connection_lost_text": {
+      "message": "S'ha perdut la connexió entre \u003Cspan class=\"product-info\">{%productname%}\u003C/span> i l'extensió del navegador. Comprova la connexió a Internet i torna-ho a provar. Tingues en compte que l'extensió no funcionarà sense \u003Cspan class=\"product-info\">{%productname%}\u003C/span> instal·lat."
+   },
+   "alert_page_expired_license_btn": {
+      "message": "Obrir \u003Cspan class=\"product-info\">{%productname%}\u003C/span> "
+   },
+   "alert_page_expired_license_header": {
+      "message": "Subscripció caducada"
+   },
+   "alert_page_expired_license_text": {
+      "message": "La teva subscripció ha caducat i ja no pots accedir a l'extensió Privacitat i seguretat del navegador d'ESET. Per resoldre aquest problema, obre \u003Cspan class=\"product-info\">{%productname%}\u003C/span> i segueix les instruccions proporcionades."
+   },
+   "alert_page_missing_product_header": {
+      "message": "Falta el producte"
+   },
+   "alert_page_missing_product_text_1": {
+      "message": "Actualment no hi ha cap producte ESET instal·lat a l'ordinador que admeti l'extensió Privacitat i seguretat del navegador d'ESET."
+   },
+   "alert_page_missing_product_text_2": {
+      "message": "Per obtenir més informació sobre l'extensió, els productes ESET compatibles, els navegadors compatibles i la instal·lació, visita la nostra \u003Cspan class=\"online-help-link\">ajuda en línia.\u003C/span>"
+   },
+   "alert_page_unsupported_browser_header": {
+      "message": "Navegador incompatible"
+   },
+   "alert_page_unsupported_browser_text_1": {
+      "message": "Sembla que utilitzes un navegador que encara no admetem. Per utilitzar l'extensió Privacitat i seguretat del navegador d'ESET, instal·la un navegador compatible."
+   },
+   "alert_page_unsupported_browser_text_2": {
+      "message": "\u003Cspan class=\"supported-browsers-link\">Consulta els navegadors compatibles\u003C/span>"
+   },
+   "banner_ok_status_icon_alt": {
+      "message": "Icona de bàner d'estat correcte"
+   },
+   "banner_restart_status_icon_alt": {
+      "message": "Icona de reinici del bàner d'estat"
+   },
+   "blocking_page_description": {
+      "message": "L'Inspector de seguretat de llocs web ha detectat contingut potencialment fraudulent o perjudicial en \u003Cspan class=\"blocked-url-tooltip\">aquesta pàgina\u003C/span>. Per mantenir-te protegit, recomanem evitar-lo."
+   },
+   "blocking_page_go_back_button": {
+      "message": "Torna"
+   },
+   "blocking_page_head_title": {
+      "message": "Alerta! - Privacitat i seguretat del navegador d'ESET"
+   },
+   "blocking_page_ignore_threat_button": {
+      "message": "Ignorar l'amenaça"
+   },
+   "blocking_page_options_title": {
+      "message": "Vols tornar a la pàgina anterior?"
+   },
+   "blocking_page_title": {
+      "message": "Aquesta pàgina pot no ser segura"
+   },
+   "browser_restart_needed_p": {
+      "message": "Cal reiniciar el navegador perquè aquest canvi tingui efecte."
+   },
+   "browsing_cleanup_custom_data_btn": {
+      "message": "Personalitzades"
+   },
+   "browsing_cleanup_custom_data_option_1": {
+      "message": "Historial de navegació"
+   },
+   "browsing_cleanup_custom_data_option_1_tooltip": {
+      "message": "Registres dels llocs web que has visitat, incloses les dates i les hores. Si suprimeixes aquestes dades, s'esborrarà l'historial d'activitat web del dispositiu."
+   },
+   "browsing_cleanup_custom_data_option_2": {
+      "message": "Historial de descàrregues"
+   },
+   "browsing_cleanup_custom_data_option_2_tooltip": {
+      "message": "Llista dels fitxers que has baixat. Si suprimeixes aquestes dades, s'eliminarà el registre dels fitxers descarregats, però no els fitxers en si."
+   },
+   "browsing_cleanup_custom_data_option_3": {
+      "message": "Galetes i dades de llocs web"
+   },
+   "browsing_cleanup_custom_data_option_3_tooltip": {
+      "message": "Fitxers petits que emmagatzemen els llocs web per recordar les teves preferències, l'estat d'inici de sessió i l'activitat. L'eliminació de galetes pot tancar la teva sessió dels llocs web i restablir les preferències."
+   },
+   "browsing_cleanup_custom_data_option_4": {
+      "message": "Imatges i fitxers a la memòria cau"
+   },
+   "browsing_cleanup_custom_data_option_4_tooltip": {
+      "message": "Fitxers temporals que ajuden a carregar llocs web més ràpidament emmagatzemant-ne algunes parts al dispositiu. Inicialment, l'eliminació d'aquestes dades pot alentir la càrrega de la pàgina, però alliberaràs espai."
+   },
+   "browsing_cleanup_custom_data_option_5": {
+      "message": "Contrasenyes i dades d'inici de la sessió"
+   },
+   "browsing_cleanup_custom_data_option_5_note": {
+      "message": "Això suprimirà permanentment tots els noms d'usuari i contrasenyes recordats."
+   },
+   "browsing_cleanup_custom_data_option_5_tooltip": {
+      "message": "Informació d'inici de sessió que s'emmagatzema per als llocs web i que permet iniciar sessió ràpidament. Si suprimeixes aquestes dades, s'eliminaran permanentment tots els noms d'usuari i contrasenyes recordats. Per tant, cal anar amb precaució."
+   },
+   "browsing_cleanup_custom_data_option_6": {
+      "message": "Dades d'emplenament automàtic del formulari"
+   },
+   "browsing_cleanup_custom_data_option_6_tooltip": {
+      "message": "Informació que has introduït als formularis, com ara noms, adreces i dades de contacte, i que t'ajuda a emplenar-los més ràpidament. Si suprimeixes aquestes dades, s'eliminarà la informació desada."
+   },
+   "browsing_cleanup_custom_data_option_7": {
+      "message": "Processadors de serveis"
+   },
+   "browsing_cleanup_custom_data_option_7_tooltip": {
+      "message": "Fitxers que ajuden a que els llocs web i les aplicacions web funcionin sense problemes, fins i tot sense connexió. La supressió d'aquestes dades pot afectar algunes funcions, com ara l'accés fora de línia, la sincronització en segon pla i les notificacions, però la majoria dels llocs web continuaran funcionant com de costum."
+   },
+   "browsing_cleanup_data_btns_header": {
+      "message": "Tipus de dades"
+   },
+   "browsing_cleanup_header": {
+      "message": "Neteja del navegador"
+   },
+   "browsing_cleanup_header_text": {
+      "message": "Elimina les dades de navegació o configura neteges periòdiques. Manté la sessió iniciada als llocs web seleccionats \u003Cspan>afegint-los a una llista.\u003C/span>"
+   },
+   "browsing_cleanup_private_data_btn": {
+      "message": "Privades"
+   },
+   "browsing_cleanup_private_data_description": {
+      "message": "El tipus de dades privades inclou el teu historial de navegació, l'historial de descàrregues, les galetes i les dades de llocs web, les dades d'emplenament automàtic de formularis i els processadors de serveis."
+   },
+   "browsing_cleanup_select_form_option_0": {
+      "message": "Tot el temps"
+   },
+   "browsing_cleanup_select_form_option_1": {
+      "message": "Aquesta sessió de navegació"
+   },
+   "browsing_cleanup_select_form_option_2": {
+      "message": "Última hora"
+   },
+   "browsing_cleanup_select_form_option_3": {
+      "message": "Últimes 24 hores"
+   },
+   "browsing_cleanup_select_form_option_4": {
+      "message": "Els darrers 7 dies"
+   },
+   "browsing_cleanup_select_form_option_5": {
+      "message": "Les darreres 4 setmanes"
+   },
+   "browsing_cleanup_select_form_placeholder": {
+      "message": "Seleccionar l'interval de temps"
+   },
+   "browsing_one_time_cleanup_delete_btn": {
+      "message": "Eliminar les dades"
+   },
+   "browsing_one_time_cleanup_delete_btn_deleted_text": {
+      "message": "Eliminat"
+   },
+   "browsing_one_time_cleanup_delete_btn_deleting_text": {
+      "message": "S'està eliminant"
+   },
+   "browsing_one_time_cleanup_select_form_title": {
+      "message": "Interval de temps"
+   },
+   "browsing_one_time_cleanup_tab_header": {
+      "message": "Neteja única"
+   },
+   "browsing_regular_cleanup_btn": {
+      "message": "Desar i executar la neteja"
+   },
+   "browsing_regular_cleanup_btn_coplete": {
+      "message": "Neteja completa"
+   },
+   "browsing_regular_cleanup_btn_disabled": {
+      "message": "Desar la neteja"
+   },
+   "browsing_regular_cleanup_btn_processing": {
+      "message": "S'està desant i netejant"
+   },
+   "browsing_regular_cleanup_btn_schedule": {
+      "message": "Programar la neteja"
+   },
+   "browsing_regular_cleanup_func_change_setting_link": {
+      "message": "Canviar la configuració de neteja periòdica"
+   },
+   "browsing_regular_cleanup_func_disabled": {
+      "message": "Un cop habilitada la neteja periòdica, configura l'hora i la freqüència preferides."
+   },
+   "browsing_regular_cleanup_func_header": {
+      "message": "Neteja periòdica"
+   },
+   "browsing_regular_cleanup_func_next_session_cleanup": {
+      "message": "La següent neteja s'iniciarà automàticament la propera vegada que obris el navegador."
+   },
+   "browsing_regular_cleanup_func_next_time_cleanup": {
+      "message": "La següent neteja està prevista per al %DATE% a les %TIME%."
+   },
+   "browsing_regular_cleanup_func_not_set": {
+      "message": "Encara no has configurat una neteja periòdica."
+   },
+   "browsing_regular_cleanup_func_set_up_settings_link": {
+      "message": "Configurar la neteja periòdica"
+   },
+   "browsing_regular_cleanup_header": {
+      "message": "Configuració de neteja periòdica"
+   },
+   "browsing_regular_cleanup_header_description": {
+      "message": "Selecciona la freqüència de neteja i els tipus de dades que vols incloure."
+   },
+   "browsing_regular_cleanup_select_form_option_1": {
+      "message": "Un cop per sessió del navegador"
+   },
+   "browsing_regular_cleanup_select_form_option_2": {
+      "message": "Un cop per hora"
+   },
+   "browsing_regular_cleanup_select_form_option_3": {
+      "message": "Un cop cada 24 hores"
+   },
+   "browsing_regular_cleanup_select_form_option_4": {
+      "message": "Un cop cada 7 dies"
+   },
+   "browsing_regular_cleanup_select_form_option_5": {
+      "message": "Un cop cada 4 setmanes"
+   },
+   "browsing_regular_cleanup_select_form_placeholder": {
+      "message": "Selecciona la freqüència"
+   },
+   "browsing_regular_cleanup_select_form_title": {
+      "message": "Freqüència de neteja"
+   },
+   "close_icon_alt": {
+      "message": "Icona de tancament"
+   },
+   "data_collection_consent_dialog_agree_button": {
+      "message": "Acceptar i continuar"
+   },
+   "data_collection_consent_dialog_decline_button": {
+      "message": "Rebutjar i tancar aquesta pestanya"
+   },
+   "data_collection_consent_dialog_description_1": {
+      "message": "Per proporcionar una protecció completa, l'extensió Privacitat i seguretat del navegador d'ESET necessita el teu consentiment per enviar les dades que recopila a l'aplicació ESET del teu dispositiu. Això inclou informació sobre els llocs web que visites, com ara les adreces web (URL), el contingut i les dades relacionades."
+   },
+   "data_collection_consent_dialog_description_2": {
+      "message": "Les dades que processem s'utilitzen per detectar estafes, pesca de credencials i altres amenaces i són necessàries per a funcions com ara Inspector de seguretat de llocs web. La major part del processament es fa localment al teu dispositiu, però és possible que s'enviïn al nostre servidor certes adreces URL i continguts de llocs webs que puguin resultar sospitosos per a la detecció avançada d'amenaces. Si rebutges el processament, algunes funcions es desactivaran, però la resta de l'extensió continuarà funcionant."
+   },
+   "data_collection_consent_dialog_description_3": {
+      "message": "En funció de la teva configuració a l'aplicació ESET, també podem recopilar dades d'ús anònimes de l'extensió per millorar el rendiment. Pots gestionar aquestes preferències a l'aplicació."
+   },
+   "data_collection_consent_dialog_footer": {
+      "message": "Per obtenir més informació sobre com processem i gestionem les teves dades, visita la nostra \u003Cspan class=\"privacy-policy-link\">Política de privacitat\u003C/span>."
+   },
+   "data_collection_consent_dialog_title": {
+      "message": "Necessitem el teu consentiment per protegir completament la teva navegació"
+   },
+   "direction": {
+      "message": "ltr"
+   },
+   "eset_logo_alt": {
+      "message": "Logotip d'ESET"
+   },
+   "eula_link": {
+      "message": "Acord de llicència d'usuari final"
+   },
+   "extension_description": {
+      "message": "Gaudeix d'una protecció del navegador ampliada amb Privacitat i seguretat del navegador d'ESET."
+   },
+   "help_support_menu_item": {
+      "message": "Ajuda i assistència tècnica"
+   },
+   "info_icon_alt": {
+      "message": "Icona d'informació"
+   },
+   "info_page_allow_access_button": {
+      "message": "Permetre l'accés"
+   },
+   "info_page_footer": {
+      "message": "© 1992 - %YEAR% ESET, spol. s r.o. - Tots els drets reservats. Les marques comercials utilitzades aquí són marques comercials o marques registrades d'ESET, spol. s r.o. o ESET North America. Tots els altres noms i marques són marques registrades de les seves respectives empreses."
+   },
+   "learn_more_link": {
+      "message": "Aprèn més"
+   },
+   "metadata_cleaner_func_description": {
+      "message": "Neteja les metadades cada vegada que carregues una imatge."
+   },
+   "metadata_cleaner_func_header": {
+      "message": "Netejar les dades dels fitxers"
+   },
+   "metadata_cleaner_header": {
+      "message": "Neteja de les metadades"
+   },
+   "metadata_cleaner_subheader": {
+      "message": "Elimina les metadades amb informació privada quan comparteixes fitxers en línia."
+   },
+   "metadata_notifications_func_header": {
+      "message": "Mostrar les notificacions després de la neteja"
+   },
+   "metadata_notifications_func_subheader": {
+      "message": "Rep les notificacions al navegador."
+   },
+   "metadata_warning_status_icon_alt": {
+      "message": "Icona d'advertiment d'estat de les metadades"
+   },
+   "notification_message_text": {
+      "message": "S'han netejat les metadades del fitxer carregat:"
+   },
+   "overview_menu_item": {
+      "message": "Visió general"
+   },
+   "privacy_policy_link": {
+      "message": "Política de privacitat"
+   },
+   "product_name": {
+      "message": "PRIVACITAT I SEGURETAT DEL NAVEGADOR"
+   },
+   "product_title": {
+      "message": "Privacitat i seguretat del navegador d'ESET"
+   },
+   "product_version": {
+      "message": "Versió:"
+   },
+   "progress_logo_alt": {
+      "message": "Progress. Protected. logotip"
+   },
+   "scan_search_result_func_description": {
+      "message": "Analitza els resultats de cerca per veure quins són segurs per fer-hi clic."
+   },
+   "scan_search_result_func_header": {
+      "message": "Analitzar els resultats de cerca"
+   },
+   "secure_search_green_popup_text": {
+      "message": "Aquest lloc web és segur"
+   },
+   "secure_search_header": {
+      "message": "Cerca segura"
+   },
+   "secure_search_red_popup_text": {
+      "message": "Aquest lloc web no és segur"
+   },
+   "secure_search_subheader": {
+      "message": "Consulta quins resultats de cerca són segurs d'obrir."
+   },
+   "secure_search_yellow_popup_text": {
+      "message": "S'ha trobat contingut potencialment no desitjat"
+   },
+   "settings_page_appearance_dark_mode": {
+      "message": "Fosc"
+   },
+   "settings_page_appearance_description": {
+      "message": "Personalitza el color de la interfície perquè s'adapti a les teves preferències. Pots triar entre un color clar o fosc."
+   },
+   "settings_page_appearance_header": {
+      "message": "Aspecte"
+   },
+   "settings_page_appearance_light_mode": {
+      "message": "Clar"
+   },
+   "settings_page_appearance_subheader": {
+      "message": "Mode de color"
+   },
+   "settings_page_browser_cleanup_active_tabs_text": {
+      "message": "Dominis suggerits en funció de les pestanyes que tens obertes actualment al navegador. Si no veus totes les pestanyes obertes actualment a la llista següent, \u003Cspan class=\"refresh-list\">actualitza la llista.\u003C/span>"
+   },
+   "settings_page_browser_cleanup_add_btn_text": {
+      "message": "Afegir"
+   },
+   "settings_page_browser_cleanup_checkbox_text": {
+      "message": "Mantenir la sessió de navegació actual per obrir les pestanyes després de netejar-les"
+   },
+   "settings_page_browser_cleanup_description": {
+      "message": "Afegeix llocs web on vulguis acceptar galetes i manté iniciada la sessió fins i tot després de realitzar la neteja del navegador."
+   },
+   "settings_page_browser_cleanup_input_placeholder_text": {
+      "message": "Introdueix l'URL que vulguis afegir"
+   },
+   "settings_page_browser_cleanup_minus_img_alt": {
+      "message": "Menys"
+   },
+   "settings_page_browser_cleanup_plus_img_alt": {
+      "message": "Més"
+   },
+   "settings_page_browser_cleanup_subheader": {
+      "message": "Configuració avançada de galetes"
+   },
+   "settings_page_not_valid_url_warning": {
+      "message": "*No sembla una URL vàlida."
+   },
+   "settings_page_website_settings_allow_text": {
+      "message": "Permetre"
+   },
+   "settings_page_website_settings_allowed_text": {
+      "message": "Permès"
+   },
+   "settings_page_website_settings_block_text": {
+      "message": "Bloquejar"
+   },
+   "settings_page_website_settings_blocked_text": {
+      "message": "Bloquejat"
+   },
+   "settings_page_website_settings_camera_section_description": {
+      "message": "Revisa quins llocs web et poden demanar poder utilitzar la càmera."
+   },
+   "settings_page_website_settings_camera_section_header": {
+      "message": "Càmera"
+   },
+   "settings_page_website_settings_chrome_extension_info_text": {
+      "message": "No podem canviar la configuració de les extensions del navegador. Per ajustar la configuració d'una extensió específica del navegador, ves a la \u003Cspan class=\"browser-site-permissions-link\">secció de privacitat i seguretat\u003C/span> del navegador"
+   },
+   "settings_page_website_settings_description": {
+      "message": "Accedeix i gestiona fàcilment els permisos del lloc web per controlar quina informació poden utilitzar els llocs web."
+   },
+   "settings_page_website_settings_edge_extension_info_text": {
+      "message": "No podem canviar la configuració de les extensions del navegador. Per ajustar la configuració d'una extensió específica del navegador, ves a la \u003Cspan class=\"browser-site-permissions-link\">secció de galetes i permisos del lloc web\u003C/span> del navegador"
+   },
+   "settings_page_website_settings_header": {
+      "message": "Valoració de la configuració del lloc web"
+   },
+   "settings_page_website_settings_location_section_description": {
+      "message": "Revisa quins llocs web et poden demanar la ubicació."
+   },
+   "settings_page_website_settings_location_section_header": {
+      "message": "Ubicació"
+   },
+   "settings_page_website_settings_mic_section_description": {
+      "message": "Revisa quins llocs web et poden demanar poder utilitzar el micròfon."
+   },
+   "settings_page_website_settings_mic_section_header": {
+      "message": "Micròfon"
+   },
+   "settings_page_website_settings_notif_section_description": {
+      "message": "Revisa quins llocs web poden demanar poder enviar notificacions."
+   },
+   "settings_page_website_settings_notif_section_header": {
+      "message": "Notificacions"
+   },
+   "settings_page_website_settings_reset_to_allow_text": {
+      "message": "Restablir per permetre"
+   },
+   "settings_page_website_settings_reset_to_block_text": {
+      "message": "Restablir per bloquejar"
+   },
+   "setup_btn": {
+      "message": "CONFIGURAR"
+   },
+   "summary_metadata_stats_text": {
+      "message": "Elimina les metadades amb informació privada"
+   },
+   "summary_ok_header": {
+      "message": "La teva navegació està protegida"
+   },
+   "summary_privacy_stats_text": {
+      "message": "Elimina les teves dades de navegació"
+   },
+   "summary_restart_header": {
+      "message": "Cal reiniciar el navegador"
+   },
+   "summary_search_stats_text": {
+      "message": "Comprova la seguretat dels resultats de la cerca"
+   },
+   "summary_website_setting_header": {
+      "message": "Valoració de la configuració del lloc web"
+   },
+   "summary_website_setting_text": {
+      "message": "Administra els permisos del lloc web"
+   },
+   "website_security_inspector_description": {
+      "message": "Protegeix la teva navegació del frau i les amenaces de seguretat mitjançant l'anàlisi dels llocs web que visites."
+   },
+   "website_security_inspector_scan_func_description": {
+      "message": "Analitza els llocs web per detectar amenaces tan aviat com es carreguen."
+   },
+   "website_security_inspector_scan_func_header": {
+      "message": "Detecció d'amenaces als llocs web"
+   },
+   "website_security_inspector_setup_all_set_info": {
+      "message": "\u003Cspan class=\"highlighted\">L'extensió Privacitat i seguretat del navegador d'ESET\u003C/span> ja està activa i et protegeix mentre navegues. Pots gestionar les seves funcions en qualsevol moment a la configuració."
+   },
+   "website_security_inspector_setup_all_set_title": {
+      "message": "Ja està tot a punt"
+   },
+   "website_security_inspector_setup_allow_access_section_description_1": {
+      "message": "Algunes funcions de seguretat necessiten permís addicional per accedir als llocs web que visites, incloses les adreces web (URL) i el contingut. Aquestes dades són necessàries per detectar estafes, pesca i altres amenaces en temps real i mai es comparteixen amb tercers."
+   },
+   "website_security_inspector_setup_allow_access_section_description_2": {
+      "message": "Pots gestionar aquest permís en qualsevol moment a la configuració de l'extensió."
+   },
+   "website_security_inspector_setup_almost_done_info": {
+      "message": "Has activat correctament \u003Cspan class=\"highlighted\">l'extensió Privacitat i seguretat del navegador d'ESET\u003C/span>."
+   },
+   "website_security_inspector_setup_almost_done_subtitle": {
+      "message": "Acaba d'habilitar totes les funcions de seguretat"
+   },
+   "website_security_inspector_setup_almost_done_title": {
+      "message": "Ja gairebé has acabat"
+   },
+   "website_security_inspector_summary": {
+      "message": "Protegeix la teva navegació del frau i les amenaces de seguretat."
+   },
+   "website_security_inspector_title": {
+      "message": "Inspector de seguretat de llocs web"
+   },
+   "welcome_page_ai_conversation_security_tile_text": {
+      "message": "Comprova l'existència de contingut potencialment perjudicial a les respostes de ChatGPT abans d'utilitzar-les. Més plataformes disponibles pròximament."
+   },
+   "welcome_page_allow_access_section_description": {
+      "message": "Algunes funcions necessiten permís per accedir als llocs web que visites. Les dades sobre la teva activitat web es processen localment al teu dispositiu. Només es pot enviar a ESET informació sobre les URL i telemetria que sigui potencialment perjudicial per contribuir a la recerca sobre les amenaces actuals de ciberseguretat i ajudar a millorar els nostres serveis, i sempre que hagis activat l'intercanvi de dades a la teva aplicació de seguretat ESET. Pots actualitzar aquest permís en qualsevol moment a la configuració de l'extensió."
+   },
+   "welcome_page_allow_access_section_title": {
+      "message": "Permet l'accés per a una protecció completa"
+   },
+   "welcome_page_browser_cleanup_tile_text": {
+      "message": "Elimina les dades de navegació o configura una neteja periòdica."
+   },
+   "welcome_page_chrome_info_tile_text": {
+      "message": "Mantén l'extensió visible fent clic a la icona de l'extensió superior i ancorant-la al navegador per accedir-hi fàcilment."
+   },
+   "welcome_page_edge_info_tile_text": {
+      "message": "Mantén l'extensió visible fent clic a la icona d'extensió superior i afegint-la a la barra d'eines del navegador per accedir-hi fàcilment."
+   },
+   "welcome_page_header_text": {
+      "message": "Gràcies per habilitar l'extensió \u003Cspan class=\"highlighted\">Privacitat i seguretat del navegador d'ESET\u003C/span> al teu navegador"
+   },
+   "welcome_page_main_content_title": {
+      "message": "Explora les funcions que mantenen la teva navegació segura"
+   },
+   "welcome_page_metadata_cleanup_tile_header": {
+      "message": "Neteja de les metadades*"
+   },
+   "welcome_page_metadata_cleanup_tile_text": {
+      "message": "Elimina la informació privada dels fitxers en compartir-los en línia."
+   },
+   "welcome_page_pin_icon_alt": {
+      "message": "Icona d'ancoratge"
+   },
+   "welcome_page_plugin_icon_alt": {
+      "message": "Icona del complement"
+   },
+   "welcome_page_right_arrow_icon_alt": {
+      "message": "Icona de fletxa dreta"
+   },
+   "welcome_page_secure_search_tile_text": {
+      "message": "Comprova la seguretat dels resultats de cerca abans d'obrir-los."
+   },
+   "welcome_page_subheader": {
+      "message": "Per començar a gaudir d'una experiència de navegació més segura, fes clic a la icona d'extensió que hi ha al costat de la barra d'adreces. En alguns navegadors, pot estar oculta al menú del navegador."
+   },
+   "welcome_page_ultime_feature": {
+      "message": "*Disponible a ESET HOME Security Ultimate"
+   },
+   "welcome_page_website_security_inspector_tile_text": {
+      "message": "Analitza els llocs web per detectar frau i amenaces de seguretat mentre navegues."
+   },
+   "welcome_page_website_settings_tile_header": {
+      "message": "Valoració de la configuració del lloc web*"
+   },
+   "welcome_page_website_settings_tile_text": {
+      "message": "Controla els permisos del lloc web per a les notificacions, la ubicació, la càmera i el micròfon."
+   },
+   "whats_new_page_allow_access_section_description": {
+      "message": "Aquesta funció necessita permís per accedir als llocs web que visites. Les dades sobre la teva activitat web es processen localment al teu dispositiu. Només es pot enviar a ESET informació sobre les URL i telemetria que sigui potencialment perjudicial per contribuir a la recerca sobre les amenaces actuals de ciberseguretat i ajudar a millorar els nostres serveis, i sempre que hagis activat l'intercanvi de dades a la teva aplicació de seguretat ESET. Pots actualitzar aquest permís en qualsevol moment a la configuració de l'extensió."
+   },
+   "whats_new_page_allow_access_section_title": {
+      "message": "Permetre l'accés per a la Seguretat de converses amb IA"
+   },
+   "whats_new_page_description": {
+      "message": "Seguretat de les converses amb IA analitza cada resposta de ChatGPT a la recerca de contingut que faci referència a fonts potencialment poc fiables o insegures, així com codi maliciós. Funciona automàticament i, per tant, la teva navegació no s'interromp.\u003Cbr/>\u003Cbr/>L'anàlisi es fa localment al teu dispositiu. No enviem ni compartim informació sobre la teva activitat web a ESET. Només es pot enviar informació sobre les URL i telemetria potencialment perjudicials per ajudar a millorar el nostre producte.\u003Cbr/>\u003Cbr/>El suport per a plataformes d'IA addicionals arribarà aviat."
+   },
+   "whats_new_page_header": {
+      "message": "\u003Cspan class=\"highlighted\">Novetats\u003C/span>"
+   },
+   "whats_new_page_image_alt": {
+      "message": "Il·lustració de la funció Seguretat de les converses amb AI d'ESET on es mostren dues bombolles de xat que representen la conversa d'un bot amb IA i on es veu una URL marcada en vermell dins d'una de les respostes, la qual cosa indica un enllaç no segur detectat durant l'anàlisi."
+   },
+   "whats_new_page_subheader": {
+      "message": "Explora les últimes actualitzacions i millores de \u003Cspan class=\"highlighted\">l'extensió Privacitat i seguretat del navegador d'ESET\u003C/span>."
+   },
+   "whats_new_page_title": {
+      "message": "Gaudeix de converses més segures a ChatGPT"
+   }
+}

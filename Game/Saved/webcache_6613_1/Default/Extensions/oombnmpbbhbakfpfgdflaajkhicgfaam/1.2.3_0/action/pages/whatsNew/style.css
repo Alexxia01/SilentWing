@@ -1,0 +1,22 @@
+.whats-new__main-content {
+	flex: 1;
+	margin-top: 108px;
+}
+
+@media screen and (max-width: 1979px) {
+	.whats-new__main-content {
+		margin-top: 64px;
+	}
+}
+
+@media screen and (max-width: 1279px) {
+	.whats-new__main-content {
+		margin-top: 58.5px;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.whats-new__main-content {
+		margin-top: 37.5px;
+	}
+}

@@ -1,0 +1,608 @@
+{
+   "advanced_setup_menu_item": {
+      "message": "Разширена настройка"
+   },
+   "ai_conversation_security_description": {
+      "message": "Бъдете по-внимателни, когато използвате ChatGPT. Сканираме всеки отговор за препратки към потенциално ненадеждни или опасни източници, както и за злонамерен код, преди да взаимодействате с него."
+   },
+   "ai_conversation_security_detection_result_bad": {
+      "message": "Този отговор се позовава на съдържание от източник, който идентифицирахме като опасен."
+   },
+   "ai_conversation_security_detection_result_bad_script": {
+      "message": "Този отговор съдържа опасен код. Изпълнението му може да изложи системата или данните ви на риск."
+   },
+   "ai_conversation_security_detection_result_warning": {
+      "message": "Този отговор се позовава на съдържание от източник, който идентифицирахме като потенциално ненадежден."
+   },
+   "ai_conversation_security_header": {
+      "message": "Защита на разговорите с ИИ"
+   },
+   "ai_conversation_security_onboarding": {
+      "message": "\u003Cp class=\"onboarding-info\">Вашите разговори вече са защитени. Сканираме всеки отговор на ChatGPT за препратки към потенциално ненадеждни или опасни източници и за злонамерен код.\u003C/p>\u003Cp class=\"onboarding-info\">Можете да регулирате тези настройки \u003Cspan class=\"extension-popup-link\">тук\u003C/span>.\u003C/p>"
+   },
+   "ai_conversation_security_scan_func_description": {
+      "message": "Проверявайте отговорите на ИИ за потенциални рискове, преди да ги използвате."
+   },
+   "ai_conversation_security_scan_func_header": {
+      "message": "Сканиране на разговори"
+   },
+   "ai_conversation_security_summary": {
+      "message": "Проверявайте отговорите на ChatGPT за потенциални рискове."
+   },
+   "alert_icon_alt": {
+      "message": "Икона за предупреждение"
+   },
+   "alert_page_connection_lost_btn": {
+      "message": "Опитайте отново"
+   },
+   "alert_page_connection_lost_header": {
+      "message": "Връзката е прекъсната"
+   },
+   "alert_page_connection_lost_text": {
+      "message": "Връзката между \u003Cspan class=\"product-info\">{%productname%}\u003C/span> и разширението на браузъра е прекъсната. Проверете интернет връзката си и опитайте отново. Обърнете внимание, че разширението няма да работи, без да е инсталирано \u003Cspan class=\"product-info\">{%productname%}\u003C/span>."
+   },
+   "alert_page_expired_license_btn": {
+      "message": "Отвори \u003Cspan class=\"product-info\">{%productname%}\u003C/span> "
+   },
+   "alert_page_expired_license_header": {
+      "message": "Абонаментът е изтекъл"
+   },
+   "alert_page_expired_license_text": {
+      "message": "Абонаментът ви е изтекъл и вече нямате достъп до разширението за поверителността и защита на браузъра на ESET. За да разрешите този проблем, отворете \u003Cspan class=\"product-info\">{%productname%}\u003C/span> и следвайте предоставените инструкции."
+   },
+   "alert_page_missing_product_header": {
+      "message": "Липсващ продукт"
+   },
+   "alert_page_missing_product_text_1": {
+      "message": "В момента на компютъра ви няма инсталиран продукт на ESET, който да поддържа разширението „Поверителност и защита на браузъра“ на ESET."
+   },
+   "alert_page_missing_product_text_2": {
+      "message": "За да научите повече за разширението, поддържаните продукти на ESET, поддържаните браузъри и инсталацията, посетете нашата \u003Cspan class=\"online-help-link\">онлайн помощ.\u003C/span>"
+   },
+   "alert_page_unsupported_browser_header": {
+      "message": "Неподдържан браузър"
+   },
+   "alert_page_unsupported_browser_text_1": {
+      "message": "Изглежда, че използвате браузър, който все още не поддържаме. За да използвате разширението „Поверителност и защита на браузъра“ на ESET, инсталирайте поддържан браузър."
+   },
+   "alert_page_unsupported_browser_text_2": {
+      "message": "\u003Cspan class=\"supported-browsers-link\">Преглед на поддържани браузъри\u003C/span>"
+   },
+   "banner_ok_status_icon_alt": {
+      "message": "Икона на банер за състояние OK"
+   },
+   "banner_restart_status_icon_alt": {
+      "message": "Икона на банер за състояние на рестартиране"
+   },
+   "blocking_page_description": {
+      "message": "Инспекторът по защита на уеб сайтовете е открил потенциално измамно или вредно съдържание на \u003Cspan class=\"blocked-url-tooltip\">тази страница\u003C/span>. За да останете защитени, ви препоръчваме да я избягвате."
+   },
+   "blocking_page_go_back_button": {
+      "message": "Връщане назад"
+   },
+   "blocking_page_head_title": {
+      "message": "Уведомление! – Поверителност и защита на браузъра на ESET"
+   },
+   "blocking_page_ignore_threat_button": {
+      "message": "Игнорирай заплахата"
+   },
+   "blocking_page_options_title": {
+      "message": "Назад към предишната страница?"
+   },
+   "blocking_page_title": {
+      "message": "Тази страница може да е опасна"
+   },
+   "browser_restart_needed_p": {
+      "message": "Необходимо е рестартиране на браузъра, за да влезе в сила промяната."
+   },
+   "browsing_cleanup_custom_data_btn": {
+      "message": "По избор"
+   },
+   "browsing_cleanup_custom_data_option_1": {
+      "message": "Хронологията на браузъра"
+   },
+   "browsing_cleanup_custom_data_option_1_tooltip": {
+      "message": "Записи на уеб сайтовете, които сте посетили, включващи датите и часовете. Премахването на тези данни ще премахне хронологията на активността ви в интернет от устройството ви."
+   },
+   "browsing_cleanup_custom_data_option_2": {
+      "message": "Хронология на изтеглянията"
+   },
+   "browsing_cleanup_custom_data_option_2_tooltip": {
+      "message": "Списък с изтеглените от вас файлове. Премахването на тези данни ще премахне записа за изтеглянето на файловете, но не и самите тях."
+   },
+   "browsing_cleanup_custom_data_option_3": {
+      "message": "Данни за бисквитки и уеб сайтове"
+   },
+   "browsing_cleanup_custom_data_option_3_tooltip": {
+      "message": "Малки файлове, съхранявани от уеб сайтовете с цел запомняне на предпочитанията ви, състоянието на влизанията и активността ви. Премахването на бисквитките може да ви изкара от уеб сайтовете, в които сте влезли, и да нулира предпочитанията ви."
+   },
+   "browsing_cleanup_custom_data_option_4": {
+      "message": "Кеширани изображения и файлове"
+   },
+   "browsing_cleanup_custom_data_option_4_tooltip": {
+      "message": "Временни файлове, които помагат на уеб сайтовете да зареждат по-бързо, като съхраняват части от тях на устройството ви. Премахването на тези данни може първоначално да забави зареждането на уеб страниците, но ще освободи място."
+   },
+   "browsing_cleanup_custom_data_option_5": {
+      "message": "Пароли и данни за влизане"
+   },
+   "browsing_cleanup_custom_data_option_5_note": {
+      "message": "Това ще премахне завинаги всички запомнени потребителски имена и пароли."
+   },
+   "browsing_cleanup_custom_data_option_5_tooltip": {
+      "message": "Съхранена информация за вход за по-бързо влизане в уеб сайтове. Премахването на тези данни ще премахне завинаги всички запомнени потребителски имена и пароли, затова помислете внимателно, пред да продължите."
+   },
+   "browsing_cleanup_custom_data_option_6": {
+      "message": "Данни за автоматично попълване на формуляр"
+   },
+   "browsing_cleanup_custom_data_option_6_tooltip": {
+      "message": "Информация, като имена, адреси и данни за контакт, която въвеждате във формуляри и която ви помага да ги попълвате по-бързо. Премахването на тези данни ще премахне записаната информация."
+   },
+   "browsing_cleanup_custom_data_option_7": {
+      "message": "Служители"
+   },
+   "browsing_cleanup_custom_data_option_7_tooltip": {
+      "message": "Файлове, които помагат на уеб сайтовете и приложенията да работят безпроблемно, дори когато сте офлайн. Премахването на тези данни може да засегне функции като офлайн достъпа, синхронизирането на данни във фонов режим и получаването на известия, но повечето уеб сайтове ще продължат да работят както обикновено."
+   },
+   "browsing_cleanup_data_btns_header": {
+      "message": "Тип на данните"
+   },
+   "browsing_cleanup_header": {
+      "message": "Изчистване на браузъра"
+   },
+   "browsing_cleanup_header_text": {
+      "message": "Изтрийте данните за сърфирането или настройте редовни почиствания. Останете влезли в избрани уеб сайтове \u003Cspan>, като ги добавите към списък.\u003C/span>"
+   },
+   "browsing_cleanup_private_data_btn": {
+      "message": "Личен"
+   },
+   "browsing_cleanup_private_data_description": {
+      "message": "Типът лични данни включва хронологията на браузъра, хронологията на изтеглянията, данните за бисквитки и уебсайтове, данните за автоматично попълване на формуляри и служителите."
+   },
+   "browsing_cleanup_select_form_option_0": {
+      "message": "През цялото време"
+   },
+   "browsing_cleanup_select_form_option_1": {
+      "message": "Тази сесия на сърфиране"
+   },
+   "browsing_cleanup_select_form_option_2": {
+      "message": "Последния час"
+   },
+   "browsing_cleanup_select_form_option_3": {
+      "message": "Последните 24 часа"
+   },
+   "browsing_cleanup_select_form_option_4": {
+      "message": "Последните 7 дни"
+   },
+   "browsing_cleanup_select_form_option_5": {
+      "message": "Последните 4 седмици"
+   },
+   "browsing_cleanup_select_form_placeholder": {
+      "message": "Изберете времеви диапазон"
+   },
+   "browsing_one_time_cleanup_delete_btn": {
+      "message": "Премахване на данни"
+   },
+   "browsing_one_time_cleanup_delete_btn_deleted_text": {
+      "message": "Изтрит"
+   },
+   "browsing_one_time_cleanup_delete_btn_deleting_text": {
+      "message": "Изтриване"
+   },
+   "browsing_one_time_cleanup_select_form_title": {
+      "message": "Времеви диапазон"
+   },
+   "browsing_one_time_cleanup_tab_header": {
+      "message": "Еднократно почистване"
+   },
+   "browsing_regular_cleanup_btn": {
+      "message": "Записване и изпълнение на почистването"
+   },
+   "browsing_regular_cleanup_btn_coplete": {
+      "message": "Почистването е завършено"
+   },
+   "browsing_regular_cleanup_btn_disabled": {
+      "message": "Записване на почистването"
+   },
+   "browsing_regular_cleanup_btn_processing": {
+      "message": "Записване и почистване"
+   },
+   "browsing_regular_cleanup_btn_schedule": {
+      "message": "Планиране на почистване"
+   },
+   "browsing_regular_cleanup_func_change_setting_link": {
+      "message": "Промяна на настройките за редовно почистване"
+   },
+   "browsing_regular_cleanup_func_disabled": {
+      "message": "След като разрешите редовното почистване, задайте предпочитаното от вас време и честота."
+   },
+   "browsing_regular_cleanup_func_header": {
+      "message": "Редовно почистване"
+   },
+   "browsing_regular_cleanup_func_next_session_cleanup": {
+      "message": "Следващото почистване автоматично ще започне, когато отворите браузъра си отново."
+   },
+   "browsing_regular_cleanup_func_next_time_cleanup": {
+      "message": "Следващото почистване е насрочено за %DATE% в %TIME%."
+   },
+   "browsing_regular_cleanup_func_not_set": {
+      "message": "Редовното почистване все още не е зададено."
+   },
+   "browsing_regular_cleanup_func_set_up_settings_link": {
+      "message": "Задаване на редовно почистване"
+   },
+   "browsing_regular_cleanup_header": {
+      "message": "Настройки за редовно почистване"
+   },
+   "browsing_regular_cleanup_header_description": {
+      "message": "Изберете честотата на почистването и типа данни, които да бъдат включени."
+   },
+   "browsing_regular_cleanup_select_form_option_1": {
+      "message": "Веднъж на всяка сесия на браузъра"
+   },
+   "browsing_regular_cleanup_select_form_option_2": {
+      "message": "Веднъж на час"
+   },
+   "browsing_regular_cleanup_select_form_option_3": {
+      "message": "Веднъж на 24 часа"
+   },
+   "browsing_regular_cleanup_select_form_option_4": {
+      "message": "Веднъж на 7 дни"
+   },
+   "browsing_regular_cleanup_select_form_option_5": {
+      "message": "Веднъж на 4 седмици"
+   },
+   "browsing_regular_cleanup_select_form_placeholder": {
+      "message": "Избор на честота"
+   },
+   "browsing_regular_cleanup_select_form_title": {
+      "message": "Честота на почистване"
+   },
+   "close_icon_alt": {
+      "message": "Икона на затваряне"
+   },
+   "data_collection_consent_dialog_agree_button": {
+      "message": "Съгласяване и продължаване"
+   },
+   "data_collection_consent_dialog_decline_button": {
+      "message": "Отказване и затваряне на раздела"
+   },
+   "data_collection_consent_dialog_description_1": {
+      "message": "За да осигури пълна защита, разширението „Поверителност и защита на браузъра“ на ESET се нуждае от вашето съгласие, за да изпраща данни, които събира, до приложението ESET на вашето устройство. Това включва информация за уеб сайтовете, които посещавате, като например техните уеб адреси (URL адреси), съдържание и свързани данни."
+   },
+   "data_collection_consent_dialog_description_2": {
+      "message": "Данните, които обработваме, се използват за откриване на измами, фишинг и други заплахи и са необходими за функции като „Инспектор по защита на уеб сайтовете“. По-голямата част от обработката се извършва локално на вашето устройство, но някои подозрителни URL адреси и съдържание на уеб сайта могат да бъдат изпратени до нашия сървър за разширено откриване на заплахи. Ако откажете, някои функции ще бъдат забранени, но останалата част от разширението ще продължи да работи."
+   },
+   "data_collection_consent_dialog_description_3": {
+      "message": "В зависимост от вашите настройки в приложението на ESET може също да събираме анонимни данни за използването на разширението, за да подобрим производителността. Можете да управлявате тези предпочитания в приложението."
+   },
+   "data_collection_consent_dialog_footer": {
+      "message": "За повече информация относно това как обработваме и управляваме вашите данни посетете нашите \u003Cspan class=\"privacy-policy-link\">Правила за поверителност\u003C/span>."
+   },
+   "data_collection_consent_dialog_title": {
+      "message": "Нуждаем се от вашето съгласие, за да защитим напълно сърфирането ви"
+   },
+   "direction": {
+      "message": "ltr"
+   },
+   "eset_logo_alt": {
+      "message": "Лого на ESET"
+   },
+   "eula_link": {
+      "message": "Лицензионно споразумение с краен потребител"
+   },
+   "extension_description": {
+      "message": "Насладете се на разширена защита на браузъра с поверителност и защита на браузъра на ESET."
+   },
+   "help_support_menu_item": {
+      "message": "Помощ и поддръжка"
+   },
+   "info_icon_alt": {
+      "message": "Икона за информация"
+   },
+   "info_page_allow_access_button": {
+      "message": "Разреши достъпа"
+   },
+   "info_page_footer": {
+      "message": "© 1992 - %YEAR% ESET, spol. s r.o. - Всички права запазени. Използваните търговски марки са търговски марки или регистрирани търговски марки на ESET, spol. s r.o. или ESET North America. Всички останали имена и марки са регистрирани търговски марки на съответните им фирми."
+   },
+   "learn_more_link": {
+      "message": "Научете повече"
+   },
+   "metadata_cleaner_func_description": {
+      "message": "Почиствайте метаданните всеки път, когато качвате изображение."
+   },
+   "metadata_cleaner_func_header": {
+      "message": "Почистване на данните от вашите файлове"
+   },
+   "metadata_cleaner_header": {
+      "message": "Изчистване на метаданни"
+   },
+   "metadata_cleaner_subheader": {
+      "message": "Премахване на метаданни с лична информация при споделяне на файлове онлайн."
+   },
+   "metadata_notifications_func_header": {
+      "message": "Показване на известията след почистване"
+   },
+   "metadata_notifications_func_subheader": {
+      "message": "Получавайте известия в браузъра."
+   },
+   "metadata_warning_status_icon_alt": {
+      "message": "Икона за предупреждение за състоянието на метаданните"
+   },
+   "notification_message_text": {
+      "message": "Почистени метаданни на качения файл:"
+   },
+   "overview_menu_item": {
+      "message": "Преглед"
+   },
+   "privacy_policy_link": {
+      "message": "Правила за поверителност"
+   },
+   "product_name": {
+      "message": "ПОВЕРИТЕЛНОСТ И ЗАЩИТА НА БРАУЗЪРА"
+   },
+   "product_title": {
+      "message": "Поверителност и защита на браузъра на ESET"
+   },
+   "product_version": {
+      "message": "Версия:"
+   },
+   "progress_logo_alt": {
+      "message": "Лого на Progress. Protected."
+   },
+   "scan_search_result_func_description": {
+      "message": "Сканирайте резултатите от търсенето, за да видите върху кои е безопасно да щракнете."
+   },
+   "scan_search_result_func_header": {
+      "message": "Сканиране на резултатите от търсенето"
+   },
+   "secure_search_green_popup_text": {
+      "message": "Този уебсайт е безопасен"
+   },
+   "secure_search_header": {
+      "message": "Защитено търсене"
+   },
+   "secure_search_red_popup_text": {
+      "message": "Този уебсайт не е безопасен"
+   },
+   "secure_search_subheader": {
+      "message": "Вижте кои резултати от търсенето са безопасни за отваряне."
+   },
+   "secure_search_yellow_popup_text": {
+      "message": "Открито е потенциално нежелано съдържание"
+   },
+   "settings_page_appearance_dark_mode": {
+      "message": "Тъмна"
+   },
+   "settings_page_appearance_description": {
+      "message": "Персонализирайте цвета на интерфейса, за да отговаря на вашето предпочитание. Можете да избирате между светъл или тъмен цвят."
+   },
+   "settings_page_appearance_header": {
+      "message": "Външен вид"
+   },
+   "settings_page_appearance_light_mode": {
+      "message": "Светла"
+   },
+   "settings_page_appearance_subheader": {
+      "message": "Цветови режим"
+   },
+   "settings_page_browser_cleanup_active_tabs_text": {
+      "message": "Предложени домейни въз основа на разделите, които в момента сте отворили в браузъра си. Ако не виждате всички отворени в момента раздели в списъка по-долу, \u003Cspan class=\"refresh-list\">обновете списъка.\u003C/span>"
+   },
+   "settings_page_browser_cleanup_add_btn_text": {
+      "message": "Добави"
+   },
+   "settings_page_browser_cleanup_checkbox_text": {
+      "message": "Запазване на текущата сесия на сърфиране за отворени раздели след почистване"
+   },
+   "settings_page_browser_cleanup_description": {
+      "message": "Добавете уеб сайтове, където искате да приемате бисквитки и да останете влезли дори след извършване на изчистването на браузъра."
+   },
+   "settings_page_browser_cleanup_input_placeholder_text": {
+      "message": "Въведете URL адрес, който искате да добавите"
+   },
+   "settings_page_browser_cleanup_minus_img_alt": {
+      "message": "Минус"
+   },
+   "settings_page_browser_cleanup_plus_img_alt": {
+      "message": "Плюс"
+   },
+   "settings_page_browser_cleanup_subheader": {
+      "message": "Разширени настройки за бисквитки"
+   },
+   "settings_page_not_valid_url_warning": {
+      "message": "* Това не изглежда като валиден URL адрес."
+   },
+   "settings_page_website_settings_allow_text": {
+      "message": "Разреши"
+   },
+   "settings_page_website_settings_allowed_text": {
+      "message": "Разрешено"
+   },
+   "settings_page_website_settings_block_text": {
+      "message": "Блокиране"
+   },
+   "settings_page_website_settings_blocked_text": {
+      "message": "Блокирано"
+   },
+   "settings_page_website_settings_camera_section_description": {
+      "message": "Прегледайте кои уебсайтове могат да искат да използват камерата ви."
+   },
+   "settings_page_website_settings_camera_section_header": {
+      "message": "Камера"
+   },
+   "settings_page_website_settings_chrome_extension_info_text": {
+      "message": "Не можем да променяме настройките за разширенията на браузъра. За да регулирате настройките за конкретно разширение на браузъра, отворете \u003Cspan class=\"browser-site-permissions-link\">раздела „Поверителност и защита“\u003C/span> в браузъра си"
+   },
+   "settings_page_website_settings_description": {
+      "message": "Лесно осъществявайте достъп и управлявайте разрешенията за уеб сайтове, за да контролирате каква информация могат да използват уеб сайтовете."
+   },
+   "settings_page_website_settings_edge_extension_info_text": {
+      "message": "Не можем да променяме настройките за разширенията на браузъра. За да регулирате настройките за конкретно разширение на браузъра, отидете в \u003Cspan class=\"browser-site-permissions-link\">раздела „Разрешения за бисквитки и сайтове“\u003C/span> в браузъра си"
+   },
+   "settings_page_website_settings_header": {
+      "message": "Преглед на настройките на уеб сайта"
+   },
+   "settings_page_website_settings_location_section_description": {
+      "message": "Прегледайте кои уеб сайтове могат да искат местоположението ви."
+   },
+   "settings_page_website_settings_location_section_header": {
+      "message": "Местоположение"
+   },
+   "settings_page_website_settings_mic_section_description": {
+      "message": "Прегледайте кои уеб сайтове могат да искат да използват микрофона ви."
+   },
+   "settings_page_website_settings_mic_section_header": {
+      "message": "Микрофон"
+   },
+   "settings_page_website_settings_notif_section_description": {
+      "message": "Прегледайте кои уеб сайтове могат да поискат да изпращат известия."
+   },
+   "settings_page_website_settings_notif_section_header": {
+      "message": "Известия"
+   },
+   "settings_page_website_settings_reset_to_allow_text": {
+      "message": "Нулиране за разрешаване"
+   },
+   "settings_page_website_settings_reset_to_block_text": {
+      "message": "Нулиране за блокиране"
+   },
+   "setup_btn": {
+      "message": "НАСТРОЙВАНЕ"
+   },
+   "summary_metadata_stats_text": {
+      "message": "Премахнете метаданните с лична информация."
+   },
+   "summary_ok_header": {
+      "message": "Вашето сърфиране е защитено"
+   },
+   "summary_privacy_stats_text": {
+      "message": "Премахнете данните си за сърфиране."
+   },
+   "summary_restart_header": {
+      "message": "Необходимо е да се рестартира браузърът"
+   },
+   "summary_search_stats_text": {
+      "message": "Проверете безопасността на резултатите от търсенето."
+   },
+   "summary_website_setting_header": {
+      "message": "Преглед на настройките на уеб сайта"
+   },
+   "summary_website_setting_text": {
+      "message": "Управлявайте разрешенията за уеб сайтове."
+   },
+   "website_security_inspector_description": {
+      "message": "Защитете сърфирането си в интернет срещу измами и заплахи за сигурността, като сканирате уеб сайтовете, които посещавате."
+   },
+   "website_security_inspector_scan_func_description": {
+      "message": "Сканирайте уеб сайтовете за заплахи веднага щом се заредят."
+   },
+   "website_security_inspector_scan_func_header": {
+      "message": "Откриване на заплахи в уеб сайтовете"
+   },
+   "website_security_inspector_setup_all_set_info": {
+      "message": "\u003Cspan class=\"highlighted\">Разширението „Поверителност и защита на браузъра“ на ESET\u003C/span> вече е активно и защитава сърфирането ви. Можете да управлявате функциите му по всяко време в настройките."
+   },
+   "website_security_inspector_setup_all_set_title": {
+      "message": "Готови сте"
+   },
+   "website_security_inspector_setup_allow_access_section_description_1": {
+      "message": "Някои функции за защита се нуждаят от допълнително разрешение за достъп до уеб сайтовете, които посещавате, включително техните уеб адреси (URL адреси) и съдържание. Тези данни са необходими за откриване на измами, фишинг и други заплахи в реално време и никога не се споделят с трети лица."
+   },
+   "website_security_inspector_setup_allow_access_section_description_2": {
+      "message": "Можете да управлявате това разрешение по всяко време в настройките на разширението."
+   },
+   "website_security_inspector_setup_almost_done_info": {
+      "message": "Успешно разрешихте \u003Cspan class=\"highlighted\">разширението „Поверителност и защита на браузъра“ на ESET\u003C/span>."
+   },
+   "website_security_inspector_setup_almost_done_subtitle": {
+      "message": "Завършване на разрешаването на всички функции за защита"
+   },
+   "website_security_inspector_setup_almost_done_title": {
+      "message": "Почти сте готови"
+   },
+   "website_security_inspector_summary": {
+      "message": "Защитете сърфирането си в интернет срещу измами и заплахи за сигурността."
+   },
+   "website_security_inspector_title": {
+      "message": "Инспектор по защита на уеб сайтовете"
+   },
+   "welcome_page_ai_conversation_security_tile_text": {
+      "message": "Проверявайте отговорите на ChatGPT за потенциално вредно съдържание, преди да ги използвате. Скоро ще излязат още платформи."
+   },
+   "welcome_page_allow_access_section_description": {
+      "message": "Някои функции изискват разрешение за достъп до уеб сайтовете, които посещавате. Данните за вашата активност в мрежата се обработват локално на вашето устройство – само потенциално вредни URL адреси и телеметрия могат да бъдат изпратени към ESET, за да подпомогнат изследванията на настоящите заплахи за киберсигурността и за подобряване на нашите услуги, ако сте разрешили споделяне на данни във вашето приложение за защита на ESET. Можете да обновите това разрешение по всяко време в настройките на разширението."
+   },
+   "welcome_page_allow_access_section_title": {
+      "message": "Разрешаване на достъпа за пълна защита"
+   },
+   "welcome_page_browser_cleanup_tile_text": {
+      "message": "Премахнете данните за сърфирането или настройте редовно почистване."
+   },
+   "welcome_page_chrome_info_tile_text": {
+      "message": "Запазете разширението видимо, като щракнете върху иконата на разширението по-горе и го закачите в браузъра за лесен достъп."
+   },
+   "welcome_page_edge_info_tile_text": {
+      "message": "Запазете разширението видимо, като щракнете върху иконата на разширението по-горе и го добавите към лентата с инструменти на браузъра за лесен достъп."
+   },
+   "welcome_page_header_text": {
+      "message": "Благодарим ви, че активирахте разширението \u003Cspan class=\"highlighted\">Поверителност и защита на браузъра на ESET\u003C/span> във вашия браузър"
+   },
+   "welcome_page_main_content_title": {
+      "message": "Разгледайте функциите, които предпазват сърфирането ви"
+   },
+   "welcome_page_metadata_cleanup_tile_header": {
+      "message": "Изчистване на метаданни*"
+   },
+   "welcome_page_metadata_cleanup_tile_text": {
+      "message": "Премахнете личната информация от файловете, когато ги споделяте онлайн."
+   },
+   "welcome_page_pin_icon_alt": {
+      "message": "Икона на закачане"
+   },
+   "welcome_page_plugin_icon_alt": {
+      "message": "Икона на плъгин"
+   },
+   "welcome_page_right_arrow_icon_alt": {
+      "message": "Икона със стрелка надясно"
+   },
+   "welcome_page_secure_search_tile_text": {
+      "message": "Проверете безопасността на резултатите от търсенето, преди да ги отворите."
+   },
+   "welcome_page_subheader": {
+      "message": "За да започнете да се наслаждавате на по-защитено сърфиране, щракнете върху иконата за разширение до адресната лента. В някои браузъри тя може да е скрита в менюто на браузъра."
+   },
+   "welcome_page_ultime_feature": {
+      "message": "*Предлага се в ESET HOME Security Ultimate"
+   },
+   "welcome_page_website_security_inspector_tile_text": {
+      "message": "Сканирайте уебсайтовете за измами и заплахи за сигурността, докато сърфирате."
+   },
+   "welcome_page_website_settings_tile_header": {
+      "message": "Преглед на настройките на уеб сайта*"
+   },
+   "welcome_page_website_settings_tile_text": {
+      "message": "Контролирайте разрешенията на уебсайта за известия, местоположение, камера и микрофон."
+   },
+   "whats_new_page_allow_access_section_description": {
+      "message": "Тази функция изисква разрешение за достъп до уеб сайтовете, които посещавате. Данните за вашата активност в мрежата се обработват локално на вашето устройство – само потенциално вредни URL адреси и телеметрия могат да бъдат изпратени към ESET, за да подпомогнат изследванията на настоящите заплахи за киберсигурността и за подобряване на нашите услуги, ако сте разрешили споделяне на данни във вашето приложение за защита на ESET. Можете да обновите това разрешение по всяко време в настройките на разширението."
+   },
+   "whats_new_page_allow_access_section_title": {
+      "message": "Разрешете достъп за защита на разговорите с ИИ"
+   },
+   "whats_new_page_description": {
+      "message": "Защитата на разговорите с ИИ сканира всеки отговор на ChatGPT за съдържание, което препраща към потенциално ненадеждни или опасни източници, както и за злонамерен код. То работи автоматично, така че сърфирането ви остава непрекъснато.\u003Cbr/>\u003Cbr/>Сканирането се извършва локално на вашето устройство. Ние не изпращаме и не споделяме информация относно вашата активност в мрежата към ESET – само потенциално вредни URL адреси и телеметрия могат да бъдат изпратени, за да спомогнат да подобрим нашия продукт.\u003Cbr/>\u003Cbr/>Скоро ще е налична поддръжка за допълнителни платформи с ИИ."
+   },
+   "whats_new_page_header": {
+      "message": "\u003Cspan class=\"highlighted\">Какво е новото\u003C/span>"
+   },
+   "whats_new_page_image_alt": {
+      "message": "Илюстрация на функцията за защита на разговорите с ИИ на ESET, показваща два балона с чат, които представляват разговор с чатбот с ИИ, с маркиран в червено URL адрес в един от отговорите, което показва опасна връзка, открита по време на сканирането."
+   },
+   "whats_new_page_subheader": {
+      "message": "Разгледайте най-новите обновявания и подобрения на \u003Cspan class=\"highlighted\">разширението „Поверителност и защита на браузъра“ на ESET\u003C/span>."
+   },
+   "whats_new_page_title": {
+      "message": "Насладете се на по-безопасни разговори с ChatGPT"
+   }
+}

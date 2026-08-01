@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../../assets/logo-32.png">
+    <link type="text/css" rel="stylesheet" href="./style.css">
+    <script defer src="../../../constants.js"></script>
+	<script defer src="../../../utils.js"></script>
+    <script defer src="../../localize.js"></script>
+	<script defer src="./index.js"></script>
+    <title>blocking_page_head_title</title>
+</head>
+<body>
+    <div class="header">
+        <div class="alert-status"></div>
+        <div class="logo-section">
+            <img src="../../assets/eset-logo.svg" class="logo localizable" alt="" data-i18n-alt="eset_logo_alt">
+        </div>
+    </div>
+
+    <div class="container">
+        <div>
+            <img src="../../assets/icon_threat.svg" class="error-icon localizable" alt="" data-i18n-alt="alert_icon_alt">
+        </div>
+        <div class="container_content">
+            <h1 class="title localizable" data-i18n="blocking_page_title"></h1>
+            <div class="description localizable" data-i18n="blocking_page_description"></div>
+            <h2 class="options-title localizable" data-i18n="blocking_page_options_title"></h2>
+            <div class="options-buttons">
+                <button id="go-back-button" class="options-buttons_item button_primary localizable" data-i18n="blocking_page_go_back_button"></button>
+                <button id="ignore-threat-button" class="options-buttons_item button_secondary localizable" data-i18n="blocking_page_ignore_threat_button"></button>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <a class="learn-more-link localizable" href="#" data-i18n="learn_more_link"></a>
+    </div>
+</body>
+</html>

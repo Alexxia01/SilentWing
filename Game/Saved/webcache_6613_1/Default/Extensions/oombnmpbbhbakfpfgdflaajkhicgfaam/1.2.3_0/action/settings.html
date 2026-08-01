@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script defer src="./components/BaseComponent/index.js"></script>
+	<script defer src="./components/Icon/index.js"></script>
+	<script defer src="./components/Tooltip/index.js"></script>
+	<script defer src="./components/UrlTooltip/index.js"></script>
+	<script defer src="./components/CustomSelect/index.js"></script>
+	<script defer src="./components/SiteSettingSelect/index.js"></script>
+	<script defer src="./components/SiteSettingsReviewItem/index.js"></script>
+	<script defer src="../constants.js"></script>
+	<script defer src="../utils.js"></script>
+	<script defer src="localize.js"></script>
+	<script defer src="settings.js"></script>
+	<link type="text/css" rel="stylesheet" href="./css/settings.css">
+	<link type="text/css" rel="stylesheet" href="./components/CustomSelect/style.css">
+	<link type="text/css" rel="stylesheet" href="./components/SiteSettingsReviewItem/style.css">
+	<link type="text/css" rel="stylesheet" href="./components/Tooltip/style.css">
+	<title>product_title</title>
+</head>
+
+<body>
+	<div class="sidenav">
+		<h2 class="localizable" data-i18n="advanced_setup_menu_item"></h2>
+		<a id="cookie-section-menu-item" class="menu-item" data-target="cookie-section">
+			<div class="menu-icon">
+				<svg class="cleanup-settings-icon">
+					<use href="./assets/icons.svg#cleanup-settings-icon"></use>
+				</svg>
+
+			</div>
+			<div class="menu-text localizable" data-i18n="browsing_cleanup_header"></div>
+
+		</a>
+		<a id="site-data-section-menu-item" class="menu-item" data-target="site-data-section">
+
+			<div class="menu-icon">
+				<svg class="website-settings-icon">
+					<use href="./assets/icons.svg#website-settings-icon"></use>
+				</svg>
+			</div>
+			<div class="menu-text localizable" data-i18n="settings_page_website_settings_header"></div>
+		</a>
+		<a id="appearance-section-menu-item" class="menu-item" data-target="appearance-section">
+			<div class="menu-icon">
+				<svg class="appearance-settings-icon">
+					<use href="./assets/icons.svg#appearance-settings-icon"></use>
+				</svg>
+			</div>
+			<div class="menu-text localizable" data-i18n="settings_page_appearance_header"></div>
+		</a>
+	</div>
+
+	<div class="main">
+		<div class="navbar">
+			<div class="header">
+				<img src="./assets/eset-settings-logo.svg" class="logo localizable" alt="" data-i18n-alt="eset_logo_alt">
+			</div>
+		</div>
+		<div class="container">
+			<div id="cookie-section" class="content">
+				<h2 class="section_header localizable" data-i18n="browsing_cleanup_header"></h2>
+				<div class="flex-row section-content-margin">
+					<div class="fl">
+						<h3 class="localizable" data-i18n="settings_page_browser_cleanup_subheader"></h3>
+					</div>
+					<div class="fr">
+						<div class="box-center">
+							<label for="cookies-switch" class="switch">
+								<input type="checkbox" id="cookies-switch">
+								<span class="slider round"></span>
+							</label>
+						</div>
+					</div>
+				</div>
+
+				<div id="cookie-overlay" class="section-content-margin">
+					<p class="localizable" data-i18n="settings_page_browser_cleanup_description"></p>
+					<label for="open-tabs-checkbox">
+						<div class="row">
+							<input type="checkbox" id="open-tabs-checkbox">
+							<p class="localizable" data-i18n="settings_page_browser_cleanup_checkbox_text"></p>
+						</div>
+					</label>
+					<form id="cookie-form">
+						<input type="text" id="cookie-url-input" class="localizable"
+							placeholder="" data-i18n-placeholder="settings_page_browser_cleanup_input_placeholder_text" autocomplete="off">
+						<button id="add-btn" class="localizable" data-i18n="settings_page_browser_cleanup_add_btn_text"></button>
+						<br>
+					</form>
+					<span id="message" hidden></span>
+
+					<div id="cookie-details">
+						<div id="cookies-list"></div>
+					</div>
+					<div id="active-tabs">
+						<div id="tabs-detail"></div>
+					</div>
+
+				</div>
+			</div>
+
+
+			<div id="site-data-section" class="content">
+				<h2 class="section_header localizable" data-i18n="settings_page_website_settings_header"></h2>
+				<p class="site-data-section_description localizable" data-i18n="settings_page_website_settings_description"></p>
+				<div class="permission-section">
+					<div class="notifications-section">
+						<div class="section-header">
+							<div>
+								<h4 class="section-header_title localizable" data-i18n="settings_page_website_settings_notif_section_header"></h4>
+								<p class="section-header_description localizable" data-i18n="settings_page_website_settings_notif_section_description"></p>
+							</div>
+							<div class="fr-right">
+								<svg class="chevron-right-icon">
+									<use href="./assets/icons.svg#chevron-right-icon"></use>
+								</svg>
+							</div>
+						</div>
+						<div id="notifications-site-data"></div>
+						<hr class="permission-section_line">
+					</div>
+					<div class="locations-section">
+						<div class="section-header">
+							<div>
+								<h4 class="section-header_title localizable" data-i18n="settings_page_website_settings_location_section_header"></h4>
+								<p class="section-header_description localizable" data-i18n="settings_page_website_settings_location_section_description"></p>
+							</div>
+							<div class="fr-right">
+								<svg class="chevron-right-icon">
+									<use href="./assets/icons.svg#chevron-right-icon"></use>
+								</svg>
+							</div>
+						</div>
+						<div id="locations-site-data"></div>
+						<hr class="permission-section_line">
+					</div>
+					<div class="camera-section">
+						<div class="section-header">
+							<div>
+								<h4 class="section-header_title localizable" data-i18n="settings_page_website_settings_camera_section_header"></h4>
+								<p class="section-header_description localizable" data-i18n="settings_page_website_settings_camera_section_description"></p>
+							</div>
+							<div class="fr-right">
+								<svg class="chevron-right-icon">
+									<use href="./assets/icons.svg#chevron-right-icon"></use>
+								</svg>
+							</div>
+						</div>
+						<div id="camera-site-data"></div>
+						<hr class="permission-section_line">
+					</div>
+					<div class="microphone-section">
+						<div class="section-header">
+							<div>
+								<h4 class="section-header_title localizable" data-i18n="settings_page_website_settings_mic_section_header"></h4>
+								<p class="section-header_description localizable" data-i18n="settings_page_website_settings_mic_section_description"></p>
+							</div>
+							<div class="fr-right">
+								<svg class="chevron-right-icon">
+									<use href="./assets/icons.svg#chevron-right-icon"></use>
+								</svg>
+							</div>
+						</div>
+						<div id="microphone-site-data"></div>
+						<hr class="permission-section_line">
+					</div>
+
+				</div>
+			</div>
+
+			<div id="appearance-section" class="content">
+				<h2 class="section_header localizable" data-i18n="settings_page_appearance_header"></h2>
+				<h3 class="section-content-margin localizable" data-i18n="settings_page_appearance_subheader"></h3>
+				<p class="section-content-margin localizable" data-i18n="settings_page_appearance_description"></p>
+				<div class="ui-color-section section-content-margin">
+					<div class="image-wrapper">
+						<div class="image-container">
+							<svg class="appearance-light-mode">
+								<use href="./assets/icons.svg#appearance-light-mode"></use>
+							</svg>
+						</div>
+						<div class="ui-mode-select">
+							<label for="light-mode-checkbox" class="row">
+								<input type="checkbox" id="light-mode-checkbox">
+								<p class="localizable" data-i18n="settings_page_appearance_light_mode"></p>
+							</label>
+						</div>
+					</div>
+					<div class="image-wrapper">
+						<div class="image-container">
+							<svg class="appearance-dark-mode">
+								<use href="./assets/icons.svg#appearance-dark-mode"></use>
+							</svg>
+						</div>
+						<div class="ui-mode-select">
+							<label for="dark-mode-checkbox" class="row">
+								<input type="checkbox" id="dark-mode-checkbox">
+								<p class="localizable" data-i18n="settings_page_appearance_dark_mode"></p>
+							</label>
+						</div>
+					</div>
+				</div>
+
+			</div>
+
+		</div>
+		<div id="settings-alert-section">
+			<div class="alert-content">
+
+				<div class="alert-img-section">
+					<img src="./assets/icon_threat.svg" width="112" alt="" class="localizable" data-i18n-alt="alert_icon_alt">
+				</div>
+				<div class="alert-header-section">
+					<p></p>
+				</div>
+				<div class="text-center">
+					<p id="connection-lost-text" class="localizable" data-i18n="alert_page_connection_lost_text"></p>
+					<p id="expired-license-text" class="localizable" data-i18n="alert_page_expired_license_text"></p>
+					<p class="unsupported-browser-text localizable" data-i18n="alert_page_unsupported_browser_text_1"></p>
+					<p class="unsupported-browser-text localizable" data-i18n="alert_page_unsupported_browser_text_2"></p>
+					<p class="missing-product-text localizable" data-i18n="alert_page_missing_product_text_1"></p>
+					<p class="missing-product-text localizable" data-i18n="alert_page_missing_product_text_2"></p>
+				</div>
+
+				<div class="btn-section" id="link-btn-section">
+					<button name="button" class="alert-btn" id="link-btn">
+						<span class="rotating-circle"></span><span class="btn-text localizable" data-i18n="alert_page_expired_license_btn"></span>
+					</button>
+				</div>
+
+				<div class="btn-section" id="reload-btn-section">
+					<button name="button" class="alert-btn" id="reload-btn">
+						<span class="rotating-circle"></span><span class="btn-text localizable" data-i18n="alert_page_connection_lost_btn"></span>
+					</button>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+
+</html>

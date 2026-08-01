@@ -1,0 +1,117 @@
+.custom-select {
+    position: relative;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    color: #373C42;
+    border: none;
+    opacity: 1;
+    width: 228px;
+    height: 34px;
+    background-color: unset;
+}
+
+.dark-mode .custom-select {
+    color: #e8ecee;
+}
+
+.custom-select-value {
+    display: block;
+    padding: 7px 14px;
+    border: 1px solid #d4d4d4;
+    border-radius: 50px;
+    cursor: pointer;
+    background-color: #FFFFFF;
+    user-select: none;
+}
+
+.custom-select-value::after {
+    position: absolute;
+    content: "";
+    top: 14px;
+    width: 0;
+    height: 0;
+    border: solid #373C42;
+    border-width: 0 1px 1px 0;
+    padding: 3px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    __MSG_@@bidi_end_edge__: 15px;
+}
+
+.dark-mode .custom-select-value {
+    background-color: #474a4c;
+    border-color: #999999;
+}
+
+.dark-mode .custom-select-value::after {
+    border-color: #999999;
+}
+
+
+.custom-select-value_disabled {
+    color: #999999;
+    cursor: default;
+}
+
+.custom-select-value_disabled::after {
+    display: none;
+}
+
+.custom-select_active .custom-select-value {
+    position: relative;
+    z-index: 2;
+}
+
+.dark-mode .custom-select_active .custom-select-value {
+    background-color: #4d5156;
+}
+
+.custom-select_active .custom-select-value::after {
+    transform: rotate(225deg);
+    -webkit-transform: rotate(225deg);
+}
+
+.custom-select-options {
+    display: none;
+    position: absolute;
+    background-color: #FFFFFF;
+    color: #373C42;
+    font-weight: normal;
+    padding: 38px 0px 0px 0px;
+    margin: 0;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1;
+    border: 1px solid #D4D4D44D;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 18px;
+}
+
+.dark-mode .custom-select-options {
+    color: #e8ecee;
+    background-color: #595b5d;
+}
+
+.custom-select-options_shown {
+    display: block;
+}
+
+.custom-select-option {
+    list-style: none;
+    padding: 7px 14px;
+    cursor: pointer;
+    margin: -1px;
+}
+
+.custom-select-option:hover {
+    background-color: #EBEBEB;
+    border-radius: 50px;
+}
+
+.dark-mode .custom-select-option:hover {
+    background-color: #6d7075;
+}
+
+.custom-select-option.selected {
+    display: none;
+}

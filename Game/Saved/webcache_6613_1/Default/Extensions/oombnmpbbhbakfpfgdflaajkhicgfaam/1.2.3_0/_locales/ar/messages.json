@@ -1,0 +1,608 @@
+{
+   "advanced_setup_menu_item": {
+      "message": "الإعداد المتقدم"
+   },
+   "ai_conversation_security_description": {
+      "message": "حافظ على أمانك عند استخدام ChatGPT. فنحن نفحص كل رد بحثاً عن أيّ مصادر قد تكون غير موثوقة أو غير آمنة، وعن أيّ تعليمات برمجية ضارة قبل أن تتفاعل معها."
+   },
+   "ai_conversation_security_detection_result_bad": {
+      "message": "يتضمّن هذا الرد محتوى اكتشفنا أنّ مصدره غير آمن."
+   },
+   "ai_conversation_security_detection_result_bad_script": {
+      "message": "يتضمّن هذا الرد تعليمات برمجية ضارة. قد يؤدي تشغيلها إلى تعريض نظامك أو بياناتك للخطر."
+   },
+   "ai_conversation_security_detection_result_warning": {
+      "message": "يتضمّن هذا الرد محتوى اكتشفنا أنّ مصدره غير موثوق."
+   },
+   "ai_conversation_security_header": {
+      "message": "أمن محادثات الذكاء الاصطناعي"
+   },
+   "ai_conversation_security_onboarding": {
+      "message": "\u003Cp class=\"onboarding-info\">أصبحت محادثاتك محمية الآن. فنحن نفحص كل رد من ChatGPT بحثاً عن أيّ مصادر قد تكون غير موثوقة أو غير آمنة، وعن أيّ تعليمات برمجية ضارة.\u003C/p>\u003Cp class=\"onboarding-info\">يمكنك ضبط هذه الإعدادات من \u003Cspan class=\"extension-popup-link\">هنا\u003C/span>.\u003C/p>"
+   },
+   "ai_conversation_security_scan_func_description": {
+      "message": "تحقّق من صحة ردود الذكاء الاصطناعي بحثاً عن المخاطر المحتملة قبل اعتمادها."
+   },
+   "ai_conversation_security_scan_func_header": {
+      "message": "فحص المحادثات"
+   },
+   "ai_conversation_security_summary": {
+      "message": "تحقّق من صحة ردود ChatGPT بحثاً عن المخاطر المحتملة."
+   },
+   "alert_icon_alt": {
+      "message": "أيقونة تنبيه"
+   },
+   "alert_page_connection_lost_btn": {
+      "message": "إعادة المحاولة"
+   },
+   "alert_page_connection_lost_header": {
+      "message": "فقد الاتصال"
+   },
+   "alert_page_connection_lost_text": {
+      "message": "تم فقد الاتصال بين \u003Cspan class=\"product-info\">{%productname%}\u003C/span> وملحق المتصفح. يرجى التحقق من اتصال الإنترنت لديك والمحاولة مرة أخرى. لاحظ أن الملحق لن يعمل بدون تثبيت \u003Cspan class=\"product-info\">{%productname%}\u003C/span>."
+   },
+   "alert_page_expired_license_btn": {
+      "message": "فتح \u003Cspan class=\"product-info\">{%productname%}\u003C/span> "
+   },
+   "alert_page_expired_license_header": {
+      "message": "الاشتراك منتهي الصلاحية"
+   },
+   "alert_page_expired_license_text": {
+      "message": "انتهت صلاحية اشتراكك، ولم يعد بإمكانك الوصول إلى ملحق خصوصية وأمان متصفح ESET. لحل هذه المشكلة، يرجى فتح \u003Cspan class=\"product-info\">{%productname%}\u003C/span> واتباع التعليمات المقدمة."
+   },
+   "alert_page_missing_product_header": {
+      "message": "منتج مفقود"
+   },
+   "alert_page_missing_product_text_1": {
+      "message": "لا يوجد حالياً أي منتج من ESET مثبت على جهاز الكمبيوتر لديك يدعم إضافة خصوصية وأمان المتصفح لدى ESET."
+   },
+   "alert_page_missing_product_text_2": {
+      "message": "لمعرفة المزيد حول الإضافة ومنتجات ESET المدعومة والمتصفحات المدعومة والتثبيت، تفضل بزيارة \u003Cspan class=\"online-help-link\">التعليمات عبر الإنترنت.\u003C/span>"
+   },
+   "alert_page_unsupported_browser_header": {
+      "message": "متصفح غير مدعوم"
+   },
+   "alert_page_unsupported_browser_text_1": {
+      "message": "يبدو أنك تستخدم متصفحاً لا ندعمه بعد. لاستخدام إضافة خصوصية وأمان المتصفح لدى ESET، الرجاء تثبيت متصفح مدعوم."
+   },
+   "alert_page_unsupported_browser_text_2": {
+      "message": "\u003Cspan class=\"supported-browsers-link\">عرض المتصفحات المدعومة\u003C/span>"
+   },
+   "banner_ok_status_icon_alt": {
+      "message": "أيقونة شعار حالة موافق"
+   },
+   "banner_restart_status_icon_alt": {
+      "message": "أيقونة شعار حالة إعادة التشغيل"
+   },
+   "blocking_page_description": {
+      "message": "اكتشفت أداة فحص أمان موقع الويب محتوى احتيالياً أو ضاراً محتملاً على \u003Cspan class=\"blocked-url-tooltip\">هذه الصفحة\u003C/span>. للبقاء محمياً، نوصي بتجنبه."
+   },
+   "blocking_page_go_back_button": {
+      "message": "الرجوع إلى الخلف"
+   },
+   "blocking_page_head_title": {
+      "message": "تنبيه! - خصوصية وأمان المتصفح ESET"
+   },
+   "blocking_page_ignore_threat_button": {
+      "message": "تجاهل التهديد"
+   },
+   "blocking_page_options_title": {
+      "message": "هل تريد الرجوع إلى الصفحة السابقة؟"
+   },
+   "blocking_page_title": {
+      "message": "قد تكون هذه الصفحة غير آمنة"
+   },
+   "browser_restart_needed_p": {
+      "message": "يلزم إعادة تشغيل المتصفح حتى يصبح التغيير ساري المفعول."
+   },
+   "browsing_cleanup_custom_data_btn": {
+      "message": "مخصص"
+   },
+   "browsing_cleanup_custom_data_option_1": {
+      "message": "سجل التصفح"
+   },
+   "browsing_cleanup_custom_data_option_1_tooltip": {
+      "message": "سجلات مواقع الويب التي زرتها، بما في ذلك التواريخ والأوقات. سيؤدي حذف هذه البيانات إلى مسح سجل نشاط الويب الخاص بك من جهازك."
+   },
+   "browsing_cleanup_custom_data_option_2": {
+      "message": "سجل التنزيل"
+   },
+   "browsing_cleanup_custom_data_option_2_tooltip": {
+      "message": "قائمة بالملفات التي قمت بتنزيلها. سيؤدي حذف هذه البيانات إلى إزالة سجل الملفات التي تم تنزيلها ولكن لن تُحذف الملفات نفسها."
+   },
+   "browsing_cleanup_custom_data_option_3": {
+      "message": "ملفات تعريف الارتباط وبيانات موقع الويب"
+   },
+   "browsing_cleanup_custom_data_option_3_tooltip": {
+      "message": "يتم تخزين الملفات الصغيرة بواسطة مواقع الويب لتذكر تفضيلاتك وحالة تسجيل الدخول والنشاط. قد يؤدي حذف ملفات تعريف الارتباط إلى تسجيل خروجك من مواقع الويب وإعادة تعيين تفضيلاتك."
+   },
+   "browsing_cleanup_custom_data_option_4": {
+      "message": "الصور والملفات المخزنة مؤقتاً"
+   },
+   "browsing_cleanup_custom_data_option_4_tooltip": {
+      "message": "ملفات مؤقتة تساعد على تحميل مواقع الويب بشكل أسرع من خلال تخزين أجزاء منها على جهازك. قد يؤدي حذف هذه البيانات إلى إبطاء تحميل الصفحة في البداية، ولكنك ستوفر المساحة."
+   },
+   "browsing_cleanup_custom_data_option_5": {
+      "message": "كلمات المرور وبيانات تسجيل الدخول"
+   },
+   "browsing_cleanup_custom_data_option_5_note": {
+      "message": "سيؤدي هذا إلى حذف جميع أسماء المستخدمين وكلمات المرور التي تم تذكرها نهائياً."
+   },
+   "browsing_cleanup_custom_data_option_5_tooltip": {
+      "message": "معلومات تسجيل الدخول المخزنة لمواقع الويب، التي تسمح بتسجيل الدخول السريع. سيؤدي حذف هذه البيانات إلى إزالة جميع أسماء المستخدمين وكلمات المرور التي تم تذكرها نهائياً، لذا يرجى المتابعة بحذر."
+   },
+   "browsing_cleanup_custom_data_option_6": {
+      "message": "بيانات الملء التلقائي للنموذج"
+   },
+   "browsing_cleanup_custom_data_option_6_tooltip": {
+      "message": "المعلومات التي أدخلتها في النماذج، مثل الأسماء والعناوين وتفاصيل الاتصال، والتي تساعدك على ملء النماذج بشكل أسرع. سيؤدي حذف هذه البيانات إلى إزالة المعلومات المحفوظة."
+   },
+   "browsing_cleanup_custom_data_option_7": {
+      "message": "موظفوا تقديم الخدمة"
+   },
+   "browsing_cleanup_custom_data_option_7_tooltip": {
+      "message": "ملفات تساعد مواقع الويب وتطبيقات الويب على العمل بسلاسة، حتى عندما تكون غير متصل بالإنترنت. قد يؤثر حذف هذه البيانات على ميزات مثل \"إمكانية الوصول دون اتصال بالإنترنت\" و\"مزامنة الخلفية والإعلامات\"، ولكن معظم مواقع الويب ستظل تعمل كالمعتاد."
+   },
+   "browsing_cleanup_data_btns_header": {
+      "message": "نوع البيانات"
+   },
+   "browsing_cleanup_header": {
+      "message": "تنظيف المتصفح"
+   },
+   "browsing_cleanup_header_text": {
+      "message": "احذف بيانات التصفح أو قم بإعداد عمليات تنظيف منتظمة. استمر في تسجيل الدخول على مواقع الويب المحددة عن طريق \u003Cspan>إضافتها إلى قائمة.\u003C/span>"
+   },
+   "browsing_cleanup_private_data_btn": {
+      "message": "خاص"
+   },
+   "browsing_cleanup_private_data_description": {
+      "message": "يتضمن نوع البيانات الخاصة سجل التصفح وسجل التنزيل وملفات تعريف الارتباط وبيانات موقع الويب وبيانات الملء التلقائي للنموذج وموظفي تقديم الخدمة."
+   },
+   "browsing_cleanup_select_form_option_0": {
+      "message": "كل الوقت"
+   },
+   "browsing_cleanup_select_form_option_1": {
+      "message": "جلسة التصفح هذه"
+   },
+   "browsing_cleanup_select_form_option_2": {
+      "message": "الساعة الأخيرة"
+   },
+   "browsing_cleanup_select_form_option_3": {
+      "message": "آخر 24 ساعة"
+   },
+   "browsing_cleanup_select_form_option_4": {
+      "message": "آخر 7 أيام"
+   },
+   "browsing_cleanup_select_form_option_5": {
+      "message": "الأسابيع الأربعة الماضية"
+   },
+   "browsing_cleanup_select_form_placeholder": {
+      "message": "حدد النطاق الزمني"
+   },
+   "browsing_one_time_cleanup_delete_btn": {
+      "message": "حذف البيانات"
+   },
+   "browsing_one_time_cleanup_delete_btn_deleted_text": {
+      "message": "محذوف"
+   },
+   "browsing_one_time_cleanup_delete_btn_deleting_text": {
+      "message": "الحذف"
+   },
+   "browsing_one_time_cleanup_select_form_title": {
+      "message": "النطاقات الزمنية"
+   },
+   "browsing_one_time_cleanup_tab_header": {
+      "message": "تنظيف لمرة واحدة"
+   },
+   "browsing_regular_cleanup_btn": {
+      "message": "حفظ عملية التنظيف وتشغيلها"
+   },
+   "browsing_regular_cleanup_btn_coplete": {
+      "message": "اكتمل التنظيف"
+   },
+   "browsing_regular_cleanup_btn_disabled": {
+      "message": "حفظ التنظيف"
+   },
+   "browsing_regular_cleanup_btn_processing": {
+      "message": "جارٍ الحفظ والتنظيف"
+   },
+   "browsing_regular_cleanup_btn_schedule": {
+      "message": "تنظيف الجدول"
+   },
+   "browsing_regular_cleanup_func_change_setting_link": {
+      "message": "تغيير إعدادات التنظيف العادية"
+   },
+   "browsing_regular_cleanup_func_disabled": {
+      "message": "بعد تمكين التنظيف المنتظم، قم بتعيين الوقت والتردد المفضلين لديك."
+   },
+   "browsing_regular_cleanup_func_header": {
+      "message": "تنظيف منتظم"
+   },
+   "browsing_regular_cleanup_func_next_session_cleanup": {
+      "message": "ستبدأ عملية التنظيف التالية تلقائياً في المرة التالية التي تفتح فيها المتصفح."
+   },
+   "browsing_regular_cleanup_func_next_time_cleanup": {
+      "message": "تمت جدولة عملية التنظيف التالية لـ %DATE% في %TIME%."
+   },
+   "browsing_regular_cleanup_func_not_set": {
+      "message": "لم تقم بإعداد التنظيف المنتظم حتى الآن."
+   },
+   "browsing_regular_cleanup_func_set_up_settings_link": {
+      "message": "قم بإعداد التنظيف المنتظم"
+   },
+   "browsing_regular_cleanup_header": {
+      "message": "إعدادات التنظيف العادية"
+   },
+   "browsing_regular_cleanup_header_description": {
+      "message": "حدد وتيرة تكرار عمليات التنظيف وأنواع البيانات التي تريد تضمينها."
+   },
+   "browsing_regular_cleanup_select_form_option_1": {
+      "message": "مرة واحدة لكل جلسة متصفح"
+   },
+   "browsing_regular_cleanup_select_form_option_2": {
+      "message": "مرة واحدة في الساعة"
+   },
+   "browsing_regular_cleanup_select_form_option_3": {
+      "message": "مرة واحدة لكل 24 ساعة"
+   },
+   "browsing_regular_cleanup_select_form_option_4": {
+      "message": "مرة واحدة لكل 7 أيام"
+   },
+   "browsing_regular_cleanup_select_form_option_5": {
+      "message": "مرة واحدة لكل 4 أسابيع"
+   },
+   "browsing_regular_cleanup_select_form_placeholder": {
+      "message": "تحديد التكرار"
+   },
+   "browsing_regular_cleanup_select_form_title": {
+      "message": "تكرار التنظيف"
+   },
+   "close_icon_alt": {
+      "message": "أيقونة إغلاق"
+   },
+   "data_collection_consent_dialog_agree_button": {
+      "message": "الموافقة والمتابعة"
+   },
+   "data_collection_consent_dialog_decline_button": {
+      "message": "الرفض وإغلاق علامة التبويب"
+   },
+   "data_collection_consent_dialog_description_1": {
+      "message": "لتوفير الحماية الكاملة، يتطلب ملحق خصوصية وأمان متصفح ESET موافقتك لإرسال البيانات التي يجمعها إلى تطبيق ESET على جهازك. يتضمن ذلك معلومات حول مواقع الويب التي تزورها، مثل عناوين الويب (عناوين URL) ومحتوى المواقع والبيانات ذات الصلة."
+   },
+   "data_collection_consent_dialog_description_2": {
+      "message": "نستخدم البيانات التي نعالجها في الكشف عن عمليات الغش والتصيد الاحتيالي والتهديدات الأخرى وهي ضرورية لميزات مثل أداة فحص أمن موقع الويب. تتم معظم عمليات المعالجة محلياً على جهازك، ولكن قد تُرسل بعض عناوين URL والمحتوى المشبوه لمواقع الويب إلى خادمنا للكشف المتقدم عن التهديدات. في حالة الرفض، سيتم تعطيل بعض الميزات، ولكن ستظل بقية ميزات الملحق مفعلة."
+   },
+   "data_collection_consent_dialog_description_3": {
+      "message": "وفقاً لإعداداتك في تطبيق ESET، قد نجمع أيضاً بيانات استخدام مجهولة المصدر من الملحق بهدف تحسين الأداء. يمكنك إدارة هذه التفضيلات في التطبيق."
+   },
+   "data_collection_consent_dialog_footer": {
+      "message": "للاطلاع على المزيد من المعلومات حول كيفية معالجة بياناتك وإدارتها، تفضل بزيارة \u003Cspan class=\"privacy-policy-link\">سياسة الخصوصية\u003C/span> لدينا."
+   },
+   "data_collection_consent_dialog_title": {
+      "message": "نحتاج إلى موافقتك لتوفير الحماية الكاملة في أثناء التصفح"
+   },
+   "direction": {
+      "message": "rtl"
+   },
+   "eset_logo_alt": {
+      "message": "شعار ESET"
+   },
+   "eula_link": {
+      "message": "اتفاقية ترخيص المستخدم النهائي"
+   },
+   "extension_description": {
+      "message": "استمتع بحماية موسعة للمتصفح مع خصوصية وأمان متصفح ESET."
+   },
+   "help_support_menu_item": {
+      "message": "التعليمات والدعم"
+   },
+   "info_icon_alt": {
+      "message": "أيقونة المعلومات"
+   },
+   "info_page_allow_access_button": {
+      "message": "السماح بالوصول"
+   },
+   "info_page_footer": {
+      "message": "© 1992 - %YEAR% ESET, spol. s r.o. - جميع الحقوق محفوظة. العلامات التجارية المستخدمة هنا هي علامات تجارية أو علامات تجارية مسجلة خاصة بشركة ESET, spol. s r.o. أو ESET North America. جميع الأسماء والعلامات التجارية الأخرى مسجلة كعلامات تجارية خاصة بشركاتها المعنية."
+   },
+   "learn_more_link": {
+      "message": "معرفة المزيد"
+   },
+   "metadata_cleaner_func_description": {
+      "message": "قم بتنظيف البيانات الوصفية في كل مرة تقوم فيها بتحميل صورة."
+   },
+   "metadata_cleaner_func_header": {
+      "message": "قم بتنظيف البيانات من ملفاتك"
+   },
+   "metadata_cleaner_header": {
+      "message": "تنظيف البيانات الوصفية"
+   },
+   "metadata_cleaner_subheader": {
+      "message": "قم بإزالة البيانات الوصفية التي تحتوي على معلومات خاصة عند مشاركة الملفات عبر الإنترنت."
+   },
+   "metadata_notifications_func_header": {
+      "message": "عرض الإشعارات بعد التنظيف"
+   },
+   "metadata_notifications_func_subheader": {
+      "message": "احصل على إشعارات داخل المتصفح."
+   },
+   "metadata_warning_status_icon_alt": {
+      "message": "أيقونة تحذير حالة البيانات الوصفية"
+   },
+   "notification_message_text": {
+      "message": "تم تنظيف البيانات الوصفية للملف الذي تم تحميله:"
+   },
+   "overview_menu_item": {
+      "message": "نظره عامه"
+   },
+   "privacy_policy_link": {
+      "message": "سياسة الخصوصية"
+   },
+   "product_name": {
+      "message": "خصوصية وأمان المتصفح"
+   },
+   "product_title": {
+      "message": "خصوصية وأمان المتصفح ESET"
+   },
+   "product_version": {
+      "message": "الإصدار:"
+   },
+   "progress_logo_alt": {
+      "message": "Progress. Protected. شعار"
+   },
+   "scan_search_result_func_description": {
+      "message": "قم بمسح نتائج البحث لمعرفة النتائج الآمنة للنقر عليها."
+   },
+   "scan_search_result_func_header": {
+      "message": "مسح نتائج البحث"
+   },
+   "secure_search_green_popup_text": {
+      "message": "هذا الموقع آمن"
+   },
+   "secure_search_header": {
+      "message": "البحث الآمن"
+   },
+   "secure_search_red_popup_text": {
+      "message": "هذا الموقع ليس آمناً"
+   },
+   "secure_search_subheader": {
+      "message": "تعرف على نتائج البحث الآمنة لفتحها."
+   },
+   "secure_search_yellow_popup_text": {
+      "message": "تم العثور على محتوى محتمل كونه غير مرغوب فيه"
+   },
+   "settings_page_appearance_dark_mode": {
+      "message": "داكن"
+   },
+   "settings_page_appearance_description": {
+      "message": "قم بتخصيص لون الواجهة ليناسب تفضيلاتك. يمكنك الاختيار بين اللون الفاتح أو الداكن."
+   },
+   "settings_page_appearance_header": {
+      "message": "المظهر"
+   },
+   "settings_page_appearance_light_mode": {
+      "message": "فاتح"
+   },
+   "settings_page_appearance_subheader": {
+      "message": "وضع الألوان"
+   },
+   "settings_page_browser_cleanup_active_tabs_text": {
+      "message": "النطاقات المقترحة استناداً إلى علامات التبويب المفتوحة حالياً في متصفحك. إذا كنت لا ترى جميع علامات التبويب المفتوحة حالياً في القائمة أدناه، \u003Cspan class=\"refresh-list\">فقم بتحديث القائمة.\u003C/span>"
+   },
+   "settings_page_browser_cleanup_add_btn_text": {
+      "message": "إضافة"
+   },
+   "settings_page_browser_cleanup_checkbox_text": {
+      "message": "احتفظ بجلسة التصفح الحالية لعلامات التبويب المفتوحة بعد التنظيف"
+   },
+   "settings_page_browser_cleanup_description": {
+      "message": "أضف مواقع الويب التي تريد قبول ملفات تعريف الارتباط فيها واستمر في تسجيل الدخول حتى بعد إجراء تنظيف المتصفح."
+   },
+   "settings_page_browser_cleanup_input_placeholder_text": {
+      "message": "أدخل عنوان URL الذي ترغب في إضافته"
+   },
+   "settings_page_browser_cleanup_minus_img_alt": {
+      "message": "ناقص"
+   },
+   "settings_page_browser_cleanup_plus_img_alt": {
+      "message": "بالإضافة إلى"
+   },
+   "settings_page_browser_cleanup_subheader": {
+      "message": "إعدادات ملفات تعريف الارتباط المتقدمة"
+   },
+   "settings_page_not_valid_url_warning": {
+      "message": "*هذا لا يبدو وكأنه عنوان URL صالح."
+   },
+   "settings_page_website_settings_allow_text": {
+      "message": "السماح"
+   },
+   "settings_page_website_settings_allowed_text": {
+      "message": "مسموح به"
+   },
+   "settings_page_website_settings_block_text": {
+      "message": "حظر"
+   },
+   "settings_page_website_settings_blocked_text": {
+      "message": "مسدود"
+   },
+   "settings_page_website_settings_camera_section_description": {
+      "message": "راجع مواقع الويب التي يمكن أن تطلب استخدام الكاميرا."
+   },
+   "settings_page_website_settings_camera_section_header": {
+      "message": "كاميرا"
+   },
+   "settings_page_website_settings_chrome_extension_info_text": {
+      "message": "لا يمكننا تغيير إعدادات امتدادات المتصفح. لضبط الإعدادات لامتداد متصفح معين، انتقل إلى \u003Cspan class=\"browser-site-permissions-link\">قسم الخصوصية والأمان\u003C/span> في متصفحك"
+   },
+   "settings_page_website_settings_description": {
+      "message": "يمكنك الوصول بسهولة إلى أذونات موقع الويب وإدارتها للتحكم في المعلومات التي يمكن لمواقع الويب استخدامها."
+   },
+   "settings_page_website_settings_edge_extension_info_text": {
+      "message": "لا يمكننا تغيير إعدادات امتدادات المتصفح. لضبط الإعدادات لملحق متصفح معين، انتقل إلى \u003Cspan class=\"browser-site-permissions-link\">قسم ملفات تعريف الارتباط وأذونات الموقع\u003C/span> في متصفحك"
+   },
+   "settings_page_website_settings_header": {
+      "message": "مراجعة إعدادات موقع الويب"
+   },
+   "settings_page_website_settings_location_section_description": {
+      "message": "راجع مواقع الويب التي يمكنها أن تطلب موقعك."
+   },
+   "settings_page_website_settings_location_section_header": {
+      "message": "الموقع"
+   },
+   "settings_page_website_settings_mic_section_description": {
+      "message": "راجع مواقع الويب التي يمكن أن تطلب استخدام الميكروفون."
+   },
+   "settings_page_website_settings_mic_section_header": {
+      "message": "الميكروفون"
+   },
+   "settings_page_website_settings_notif_section_description": {
+      "message": "راجع مواقع الويب التي يمكن أن تطلب إرسال إشعارات."
+   },
+   "settings_page_website_settings_notif_section_header": {
+      "message": "الإعلامات"
+   },
+   "settings_page_website_settings_reset_to_allow_text": {
+      "message": "إعادة الضبط للسماح"
+   },
+   "settings_page_website_settings_reset_to_block_text": {
+      "message": "إعادة الضبط للحظر"
+   },
+   "setup_btn": {
+      "message": "إعداد"
+   },
+   "summary_metadata_stats_text": {
+      "message": "قم بإزالة البيانات الوصفية التي تحتوي على معلومات خاصة."
+   },
+   "summary_ok_header": {
+      "message": "التصفح الخاص بك محمي"
+   },
+   "summary_privacy_stats_text": {
+      "message": "احذف بيانات التصفح الخاصة بك."
+   },
+   "summary_restart_header": {
+      "message": "تلزم إعادة تشغيل المتصفح"
+   },
+   "summary_search_stats_text": {
+      "message": "تحقق من سلامة نتائج البحث."
+   },
+   "summary_website_setting_header": {
+      "message": "مراجعة إعدادات موقع الويب"
+   },
+   "summary_website_setting_text": {
+      "message": "إدارة أذونات موقع الويب."
+   },
+   "website_security_inspector_description": {
+      "message": "احمِ تصفحك من الاحتيال والتهديدات الأمنية عن طريق فحص مواقع الويب التي تزورها."
+   },
+   "website_security_inspector_scan_func_description": {
+      "message": "فحص مواقع الويب بحثاً عن التهديدات بمجرد تحميلها."
+   },
+   "website_security_inspector_scan_func_header": {
+      "message": "اكتشاف تهديدات موقع الويب"
+   },
+   "website_security_inspector_setup_all_set_info": {
+      "message": "أصبح \u003Cspan class=\"highlighted\">ملحق خصوصية وأمان متصفح ESET\u003C/span> نشطاً الآن ويوفّر لك الحماية في أثناء التصفح. ويمكنك إدارة ميزاته في أيّ وقت من خلال الإعدادات."
+   },
+   "website_security_inspector_setup_all_set_title": {
+      "message": "تم الإعداد بنجاح"
+   },
+   "website_security_inspector_setup_allow_access_section_description_1": {
+      "message": "تتطلب بعض ميزات الأمان إذن إضافي لتعمل في مواقع الويب التي تزورها، بما في ذلك عناوين الويب (عناوين URL) ومحتوى المواقع. هذه البيانات ضرورية لاكتشاف عمليات الغش والتصيد الاحتيالي والتهديدات الأخرى في الوقت الفعلي، ولا تتم مشاركتها أبداً مع أطراف خارجية."
+   },
+   "website_security_inspector_setup_allow_access_section_description_2": {
+      "message": "يمكنك تعديل هذا الإذن في أيّ وقت من خلال إعدادات الملحق."
+   },
+   "website_security_inspector_setup_almost_done_info": {
+      "message": "تم تفعيل \u003Cspan class=\"highlighted\">ملحق خصوصية وأمان متصفح ESET\u003C/span> بنجاح."
+   },
+   "website_security_inspector_setup_almost_done_subtitle": {
+      "message": "إكمال تفعيل جميع ميزات الأمان"
+   },
+   "website_security_inspector_setup_almost_done_title": {
+      "message": "شارفتَ على الانتهاء"
+   },
+   "website_security_inspector_summary": {
+      "message": "احمِ تصفحك من الاحتيال والتهديدات الأمنية."
+   },
+   "website_security_inspector_title": {
+      "message": "أداة فحص أمن موقع الويب"
+   },
+   "welcome_page_ai_conversation_security_tile_text": {
+      "message": "تحقّق من صحة ردود ChatGPT بحثاً عن أيّ محتوى يُحتمَل أن يكون ضاراً قبل اعتماده. ستتوفر منصات إضافية قريباً."
+   },
+   "welcome_page_allow_access_section_description": {
+      "message": "تتطلب بعض الميزات إذناً للوصول إلى مواقع الويب التي تزورها. كما تُعالَج البيانات المتعلقة بنشاطك على الويب محلياً على جهازك، ويمكن فقط إرسال عناوين URL التي يُحتمَل أن تكون ضارة وبيانات تتبُّع الاستخدام إلى ESET بهدف دعم الأبحاث المتعلقة بتهديدات الأمن السيبراني الحالية والمساعدة في تحسين خدماتنا، وذلك في حال تفعيل مشاركة البيانات في تطبيق أمان ESET لديك. يمكنك تحديث هذا الإذن في أيّ وقت من خلال إعدادات الملحق."
+   },
+   "welcome_page_allow_access_section_title": {
+      "message": "السماح بالوصول للحماية الكاملة"
+   },
+   "welcome_page_browser_cleanup_tile_text": {
+      "message": "احذف بيانات التصفح أو قم بإعداد تنظيف منتظم."
+   },
+   "welcome_page_chrome_info_tile_text": {
+      "message": "اجعل الملحق مرئياً من خلال النقر على أيقونة الملحق أعلاه وتثبيتها في المتصفح لسهولة الوصول إليها."
+   },
+   "welcome_page_edge_info_tile_text": {
+      "message": "اجعل الملحق مرئياً بالنقر فوق أيقونة الملحق أعلاه وإضافتها إلى شريط أدوات المتصفح لسهولة الوصول إليها."
+   },
+   "welcome_page_header_text": {
+      "message": "شكراً لك على تمكين ملحق \u003Cspan class=\"highlighted\">خصوصية وأمان المتصفح ESET\u003C/span> في متصفحك"
+   },
+   "welcome_page_main_content_title": {
+      "message": "استكشاف الميزات التي تحافظ على أمان تصفحك"
+   },
+   "welcome_page_metadata_cleanup_tile_header": {
+      "message": "تنظيف البيانات الوصفية*"
+   },
+   "welcome_page_metadata_cleanup_tile_text": {
+      "message": "قم بتجريد الملفات من المعلومات الخاصة عند مشاركتها عبر الإنترنت."
+   },
+   "welcome_page_pin_icon_alt": {
+      "message": "أيقونة التثبيت"
+   },
+   "welcome_page_plugin_icon_alt": {
+      "message": "أيقونة المكون الإضافي"
+   },
+   "welcome_page_right_arrow_icon_alt": {
+      "message": "أيقونة السهم الأيمن"
+   },
+   "welcome_page_secure_search_tile_text": {
+      "message": "تحقق من سلامة نتائج البحث قبل فتحها."
+   },
+   "welcome_page_subheader": {
+      "message": "لبدء الاستمتاع بتجربة تصفح أكثر أماناً، انقر فوق أيقونة الملحق بجوار شريط العناوين. وفي بعض المتصفحات، قد تكون مخفية في قائمة المتصفح."
+   },
+   "welcome_page_ultime_feature": {
+      "message": "*متوفر في ESET HOME Security Ultimate"
+   },
+   "welcome_page_website_security_inspector_tile_text": {
+      "message": "افحص مواقع الويب بحثاً عن عمليات الاحتيال والتهديدات الأمنية في أثناء التصفح."
+   },
+   "welcome_page_website_settings_tile_header": {
+      "message": "مراجعة إعدادات موقع الويب*"
+   },
+   "welcome_page_website_settings_tile_text": {
+      "message": "التحكم في أذونات موقع الويب للإشعارات والموقع والكاميرا والميكروفون."
+   },
+   "whats_new_page_allow_access_section_description": {
+      "message": "تتطلب هذه الميزة إذناً للوصول إلى مواقع الويب التي تزورها. كما تُعالَج البيانات المتعلقة بنشاطك على الويب محلياً على جهازك، ويمكن فقط إرسال عناوين URL التي يُحتمَل أن تكون ضارة وبيانات تتبع الاستخدام إلى ESET بهدف دعم الأبحاث المتعلقة بتهديدات الأمن السيبراني الحالية والمساعدة في تحسين خدماتنا، وذلك في حال تفعيل مشاركة البيانات في تطبيق أمان ESET لديك. يمكنك تحديث هذا الإذن في أيّ وقت من خلال إعدادات الملحق."
+   },
+   "whats_new_page_allow_access_section_title": {
+      "message": "السماح بالوصول إلى ميزة \"أمن محادثات الذكاء الاصطناعي\""
+   },
+   "whats_new_page_description": {
+      "message": "تفحص ميزة \"أمن محادثات الذكاء الاصطناعي\" كل رد من ChatGPT بحثاً عن أيّ محتوى يتضمّن مصادر قد تكون غير موثوقة أو غير آمنة، بالإضافة إلى أيّ تعليمات برمجية ضارة. كما تعمل تلقائياً لضمان استمرار التصفّح دون انقطاع.\u003Cbr/>\u003Cbr/>تكتمِل عملية الفحص محلياً على جهازك، ويمكن فقط إرسال عناوين URL التي يُحتمَل أن تكون ضارة وبيانات تتبع الاستخدام بهدف المساعدة في تحسين خدماتنا.\u003Cbr/>\u003Cbr/>سندعَم منصات ذكاء اصطناعي إضافية قريباً."
+   },
+   "whats_new_page_header": {
+      "message": "\u003Cspan class=\"highlighted\">ما الجديد\u003C/span>"
+   },
+   "whats_new_page_image_alt": {
+      "message": "رسم توضيحي لميزة \"أمن محادثات الذكاء الاصطناعي\" من ESET يُظهِر فقاعتَي دردشة لمحادثة مع روبوت ذكاء اصطناعي، مع تمييز عنوان URL (تم وضع علامة عليه) باللون الأحمر داخل أحد الردود، ما يشير إلى اكتشاف رابط غير آمن في أثناء الفحص."
+   },
+   "whats_new_page_subheader": {
+      "message": "استكشف آخر التحديثات والتحسينات في \u003Cspan class=\"highlighted\">ملحق خصوصية وأمان متصفح ESET\u003C/span>."
+   },
+   "whats_new_page_title": {
+      "message": "عزّز أمان محادثاتك مع ChatGPT"
+   }
+}

@@ -1,0 +1,608 @@
+{
+   "advanced_setup_menu_item": {
+      "message": "Täpsem häälestus"
+   },
+   "ai_conversation_security_description": {
+      "message": "Püsige ChatGPT kasutamisel turvalisem. Enne sellega suhtlemist kontrollime iga selle vastust, et leida võimalikke viiteid potentsiaalselt ebausaldusväärsetele või ohtlikele allikatele või pahatahtlikku koodi."
+   },
+   "ai_conversation_security_detection_result_bad": {
+      "message": "See vastus kasutab sisu allikast, mille oleme tuvastanud kui ohtliku."
+   },
+   "ai_conversation_security_detection_result_bad_script": {
+      "message": "See vastus sisaldab ohtlikku koodi. Selle käivitamine võib teie süsteemi või andmed ohtu seada."
+   },
+   "ai_conversation_security_detection_result_warning": {
+      "message": "See vastus kasutab sisu allikast, mille oleme tuvastanud kui potentsiaalselt ebausaldusväärse."
+   },
+   "ai_conversation_security_header": {
+      "message": "Tehisintellekti vestluse turve"
+   },
+   "ai_conversation_security_onboarding": {
+      "message": "\u003Cp class=\"onboarding-info\">Teie vestlused on nüüd kaitstud. Kontrollime ChatGPT iga vastust, et leida viited potentsiaalselt ebausaldusväärsetele või ohtlikele allikatele ja võimalikku pahatahtlikku koodi\u003C/p>.\u003Cp class=\"onboarding-info\">Neid seadeid saate kohandada \u003Cspan class=\"extension-popup-link\">siin\u003C/span>.\u003C/p>"
+   },
+   "ai_conversation_security_scan_func_description": {
+      "message": "Kontrollige enne tehisintellekti vastuste kasutamist, et need ei sisaldaks riske."
+   },
+   "ai_conversation_security_scan_func_header": {
+      "message": "Vestluse kontrollimine"
+   },
+   "ai_conversation_security_summary": {
+      "message": "Kontrollige ChatGPT vastuseid võimalike riskide osas."
+   },
+   "alert_icon_alt": {
+      "message": "Hoiatuse ikoon"
+   },
+   "alert_page_connection_lost_btn": {
+      "message": "Proovige uuesti"
+   },
+   "alert_page_connection_lost_header": {
+      "message": "Ühendus katkes"
+   },
+   "alert_page_connection_lost_text": {
+      "message": "Ühendus \u003Cspan class=\"product-info\">{%productname%}\u003C/span> ja brauserilaiendi vahel on katkenud. Kontrollige oma Interneti-ühendust ja proovige uuesti. Pange tähele, et laiend ei tööta, kui \u003Cspan class=\"product-info\">{%productname%}\u003C/span> on installimata."
+   },
+   "alert_page_expired_license_btn": {
+      "message": "Ava \u003Cspan class=\"product-info\">{%productname%}\u003C/span> "
+   },
+   "alert_page_expired_license_header": {
+      "message": "Aegunud tellimus"
+   },
+   "alert_page_expired_license_text": {
+      "message": "Teie tellimus on aegunud ja te ei pääse enam juurde ESET-i laiendile Brauseri privaatsus ja turve. Selle probleemi lahendamiseks avage \u003Cspan class=\"product-info\">{%productname%}\u003C/span> ja järgige esitatud juhiseid."
+   },
+   "alert_page_missing_product_header": {
+      "message": "Puuduv toode"
+   },
+   "alert_page_missing_product_text_1": {
+      "message": "Teie arvutisse pole praegu installitud ühtegi ESET-i toodet, mis toetaks laiendit Brauseri privaatsus ja turve."
+   },
+   "alert_page_missing_product_text_2": {
+      "message": "Laiendi, toetatud ESET-i toodete, toetatud brauserite ja installimise kohta lisateabe saamiseks külastage meie \u003Cspan class=\"online-help-link\">võrguspikrit.\u003C/span>"
+   },
+   "alert_page_unsupported_browser_header": {
+      "message": "Toetamata brauser"
+   },
+   "alert_page_unsupported_browser_text_1": {
+      "message": "Näib, et kasutate brauserit, mida me veel ei toeta. ESET-i laiendi Brauseri privaatsus ja turve kasutamiseks installige toetatud brauser."
+   },
+   "alert_page_unsupported_browser_text_2": {
+      "message": "\u003Cspan class=\"supported-browsers-link\">Kuva toetatud brauserid\u003C/span>"
+   },
+   "banner_ok_status_icon_alt": {
+      "message": "OK olekubänneri ikoon"
+   },
+   "banner_restart_status_icon_alt": {
+      "message": "Taaskäivita olekubänneri ikoon"
+   },
+   "blocking_page_description": {
+      "message": "Veebisaidi turvalisuse inspektor on \u003Cspan class=\"blocked-url-tooltip\">sellel lehel\u003C/span> tuvastanud potentsiaalselt petturlikku või kahjulikku sisu. Kaitse säilitamiseks soovitame seda vältida."
+   },
+   "blocking_page_go_back_button": {
+      "message": "Mine tagasi"
+   },
+   "blocking_page_head_title": {
+      "message": "Hoiatus! – ESET-i brauseri privaatsus ja turve"
+   },
+   "blocking_page_ignore_threat_button": {
+      "message": "Eira ohtu"
+   },
+   "blocking_page_options_title": {
+      "message": "Kas soovite eelmisele leheküljele naasta?"
+   },
+   "blocking_page_title": {
+      "message": "See leht võib olla ohtlik"
+   },
+   "browser_restart_needed_p": {
+      "message": "Muudatuse jõustumiseks on vaja brauser taaskäivitada."
+   },
+   "browsing_cleanup_custom_data_btn": {
+      "message": "Kohandatud"
+   },
+   "browsing_cleanup_custom_data_option_1": {
+      "message": "Sirvimisajalugu"
+   },
+   "browsing_cleanup_custom_data_option_1_tooltip": {
+      "message": "Külastatud veebisaitide kirjed, sealhulgas kuupäevad ja kellaajad. Nende andmete kustutamisel kustutatakse teie seadmest teie veebitegevuse ajalugu."
+   },
+   "browsing_cleanup_custom_data_option_2": {
+      "message": "Allalaadimise ajalugu"
+   },
+   "browsing_cleanup_custom_data_option_2_tooltip": {
+      "message": "Teie allalaaditud failide loend. Nende andmete kustutamisel eemaldatakse allalaaditud failide kirje, kuid mitte failid ise."
+   },
+   "browsing_cleanup_custom_data_option_3": {
+      "message": "Küpsised ja veebisaidi andmed"
+   },
+   "browsing_cleanup_custom_data_option_3_tooltip": {
+      "message": "Väikesed failid, mida veebisaidid salvestavad teie eelistuste, sisselogimisoleku ja tegevuse meeldejätmiseks. Küpsiste kustutamisel võidakse teid veebisaitidelt välja logida ja teie eelistused lähtestada."
+   },
+   "browsing_cleanup_custom_data_option_4": {
+      "message": "Vahemällu salvestatud pildid ja failid"
+   },
+   "browsing_cleanup_custom_data_option_4_tooltip": {
+      "message": "Ajutised failid, mis aitavad veebisaite kiiremini laadida, salvestades nende osi teie seadmes. Nende andmete kustutamine võib lehe laadimist esialgu aeglustada, kuid vabastate nii ruumi."
+   },
+   "browsing_cleanup_custom_data_option_5": {
+      "message": "Paroolid ja sisselogimisandmed"
+   },
+   "browsing_cleanup_custom_data_option_5_note": {
+      "message": "See kustutab jäädavalt kõik meelde jäetud kasutajanimed ja paroolid."
+   },
+   "browsing_cleanup_custom_data_option_5_tooltip": {
+      "message": "Salvestatud sisselogimisteave veebisaitide kohta, mis võimaldab kiiret sisselogimist. Nende andmete kustutamisel eemaldatakse jäädavalt kõik meelde jäetud kasutajanimed ja paroolid, nii et mõelge järele, enne kui jätkate."
+   },
+   "browsing_cleanup_custom_data_option_6": {
+      "message": "Vormi automaattäitmise andmed"
+   },
+   "browsing_cleanup_custom_data_option_6_tooltip": {
+      "message": "Vormidesse sisestatud teave, näiteks nimed, aadressid ja kontaktandmed, mis aitab teil vorme kiiremini täita. Nende andmete kustutamisel eemaldatakse teie salvestatud teave."
+   },
+   "browsing_cleanup_custom_data_option_7": {
+      "message": "Teenindusskriptid"
+   },
+   "browsing_cleanup_custom_data_option_7_tooltip": {
+      "message": "Failid, mis aitavad veebisaitidel ja veebirakendustel sujuvalt töötada, isegi kui olete võrguühenduseta. Nende andmete kustutamine võib mõjutada selliseid funktsioone nagu võrguühenduseta juurdepääs, taustal sünkroonimine ja teatised, kuid enamik veebisaite töötab endiselt tavapäraselt."
+   },
+   "browsing_cleanup_data_btns_header": {
+      "message": "Andmete tüüp"
+   },
+   "browsing_cleanup_header": {
+      "message": "Brauseripuhastus"
+   },
+   "browsing_cleanup_header_text": {
+      "message": "Sirvimisandmete kustutamine või regulaarsete puhastamiste seadistamine. Jää sisselogituks valitud veebisaitidel, \u003Cspan>lisades need loendisse\u003C/span>."
+   },
+   "browsing_cleanup_private_data_btn": {
+      "message": "Privaatne"
+   },
+   "browsing_cleanup_private_data_description": {
+      "message": "Privaatandmete tüüp sisaldab teie sirvimisajalugu, allalaadimisajalugu, küpsiseid ja veebisaidi andmeid, vormi automaatse täitmise andmeid ja teenindusskripte."
+   },
+   "browsing_cleanup_select_form_option_0": {
+      "message": "Kogu aeg"
+   },
+   "browsing_cleanup_select_form_option_1": {
+      "message": "See sirvimisseanss"
+   },
+   "browsing_cleanup_select_form_option_2": {
+      "message": "Viimane tund"
+   },
+   "browsing_cleanup_select_form_option_3": {
+      "message": "Viimased 24 tundi"
+   },
+   "browsing_cleanup_select_form_option_4": {
+      "message": "Viimased 7 päeva"
+   },
+   "browsing_cleanup_select_form_option_5": {
+      "message": "Viimased 4 nädalat"
+   },
+   "browsing_cleanup_select_form_placeholder": {
+      "message": "Valige ajavahemik"
+   },
+   "browsing_one_time_cleanup_delete_btn": {
+      "message": "Andmete kustutamine"
+   },
+   "browsing_one_time_cleanup_delete_btn_deleted_text": {
+      "message": "Kustutatud"
+   },
+   "browsing_one_time_cleanup_delete_btn_deleting_text": {
+      "message": "Kustutamine"
+   },
+   "browsing_one_time_cleanup_select_form_title": {
+      "message": "Ajavahemik"
+   },
+   "browsing_one_time_cleanup_tab_header": {
+      "message": "Ühekordne puhastamine"
+   },
+   "browsing_regular_cleanup_btn": {
+      "message": "Salvesta ja käivita puhastamine"
+   },
+   "browsing_regular_cleanup_btn_coplete": {
+      "message": "Puhastamine on lõpetatud"
+   },
+   "browsing_regular_cleanup_btn_disabled": {
+      "message": "Salvesta puhastamine"
+   },
+   "browsing_regular_cleanup_btn_processing": {
+      "message": "Salvestamine ja puhastamine"
+   },
+   "browsing_regular_cleanup_btn_schedule": {
+      "message": "Ajasta puhastamine"
+   },
+   "browsing_regular_cleanup_func_change_setting_link": {
+      "message": "Muuda regulaarse puhastamise sätteid"
+   },
+   "browsing_regular_cleanup_func_disabled": {
+      "message": "Määrake pärast regulaarse puhastamise lubamist eelistatud aeg ja sagedus."
+   },
+   "browsing_regular_cleanup_func_header": {
+      "message": "Regulaarne puhastamine"
+   },
+   "browsing_regular_cleanup_func_next_session_cleanup": {
+      "message": "Järgmine puhastamine algab automaatselt järgmine kord, kui brauseri avate."
+   },
+   "browsing_regular_cleanup_func_next_time_cleanup": {
+      "message": "Järgmine puhastamine on ajastatud algama %DATE% kell %TIME%."
+   },
+   "browsing_regular_cleanup_func_not_set": {
+      "message": "Te pole veel regulaarset puhastamist seadistanud."
+   },
+   "browsing_regular_cleanup_func_set_up_settings_link": {
+      "message": "Seadista regulaarne puhastamine"
+   },
+   "browsing_regular_cleanup_header": {
+      "message": "Regulaarse puhastamise sätted"
+   },
+   "browsing_regular_cleanup_header_description": {
+      "message": "Valige puhastamissagedus ja kaasatavad andmetüübid."
+   },
+   "browsing_regular_cleanup_select_form_option_1": {
+      "message": "Üks kord brauseriseansi kohta"
+   },
+   "browsing_regular_cleanup_select_form_option_2": {
+      "message": "Üks kord tunnis"
+   },
+   "browsing_regular_cleanup_select_form_option_3": {
+      "message": "Üks kord 24 tunni jooksul"
+   },
+   "browsing_regular_cleanup_select_form_option_4": {
+      "message": "Üks kord 7 päeva jooksul"
+   },
+   "browsing_regular_cleanup_select_form_option_5": {
+      "message": "Üks kord 4 nädala jooksul"
+   },
+   "browsing_regular_cleanup_select_form_placeholder": {
+      "message": "Valige sagedus"
+   },
+   "browsing_regular_cleanup_select_form_title": {
+      "message": "Puhastamissagedus"
+   },
+   "close_icon_alt": {
+      "message": "Sule ikoon"
+   },
+   "data_collection_consent_dialog_agree_button": {
+      "message": "Nõustun ja jätkan"
+   },
+   "data_collection_consent_dialog_decline_button": {
+      "message": "Keeldun ja sulen selle vahekaardi"
+   },
+   "data_collection_consent_dialog_description_1": {
+      "message": "Täieliku kaitse tagamiseks vajab laiendus ESET Browser Privacy & Security teie nõusolekut, et saata kogutud andmeid teie seadmes olevasse ESET-i rakendusse. See hõlmab teavet külastatavate veebisaitide kohta, näiteks nende veebiaadresse (URL-id), sisu ja nendega seotud andmeid."
+   },
+   "data_collection_consent_dialog_description_2": {
+      "message": "Töödeldavaid andmeid kasutatakse pettuste, andmepüügi ja muude ohtude tuvastamiseks ning need on vajalikud selliste funktsioonide jaoks nagu veebisaitide turvalisuse kontrollija Website Security Inspector. Enamik töötlusest toimub teie seadmes kohapeal, kuid teatud kahtlased URL-id ja veebisaidi sisu võidakse saata meie serverisse, et rakendada täiustatud ohtude tuvastamist. Kui keeldute, keelatakse teatud funktsioonid, kuid ülejäänud laiendus töötab endiselt."
+   },
+   "data_collection_consent_dialog_description_3": {
+      "message": "Sõltuvalt teie ESET-i rakenduse sätetest võime rakenduse jõudluse tõstmiseks koguda laiendusest ka anonüümseid kasutusandmeid. Neid eelistusi saate rakenduses hallata."
+   },
+   "data_collection_consent_dialog_footer": {
+      "message": "Lisateavet selle kohta, kuidas me teie andmeid töötleme ja haldame, saate meie pri \u003Cspan class=\"privacy-policy-link\">vaatsuspoliitikast\u003C/span>."
+   },
+   "data_collection_consent_dialog_title": {
+      "message": "Teie sirvimise täielikuks kaitsmiseks vajame teie nõusolekut"
+   },
+   "direction": {
+      "message": "ltr"
+   },
+   "eset_logo_alt": {
+      "message": "ESET-i logo"
+   },
+   "eula_link": {
+      "message": "Lõppkasutaja litsentsileping"
+   },
+   "extension_description": {
+      "message": "Nautige laiendatud brauserikaitset ESET-i funktsiooniga Brauseri privaatsus ja turve."
+   },
+   "help_support_menu_item": {
+      "message": "Spikker ja tugi"
+   },
+   "info_icon_alt": {
+      "message": "Teabeikoon"
+   },
+   "info_page_allow_access_button": {
+      "message": "Luba juurdepääs"
+   },
+   "info_page_footer": {
+      "message": "© 1992–%YEAR% ESET, spol. s r.o. Kõik õigused kaitstud. Siin kasutatud kaubamärgid on kas ESET, spol. s r.o. või ESET North America kaubamärgid või registreeritud kaubamärgid. Kõik muud nimed ja tootemargid on nende vastavate ettevõtete kaubamärgid."
+   },
+   "learn_more_link": {
+      "message": "Lisateave"
+   },
+   "metadata_cleaner_func_description": {
+      "message": "Puhasta metaandmed iga kord, kui pildi üles laadid."
+   },
+   "metadata_cleaner_func_header": {
+      "message": "Failide andmete puhastamine"
+   },
+   "metadata_cleaner_header": {
+      "message": "Metaandmete puhastus"
+   },
+   "metadata_cleaner_subheader": {
+      "message": "Eemalda metaandmed privaatse teabega failide võrgus jagamisel."
+   },
+   "metadata_notifications_func_header": {
+      "message": "Kuva teavitused pärast puhastamist"
+   },
+   "metadata_notifications_func_subheader": {
+      "message": "Saa brauserisiseseid teavitusi."
+   },
+   "metadata_warning_status_icon_alt": {
+      "message": "Metaandmete oleku hoiatuse ikoon"
+   },
+   "notification_message_text": {
+      "message": "Üleslaaditud faili metaandmed puhastatud:"
+   },
+   "overview_menu_item": {
+      "message": "Ülevaade"
+   },
+   "privacy_policy_link": {
+      "message": "Privaatsuspoliitika"
+   },
+   "product_name": {
+      "message": "BRAUSERI PRIVAATSUS JA TURVE"
+   },
+   "product_title": {
+      "message": "ESET-i brauseri privaatsus ja turve"
+   },
+   "product_version": {
+      "message": "Versioon:"
+   },
+   "progress_logo_alt": {
+      "message": "Progress. Protected. logo"
+   },
+   "scan_search_result_func_description": {
+      "message": "Kontrolli otsingutulemusi, et näha, milliseid on ohutud klõpsata."
+   },
+   "scan_search_result_func_header": {
+      "message": "Kontrolli otsingutulemusi"
+   },
+   "secure_search_green_popup_text": {
+      "message": "See veebileht on ohutu"
+   },
+   "secure_search_header": {
+      "message": "Turvaline otsing"
+   },
+   "secure_search_red_popup_text": {
+      "message": "See veebisait on ohutu"
+   },
+   "secure_search_subheader": {
+      "message": "Vaata, milliseid otsingutulemusi on ohutu avada."
+   },
+   "secure_search_yellow_popup_text": {
+      "message": "Leiti võimalikku soovimatut sisu"
+   },
+   "settings_page_appearance_dark_mode": {
+      "message": "Tume"
+   },
+   "settings_page_appearance_description": {
+      "message": "Kohanda liidese värvi vastavalt oma eelistustele. Saate valida heledate või tumedate toonide vahel."
+   },
+   "settings_page_appearance_header": {
+      "message": "Välimus"
+   },
+   "settings_page_appearance_light_mode": {
+      "message": "Hele"
+   },
+   "settings_page_appearance_subheader": {
+      "message": "Värvirežiim"
+   },
+   "settings_page_browser_cleanup_active_tabs_text": {
+      "message": "Soovitatavad domeenid, mis põhinevad vahekaartidel, mis teil on praegu brauseris avatud. Kui te ei näe allolevas loendis kõiki praegu avatud vahekaarte, \u003Cspan class=\"refresh-list\">värskendage loendit.\u003C/span>"
+   },
+   "settings_page_browser_cleanup_add_btn_text": {
+      "message": "Lisa"
+   },
+   "settings_page_browser_cleanup_checkbox_text": {
+      "message": "Säilita avatud vahekaartide praegune sirvimisseanss pärast puhastamist"
+   },
+   "settings_page_browser_cleanup_description": {
+      "message": "Lisage veebisaidid, kus soovite küpsistega nõustuda, ja jääda sisselogituks isegi pärast brauseripuhastust."
+   },
+   "settings_page_browser_cleanup_input_placeholder_text": {
+      "message": "Sisestage URL, mida soovite lisada"
+   },
+   "settings_page_browser_cleanup_minus_img_alt": {
+      "message": "Miinus"
+   },
+   "settings_page_browser_cleanup_plus_img_alt": {
+      "message": "Pluss"
+   },
+   "settings_page_browser_cleanup_subheader": {
+      "message": "Täpsemad küpsistesätted"
+   },
+   "settings_page_not_valid_url_warning": {
+      "message": "*See ei näi olevat sobiv URL."
+   },
+   "settings_page_website_settings_allow_text": {
+      "message": "Luba"
+   },
+   "settings_page_website_settings_allowed_text": {
+      "message": "Lubatud"
+   },
+   "settings_page_website_settings_block_text": {
+      "message": "Tõkesta"
+   },
+   "settings_page_website_settings_blocked_text": {
+      "message": "Tõkestatakse"
+   },
+   "settings_page_website_settings_camera_section_description": {
+      "message": "Vaadake üle, millised veebisaidid võivad paluda teie kaamerat kasutada."
+   },
+   "settings_page_website_settings_camera_section_header": {
+      "message": "Kaamera"
+   },
+   "settings_page_website_settings_chrome_extension_info_text": {
+      "message": "Me ei saa brauserilaienduste sätteid muuta. Konkreetse brauserilaienduse sätete kohandamiseks minge oma brauseri \u003Cspan class=\"browser-site-permissions-link\">jaotisesse Privaatsus ja turve\u003C/span>"
+   },
+   "settings_page_website_settings_description": {
+      "message": "Hõlbus juurdepääs veebisaidi õigustele, et kontrollida, millist teavet veebisait kasutada saab."
+   },
+   "settings_page_website_settings_edge_extension_info_text": {
+      "message": "Me ei saa brauserilaienduste sätteid muuta. Konkreetse brauserilaienduse sätete kohandamiseks minge oma brauseri \u003Cspan class=\"browser-site-permissions-link\">jaotisesse Küpsised ja saidi õigused\u003C/span>"
+   },
+   "settings_page_website_settings_header": {
+      "message": "Veebisaidi sätete ülevaatus"
+   },
+   "settings_page_website_settings_location_section_description": {
+      "message": "Vaadake üle, millised veebisaidid võivad teie asukohta küsida."
+   },
+   "settings_page_website_settings_location_section_header": {
+      "message": "Asukoht"
+   },
+   "settings_page_website_settings_mic_section_description": {
+      "message": "Vaadake üle, millised veebisaidid võivad paluda teie mikrofoni kasutada."
+   },
+   "settings_page_website_settings_mic_section_header": {
+      "message": "Mikrofon"
+   },
+   "settings_page_website_settings_notif_section_description": {
+      "message": "Üle vaatamine, millised veebisaidid võivad paluda teavitusi saata."
+   },
+   "settings_page_website_settings_notif_section_header": {
+      "message": "Teavitused"
+   },
+   "settings_page_website_settings_reset_to_allow_text": {
+      "message": "Lähtesta lubamiseks"
+   },
+   "settings_page_website_settings_reset_to_block_text": {
+      "message": "Lähtesta blokeerimiseks"
+   },
+   "setup_btn": {
+      "message": "HÄÄLESTAMINE"
+   },
+   "summary_metadata_stats_text": {
+      "message": "Eemalda metaandmed privaatse teabega."
+   },
+   "summary_ok_header": {
+      "message": "Teie sirvimine on kaitstud"
+   },
+   "summary_privacy_stats_text": {
+      "message": "Sirvimisandmete kustutamine."
+   },
+   "summary_restart_header": {
+      "message": "Brauser vajab taaskäivitamist"
+   },
+   "summary_search_stats_text": {
+      "message": "Kontrollige otsingutulemuste ohutust."
+   },
+   "summary_website_setting_header": {
+      "message": "Veebisaidi sätete ülevaatus"
+   },
+   "summary_website_setting_text": {
+      "message": "Veebisaidi õiguste haldamine."
+   },
+   "website_security_inspector_description": {
+      "message": "Kaitske oma sirvimist pettuste ja turbeohtude eest, kontrollides külastatavaid veebisaite."
+   },
+   "website_security_inspector_scan_func_description": {
+      "message": "Kontrollige veebisaite ohtude osas kohe nende laadimise ajal."
+   },
+   "website_security_inspector_scan_func_header": {
+      "message": "Veebisaidi ohu tuvastamine"
+   },
+   "website_security_inspector_setup_all_set_info": {
+      "message": "Laiendus \u003Cspan class=\"highlighted\">ESET Browser Privacy & Security\u003C/span> on nüüd aktiivne ja kaitseb teid veebis. Selle funktsioone saate igal ajal seadetes hallata."
+   },
+   "website_security_inspector_setup_all_set_title": {
+      "message": "Kõik on tööks valmis"
+   },
+   "website_security_inspector_setup_allow_access_section_description_1": {
+      "message": "Teatud turvaelemendid vajavad teie külastatavatele veebisaitidele, sealhulgas nende veebiaadressidele (URL-idele) ja sisule juurde pääsemiseks täiendavat luba. Neid andmeid on vaja pettuste, andmepüügi ja muude ohtude reaalajas tuvastamiseks ning neid ei jagata kunagi kolmandate isikutega."
+   },
+   "website_security_inspector_setup_allow_access_section_description_2": {
+      "message": "Seda luba saate igal ajal laienduse seadetes hallata."
+   },
+   "website_security_inspector_setup_almost_done_info": {
+      "message": "Olete edukalt lubanud laienduse \u003Cspan class=\"highlighted\">ESET Browser Privacy & Security\u003C/span>."
+   },
+   "website_security_inspector_setup_almost_done_subtitle": {
+      "message": "Viige lõpule kõigi turvafunktsioonide lubamine"
+   },
+   "website_security_inspector_setup_almost_done_title": {
+      "message": "Peaaegu valmis"
+   },
+   "website_security_inspector_summary": {
+      "message": "Kaitske oma sirvimist pettuste ja turbeohtude eest."
+   },
+   "website_security_inspector_title": {
+      "message": "Veebisaidi turvalisuse inspektor"
+   },
+   "welcome_page_ai_conversation_security_tile_text": {
+      "message": "Kontrollige ChatGPT vastuseid potentsiaalselt kahjuliku sisu suhtes, enne kui neid kasutate. Peagi saadaval rohkematel platvormidel."
+   },
+   "welcome_page_allow_access_section_description": {
+      "message": "Mõned funktsioonid vajavad teie külastatavatele veebisaitidele juurdepääsu saamiseks luba. Teie veebitegevuse andmeid töödeldakse teie seadmes kohapeal. ESET-ile võidakse saata ainult potentsiaalselt kahjulikke URL-e ja telemeetriat, et toetada jooksvate küberturvalisuse ohtude uurimist ja aidata meie teenuseid täiustada, kui olete oma ESET-i turberakenduses andmejagamise lubanud. Seda luba saate igal ajal laienduse seadetes muuta."
+   },
+   "welcome_page_allow_access_section_title": {
+      "message": "Luba juurdepääs täielikuks kaitseks"
+   },
+   "welcome_page_browser_cleanup_tile_text": {
+      "message": "Kustutage sirvimisandmed või seadistage regulaarne puhastamine."
+   },
+   "welcome_page_chrome_info_tile_text": {
+      "message": "Hoidke laiend nähtaval, klõpsates ülaltoodud laiendi ikooni ja kinnitades selle brauserisse hõlpsa juurdepääsu tagamiseks."
+   },
+   "welcome_page_edge_info_tile_text": {
+      "message": "Hoidke laiend nähtaval, klõpsates ülaltoodud laiendi ikooni ja lisades selle brauseri tööriistaribale hõlpsa juurdepääsu tagamiseks."
+   },
+   "welcome_page_header_text": {
+      "message": "Täname, et lubate brauseris \u003Cspan class=\"highlighted\">ESET-i brauseri privaatsuse ja turbe\u003C/span> laiendi"
+   },
+   "welcome_page_main_content_title": {
+      "message": "Tutvuge funktsioonidega, mis tagavad teie sirvimise turvalisuse"
+   },
+   "welcome_page_metadata_cleanup_tile_header": {
+      "message": "Metaandmete puhastus*"
+   },
+   "welcome_page_metadata_cleanup_tile_text": {
+      "message": "Eemaldage failidelt isiklik teabe, kui jagate neid võrgus."
+   },
+   "welcome_page_pin_icon_alt": {
+      "message": "PIN-i ikoon"
+   },
+   "welcome_page_plugin_icon_alt": {
+      "message": "Plugina ikoon"
+   },
+   "welcome_page_right_arrow_icon_alt": {
+      "message": "Paremnoole ikoon"
+   },
+   "welcome_page_secure_search_tile_text": {
+      "message": "Kontrollige otsingutulemuste ohutust enne nende avamist."
+   },
+   "welcome_page_subheader": {
+      "message": "Turvalisema sirvimiskogemuse nautimiseks klõpsake laiendiikooni, mis asub aadressiriba kõrval. Mõnes brauseris võib see olla brauserimenüüs peidetud."
+   },
+   "welcome_page_ultime_feature": {
+      "message": "*Saadaval versioonis ESET HOME Security Ultimate"
+   },
+   "welcome_page_website_security_inspector_tile_text": {
+      "message": "Skannige veebisaite sirvimise ajal pettuste ja turvaohtude suhtes."
+   },
+   "welcome_page_website_settings_tile_header": {
+      "message": "Veebisaidi sätete ülevaatus*"
+   },
+   "welcome_page_website_settings_tile_text": {
+      "message": "Teavituste, asukoha, kaamera ja mikrofoni õiguste kontrollimine veebisaidil."
+   },
+   "whats_new_page_allow_access_section_description": {
+      "message": "See funktsioon vajab teie külastatavatele veebisaitidele juurdepääsu saamiseks luba. Teie veebitegevuse andmeid töödeldakse teie seadmes kohapeal. ESET-ile võidakse saata ainult potentsiaalselt kahjulikke URL-e ja telemeetriat, et toetada jooksvate küberturvalisuse ohtude uurimist ja aidata meie teenuseid täiustada, kui olete oma ESET-i turberakenduses andmejagamise lubanud. Seda luba saate igal ajal laienduse seadetes muuta."
+   },
+   "whats_new_page_allow_access_section_title": {
+      "message": "Luba juurdepääs tehisintellekti vestluse turbele"
+   },
+   "whats_new_page_description": {
+      "message": "Tehisintellekti vestluse turve kontrollib ChatGPT iga vastuse sisu, et see ei sisaldaks viiteid potentsiaalselt ebausaldusväärsetele või ohtlikele allikatele ega pahatahtlikku koodi. See töötab automaatselt, ilma teie veebisirvimist takistamata.\u003Cbr/>\u003Cbr/>Kontrollimine toimub teie seadmes kohapeal. Me ei saada ega jaga teavet teie veebitegevuse kohta ESET-ile — meie toote täiustamiseks võidakse saata ainult potentsiaalselt kahjulikke URL-e ja telemeetriat.\u003Cbr/>\u003Cbr/>Peagi on saadaval täiendavate tehisintellekti platvormide tugi."
+   },
+   "whats_new_page_header": {
+      "message": "\u003Cspan class=\"highlighted\">Mis on uut?\u003C/span>"
+   },
+   "whats_new_page_image_alt": {
+      "message": "ESETi tehisintellekti vestluse turbefunktsiooni illustratsioon näitab kahte vestlusmulli, mis tähistavad tehisintellekti vestlusroboti vestlust, mille ühe vastuse sees on punasega esile tõstetud URL, mis näitab kontrollimise käigus tuvastatud ohtlikku viidet."
+   },
+   "whats_new_page_subheader": {
+      "message": "Tutvuge \u003Cspan class=\"highlighted\">laienduse ESET-i brauseri privaatsus ja turve\u003C/span> uusimate värskenduste ja täiustustega."
+   },
+   "whats_new_page_title": {
+      "message": "Nautige turvalisemaid ChatGPT vestlusi"
+   }
+}

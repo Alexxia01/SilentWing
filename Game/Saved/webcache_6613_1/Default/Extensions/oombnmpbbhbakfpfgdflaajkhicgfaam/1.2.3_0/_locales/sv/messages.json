@@ -1,0 +1,608 @@
+{
+   "advanced_setup_menu_item": {
+      "message": "Avancerade inställningar"
+   },
+   "ai_conversation_security_description": {
+      "message": "Var säkrare när du använder ChatGPT. Vi genomsöker varje svar efter referenser till potentiellt opålitliga eller osäkra källor och efter skadlig kod innan du interagerar med den."
+   },
+   "ai_conversation_security_detection_result_bad": {
+      "message": "Det här svaret hänvisar till innehåll från en källa vi har identifierat som osäker."
+   },
+   "ai_conversation_security_detection_result_bad_script": {
+      "message": "Det här svaret innehåller osäker kod. Att köra det kan utsätta ditt system eller dina data för risk."
+   },
+   "ai_conversation_security_detection_result_warning": {
+      "message": "Det här svaret hänvisar till innehåll från en källa vi har identifierat som potentiellt opålitlig."
+   },
+   "ai_conversation_security_header": {
+      "message": "AI-konversationssäkerhet"
+   },
+   "ai_conversation_security_onboarding": {
+      "message": "\u003Cp class=\"onboarding-info\">Dina konversationer är nu skyddade. Vi genomsöker alla svar från ChatGPT efter referenser till potentiellt opålitliga eller osäkra källor och efter skadlig kod.\u003C/p>\u003Cp class=\"onboarding-info\">Du kan justera dessa inställningar \u003Cspan class=\"extension-popup-link\">här\u003C/span>.\u003C/p>"
+   },
+   "ai_conversation_security_scan_func_description": {
+      "message": "Kontrollera AI-svar för potentiella risker innan du använder dem."
+   },
+   "ai_conversation_security_scan_func_header": {
+      "message": "Konversationsgenomsökning"
+   },
+   "ai_conversation_security_summary": {
+      "message": "Kontrollera svar från ChatGPT för potentiella risker."
+   },
+   "alert_icon_alt": {
+      "message": "Meddelandeikon"
+   },
+   "alert_page_connection_lost_btn": {
+      "message": "Försök igen"
+   },
+   "alert_page_connection_lost_header": {
+      "message": "Anslutning bruten"
+   },
+   "alert_page_connection_lost_text": {
+      "message": "Anslutningen mellan \u003Cspan class=\"product-info\">{%productname%}\u003C/span> och webbläsartillägget har brutits. Kontrollera din internetanslutning och försök igen. Observera att tillägget inte fungerar utan att ha \u003Cspan class=\"product-info\">{%productname%}\u003C/span> installerat."
+   },
+   "alert_page_expired_license_btn": {
+      "message": "Öppna \u003Cspan class=\"product-info\">{%productname%}\u003C/span> "
+   },
+   "alert_page_expired_license_header": {
+      "message": "Abonnemang har upphört"
+   },
+   "alert_page_expired_license_text": {
+      "message": "Ditt abonnemang har upphört och du kan inte längre komma åt tillägget ESET Webbläsarsekretess och säkerhet. Lös problemet genom att öppna \u003Cspan class=\"product-info\">{%productname%}\u003C/span> och följa instruktionerna."
+   },
+   "alert_page_missing_product_header": {
+      "message": "Produkt saknas"
+   },
+   "alert_page_missing_product_text_1": {
+      "message": "Det finns för närvarande ingen ESET-produkt med stöd för tillägget ESET Webbläsarsekretess och säkerhet installerad på datorn."
+   },
+   "alert_page_missing_product_text_2": {
+      "message": "Gå till vår \u003Cspan class=\"online-help-link\">onlinehjälp\u003C/span> om du vill veta mer om tillägget, ESET-produkter som stöds, webbläsare som stöds och installation."
+   },
+   "alert_page_unsupported_browser_header": {
+      "message": "Webbläsare stöds inte"
+   },
+   "alert_page_unsupported_browser_text_1": {
+      "message": "Det verkar som att du använder en webbläsare som vi ännu inte har stöd för. Installera en webbläsare som stöds för att använda tillägget ESET Webbläsarsekretess och säkerhet."
+   },
+   "alert_page_unsupported_browser_text_2": {
+      "message": "\u003Cspan class=\"supported-browsers-link\">Se webbläsare som stöds\u003C/span>"
+   },
+   "banner_ok_status_icon_alt": {
+      "message": "Ikon för statusbanderoll OK"
+   },
+   "banner_restart_status_icon_alt": {
+      "message": "Ikon för statusbanderoll för omstart"
+   },
+   "blocking_page_description": {
+      "message": "Website Security Inspector har upptäckt potentiellt bedrägligt eller skadligt innehåll på \u003Cspan class=\"blocked-url-tooltip\">den här sidan\u003C/span>. För att säkerställa din säkerhet rekommenderar vi att du undviker den."
+   },
+   "blocking_page_go_back_button": {
+      "message": "Gå tillbaka"
+   },
+   "blocking_page_head_title": {
+      "message": "Varning! – ESET Webbläsarsekretess och säkerhet"
+   },
+   "blocking_page_ignore_threat_button": {
+      "message": "Ignorera hot"
+   },
+   "blocking_page_options_title": {
+      "message": "Vill du återgå till föregående sida?"
+   },
+   "blocking_page_title": {
+      "message": "Den här sidan kan vara osäker"
+   },
+   "browser_restart_needed_p": {
+      "message": "Webbläsaren måste startas om för att ändringen ska träda i kraft."
+   },
+   "browsing_cleanup_custom_data_btn": {
+      "message": "Anpassad"
+   },
+   "browsing_cleanup_custom_data_option_1": {
+      "message": "Webbläsarhistorik"
+   },
+   "browsing_cleanup_custom_data_option_1_tooltip": {
+      "message": "Register över de webbplatser du har besökt, inklusive datum och tider. Om du tar bort dessa data raderas din webbaktivitetshistorik från enheten."
+   },
+   "browsing_cleanup_custom_data_option_2": {
+      "message": "Ladda ner historik"
+   },
+   "browsing_cleanup_custom_data_option_2_tooltip": {
+      "message": "En lista över filer som du har laddat ned. Om du tar bort dessa data tas posten med nedladdade filer bort, men inte själva filerna."
+   },
+   "browsing_cleanup_custom_data_option_3": {
+      "message": "Cookies och webbplatsdata"
+   },
+   "browsing_cleanup_custom_data_option_3_tooltip": {
+      "message": "Små filer som lagras av webbplatser för att komma ihåg dina inställningar, inloggningsstatus och aktivitet. Om du tar bort cookies kan du loggas ut från webbplatser och dina inställningar kan återställas."
+   },
+   "browsing_cleanup_custom_data_option_4": {
+      "message": "Cachelagrade bilder och filer"
+   },
+   "browsing_cleanup_custom_data_option_4_tooltip": {
+      "message": "Temporära filer som hjälper till att ladda webbplatser snabbare genom att lagra delar av dem på din enhet. Om du tar bort dessa data frigör du utrymme men sidan kan till en början ladda långsammare."
+   },
+   "browsing_cleanup_custom_data_option_5": {
+      "message": "Lösenord och inloggningsdata"
+   },
+   "browsing_cleanup_custom_data_option_5_note": {
+      "message": "Detta kommer permanent att radera alla lagrade användarnamn och lösenord."
+   },
+   "browsing_cleanup_custom_data_option_5_tooltip": {
+      "message": "Lagrad inloggningsinformation för webbplatser som möjliggör snabba inloggningar. Om du tar bort dessa data tas alla lagrade användarnamn och lösenord bort permanent, så tänk efter noga innan du fortsätter."
+   },
+   "browsing_cleanup_custom_data_option_6": {
+      "message": "Autofylldata för formulär"
+   },
+   "browsing_cleanup_custom_data_option_6_tooltip": {
+      "message": "Information som du har angett i formulär, till exempel namn, adresser och kontaktuppgifter, som hjälper dig att fylla i formulär snabbare. Om du tar bort dessa data tas din sparade information bort."
+   },
+   "browsing_cleanup_custom_data_option_7": {
+      "message": "Serviceskript"
+   },
+   "browsing_cleanup_custom_data_option_7_tooltip": {
+      "message": "Filer som hjälper webbplatser och webbappar att fungera smidigt, även när du är offline. Om du tar bort dessa data kan funktioner som offlineåtkomst, bakgrundssynkronisering och aviseringar att påverkas, men de flesta webbplatser kommer fortfarande att fungera som vanligt."
+   },
+   "browsing_cleanup_data_btns_header": {
+      "message": "Typ av data"
+   },
+   "browsing_cleanup_header": {
+      "message": "Webbläsarrensning"
+   },
+   "browsing_cleanup_header_text": {
+      "message": "Ta bort webbläsningsinformation eller konfigurera regelbundna rensningar. Fortsätt vara inloggad på utvalda webbplatser genom \u003Cspan>att lägga till dem i en lista.\u003C/span>"
+   },
+   "browsing_cleanup_private_data_btn": {
+      "message": "Privat"
+   },
+   "browsing_cleanup_private_data_description": {
+      "message": "Privat datatyp inkluderar din webbläsarhistorik, nedladdningshistorik, cookies och webbplatsdata, autofylldata för formulär och serviceskript."
+   },
+   "browsing_cleanup_select_form_option_0": {
+      "message": "Alla tider"
+   },
+   "browsing_cleanup_select_form_option_1": {
+      "message": "Den här webbläsningssessionen"
+   },
+   "browsing_cleanup_select_form_option_2": {
+      "message": "Senaste timmen"
+   },
+   "browsing_cleanup_select_form_option_3": {
+      "message": "Senaste 24 timmarna"
+   },
+   "browsing_cleanup_select_form_option_4": {
+      "message": "Senaste 7 dagarna"
+   },
+   "browsing_cleanup_select_form_option_5": {
+      "message": "Senaste 4 veckorna"
+   },
+   "browsing_cleanup_select_form_placeholder": {
+      "message": "Välj tidsintervall"
+   },
+   "browsing_one_time_cleanup_delete_btn": {
+      "message": "Ta bort data"
+   },
+   "browsing_one_time_cleanup_delete_btn_deleted_text": {
+      "message": "Borttagen"
+   },
+   "browsing_one_time_cleanup_delete_btn_deleting_text": {
+      "message": "Borttagning"
+   },
+   "browsing_one_time_cleanup_select_form_title": {
+      "message": "Tidsintervall"
+   },
+   "browsing_one_time_cleanup_tab_header": {
+      "message": "Engångsrensning"
+   },
+   "browsing_regular_cleanup_btn": {
+      "message": "Spara och kör rensning"
+   },
+   "browsing_regular_cleanup_btn_coplete": {
+      "message": "Rensningen är klar"
+   },
+   "browsing_regular_cleanup_btn_disabled": {
+      "message": "Spara rensning"
+   },
+   "browsing_regular_cleanup_btn_processing": {
+      "message": "Sparar och rensar"
+   },
+   "browsing_regular_cleanup_btn_schedule": {
+      "message": "Schemalägg rensning"
+   },
+   "browsing_regular_cleanup_func_change_setting_link": {
+      "message": "Ändra inställningar för regelbunden rensning"
+   },
+   "browsing_regular_cleanup_func_disabled": {
+      "message": "När du har aktiverat regelbunden rensning ställer du in önskad tid och frekvens."
+   },
+   "browsing_regular_cleanup_func_header": {
+      "message": "Regelbunden rensning"
+   },
+   "browsing_regular_cleanup_func_next_session_cleanup": {
+      "message": "Nästa rensning startar automatiskt nästa gång du öppnar din webbläsare."
+   },
+   "browsing_regular_cleanup_func_next_time_cleanup": {
+      "message": "Nästa rensning är planerad %DATE% kl %TIME%."
+   },
+   "browsing_regular_cleanup_func_not_set": {
+      "message": "Du har inte ställt in regelbunden rensning ännu."
+   },
+   "browsing_regular_cleanup_func_set_up_settings_link": {
+      "message": "Ställ in regelbunden rensning"
+   },
+   "browsing_regular_cleanup_header": {
+      "message": "Inställningar för regelbunden rensning"
+   },
+   "browsing_regular_cleanup_header_description": {
+      "message": "Välj rensningsfrekvens och vilka typer av data som ska inkluderas."
+   },
+   "browsing_regular_cleanup_select_form_option_1": {
+      "message": "En gång per webbläsarsession"
+   },
+   "browsing_regular_cleanup_select_form_option_2": {
+      "message": "En gång i timmen"
+   },
+   "browsing_regular_cleanup_select_form_option_3": {
+      "message": "En gång var 24:e timme"
+   },
+   "browsing_regular_cleanup_select_form_option_4": {
+      "message": "En gång var 7:e dag"
+   },
+   "browsing_regular_cleanup_select_form_option_5": {
+      "message": "En gång var 4:e vecka"
+   },
+   "browsing_regular_cleanup_select_form_placeholder": {
+      "message": "Välj frekvens"
+   },
+   "browsing_regular_cleanup_select_form_title": {
+      "message": "Rensningsfrekvens"
+   },
+   "close_icon_alt": {
+      "message": "Ikonen Stäng"
+   },
+   "data_collection_consent_dialog_agree_button": {
+      "message": "Godkänn och fortsätt"
+   },
+   "data_collection_consent_dialog_decline_button": {
+      "message": "Avvisa och stäng den här fliken"
+   },
+   "data_collection_consent_dialog_description_1": {
+      "message": "För att ge fullständigt skydd behöver ESET Webbläsarsekretess och säkerhet-tillägget ditt samtycke för att skicka data som samlas in till ESET-programmet på din enhet. Detta inkluderar information om de webbplatser du besöker, till exempel deras webbadresser (URL:er), innehåll och relaterade data."
+   },
+   "data_collection_consent_dialog_description_2": {
+      "message": "De uppgifter vi behandlar används för att upptäcka bedrägerier, nätfiske och andra hot och krävs för funktioner som Website Security Inspector. Det mesta av bearbetningen sker lokalt på din enhet, men vissa misstänkta webbadresser och webbplatsinnehåll kan skickas till vår server för avancerad hotkontroll. Om du avböjer kommer vissa funktioner att inaktiveras, men resten av tillägget kommer fortfarande att fungera."
+   },
+   "data_collection_consent_dialog_description_3": {
+      "message": "Beroende på dina inställningar i ESET-programmet kan vi även samla in anonymiserade användningsdata från tillägget för att förbättra prestandan. Du kan hantera dessa inställningar i programmet."
+   },
+   "data_collection_consent_dialog_footer": {
+      "message": "För mer information om hur vi behandlar och hanterar dina uppgifter, besök vår \u003Cspan class=\"privacy-policy-link\">sekretesspolicy\u003C/span>."
+   },
+   "data_collection_consent_dialog_title": {
+      "message": "Vi behöver ditt samtycke för att helt skydda din surfning"
+   },
+   "direction": {
+      "message": "ltr"
+   },
+   "eset_logo_alt": {
+      "message": "ESET-logotyp"
+   },
+   "eula_link": {
+      "message": "Licensavtal för slutanvändare"
+   },
+   "extension_description": {
+      "message": "Njut av utökat webbläsarskydd med ESET Webbläsarsekretess och säkerhet."
+   },
+   "help_support_menu_item": {
+      "message": "Hjälp och support"
+   },
+   "info_icon_alt": {
+      "message": "Ikon för information"
+   },
+   "info_page_allow_access_button": {
+      "message": "Tillåt åtkomst"
+   },
+   "info_page_footer": {
+      "message": "© 1992–%YEAR% ESET, spol. s r.o. – Med ensamrätt. Varumärken som används är varumärken eller registrerade varumärken ägda av ESET, spol. s r.o. eller ESET North America. Alla övriga namn och märken är registrerade varumärken ägda av sina respektive företag."
+   },
+   "learn_more_link": {
+      "message": "Läs mer"
+   },
+   "metadata_cleaner_func_description": {
+      "message": "Rensa metadata varje gång du laddar upp en bild."
+   },
+   "metadata_cleaner_func_header": {
+      "message": "Rensa data från dina filer"
+   },
+   "metadata_cleaner_header": {
+      "message": "Metadatarensning"
+   },
+   "metadata_cleaner_subheader": {
+      "message": "Ta bort metadata med privat information när du delar filer online."
+   },
+   "metadata_notifications_func_header": {
+      "message": "Visa meddelanden efter rensning"
+   },
+   "metadata_notifications_func_subheader": {
+      "message": "Få meddelanden i webbläsaren."
+   },
+   "metadata_warning_status_icon_alt": {
+      "message": "Varningsikon för metadatastatus"
+   },
+   "notification_message_text": {
+      "message": "Uppladdade filmetadata rensade:"
+   },
+   "overview_menu_item": {
+      "message": "Översikt"
+   },
+   "privacy_policy_link": {
+      "message": "Sekretesspolicy"
+   },
+   "product_name": {
+      "message": "WEBBLÄSARSEKRETESS OCH SÄKERHET"
+   },
+   "product_title": {
+      "message": "ESET Webbläsarsekretess och säkerhet"
+   },
+   "product_version": {
+      "message": "Version:"
+   },
+   "progress_logo_alt": {
+      "message": "Logotyp: Progress. Protected."
+   },
+   "scan_search_result_func_description": {
+      "message": "Skanna sökresultat för att se vilka som är säkra att klicka på."
+   },
+   "scan_search_result_func_header": {
+      "message": "Skanna sökresultat"
+   },
+   "secure_search_green_popup_text": {
+      "message": "Denna webbplats är säker"
+   },
+   "secure_search_header": {
+      "message": "Säker sökning"
+   },
+   "secure_search_red_popup_text": {
+      "message": "Denna webbplats är inte säker"
+   },
+   "secure_search_subheader": {
+      "message": "Se vilka sökresultat som är säkra att öppna."
+   },
+   "secure_search_yellow_popup_text": {
+      "message": "Potentiellt oönskat innehåll hittades"
+   },
+   "settings_page_appearance_dark_mode": {
+      "message": "Mörkt"
+   },
+   "settings_page_appearance_description": {
+      "message": "Anpassa gränssnittets färg efter dina önskemål. Du kan välja mellan en ljus eller mörk färg."
+   },
+   "settings_page_appearance_header": {
+      "message": "Utseende"
+   },
+   "settings_page_appearance_light_mode": {
+      "message": "Ljus"
+   },
+   "settings_page_appearance_subheader": {
+      "message": "Färgläge"
+   },
+   "settings_page_browser_cleanup_active_tabs_text": {
+      "message": "Föreslagna domäner baserat på de flikar du för närvarande har öppna i din webbläsare. Om du inte ser alla öppna flikar i listan nedan \u003Cspan class=\"refresh-list\">ska du uppdatera listan.\u003C/span>"
+   },
+   "settings_page_browser_cleanup_add_btn_text": {
+      "message": "Lägg till"
+   },
+   "settings_page_browser_cleanup_checkbox_text": {
+      "message": "Behåll nuvarande webbläsningssession för öppna flikar efter rensning"
+   },
+   "settings_page_browser_cleanup_description": {
+      "message": "Lägg till webbplatser som du vill godkänna cookies ifrån och förbli inloggad på även efter webbläsarrensning."
+   },
+   "settings_page_browser_cleanup_input_placeholder_text": {
+      "message": "Ange en webbadress som du vill lägga till"
+   },
+   "settings_page_browser_cleanup_minus_img_alt": {
+      "message": "Minus"
+   },
+   "settings_page_browser_cleanup_plus_img_alt": {
+      "message": "Plus"
+   },
+   "settings_page_browser_cleanup_subheader": {
+      "message": "Avancerade cookieinställningar"
+   },
+   "settings_page_not_valid_url_warning": {
+      "message": "*Det här ser inte ut som en giltig webbadress."
+   },
+   "settings_page_website_settings_allow_text": {
+      "message": "Tillåt"
+   },
+   "settings_page_website_settings_allowed_text": {
+      "message": "Tillåtet"
+   },
+   "settings_page_website_settings_block_text": {
+      "message": "Blockera"
+   },
+   "settings_page_website_settings_blocked_text": {
+      "message": "Blockerade"
+   },
+   "settings_page_website_settings_camera_section_description": {
+      "message": "Granska vilka webbplatser som kan begära att få använda kameran."
+   },
+   "settings_page_website_settings_camera_section_header": {
+      "message": "Kamera"
+   },
+   "settings_page_website_settings_chrome_extension_info_text": {
+      "message": "Vi kan inte ändra inställningarna för webbläsartillägg. Om du vill justera inställningarna för ett specifikt webbläsartillägg går du till avsnittet \u003Cspan class=\"browser-site-permissions-link\">Sekretess och säkerhet\u003C/span> i webbläsaren"
+   },
+   "settings_page_website_settings_description": {
+      "message": "Få enkel åtkomst till och hantera webbplatsbehörigheter för att kontrollera vilken information webbplatser får använda."
+   },
+   "settings_page_website_settings_edge_extension_info_text": {
+      "message": "Vi kan inte ändra inställningarna för webbläsartillägg. Om du vill justera inställningarna för ett specifikt webbläsartillägg går du till \u003Cspan class=\"browser-site-permissions-link\">avsnittet Cookies och webbplatsbehörigheter\u003C/span> i din webbläsare"
+   },
+   "settings_page_website_settings_header": {
+      "message": "Granskning av webbplatsinställningar"
+   },
+   "settings_page_website_settings_location_section_description": {
+      "message": "Granska vilka webbplatser som kan fråga efter din plats."
+   },
+   "settings_page_website_settings_location_section_header": {
+      "message": "Plats"
+   },
+   "settings_page_website_settings_mic_section_description": {
+      "message": "Granska vilka webbplatser som kan begära att få använda din mikrofon."
+   },
+   "settings_page_website_settings_mic_section_header": {
+      "message": "Mikrofon"
+   },
+   "settings_page_website_settings_notif_section_description": {
+      "message": "Granska vilka webbplatser som får be om att få skicka meddelanden."
+   },
+   "settings_page_website_settings_notif_section_header": {
+      "message": "Meddelanden"
+   },
+   "settings_page_website_settings_reset_to_allow_text": {
+      "message": "Återställ för att tillåta"
+   },
+   "settings_page_website_settings_reset_to_block_text": {
+      "message": "Återställ för att blockera"
+   },
+   "setup_btn": {
+      "message": "KONFIGURERA"
+   },
+   "summary_metadata_stats_text": {
+      "message": "Ta bort metadata med privat information."
+   },
+   "summary_ok_header": {
+      "message": "Din webbläsning är skyddad"
+   },
+   "summary_privacy_stats_text": {
+      "message": "Ta bort dina webbläsningsdata."
+   },
+   "summary_restart_header": {
+      "message": "Webbläsaren behöver startas om"
+   },
+   "summary_search_stats_text": {
+      "message": "Kontrollera säkerheten för sökresultaten."
+   },
+   "summary_website_setting_header": {
+      "message": "Granskning av webbplatsinställningar"
+   },
+   "summary_website_setting_text": {
+      "message": "Hantera webbplatsbehörigheter."
+   },
+   "website_security_inspector_description": {
+      "message": "Skydda dig mot bedrägerier och säkerhetshot på webben genom att skanna de webbplatser du besöker."
+   },
+   "website_security_inspector_scan_func_description": {
+      "message": "Skanna webbplatser efter hot i samma stund som de laddas."
+   },
+   "website_security_inspector_scan_func_header": {
+      "message": "Hotkontroll för webbplats"
+   },
+   "website_security_inspector_setup_all_set_info": {
+      "message": "\u003Cspan class=\"highlighted\">ESET Webbläsarsekretess och säkerhet-tillägget\u003C/span> är nu aktivt och skyddar din surfning. Du kan hantera dess funktioner när som helst i inställningarna."
+   },
+   "website_security_inspector_setup_all_set_title": {
+      "message": "Du är redo"
+   },
+   "website_security_inspector_setup_allow_access_section_description_1": {
+      "message": "Vissa säkerhetsfunktioner behöver ytterligare behörighet för att komma åt de webbplatser du besöker, inklusive deras webbadresser (URL:er) och innehåll. Dessa uppgifter krävs för att upptäcka bedrägerier, nätfiske och andra hot i realtid och delas aldrig med tredje part."
+   },
+   "website_security_inspector_setup_allow_access_section_description_2": {
+      "message": "Du kan hantera den här behörigheten när som helst i tilläggsinställningarna."
+   },
+   "website_security_inspector_setup_almost_done_info": {
+      "message": "Du har aktiverat \u003Cspan class=\"highlighted\">ESET Webbläsarsekretess och säkerhet-tillägget\u003C/span>."
+   },
+   "website_security_inspector_setup_almost_done_subtitle": {
+      "message": "Slutför aktiveringen av alla säkerhetsfunktioner"
+   },
+   "website_security_inspector_setup_almost_done_title": {
+      "message": "Du är nästan klar"
+   },
+   "website_security_inspector_summary": {
+      "message": "Skydda dig mot bedrägerier och säkerhetshot på webben."
+   },
+   "website_security_inspector_title": {
+      "message": "Website Security Inspector"
+   },
+   "welcome_page_ai_conversation_security_tile_text": {
+      "message": "Kontrollera svar från ChatGPT för potentiellt skadligt innehåll innan du använder dem. Fler plattformar kommer snart."
+   },
+   "welcome_page_allow_access_section_description": {
+      "message": "Vissa funktioner kräver tillstånd för att komma åt de webbplatser du besöker. Data om din webbaktivitet bearbetas lokalt på enheten – endast potentiellt skadliga URL:er och telemetri kan skickas till ESET för att stödja forskning om aktuella cybersäkerhetshot och för att förbättra våra tjänster, om du har aktiverat datadelning i ditt ESET-säkerhetsprogram. Du kan uppdatera den här behörigheten när som helst i tilläggsinställningarna."
+   },
+   "welcome_page_allow_access_section_title": {
+      "message": "Tillåt åtkomst för fullständigt skydd"
+   },
+   "welcome_page_browser_cleanup_tile_text": {
+      "message": "Ta bort webbläsningsdata eller konfigurera en regelbunden rensning."
+   },
+   "welcome_page_chrome_info_tile_text": {
+      "message": "Behåll tillägget synligt genom att klicka på tilläggsikonen ovan och fästa den i webbläsaren för enkel åtkomst."
+   },
+   "welcome_page_edge_info_tile_text": {
+      "message": "Behåll tillägget synligt genom att klicka på tilläggsikonen ovan och lägga till den i webbläsarens verktygsfält för enkel åtkomst."
+   },
+   "welcome_page_header_text": {
+      "message": "Tack för att du aktiverar \u003Cspan class=\"highlighted\">tillägget ESET Webbläsarsekretess och säkerhet\u003C/span> i din webbläsare"
+   },
+   "welcome_page_main_content_title": {
+      "message": "Utforska funktionerna som gör att du surfar säkert"
+   },
+   "welcome_page_metadata_cleanup_tile_header": {
+      "message": "Metadatarensning*"
+   },
+   "welcome_page_metadata_cleanup_tile_text": {
+      "message": "Ta bort privat information från filer när du delar dem online."
+   },
+   "welcome_page_pin_icon_alt": {
+      "message": "Ikon för nål"
+   },
+   "welcome_page_plugin_icon_alt": {
+      "message": "Ikon för plugin-program"
+   },
+   "welcome_page_right_arrow_icon_alt": {
+      "message": "Ikon för högerpil"
+   },
+   "welcome_page_secure_search_tile_text": {
+      "message": "Kontrollera säkerheten för sökresultaten innan du öppnar dem."
+   },
+   "welcome_page_subheader": {
+      "message": "Få en säkrare webbläsningsupplevelse genom att klicka på tilläggsikonen bredvid adressfältet. I vissa webbläsare kan den vara dold på webbläsarmenyn."
+   },
+   "welcome_page_ultime_feature": {
+      "message": "*Tillgängligt i ESET HOME Security Ultimate"
+   },
+   "welcome_page_website_security_inspector_tile_text": {
+      "message": "Genomsök webbplatser efter bedrägerier och säkerhetshot när du surfar."
+   },
+   "welcome_page_website_settings_tile_header": {
+      "message": "Granskning av webbplatsinställningar*"
+   },
+   "welcome_page_website_settings_tile_text": {
+      "message": "Kontrollera webbplatsbehörigheter för meddelanden, plats, kamera och mikrofon."
+   },
+   "whats_new_page_allow_access_section_description": {
+      "message": "Den här funktionen kräver tillstånd för att få tillgång till de webbplatser du besöker. Data om din webbaktivitet bearbetas lokalt på enheten – endast potentiellt skadliga URL:er och telemetri kan skickas till ESET för att stödja forskning om aktuella cybersäkerhetshot och för att förbättra våra tjänster, om du har aktiverat datadelning i ditt ESET-säkerhetsprogram. Du kan uppdatera den här behörigheten när som helst i tilläggsinställningarna."
+   },
+   "whats_new_page_allow_access_section_title": {
+      "message": "Tillåt åtkomst för AI-konversationssäkerhet"
+   },
+   "whats_new_page_description": {
+      "message": "AI-konversationssäkerhet skannar alla svar från ChatGPT efter innehåll som refererar till potentiellt opålitliga eller osäkra källor samt efter skadlig kod. Den körs automatiskt så din surfning förblir oavbruten.\u003Cbr/>\u003Cbr/>Genomsökningen sker lokalt på enheten. Vi skickar eller delar inte information om din webbaktivitet till ESET – endast potentiellt skadliga URL:er och telemetri kan skickas för att förbättra vår produkt.\u003Cbr/>\u003Cbr/>Stöd för ytterligare AI-plattformar kommer snart."
+   },
+   "whats_new_page_header": {
+      "message": "\u003Cspan class=\"highlighted\">Nyheter\u003C/span>"
+   },
+   "whats_new_page_image_alt": {
+      "message": "Illustration av ESET:s funktion AI-konversationssäkerhet som visar två chattbubblor som representerar en konversation med en AI-chatbot, med en taggad URL markerad i rött inuti ett av svaren, vilket indikerar en osäker länk upptäckt under genomsökningen."
+   },
+   "whats_new_page_subheader": {
+      "message": "Utforska de senaste uppdateringarna och förbättringarna av \u003Cspan class=\"highlighted\">tillägget ESET Webbläsarsekretess och säkerhet\u003C/span>."
+   },
+   "whats_new_page_title": {
+      "message": "Njut av säkrare ChatGPT-konversationer"
+   }
+}

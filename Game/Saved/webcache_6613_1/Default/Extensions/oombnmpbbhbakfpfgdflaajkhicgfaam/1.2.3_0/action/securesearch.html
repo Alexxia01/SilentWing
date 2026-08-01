@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="../constants.js"></script>
+	<script src="preload.js"></script>
+	<link type="text/css" rel="stylesheet" href="./css/popup.css">
+	<script defer src="../utils.js"></script>
+	<script defer src="localize.js"></script>
+	<script defer src="header.js"></script>
+	<script defer src="navigation.js"></script>
+	<script defer src="securesearch.js"></script>
+	<title>secure_search_header</title>
+</head>
+
+<body>
+	<div class="main-container">
+		<header id="popup-header"></header>
+
+		<div class="main-content">
+			<div id="popup-subheader">
+				<h3 class="localizable" data-i18n="secure_search_header"></h3>
+				<p class="localizable" data-i18n="secure_search_subheader"></p>
+			</div>
+			<div id="main-section">
+				<div class="flex-row feature-activation-section">
+					<div class="fl">
+						<h4 class="localizable" data-i18n="scan_search_result_func_header"></h4>
+						<div class="sub-text">
+							<p class="localizable" data-i18n="scan_search_result_func_description"></p>
+						</div>
+					</div>
+					<div class="fr">
+						<div class="box-center">
+							<label for="search-switch" class="switch">
+								<input type="checkbox" name="search" id="search-switch">
+								<span id="search-slider" class="slider round"></span>
+							</label>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="overlay"></div>
+</body>
+
+</html>

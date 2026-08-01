@@ -1,0 +1,608 @@
+{
+   "advanced_setup_menu_item": {
+      "message": "Uzstādīšana ar papildu opcijām"
+   },
+   "ai_conversation_security_description": {
+      "message": "Gādājiet par savu drošību, izmantojot ChatGPT. Mēs pārbaudām katru atbildi, lai atrastu atsauces uz potenciāli neuzticamiem vai nedrošiem avotiem un ļaunprātīgu kodu, pirms mijiedarbojaties ar to."
+   },
+   "ai_conversation_security_detection_result_bad": {
+      "message": "Šī atbilde atsaucas uz saturu no avota, kuru mēs identificējām kā nedrošu."
+   },
+   "ai_conversation_security_detection_result_bad_script": {
+      "message": "Šī atbilde satur nedrošu kodu. Tā palaišana var apdraudēt jūsu sistēmu vai datus."
+   },
+   "ai_conversation_security_detection_result_warning": {
+      "message": "Šī atbilde atsaucas uz saturu no avota, kuru mēs identificējām kā potenciāli neuzticamu."
+   },
+   "ai_conversation_security_header": {
+      "message": "MI sarunu drošība"
+   },
+   "ai_conversation_security_onboarding": {
+      "message": "\u003Cp class=\"onboarding-info\">Jūsu sarunas tagad ir aizsargātas. Mēs pārbaudām katru ChatGPT atbildi, lai atrastu atsauces uz potenciāli neuzticamiem vai nedrošiem avotiem un ļaunprātīgu kodu.\u003C/p>\u003Cp class=\"onboarding-info\">Šos iestatījumus varat pielāgot \u003Cspan class=\"extension-popup-link\">šeit\u003C/span>.\u003C/p>"
+   },
+   "ai_conversation_security_scan_func_description": {
+      "message": "Pirms MI atbilžu izmantošanas pārbaudiet tās, lai konstatētu iespējamus riskus."
+   },
+   "ai_conversation_security_scan_func_header": {
+      "message": "Sarunu pārbaudīšana"
+   },
+   "ai_conversation_security_summary": {
+      "message": "Pārbaudiet ChatGPT atbildes, lai konstatētu iespējamus riskus."
+   },
+   "alert_icon_alt": {
+      "message": "Brīdinājuma ikona"
+   },
+   "alert_page_connection_lost_btn": {
+      "message": "Mēģināt vēlreiz"
+   },
+   "alert_page_connection_lost_header": {
+      "message": "Savienojums zaudēts"
+   },
+   "alert_page_connection_lost_text": {
+      "message": "Ir zaudēts savienojums starp \u003Cspan class=\"product-info\">{%productname%}\u003C/span> un pārlūkprogrammas paplašinājumu. Pārbaudiet interneta savienojumu un mēģiniet vēlreiz. Ņemiet vērā, ka paplašinājums nedarbosies, ja nebūs instalēts \u003Cspan class=\"product-info\">{%productname%}\u003C/span>."
+   },
+   "alert_page_expired_license_btn": {
+      "message": "Atvērt \u003Cspan class=\"product-info\">{%productname%}\u003C/span> "
+   },
+   "alert_page_expired_license_header": {
+      "message": "Abonementa derīgums beidzies"
+   },
+   "alert_page_expired_license_text": {
+      "message": "Abonementa derīgums ir beidzies, un jūs vairs nevarat piekļūt ESET Pārlūkprogrammas konfidencialitātes un drošības paplašinājumam. Lai novērstu šo problēmu, atveriet \u003Cspan class=\"product-info\">{%productname%}\u003C/span> un izpildiet sniegtos norādījumus."
+   },
+   "alert_page_missing_product_header": {
+      "message": "Trūkst produkta"
+   },
+   "alert_page_missing_product_text_1": {
+      "message": "Pašlaik jūsu datorā nav instalēts neviens ESET produkts, kas atbalsta ESET pārlūkprogrammas konfidencialitātes un drošības paplašinājumu."
+   },
+   "alert_page_missing_product_text_2": {
+      "message": "Lai uzzinātu vairāk par paplašinājumu, atbalstītajiem ESET produktiem, atbalstītajām pārlūkiem un instalēšanu, skatiet mūsu \u003Cspan class=\"online-help-link\">tiešsaistes palīdzību.\u003C/span>"
+   },
+   "alert_page_unsupported_browser_header": {
+      "message": "Neatbalstīta pārlūkprogramma"
+   },
+   "alert_page_unsupported_browser_text_1": {
+      "message": "Šķiet, ka izmantojat pārlūkprogrammu, kuru mēs vēl neatbalstām. Lai izmantotu ESET pārlūkprogrammas konfidencialitātes un drošības paplašinājumu, instalējiet atbalstītu pārlūkprogrammu."
+   },
+   "alert_page_unsupported_browser_text_2": {
+      "message": "\u003Cspan class=\"supported-browsers-link\">Skatīt atbalstītās pārlūkprogrammas\u003C/span>"
+   },
+   "banner_ok_status_icon_alt": {
+      "message": "Statusa “Labi” reklāmkaroga ikona"
+   },
+   "banner_restart_status_icon_alt": {
+      "message": "Restartēšanas statusa reklāmkaroga ikona"
+   },
+   "blocking_page_description": {
+      "message": "Tīmekļa vietnes drošības inspektors \u003Cspan class=\"blocked-url-tooltip\">šajā lapā\u003C/span> ir atklājis potenciāli krāpniecisku vai kaitīgu saturu. Lai nodrošinātu aizsardzību, mēs iesakām no tās izvairīties."
+   },
+   "blocking_page_go_back_button": {
+      "message": "Atgriezties"
+   },
+   "blocking_page_head_title": {
+      "message": "Brīdinājums! – ESET pārlūkprogrammas konfidencialitāte un drošība"
+   },
+   "blocking_page_ignore_threat_button": {
+      "message": "Ignorēt apdraudējumu"
+   },
+   "blocking_page_options_title": {
+      "message": "Vai atgriezties iepriekšējā lapā?"
+   },
+   "blocking_page_title": {
+      "message": "Šī lapa var būt nedroša"
+   },
+   "browser_restart_needed_p": {
+      "message": "Lai šīs izmaiņas stātos spēkā, jārestartē dators."
+   },
+   "browsing_cleanup_custom_data_btn": {
+      "message": "Pielāgots"
+   },
+   "browsing_cleanup_custom_data_option_1": {
+      "message": "Pārlūkošanas vēsture"
+   },
+   "browsing_cleanup_custom_data_option_1_tooltip": {
+      "message": "Apmeklēto tīmekļa vietņu ieraksti, tostarp datumi un laiki. Dzēšot šos datus, no iekārtas tiks dzēsta jūsu tīmekļa darbību vēsture."
+   },
+   "browsing_cleanup_custom_data_option_2": {
+      "message": "Lejupielāžu vēsture"
+   },
+   "browsing_cleanup_custom_data_option_2_tooltip": {
+      "message": "Lejupielādēto failu saraksts. Dzēšot šos datus, tiks noņemts lejupielādēto failu ieraksts, bet ne paši faili."
+   },
+   "browsing_cleanup_custom_data_option_3": {
+      "message": "Sīkfaili un tīmekļa vietņu dati"
+   },
+   "browsing_cleanup_custom_data_option_3_tooltip": {
+      "message": "Nelieli faili, ko tīmekļa vietnes glabā, lai atcerētos jūsu preferences, pieteikšanās statusu un darbības. Ja dzēsīsiet sīkfailus, jūs var izrakstīt no tīmekļa vietnēm un atiestatīt jūsu preferences."
+   },
+   "browsing_cleanup_custom_data_option_4": {
+      "message": "Kešatmiņā saglabātie attēli un faili"
+   },
+   "browsing_cleanup_custom_data_option_4_tooltip": {
+      "message": "Pagaidu faili, kas palīdz ātrāk ielādēt tīmekļa vietnes, saglabājot to daļas jūsu iekārtā. Šo datu dzēšana sākotnēji var palēnināt lapu ielādi, taču jūs atbrīvosit vietu atmiņā."
+   },
+   "browsing_cleanup_custom_data_option_5": {
+      "message": "Paroles un pierakstīšanās dati"
+   },
+   "browsing_cleanup_custom_data_option_5_note": {
+      "message": "Neatgriezeniski tiks dzēsti visi iegaumētie lietotājvārdi un paroles."
+   },
+   "browsing_cleanup_custom_data_option_5_tooltip": {
+      "message": "Saglabātā vietņu pieteikšanās informācija, kas ļauj ātri pieteikties. Dzēšot šos datus, tiks neatgriezeniski noņemti visi iegaumētie lietotājvārdi un paroles, tāpēc rīkojieties piesardzīgi."
+   },
+   "browsing_cleanup_custom_data_option_6": {
+      "message": "Veidlapu automātiskās aizpildīšanas dati"
+   },
+   "browsing_cleanup_custom_data_option_6_tooltip": {
+      "message": "Veidlapās ievadītā informācija, piemēram, vārdi, adreses un kontaktinformācija, kas palīdz ātrāk aizpildīt veidlapas. Dzēšot šos datus, tiks noņemta jūsu saglabātā informācija."
+   },
+   "browsing_cleanup_custom_data_option_7": {
+      "message": "Pakalpojumskripti"
+   },
+   "browsing_cleanup_custom_data_option_7_tooltip": {
+      "message": "Faili, kas palīdz tīmekļa vietnēm un tīmekļa programmām darboties nevainojami, pat ja esat bezsaistē. Šo datu dzēšana var ietekmēt tādus līdzekļus kā bezsaistes piekļuve, sinhronizācija fonā un paziņojumi, taču lielākā daļa vietņu joprojām darbosies kā parasti."
+   },
+   "browsing_cleanup_data_btns_header": {
+      "message": "Datu veids"
+   },
+   "browsing_cleanup_header": {
+      "message": "Pārlūkprogrammas tīrīšana"
+   },
+   "browsing_cleanup_header_text": {
+      "message": "Dzēsiet pārlūkošanas datus vai iestatiet regulāru tīrīšanu. Varat palikt pieteicies noteiktās vietnēs, \u003Cspan>pievienojot tās sarakstam.\u003C/span>"
+   },
+   "browsing_cleanup_private_data_btn": {
+      "message": "Privāts"
+   },
+   "browsing_cleanup_private_data_description": {
+      "message": "Privātie dati ietver jūsu pārlūkošanas vēsturi, lejupielāžu vēsturi, sīkfailus un tīmekļa vietņu datus, veidlapu automātiskās aizpildīšanas datus un pakalpojumskriptus."
+   },
+   "browsing_cleanup_select_form_option_0": {
+      "message": "Visu laiku"
+   },
+   "browsing_cleanup_select_form_option_1": {
+      "message": "Šajā pārlūkošanas sesijā"
+   },
+   "browsing_cleanup_select_form_option_2": {
+      "message": "Pēdējā stunda"
+   },
+   "browsing_cleanup_select_form_option_3": {
+      "message": "Pēdējās 24 stundas"
+   },
+   "browsing_cleanup_select_form_option_4": {
+      "message": "Pēdējās 7 dienas"
+   },
+   "browsing_cleanup_select_form_option_5": {
+      "message": "Pēdējās 4 nedēļas"
+   },
+   "browsing_cleanup_select_form_placeholder": {
+      "message": "Atlasiet laika diapazonu"
+   },
+   "browsing_one_time_cleanup_delete_btn": {
+      "message": "Dzēst datus"
+   },
+   "browsing_one_time_cleanup_delete_btn_deleted_text": {
+      "message": "Izdzēsts"
+   },
+   "browsing_one_time_cleanup_delete_btn_deleting_text": {
+      "message": "Dzēšana"
+   },
+   "browsing_one_time_cleanup_select_form_title": {
+      "message": "Laika diapazons"
+   },
+   "browsing_one_time_cleanup_tab_header": {
+      "message": "Vienreizēja tīrīšana"
+   },
+   "browsing_regular_cleanup_btn": {
+      "message": "Saglabāt un palaist tīrīšanu"
+   },
+   "browsing_regular_cleanup_btn_coplete": {
+      "message": "Tīrīšana pabeigta"
+   },
+   "browsing_regular_cleanup_btn_disabled": {
+      "message": "Saglabāt tīrīšanu"
+   },
+   "browsing_regular_cleanup_btn_processing": {
+      "message": "Saglabā un veic tīrīšanu"
+   },
+   "browsing_regular_cleanup_btn_schedule": {
+      "message": "Ieplānot tīrīšanu"
+   },
+   "browsing_regular_cleanup_func_change_setting_link": {
+      "message": "Regulārās tīrīšanas iestatījumu maiņa"
+   },
+   "browsing_regular_cleanup_func_disabled": {
+      "message": "Kad iespējota regulārā tīrīšana, iestatiet vēlamo laiku un biežumu."
+   },
+   "browsing_regular_cleanup_func_header": {
+      "message": "Regulāra tīrīšana"
+   },
+   "browsing_regular_cleanup_func_next_session_cleanup": {
+      "message": "Nākamā tīrīšana tiks automātiski sākta nākamajā reizē, kad atvērsit pārlūku."
+   },
+   "browsing_regular_cleanup_func_next_time_cleanup": {
+      "message": "Nākamā paredzētā tīrīšana: %DATE%, plkst. %TIME%."
+   },
+   "browsing_regular_cleanup_func_not_set": {
+      "message": "Regulārā tīrīšana vēl nav iestatīta."
+   },
+   "browsing_regular_cleanup_func_set_up_settings_link": {
+      "message": "Iestatīt regulāro tīrīšanu"
+   },
+   "browsing_regular_cleanup_header": {
+      "message": "Regulārās tīrīšanas iestatījumi"
+   },
+   "browsing_regular_cleanup_header_description": {
+      "message": "Atlasiet tīrīšanas biežumu un iekļauto datu veidus."
+   },
+   "browsing_regular_cleanup_select_form_option_1": {
+      "message": "Reizi pārlūka izmantošanas sesijas laikā"
+   },
+   "browsing_regular_cleanup_select_form_option_2": {
+      "message": "Reizi stundā"
+   },
+   "browsing_regular_cleanup_select_form_option_3": {
+      "message": "Reizi 24 stundās"
+   },
+   "browsing_regular_cleanup_select_form_option_4": {
+      "message": "Reizi 7 dienās"
+   },
+   "browsing_regular_cleanup_select_form_option_5": {
+      "message": "Reizi 4 nedēļās"
+   },
+   "browsing_regular_cleanup_select_form_placeholder": {
+      "message": "Atlasiet biežumu"
+   },
+   "browsing_regular_cleanup_select_form_title": {
+      "message": "Tīrīšanas biežums"
+   },
+   "close_icon_alt": {
+      "message": "Aizvēršanas ikona"
+   },
+   "data_collection_consent_dialog_agree_button": {
+      "message": "Piekrist un turpināt"
+   },
+   "data_collection_consent_dialog_decline_button": {
+      "message": "Noraidīt un aizvērt šo cilni"
+   },
+   "data_collection_consent_dialog_description_1": {
+      "message": "Lai nodrošinātu pilnīgu aizsardzību, ESET Pārlūkprogrammas konfidencialitātes un drošības paplašinājumam ir nepieciešama jūsu piekrišana, lai nosūtītu apkopotos datus uz ESET lietotni jūsu iekārtā. Tas ietver informāciju par apmeklētajām vietnēm, piemēram, to tīmekļa adreses (URL), saturu un saistītos datus."
+   },
+   "data_collection_consent_dialog_description_2": {
+      "message": "Mūsu apstrādātie dati tiek izmantoti, lai atklātu krāpniecību, pikšķerēšanu un citus apdraudējumus, un tie ir nepieciešami tādām funkcijām kā Tīmekļa vietnes drošības inspektors. Lielākā daļa apstrādes tiek veikta lokāli jūsu iekārtā, taču noteikti aizdomīgi URL un vietnes saturs var tikt nosūtīti uz mūsu serveri, lai uzlabotu apdraudējumu atklāšanu. Ja noraidīsiet, dažas funkcijas tiks atspējotas, bet pārējais paplašinājums joprojām darbosies."
+   },
+   "data_collection_consent_dialog_description_3": {
+      "message": "Atkarībā no jūsu iestatījumiem ESET lietotnē mēs varam arī apkopot anonimizētus lietojuma datus no paplašinājuma, lai uzlabotu veiktspēju. Šīs preferences varat pārvaldīt lietotnē."
+   },
+   "data_collection_consent_dialog_footer": {
+      "message": "Lai iegūtu plašāku informāciju par to, kā mēs apstrādājam un pārvaldām jūsu datus, skatiet mūsu \u003Cspan class=\"privacy-policy-link\">Privātuma politiku\u003C/span>."
+   },
+   "data_collection_consent_dialog_title": {
+      "message": "Lai pilnībā aizsargātu jūsu pārlūkošanu, mums ir nepieciešama jūsu piekrišana"
+   },
+   "direction": {
+      "message": "ltr"
+   },
+   "eset_logo_alt": {
+      "message": "ESET logotips"
+   },
+   "eula_link": {
+      "message": "Galalietotāja licences vienošanās"
+   },
+   "extension_description": {
+      "message": "Izmantojiet paplašinātu pārlūkprogrammas aizsardzību ar ESET pārlūkprogrammas konfidencialitāti un drošību."
+   },
+   "help_support_menu_item": {
+      "message": "Palīdzība un atbalsts"
+   },
+   "info_icon_alt": {
+      "message": "Informācijas ikona"
+   },
+   "info_page_allow_access_button": {
+      "message": "Atļaut piekļuvi"
+   },
+   "info_page_footer": {
+      "message": "© 1992 - %YEAR% ESET, spol. s r.o. - Visas tiesības paturētas. Šeit izmantotās preču zīmes ir ESET, spol. s r.o. vai ESET North America preču zīmes vai reģistrētas preču zīmes. Visi pārējie nosaukumi un zīmoli ir to atbilstošo uzņēmumu reģistrētas preču zīmes."
+   },
+   "learn_more_link": {
+      "message": "Papildinformācija"
+   },
+   "metadata_cleaner_func_description": {
+      "message": "Notīriet metadatus katru reizi, kad augšupielādējat attēlu."
+   },
+   "metadata_cleaner_func_header": {
+      "message": "Tīrīt datus no failiem"
+   },
+   "metadata_cleaner_header": {
+      "message": "Metadatu tīrīšana"
+   },
+   "metadata_cleaner_subheader": {
+      "message": "Koplietojot failus tiešsaistē, noņemiet metadatus, kas satur privātu informāciju."
+   },
+   "metadata_notifications_func_header": {
+      "message": "Rādīt paziņojumus pēc tīrīšanas"
+   },
+   "metadata_notifications_func_subheader": {
+      "message": "Saņemiet paziņojumus pārlūkprogrammā."
+   },
+   "metadata_warning_status_icon_alt": {
+      "message": "Metadatu statusa brīdinājuma ikona"
+   },
+   "notification_message_text": {
+      "message": "Augšupielādētā faila metadati ir notīrīti:"
+   },
+   "overview_menu_item": {
+      "message": "Pārskats"
+   },
+   "privacy_policy_link": {
+      "message": "Privātuma politika"
+   },
+   "product_name": {
+      "message": "PĀRLŪKPROGRAMMAS KONFIDENCIALITĀTE UN DROŠĪBA"
+   },
+   "product_title": {
+      "message": "ESET pārlūkprogrammas konfidencialitāte un drošība"
+   },
+   "product_version": {
+      "message": "Versija:"
+   },
+   "progress_logo_alt": {
+      "message": "Progress. Protected. logotips"
+   },
+   "scan_search_result_func_description": {
+      "message": "Pārbaudiet meklēšanas rezultātus, lai redzētu, uz kuriem ir droši klikšķināt."
+   },
+   "scan_search_result_func_header": {
+      "message": "Pārbaudīt meklēšanas rezultātus"
+   },
+   "secure_search_green_popup_text": {
+      "message": "Šī tīmekļa vietne ir droša"
+   },
+   "secure_search_header": {
+      "message": "Drošā meklēšana"
+   },
+   "secure_search_red_popup_text": {
+      "message": "Šī tīmekļa vietne nav droša"
+   },
+   "secure_search_subheader": {
+      "message": "Skatiet, kurus meklēšanas rezultātus var droši atvērt."
+   },
+   "secure_search_yellow_popup_text": {
+      "message": "Atrasts potenciāli nevēlams saturs"
+   },
+   "settings_page_appearance_dark_mode": {
+      "message": "Tumšs"
+   },
+   "settings_page_appearance_description": {
+      "message": "Pielāgojiet saskarnes krāsu savām vēlmēm. Varat izvēlēties starp gaišu vai tumšu krāsu."
+   },
+   "settings_page_appearance_header": {
+      "message": "Izskats"
+   },
+   "settings_page_appearance_light_mode": {
+      "message": "Gaišs"
+   },
+   "settings_page_appearance_subheader": {
+      "message": "Krāsu režīms"
+   },
+   "settings_page_browser_cleanup_active_tabs_text": {
+      "message": "Ieteicamie domēni, pamatojoties uz cilnēm, kas pašlaik ir atvērtas pārlūkprogrammā. Ja sarakstā tālāk neredzat visas pašlaik atvērtās cilnes, \u003Cspan class=\"refresh-list\">atsvaidziniet sarakstu.\u003C/span>"
+   },
+   "settings_page_browser_cleanup_add_btn_text": {
+      "message": "Pievienot"
+   },
+   "settings_page_browser_cleanup_checkbox_text": {
+      "message": "Paturēt pašreizējās pārlūkošanas sesijas atvērtās cilnes pēc tīrīšanas"
+   },
+   "settings_page_browser_cleanup_description": {
+      "message": "Pievienojiet tīmekļa vietnes, kurās vēlaties pieņemt sīkfailus un palikt pieteicies arī pēc pārlūkprogrammas tīrīšanas."
+   },
+   "settings_page_browser_cleanup_input_placeholder_text": {
+      "message": "Ievadiet vietrādi URL, kuru vēlaties pievienot"
+   },
+   "settings_page_browser_cleanup_minus_img_alt": {
+      "message": "Mīnus"
+   },
+   "settings_page_browser_cleanup_plus_img_alt": {
+      "message": "Pluss"
+   },
+   "settings_page_browser_cleanup_subheader": {
+      "message": "Sīkfailu papildu iestatījumi"
+   },
+   "settings_page_not_valid_url_warning": {
+      "message": "* Tas neizskatās pēc derīga vietrāža URL."
+   },
+   "settings_page_website_settings_allow_text": {
+      "message": "Atļaut"
+   },
+   "settings_page_website_settings_allowed_text": {
+      "message": "Atļauts"
+   },
+   "settings_page_website_settings_block_text": {
+      "message": "Bloķēt"
+   },
+   "settings_page_website_settings_blocked_text": {
+      "message": "Bloķēts"
+   },
+   "settings_page_website_settings_camera_section_description": {
+      "message": "Pārskatiet, kuras tīmekļa vietnes var lūgt izmantot jūsu kameru."
+   },
+   "settings_page_website_settings_camera_section_header": {
+      "message": "Kamera"
+   },
+   "settings_page_website_settings_chrome_extension_info_text": {
+      "message": "Mēs nevaram mainīt pārlūkprogrammas paplašinājumu iestatījumus. Lai pielāgotu konkrēta pārlūkprogrammas paplašinājuma iestatījumus, dodieties uz pārlūkprogrammas \u003Cspan class=\"browser-site-permissions-link\">sadaļu Konfidencialitāte un drošība\u003C/span>"
+   },
+   "settings_page_website_settings_description": {
+      "message": "Ērti piekļūstiet tīmekļa vietņu atļaujām un pārvaldiet tās, lai kontrolētu, kādu informāciju tīmekļa vietnes var izmantot."
+   },
+   "settings_page_website_settings_edge_extension_info_text": {
+      "message": "Mēs nevaram mainīt pārlūkprogrammas paplašinājumu iestatījumus. Lai pielāgotu konkrēta pārlūkprogrammas paplašinājuma iestatījumus, dodieties uz pārlūkprogrammas \u003Cspan class=\"browser-site-permissions-link\">sadaļu Sīkfaili un vietnes atļaujas\u003C/span>"
+   },
+   "settings_page_website_settings_header": {
+      "message": "Tīmekļa vietņu iestatījumu pārskatīšana"
+   },
+   "settings_page_website_settings_location_section_description": {
+      "message": "Pārskatiet, kuras tīmekļa vietnes var pieprasīt informāciju par jūsu atrašanās vietu."
+   },
+   "settings_page_website_settings_location_section_header": {
+      "message": "Atrašanās vieta:"
+   },
+   "settings_page_website_settings_mic_section_description": {
+      "message": "Pārskatiet, kuras tīmekļa vietnes var lūgt izmantot jūsu mikrofonu."
+   },
+   "settings_page_website_settings_mic_section_header": {
+      "message": "Mikrofons"
+   },
+   "settings_page_website_settings_notif_section_description": {
+      "message": "Pārskatiet, kuras vietnes var lūgt sūtīt paziņojumus."
+   },
+   "settings_page_website_settings_notif_section_header": {
+      "message": "Paziņojumi"
+   },
+   "settings_page_website_settings_reset_to_allow_text": {
+      "message": "Atiestatīt, lai atļautu"
+   },
+   "settings_page_website_settings_reset_to_block_text": {
+      "message": "Atiestatīt, lai bloķētu"
+   },
+   "setup_btn": {
+      "message": "IESTATĪT"
+   },
+   "summary_metadata_stats_text": {
+      "message": "Noņemiet metadatus, kuros ir privāta informācija."
+   },
+   "summary_ok_header": {
+      "message": "Pārlūkošana ir aizsargāta"
+   },
+   "summary_privacy_stats_text": {
+      "message": "Dzēsiet pārlūkošanas datus."
+   },
+   "summary_restart_header": {
+      "message": "Nepieciešams restartēt pārlūku"
+   },
+   "summary_search_stats_text": {
+      "message": "Pārbaudiet meklēšanas rezultātu drošību."
+   },
+   "summary_website_setting_header": {
+      "message": "Tīmekļa vietņu iestatījumu pārskatīšana"
+   },
+   "summary_website_setting_text": {
+      "message": "Pārvaldiet tīmekļa vietņu atļaujas."
+   },
+   "website_security_inspector_description": {
+      "message": "Pasargājiet savas pārlūkošanas darbības no krāpšanas un drošības apdraudējumiem, pārbaudot tīmekļa vietnes, kuras apmeklējat."
+   },
+   "website_security_inspector_scan_func_description": {
+      "message": "Tiklīdz tīmekļa vietnes tiek ielādētas, pārbaudiet, vai tās nesatur apdraudējumu."
+   },
+   "website_security_inspector_scan_func_header": {
+      "message": "Tīmekļa vietnes apdraudējuma atklāšana"
+   },
+   "website_security_inspector_setup_all_set_info": {
+      "message": "\u003Cspan class=\"highlighted\">ESET Pārlūkprogrammas konfidencialitātes un drošības paplašinājums\u003C/span> tagad ir aktīvs un aizsargā jūsu pārlūkošanu. Tā funkcijas jūs jebkurā laikā varat pārvaldīt iestatījumos."
+   },
+   "website_security_inspector_setup_all_set_title": {
+      "message": "Viss ir gatavs"
+   },
+   "website_security_inspector_setup_allow_access_section_description_1": {
+      "message": "Dažiem drošības līdzekļiem ir nepieciešama papildu atļauja, lai piekļūtu apmeklētajām vietnēm, tostarp to tīmekļa adresēm (URL) un saturam. Šie dati ir nepieciešami, lai reāllaikā atklātu krāpniecību, pikšķerēšanu un citus apdraudējumus, un tie nekad netiek kopīgoti ar trešajām pusēm."
+   },
+   "website_security_inspector_setup_allow_access_section_description_2": {
+      "message": "Šo atļauju jebkurā laikā varat pārvaldīt paplašinājuma iestatījumos."
+   },
+   "website_security_inspector_setup_almost_done_info": {
+      "message": "Jūs esat veiksmīgi iespējojis \u003Cspan class=\"highlighted\">ESET Pārlūkprogrammas konfidencialitātes un drošības paplašinājumu\u003C/span>."
+   },
+   "website_security_inspector_setup_almost_done_subtitle": {
+      "message": "Visu drošības līdzekļu iespējošanas pabeigšana"
+   },
+   "website_security_inspector_setup_almost_done_title": {
+      "message": "Gandrīz viss ir paveikts."
+   },
+   "website_security_inspector_summary": {
+      "message": "Pasargājiet savas pārlūkošanas darbības no krāpšanas un drošības apdraudējumiem."
+   },
+   "website_security_inspector_title": {
+      "message": "Tīmekļa vietnes drošības inspektors"
+   },
+   "welcome_page_ai_conversation_security_tile_text": {
+      "message": "Pirms ChatGPT atbilžu izmantošanas pārbaudiet, vai tajās nav kaitīga satura. Drīzumā būs pieejamas citas platformas."
+   },
+   "welcome_page_allow_access_section_description": {
+      "message": "Dažiem līdzekļiem ir nepieciešama atļauja piekļūt jūsu apmeklētajām vietnēm. Dati par jūsu darbībām tīmeklī tiek apstrādāti lokāli jūsu iekārtā — tikai potenciāli kaitīgi URL un telemetrija var tikt nosūtīti ESET, lai atbalstītu pašreizējo kiberdrošības apdraudējumu izpēti un uzlabotu mūsu pakalpojumus, ja ESET drošības lietotnē esat iespējojis datu koplietošanu. Šo atļauju jebkurā laikā varat atjaunināt paplašinājuma iestatījumos."
+   },
+   "welcome_page_allow_access_section_title": {
+      "message": "Atļaujiet piekļuvi, lai saņemtu pilnīgu aizsardzību"
+   },
+   "welcome_page_browser_cleanup_tile_text": {
+      "message": "Dzēsiet pārlūkošanas datus vai iestatiet regulāru tīrīšanu."
+   },
+   "welcome_page_chrome_info_tile_text": {
+      "message": "Lai saglabātu paplašinājumu redzamu, noklikšķiniet uz augstāk redzamās paplašinājuma ikonas un piespraudiet to pārlūkprogrammā ērtai piekļuvei."
+   },
+   "welcome_page_edge_info_tile_text": {
+      "message": "Lai saglabātu paplašinājumu redzamu, noklikšķiniet uz augstāk redzamās paplašinājuma ikonas un pievienojiet to pārlūkprogrammas rīkjoslai ērtai piekļuvei."
+   },
+   "welcome_page_header_text": {
+      "message": "Pateicamies, ka pārlūkprogrammā iespējojāt \u003Cspan class=\"highlighted\">ESET pārlūkprogrammas konfidencialitātes un drošības\u003C/span> paplašinājumu"
+   },
+   "welcome_page_main_content_title": {
+      "message": "Izpētiet līdzekļus, kas gādā par pārlūkošanas drošību"
+   },
+   "welcome_page_metadata_cleanup_tile_header": {
+      "message": "Metadatu tīrīšana*"
+   },
+   "welcome_page_metadata_cleanup_tile_text": {
+      "message": "Noņemiet no tiem visu privāto informāciju, kad kopīgojat tos tiešsaistē."
+   },
+   "welcome_page_pin_icon_alt": {
+      "message": "Piespraušanas ikona"
+   },
+   "welcome_page_plugin_icon_alt": {
+      "message": "Spraudņa ikona"
+   },
+   "welcome_page_right_arrow_icon_alt": {
+      "message": "Labās bultiņas ikona"
+   },
+   "welcome_page_secure_search_tile_text": {
+      "message": "Pirms meklēšanas rezultātu atvēršanas pārbaudiet to drošību."
+   },
+   "welcome_page_subheader": {
+      "message": "Lai padarītu pārlūkošanu drošāku, noklikšķiniet uz paplašinājuma ikonas blakus adreses joslai. Dažās pārlūkprogrammās tā var būt paslēpta pārlūkprogrammas izvēlnē."
+   },
+   "welcome_page_ultime_feature": {
+      "message": "*Pieejams versijā ESET HOME Security Ultimate"
+   },
+   "welcome_page_website_security_inspector_tile_text": {
+      "message": "Pārlūkošanas laikā pārbaudiet vietnes, lai atrastu krāpšanas un drošības apdraudējumus."
+   },
+   "welcome_page_website_settings_tile_header": {
+      "message": "Tīmekļa vietņu iestatījumu pārskatīšana*"
+   },
+   "welcome_page_website_settings_tile_text": {
+      "message": "Kontrolējiet tīmekļa vietnes atļaujas paziņojumiem, atrašanās vietas informācijai, kamerai un mikrofonam."
+   },
+   "whats_new_page_allow_access_section_description": {
+      "message": "Šim līdzeklim ir nepieciešama atļauja piekļūt jūsu apmeklētajām vietnēm. Dati par jūsu darbībām tīmeklī tiek apstrādāti lokāli jūsu iekārtā — tikai potenciāli kaitīgi URL un telemetrija var tikt nosūtīti ESET, lai atbalstītu pašreizējo kiberdrošības apdraudējumu izpēti un uzlabotu mūsu pakalpojumus, ja ESET drošības lietotnē esat iespējojis datu koplietošanu. Šo atļauju jebkurā laikā varat atjaunināt paplašinājuma iestatījumos."
+   },
+   "whats_new_page_allow_access_section_title": {
+      "message": "Atļaut piekļuvi AI Conversation Security"
+   },
+   "whats_new_page_description": {
+      "message": "AI Conversation Security pārbauda katru ChatGPT atbildi, lai atrastu saturu, kas atsaucas uz potenciāli neuzticamiem vai nedrošiem avotiem, kā arī ļaunprātīgu kodu. Tas darbojas automātiski, tāpēc pārlūkošana paliek nepārtraukta.\u003Cbr/>\u003Cbr/>Skenēšana notiek lokāli jūsu iekārtā. Mēs nesūtām un nekopīgojam informāciju par jūsu darbībām tīmeklī ESET — var tikt nosūtīti tikai potenciāli kaitīgi URL un telemetrija, lai palīdzētu uzlabot mūsu produktu.\u003Cbr/>\u003Cbr/>Drīzumā būs pieejams atbalsts arī citām MI platformām."
+   },
+   "whats_new_page_header": {
+      "message": "\u003Cspan class=\"highlighted\">Jaunumi\u003C/span>"
+   },
+   "whats_new_page_image_alt": {
+      "message": "ESET līdzekļa AI Conversation Security ilustrācija, kurā redzami divi tērzēšanas burbuļi, kas attēlo sarunu ar MI tērzēšanas robotu, un vienā no atbildēm sarkanā krāsā iezīmēts URL, kas norāda uz pārbaudes laikā atklātu nedrošu saiti."
+   },
+   "whats_new_page_subheader": {
+      "message": "Izpētiet jaunākos \u003Cspan class=\"highlighted\">ESET pārlūkprogrammas konfidencialitātes un drošības paplašinājuma\u003C/span> atjauninājumus un uzlabojumus."
+   },
+   "whats_new_page_title": {
+      "message": "Jūtieties drošāk, sarunājoties ar ChatGPT"
+   }
+}

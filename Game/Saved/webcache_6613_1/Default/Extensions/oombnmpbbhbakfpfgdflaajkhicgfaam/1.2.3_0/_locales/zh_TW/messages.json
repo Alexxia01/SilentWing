@@ -1,0 +1,608 @@
+{
+   "advanced_setup_menu_item": {
+      "message": "進階設定"
+   },
+   "ai_conversation_security_description": {
+      "message": "使用 ChatGPT 時更加安全。在您與其互動之前，我們會掃描每一則回應，檢查是否參考了潛在不可靠或不安全的來源，以及是否存在惡意程式碼。"
+   },
+   "ai_conversation_security_detection_result_bad": {
+      "message": "此回應參考了我們認為潛在不安全的來源。"
+   },
+   "ai_conversation_security_detection_result_bad_script": {
+      "message": "此回應包含不安全的程式碼。執行此程式碼可能會讓您的系統或資料存在風險。"
+   },
+   "ai_conversation_security_detection_result_warning": {
+      "message": "此回應參考了我們認為潛在不可靠的來源。"
+   },
+   "ai_conversation_security_header": {
+      "message": "AI 對話安全性"
+   },
+   "ai_conversation_security_onboarding": {
+      "message": "\u003Cp class=\"onboarding-info\">您的對話現已受保護。我們會掃描每一則 ChatGPT 回應，檢查是否參考了潛在不可靠或不安全的來源，以及是否存在惡意程式碼。\u003C/p>\u003Cp class=\"onboarding-info\">您可以在\u003Cspan class=\"extension-popup-link\">此處\u003C/span>調整這些設定。\u003C/p>"
+   },
+   "ai_conversation_security_scan_func_description": {
+      "message": "在使用 AI 的回應之前，請檢查其是否存在潛在風險。"
+   },
+   "ai_conversation_security_scan_func_header": {
+      "message": "對話掃描"
+   },
+   "ai_conversation_security_summary": {
+      "message": "檢查 ChatGPT 的回應是否有潛在風險。"
+   },
+   "alert_icon_alt": {
+      "message": "警示圖示"
+   },
+   "alert_page_connection_lost_btn": {
+      "message": "再試一次"
+   },
+   "alert_page_connection_lost_header": {
+      "message": "連線遺失"
+   },
+   "alert_page_connection_lost_text": {
+      "message": "\u003Cspan class=\"product-info\">{%productname%}\u003C/span> 與瀏覽器擴充功能之間的連線已遺失。請檢查您的網際網路連線，然後重試。請注意，如果未安裝 \u003Cspan class=\"product-info\">{%productname%}\u003C/span>，則該擴充功能將無法運作。"
+   },
+   "alert_page_expired_license_btn": {
+      "message": "開啟 \u003Cspan class=\"product-info\">{%productname%}\u003C/span> "
+   },
+   "alert_page_expired_license_header": {
+      "message": "訂閱已到期"
+   },
+   "alert_page_expired_license_text": {
+      "message": "您的訂閱已到期，您無法再存取 ESET 瀏覽器隱私權與安全性擴充功能。若要解決此問題，請開啟 \u003Cspan class=\"product-info\">{%productname%}\u003C/span> 並按照提供的說明進行操作。"
+   },
+   "alert_page_missing_product_header": {
+      "message": "缺少產品"
+   },
+   "alert_page_missing_product_text_1": {
+      "message": "您的電腦上目前沒有安裝支援 ESET 瀏覽器隱私權與安全性擴充功能的 ESET 產品。"
+   },
+   "alert_page_missing_product_text_2": {
+      "message": "若要深入了解擴充功能、支援的 ESET 產品、支援的瀏覽器和安裝，請造訪我們的\u003Cspan class=\"online-help-link\">線上說明。\u003C/span>"
+   },
+   "alert_page_unsupported_browser_header": {
+      "message": "不支援的瀏覽器"
+   },
+   "alert_page_unsupported_browser_text_1": {
+      "message": "我們似乎尚未支援您正在使用的瀏覽器。若要使用 ESET 瀏覽器隱私權與安全性擴充功能，請安裝支援的瀏覽器。"
+   },
+   "alert_page_unsupported_browser_text_2": {
+      "message": "\u003Cspan class=\"supported-browsers-link\">參閱支援的瀏覽器\u003C/span>"
+   },
+   "banner_ok_status_icon_alt": {
+      "message": "確定狀態橫幅圖示"
+   },
+   "banner_restart_status_icon_alt": {
+      "message": "重新啟動狀態橫幅圖示"
+   },
+   "blocking_page_description": {
+      "message": "網站安全性檢查在\u003Cspan class=\"blocked-url-tooltip\">此頁面\u003C/span>上偵測到潛在的詐欺或有害的內容。為了保持防護，我們建議避免這樣做。"
+   },
+   "blocking_page_go_back_button": {
+      "message": "返回"
+   },
+   "blocking_page_head_title": {
+      "message": "警告! - ESET 瀏覽器隱私權與安全性"
+   },
+   "blocking_page_ignore_threat_button": {
+      "message": "略過威脅"
+   },
+   "blocking_page_options_title": {
+      "message": "要返回上一頁嗎?"
+   },
+   "blocking_page_title": {
+      "message": "此頁面可能不安全"
+   },
+   "browser_restart_needed_p": {
+      "message": "需要重新啟動瀏覽器才能讓變更生效。"
+   },
+   "browsing_cleanup_custom_data_btn": {
+      "message": "自訂"
+   },
+   "browsing_cleanup_custom_data_option_1": {
+      "message": "瀏覽歷程"
+   },
+   "browsing_cleanup_custom_data_option_1_tooltip": {
+      "message": "您已造訪的網站記錄，包括日期和時間。刪除此資料將從您的裝置中消除您的網路活動歷程。"
+   },
+   "browsing_cleanup_custom_data_option_2": {
+      "message": "下載歷程"
+   },
+   "browsing_cleanup_custom_data_option_2_tooltip": {
+      "message": "您已下載的檔案清單。刪除此資料將移除已下載檔案的記錄，但不會移除檔案本身。"
+   },
+   "browsing_cleanup_custom_data_option_3": {
+      "message": "Cookie 和網站資料"
+   },
+   "browsing_cleanup_custom_data_option_3_tooltip": {
+      "message": "網站所儲存的小檔案，用於記住您的喜好設定、登入狀態和活動。刪除 Cookie 可能會讓您退出網站並重設您的喜好設定。"
+   },
+   "browsing_cleanup_custom_data_option_4": {
+      "message": "快取的映像和檔案"
+   },
+   "browsing_cleanup_custom_data_option_4_tooltip": {
+      "message": "臨時檔案透過將網站的部分內容儲存在您的裝置上來協助更快速的載入網站。刪除此資料最初可能會減慢頁面載入速度，但您可以釋放空間。"
+   },
+   "browsing_cleanup_custom_data_option_5": {
+      "message": "密碼和登入資料"
+   },
+   "browsing_cleanup_custom_data_option_5_note": {
+      "message": "這將永久刪除所有記住的使用者名稱和密碼。"
+   },
+   "browsing_cleanup_custom_data_option_5_tooltip": {
+      "message": "已儲存網站的登入資訊，以便快速登入。刪除此資料將永久移除所有記住的使用者名稱和密碼，因此請謹慎操作。"
+   },
+   "browsing_cleanup_custom_data_option_6": {
+      "message": "表單自動填滿資料"
+   },
+   "browsing_cleanup_custom_data_option_6_tooltip": {
+      "message": "您已在表單中輸入的資訊，例如姓名、地址和連絡方式，可以協助您更快速的填寫表單。刪除此資料將移除您已儲存的資訊。"
+   },
+   "browsing_cleanup_custom_data_option_7": {
+      "message": "服務程式"
+   },
+   "browsing_cleanup_custom_data_option_7_tooltip": {
+      "message": "即使在離線狀態下也能協助網站和 Web 應用程式順利執行的檔案。刪除這些資料可能會影響離線存取、後台同步和通知等功能，但大多數網站仍會照常運作。"
+   },
+   "browsing_cleanup_data_btns_header": {
+      "message": "資料類型"
+   },
+   "browsing_cleanup_header": {
+      "message": "瀏覽器清除"
+   },
+   "browsing_cleanup_header_text": {
+      "message": "刪除瀏覽資料或設定定期清除。藉由將所選網站\u003Cspan>新增到清單中\u003C/span>來保持登入狀態。"
+   },
+   "browsing_cleanup_private_data_btn": {
+      "message": "私人"
+   },
+   "browsing_cleanup_private_data_description": {
+      "message": "私人資料類型包括您的瀏覽歷程、下載歷程、Cookie 和網站資料、表單自動填滿資料和服務程式。"
+   },
+   "browsing_cleanup_select_form_option_0": {
+      "message": "所有時間"
+   },
+   "browsing_cleanup_select_form_option_1": {
+      "message": "此瀏覽工作階段"
+   },
+   "browsing_cleanup_select_form_option_2": {
+      "message": "過去一小時"
+   },
+   "browsing_cleanup_select_form_option_3": {
+      "message": "過去 24 小時"
+   },
+   "browsing_cleanup_select_form_option_4": {
+      "message": "過去 7 天"
+   },
+   "browsing_cleanup_select_form_option_5": {
+      "message": "過去 4 週"
+   },
+   "browsing_cleanup_select_form_placeholder": {
+      "message": "選取時間範圍"
+   },
+   "browsing_one_time_cleanup_delete_btn": {
+      "message": "刪除資料"
+   },
+   "browsing_one_time_cleanup_delete_btn_deleted_text": {
+      "message": "已刪除"
+   },
+   "browsing_one_time_cleanup_delete_btn_deleting_text": {
+      "message": "刪除中"
+   },
+   "browsing_one_time_cleanup_select_form_title": {
+      "message": "時間範圍"
+   },
+   "browsing_one_time_cleanup_tab_header": {
+      "message": "一次性清除"
+   },
+   "browsing_regular_cleanup_btn": {
+      "message": "儲存並執行清除"
+   },
+   "browsing_regular_cleanup_btn_coplete": {
+      "message": "清除完成"
+   },
+   "browsing_regular_cleanup_btn_disabled": {
+      "message": "儲存清除"
+   },
+   "browsing_regular_cleanup_btn_processing": {
+      "message": "儲存並清除"
+   },
+   "browsing_regular_cleanup_btn_schedule": {
+      "message": "排程清除"
+   },
+   "browsing_regular_cleanup_func_change_setting_link": {
+      "message": "變更定期清除設定"
+   },
+   "browsing_regular_cleanup_func_disabled": {
+      "message": "啟用定期清除之後，設定您偏好的時間和頻率。"
+   },
+   "browsing_regular_cleanup_func_header": {
+      "message": "定期清除"
+   },
+   "browsing_regular_cleanup_func_next_session_cleanup": {
+      "message": "下次清除將在您下次開啟瀏覽器時自動開始。"
+   },
+   "browsing_regular_cleanup_func_next_time_cleanup": {
+      "message": "下一次清除排程於 %DATE% %TIME% 進行。"
+   },
+   "browsing_regular_cleanup_func_not_set": {
+      "message": "您尚未設定定期清除。"
+   },
+   "browsing_regular_cleanup_func_set_up_settings_link": {
+      "message": "設定定期清除"
+   },
+   "browsing_regular_cleanup_header": {
+      "message": "定期清除設定"
+   },
+   "browsing_regular_cleanup_header_description": {
+      "message": "選取清除頻率和要包含的資料類型。"
+   },
+   "browsing_regular_cleanup_select_form_option_1": {
+      "message": "每個瀏覽器工作階段一次"
+   },
+   "browsing_regular_cleanup_select_form_option_2": {
+      "message": "每小時一次"
+   },
+   "browsing_regular_cleanup_select_form_option_3": {
+      "message": "每 24 小時一次"
+   },
+   "browsing_regular_cleanup_select_form_option_4": {
+      "message": "每 7 天一次"
+   },
+   "browsing_regular_cleanup_select_form_option_5": {
+      "message": "每 4 週一次"
+   },
+   "browsing_regular_cleanup_select_form_placeholder": {
+      "message": "選取頻率"
+   },
+   "browsing_regular_cleanup_select_form_title": {
+      "message": "清除頻率"
+   },
+   "close_icon_alt": {
+      "message": "關閉圖示"
+   },
+   "data_collection_consent_dialog_agree_button": {
+      "message": "同意並繼續"
+   },
+   "data_collection_consent_dialog_decline_button": {
+      "message": "拒絕並關閉此索引標籤"
+   },
+   "data_collection_consent_dialog_description_1": {
+      "message": "若要提供全面防護，ESET 瀏覽器隱私權與安全性擴充功能需要您的同意，才能將其收集的資料傳送到您裝置上的 ESET 應用程式。這包括您存取的網站資訊，例如其網址 (URL)、內容和相關資料。"
+   },
+   "data_collection_consent_dialog_description_2": {
+      "message": "我們處理的資料用於偵測詐騙、網路釣魚和其他威脅，並且是網站安全性檢查等功能所必需的。大多數的處理會在您的裝置上本機完成，但某些可疑的 URL 和網站內容可能會傳送到我們的伺服器進行進階威脅偵測。如果您拒絕的話，將會停用某些功能，但是擴充功能的其餘部分仍可正常運作。"
+   },
+   "data_collection_consent_dialog_description_3": {
+      "message": "根據您在 ESET 應用程式中的設定，我們還可能從擴充功能中收集匿名使用的資料以提高效能。您可以在應用程式中管理這些偏好設定。"
+   },
+   "data_collection_consent_dialog_footer": {
+      "message": "如需我們如何處理和管理您資料的詳細資訊，請造訪我們的\u003Cspan class=\"privacy-policy-link\">隱私權政策\u003C/span>。"
+   },
+   "data_collection_consent_dialog_title": {
+      "message": "我們需要您的同意才能充分保護您的瀏覽"
+   },
+   "direction": {
+      "message": "ltr"
+   },
+   "eset_logo_alt": {
+      "message": "ESET 標誌"
+   },
+   "eula_link": {
+      "message": "使用者授權合約"
+   },
+   "extension_description": {
+      "message": "透過「ESET 瀏覽器隱私權與安全性」享受擴展的瀏覽器防護。"
+   },
+   "help_support_menu_item": {
+      "message": "說明及支援"
+   },
+   "info_icon_alt": {
+      "message": "資訊圖示"
+   },
+   "info_page_allow_access_button": {
+      "message": "允許存取"
+   },
+   "info_page_footer": {
+      "message": "© 1992 - %YEAR% ESET, spol. s r.o. - 保留所有權利。此處所用的商標皆為 ESET, spol. s r.o. 或 ESET North America 的商標或註冊商標。所有其他名稱和品牌皆為其個別公司的註冊商標。"
+   },
+   "learn_more_link": {
+      "message": "進一步瞭解"
+   },
+   "metadata_cleaner_func_description": {
+      "message": "每次上傳映像時清除中繼資料。"
+   },
+   "metadata_cleaner_func_header": {
+      "message": "清理您檔案中的資料"
+   },
+   "metadata_cleaner_header": {
+      "message": "中繼資料清除"
+   },
+   "metadata_cleaner_subheader": {
+      "message": "線上共用檔案時移除包含私人資訊的中繼資料。"
+   },
+   "metadata_notifications_func_header": {
+      "message": "清理之後顯示通知"
+   },
+   "metadata_notifications_func_subheader": {
+      "message": "取得瀏覽器內通知。"
+   },
+   "metadata_warning_status_icon_alt": {
+      "message": "中繼資料狀態警告圖示"
+   },
+   "notification_message_text": {
+      "message": "已清除上傳的檔案中繼資料:"
+   },
+   "overview_menu_item": {
+      "message": "概觀"
+   },
+   "privacy_policy_link": {
+      "message": "隱私權政策"
+   },
+   "product_name": {
+      "message": "瀏覽器隱私權與安全性"
+   },
+   "product_title": {
+      "message": "ESET 瀏覽器隱私權與安全性"
+   },
+   "product_version": {
+      "message": "版本:"
+   },
+   "progress_logo_alt": {
+      "message": "Progress. Protected. 標誌"
+   },
+   "scan_search_result_func_description": {
+      "message": "掃描搜尋結果以查看哪些結果可以安全的點擊。"
+   },
+   "scan_search_result_func_header": {
+      "message": "掃描搜尋結果"
+   },
+   "secure_search_green_popup_text": {
+      "message": "這個網站是安全的"
+   },
+   "secure_search_header": {
+      "message": "安全搜尋"
+   },
+   "secure_search_red_popup_text": {
+      "message": "這個網站不安全"
+   },
+   "secure_search_subheader": {
+      "message": "查看哪些搜尋結果可以安全的開啟。"
+   },
+   "secure_search_yellow_popup_text": {
+      "message": "發現潛在不需要的內容"
+   },
+   "settings_page_appearance_dark_mode": {
+      "message": "深色"
+   },
+   "settings_page_appearance_description": {
+      "message": "自訂介面的顏色以符合您的喜好設定。您可以選擇淺色或深色。"
+   },
+   "settings_page_appearance_header": {
+      "message": "外觀"
+   },
+   "settings_page_appearance_light_mode": {
+      "message": "淺色"
+   },
+   "settings_page_appearance_subheader": {
+      "message": "色彩模式"
+   },
+   "settings_page_browser_cleanup_active_tabs_text": {
+      "message": "根據您目前在瀏覽器中開啟的索引標籤所建議的網域。如果您在下列清單中沒有看到所有目前開啟的索引標籤，\u003Cspan class=\"refresh-list\">重新整理清單\u003C/span>。"
+   },
+   "settings_page_browser_cleanup_add_btn_text": {
+      "message": "新增"
+   },
+   "settings_page_browser_cleanup_checkbox_text": {
+      "message": "清除之後保留開啟的索引標籤目前的瀏覽工作階段"
+   },
+   "settings_page_browser_cleanup_description": {
+      "message": "新增您想要接受 Cookie 並在執行瀏覽器清除之後仍維持登入狀態的網站。"
+   },
+   "settings_page_browser_cleanup_input_placeholder_text": {
+      "message": "輸入您要新增的 URL"
+   },
+   "settings_page_browser_cleanup_minus_img_alt": {
+      "message": "減"
+   },
+   "settings_page_browser_cleanup_plus_img_alt": {
+      "message": "加"
+   },
+   "settings_page_browser_cleanup_subheader": {
+      "message": "進階 Cookie 設定"
+   },
+   "settings_page_not_valid_url_warning": {
+      "message": "*這看起來不像有效的 URL。"
+   },
+   "settings_page_website_settings_allow_text": {
+      "message": "允許"
+   },
+   "settings_page_website_settings_allowed_text": {
+      "message": "已允許"
+   },
+   "settings_page_website_settings_block_text": {
+      "message": "封鎖"
+   },
+   "settings_page_website_settings_blocked_text": {
+      "message": "已封鎖"
+   },
+   "settings_page_website_settings_camera_section_description": {
+      "message": "檢閱哪些網站可以要求使用您的相機。"
+   },
+   "settings_page_website_settings_camera_section_header": {
+      "message": "相機"
+   },
+   "settings_page_website_settings_chrome_extension_info_text": {
+      "message": "我們無法變更瀏覽器擴充功能的設定。若要調整特定瀏覽器擴充功能的設定，請前往瀏覽器的\u003Cspan class=\"browser-site-permissions-link\">隱私權與安全性區段\u003C/span>"
+   },
+   "settings_page_website_settings_description": {
+      "message": "輕鬆地存取和管理網站權限，以控制網站可以使用的資訊內容。"
+   },
+   "settings_page_website_settings_edge_extension_info_text": {
+      "message": "我們無法變更瀏覽器擴充功能的設定。若要調整特定瀏覽器擴充功能的設定，請前往瀏覽器的 \u003Cspan class=\"browser-site-permissions-link\">Cookie 與權限區段\u003C/span>"
+   },
+   "settings_page_website_settings_header": {
+      "message": "網站設定檢閱"
+   },
+   "settings_page_website_settings_location_section_description": {
+      "message": "檢閱哪些網站可以詢問您的位置。"
+   },
+   "settings_page_website_settings_location_section_header": {
+      "message": "位置"
+   },
+   "settings_page_website_settings_mic_section_description": {
+      "message": "檢閱哪些網站可以要求使用您的麥克風。"
+   },
+   "settings_page_website_settings_mic_section_header": {
+      "message": "麥克風"
+   },
+   "settings_page_website_settings_notif_section_description": {
+      "message": "查看哪些網站可以要求傳送通知。"
+   },
+   "settings_page_website_settings_notif_section_header": {
+      "message": "通知"
+   },
+   "settings_page_website_settings_reset_to_allow_text": {
+      "message": "重設為允許"
+   },
+   "settings_page_website_settings_reset_to_block_text": {
+      "message": "重設為封鎖"
+   },
+   "setup_btn": {
+      "message": "設定"
+   },
+   "summary_metadata_stats_text": {
+      "message": "移除包含私人資訊的中繼資料。"
+   },
+   "summary_ok_header": {
+      "message": "您的瀏覽受到保護"
+   },
+   "summary_privacy_stats_text": {
+      "message": "刪除您的瀏覽資料。"
+   },
+   "summary_restart_header": {
+      "message": "需要重新啟動瀏覽器"
+   },
+   "summary_search_stats_text": {
+      "message": "檢查搜尋結果的安全性。"
+   },
+   "summary_website_setting_header": {
+      "message": "網站設定檢閱"
+   },
+   "summary_website_setting_text": {
+      "message": "管理網站權限。"
+   },
+   "website_security_inspector_description": {
+      "message": "藉由掃描您造訪的 網站，保護您的瀏覽免受詐騙和安全性威脅。"
+   },
+   "website_security_inspector_scan_func_description": {
+      "message": "網站載入後立即掃描是否具有威脅。"
+   },
+   "website_security_inspector_scan_func_header": {
+      "message": "網站威脅偵測"
+   },
+   "website_security_inspector_setup_all_set_info": {
+      "message": "\u003Cspan class=\"highlighted\">ESET 瀏覽器隱私權與安全性擴充功能\u003C/span>現已啟用並保護您的瀏覽。您可以隨時在設定中管理其功能。"
+   },
+   "website_security_inspector_setup_all_set_title": {
+      "message": "您已準備就緒"
+   },
+   "website_security_inspector_setup_allow_access_section_description_1": {
+      "message": "某些安全性功能需要額外的權限才能存取您所造訪的網站，包括其網址 (URL) 和內容。這些資斗用於即時偵測詐騙、網路釣魚和其他威脅，絕不會與第三方共用。"
+   },
+   "website_security_inspector_setup_allow_access_section_description_2": {
+      "message": "您可以隨時在擴充功能設定中管理此權限。"
+   },
+   "website_security_inspector_setup_almost_done_info": {
+      "message": "您已經成功啟用 \u003Cspan class=\"highlighted\">ESET 瀏覽器隱私權與安全性擴充功能\u003C/span>。"
+   },
+   "website_security_inspector_setup_almost_done_subtitle": {
+      "message": "完成啟用所有的安全性功能"
+   },
+   "website_security_inspector_setup_almost_done_title": {
+      "message": "就快完成了"
+   },
+   "website_security_inspector_summary": {
+      "message": "保護您的瀏覽免受詐騙和安全性威脅。"
+   },
+   "website_security_inspector_title": {
+      "message": "網站安全性檢查"
+   },
+   "welcome_page_ai_conversation_security_tile_text": {
+      "message": "在使用 ChatGPT 的回應之前，請檢查其是否存在潛在有害內容。更多平台即將推出。"
+   },
+   "welcome_page_allow_access_section_description": {
+      "message": "某些功能需要獲得存取您造訪網站的權限。您的網路活動資料會在裝置上進行本機處理—只有潛在有害的 URL 和遙測資料才會傳送給 ESET，以支援我們對目前網路安全性威脅的研究並協助我們改善服務 (前提是您已在 ESET 安全性應用程式中啟用資料共用)。您可以隨時在擴充功能設定中更新此權限。"
+   },
+   "welcome_page_allow_access_section_title": {
+      "message": "允許存取以獲得全面防護"
+   },
+   "welcome_page_browser_cleanup_tile_text": {
+      "message": "刪除瀏覽資料或設定定期清除。"
+   },
+   "welcome_page_chrome_info_tile_text": {
+      "message": "按一下上方的延伸模組圖示並將其固定在瀏覽器上以方便存取，讓延伸模組保持可見。"
+   },
+   "welcome_page_edge_info_tile_text": {
+      "message": "按一下上方的延伸模組圖示並將其新增在瀏覽器的工具列以方便存取，讓延伸模組保持可見。"
+   },
+   "welcome_page_header_text": {
+      "message": "感謝您在瀏覽器中啟用 \u003Cspan class=\"highlighted\">ESET 瀏覽器隱私權與安全性\u003C/span>延伸模組"
+   },
+   "welcome_page_main_content_title": {
+      "message": "探索保障瀏覽安全的功能"
+   },
+   "welcome_page_metadata_cleanup_tile_header": {
+      "message": "中繼資料清除*"
+   },
+   "welcome_page_metadata_cleanup_tile_text": {
+      "message": "線上共用時刪除檔案中的私人資訊。"
+   },
+   "welcome_page_pin_icon_alt": {
+      "message": "圖釘圖示"
+   },
+   "welcome_page_plugin_icon_alt": {
+      "message": "外掛程式圖示"
+   },
+   "welcome_page_right_arrow_icon_alt": {
+      "message": "向右鍵圖示"
+   },
+   "welcome_page_secure_search_tile_text": {
+      "message": "在開啟搜尋結果之前，檢查搜尋結果的安全性。"
+   },
+   "welcome_page_subheader": {
+      "message": "若要開始享受更安全的瀏覽體驗，按一下延伸模組圖示 (位於網址列旁邊)。在某些瀏覽器中，它可能隱藏在瀏覽器功能表中。"
+   },
+   "welcome_page_ultime_feature": {
+      "message": "*在 ESET HOME Security Ultimate 中可供使用"
+   },
+   "welcome_page_website_security_inspector_tile_text": {
+      "message": "在瀏覽網站時掃描詐欺網站和安全性威脅。"
+   },
+   "welcome_page_website_settings_tile_header": {
+      "message": "網站設定檢閱*"
+   },
+   "welcome_page_website_settings_tile_text": {
+      "message": "控制網站的通知、位置、攝影機和麥克風權限。"
+   },
+   "whats_new_page_allow_access_section_description": {
+      "message": "此功能需要獲得存取您造訪網站的權限。您的網路活動資料會在裝置上進行本機處理—只有潛在有害的 URL 和遙測資料才會傳送給 ESET，以支援我們對目前網路安全性威脅的研究並協助我們改善服務 (前提是您已在 ESET 安全性應用程式中啟用資料共用)。您可以隨時在擴充功能設定中更新此權限。"
+   },
+   "whats_new_page_allow_access_section_title": {
+      "message": "允許存取 AI 對話安全性"
+   },
+   "whats_new_page_description": {
+      "message": "AI 對話安全性會掃描每個 ChatGPT 回應，尋找參考潛在不可靠或不安全來源的內容以及惡意程式碼。其會自動執行，因此您的瀏覽不會中斷。\u003Cbr/>\u003Cbr/>掃描會在您的裝置本機進行。我們不會向 ESET 傳送或共用您的網路活動資訊—只可能會傳送潛在有害的 URL 和遙測資料，以協助我們改善產品。\u003Cbr/>\u003Cbr/>對 AI 平台的更多支援即將推出。"
+   },
+   "whats_new_page_header": {
+      "message": "\u003Cspan class=\"highlighted\">新增功能\u003C/span>"
+   },
+   "whats_new_page_image_alt": {
+      "message": "ESET 的 AI 對話安全性功能示意圖，圖中顯示了兩個聊天氣泡，代表 AI 聊天機器人的對話，其中一個回應中以反白顯示標記的 URL，表示在掃描期間偵測到不安全的連結。"
+   },
+   "whats_new_page_subheader": {
+      "message": "探索 \u003Cspan class=\"highlighted\">ESET 瀏覽器隱私權與安全性擴充功能\u003C/span>的最新更新和改進功能。"
+   },
+   "whats_new_page_title": {
+      "message": "享受更安全的 ChatGPT 對話"
+   }
+}

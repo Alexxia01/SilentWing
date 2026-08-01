@@ -1,0 +1,608 @@
+{
+   "advanced_setup_menu_item": {
+      "message": "Дополнительные настройки"
+   },
+   "ai_conversation_security_description": {
+      "message": "Повысьте безопасность при использовании ChatGPT. Прежде чем вы воспользуетесь ответом, мы сканируем его на наличие ссылок на потенциально ненадежные или небезопасные источники, а также на наличие вредоносного кода."
+   },
+   "ai_conversation_security_detection_result_bad": {
+      "message": "Этот ответ ссылается на содержимое из источника, который мы определили как небезопасный."
+   },
+   "ai_conversation_security_detection_result_bad_script": {
+      "message": "Этот ответ содержит небезопасный код. Его использование может подвергнуть риску вашу систему или данные."
+   },
+   "ai_conversation_security_detection_result_warning": {
+      "message": "Этот ответ ссылается на содержимое из источника, который мы определили как потенциально ненадежный."
+   },
+   "ai_conversation_security_header": {
+      "message": "Безопасность разговоров с ИИ"
+   },
+   "ai_conversation_security_onboarding": {
+      "message": "\u003Cp class=\"onboarding-info\">Теперь ваши разговоры защищены. Мы сканируем каждый ответ ChatGPT на наличие ссылок на потенциально ненадежные или небезопасные источники, а также на наличие вредоносного кода.\u003C/p>\u003Cp class=\"onboarding-info\">Эти настройки можно изменить \u003Cspan class=\"extension-popup-link\">здесь\u003C/span>.\u003C/p>"
+   },
+   "ai_conversation_security_scan_func_description": {
+      "message": "Проверяйте ответы ИИ на наличие потенциальной опасности перед их использованием."
+   },
+   "ai_conversation_security_scan_func_header": {
+      "message": "Сканирование разговора"
+   },
+   "ai_conversation_security_summary": {
+      "message": "Проверяйте ответы ChatGPT на наличие потенциальных рисков."
+   },
+   "alert_icon_alt": {
+      "message": "Значок оповещения"
+   },
+   "alert_page_connection_lost_btn": {
+      "message": "Повторить попытку"
+   },
+   "alert_page_connection_lost_header": {
+      "message": "Подключение потеряно"
+   },
+   "alert_page_connection_lost_text": {
+      "message": "Соединение между \u003Cspan class=\"product-info\">{%productname%}\u003C/span> и расширением браузера было потеряно. Проверьте подключение к Интернету и повторите попытку. Обратите внимание, что расширение не будет работать без установленного продукта \u003Cspan class=\"product-info\">{%productname%}\u003C/span>."
+   },
+   "alert_page_expired_license_btn": {
+      "message": "Открыть \u003Cspan class=\"product-info\">{%productname%}\u003C/span> "
+   },
+   "alert_page_expired_license_header": {
+      "message": "Подписка с истекшим сроком действия"
+   },
+   "alert_page_expired_license_text": {
+      "message": "Срок действия подписки истек, и вы больше не можете использовать расширение \"Конфиденциальность и безопасность браузера ESET\". Чтобы решить эту проблему, откройте \u003Cspan class=\"product-info\">{%productname%}\u003C/span> и следуйте приведенным там инструкциям."
+   },
+   "alert_page_missing_product_header": {
+      "message": "Отсутствует продукт"
+   },
+   "alert_page_missing_product_text_1": {
+      "message": "Сейчас на вашем компьютере не установлено ни одного продукта ESET, который поддерживает расширение \"Конфиденциальность и безопасность браузера ESET\"."
+   },
+   "alert_page_missing_product_text_2": {
+      "message": "Для получения дополнительных сведений о расширении, поддерживаемых продуктах ESET, поддерживаемых браузерах и установке воспользуйтесь \u003Cspan class=\"online-help-link\">интернет-справкой\u003C/span>."
+   },
+   "alert_page_unsupported_browser_header": {
+      "message": "Неподдерживаемый браузер"
+   },
+   "alert_page_unsupported_browser_text_1": {
+      "message": "Похоже, вы используете браузер, который мы еще не поддерживаем. Чтобы использовать расширение \"Конфиденциальность и безопасность браузера ESET\", установите поддерживаемый браузер."
+   },
+   "alert_page_unsupported_browser_text_2": {
+      "message": "\u003Cspan class=\"supported-browsers-link\">Список поддерживаемых браузеров\u003C/span>"
+   },
+   "banner_ok_status_icon_alt": {
+      "message": "Значок баннера нормального состояния"
+   },
+   "banner_restart_status_icon_alt": {
+      "message": "Значок баннера состояния перезапуска"
+   },
+   "blocking_page_description": {
+      "message": "Инспектор безопасности веб-сайтов обнаружил потенциально мошенническое или вредоносное содержимое на \u003Cspan class=\"blocked-url-tooltip\">этой странице\u003C/span>. В целях безопасности рекомендуем не посещать ее."
+   },
+   "blocking_page_go_back_button": {
+      "message": "Вернуться"
+   },
+   "blocking_page_head_title": {
+      "message": "Внимание! Конфиденциальность и безопасность браузера ESET"
+   },
+   "blocking_page_ignore_threat_button": {
+      "message": "Игнорировать угрозу"
+   },
+   "blocking_page_options_title": {
+      "message": "Вернуться на предыдущую страницу?"
+   },
+   "blocking_page_title": {
+      "message": "Эта страница может быть небезопасной"
+   },
+   "browser_restart_needed_p": {
+      "message": "Чтобы это изменение вступило в силу, нужно перезапустить браузер."
+   },
+   "browsing_cleanup_custom_data_btn": {
+      "message": "Пользовательский"
+   },
+   "browsing_cleanup_custom_data_option_1": {
+      "message": "журнал браузера;"
+   },
+   "browsing_cleanup_custom_data_option_1_tooltip": {
+      "message": "Записи о посещенных вами веб-сайтах, в том числе сведения о дате и времени. Если удалить эти данные, на устройстве будет стерта история ваших действий в Интернете."
+   },
+   "browsing_cleanup_custom_data_option_2": {
+      "message": "История загрузок"
+   },
+   "browsing_cleanup_custom_data_option_2_tooltip": {
+      "message": "Список загруженных файлов. Удаление этих данных приведет к удалению записей о загруженных файлах, но не самих файлов."
+   },
+   "browsing_cleanup_custom_data_option_3": {
+      "message": "Файлы cookie и данные веб-сайтов"
+   },
+   "browsing_cleanup_custom_data_option_3_tooltip": {
+      "message": "Небольшие файлы, сохраняемые веб-сайтами, чтобы запомнить ваши предпочтения, состояние авторизации и действия. Удаление файлов cookie может привести к выходу из учетных записей на веб-сайтах и сбросу ваших настроек."
+   },
+   "browsing_cleanup_custom_data_option_4": {
+      "message": "Кэшированные изображения и файлы"
+   },
+   "browsing_cleanup_custom_data_option_4_tooltip": {
+      "message": "Временные файлы, которые помогают быстрее загружать веб-сайты за счет сохранения их частей на вашем устройстве. Удаление этих данных может замедлить загрузку страниц на начальном этапе, но вы освободите место."
+   },
+   "browsing_cleanup_custom_data_option_5": {
+      "message": "Пароли и данные для входа"
+   },
+   "browsing_cleanup_custom_data_option_5_note": {
+      "message": "Это приведет к безвозвратному удалению всех сохраненных имен пользователя и паролей."
+   },
+   "browsing_cleanup_custom_data_option_5_tooltip": {
+      "message": "Сохраненная информация для входа на веб-сайты, которая обеспечивает быструю авторизацию. Удаление этих данных приведет к безвозвратному удалению всех сохраненных имен пользователя и паролей, поэтому действуйте с осторожностью."
+   },
+   "browsing_cleanup_custom_data_option_6": {
+      "message": "Данные автозаполнения форм"
+   },
+   "browsing_cleanup_custom_data_option_6_tooltip": {
+      "message": "Информация, введенная вами в формы, например имена, адреса и контактные данные, которая помогает быстрее заполнять формы. Удаление этих данных приведет к удалению сохраненной информации."
+   },
+   "browsing_cleanup_custom_data_option_7": {
+      "message": "Служебные сценарии"
+   },
+   "browsing_cleanup_custom_data_option_7_tooltip": {
+      "message": "Файлы, которые помогают веб-сайтам и веб-приложениям работать без сбоев даже в автономном режиме. Удаление этих данных может повлиять на такие функции, как автономный доступ, фоновая синхронизация и уведомления, но большинство веб-сайтов будут работать как обычно."
+   },
+   "browsing_cleanup_data_btns_header": {
+      "message": "Тип данных"
+   },
+   "browsing_cleanup_header": {
+      "message": "Очистка браузера"
+   },
+   "browsing_cleanup_header_text": {
+      "message": "Удаляйте данные просмотра веб-страниц или настройте регулярную очистку. Оставайтесь авторизованными на выбранных веб-сайтах, \u003Cspan>добавляя их в список\u003C/span>."
+   },
+   "browsing_cleanup_private_data_btn": {
+      "message": "Частный"
+   },
+   "browsing_cleanup_private_data_description": {
+      "message": "К данным частного типа относятся журнал браузера, история загрузок, файлы cookie, данные веб-сайтов, данные автозаполнения форм и служебные сценарии."
+   },
+   "browsing_cleanup_select_form_option_0": {
+      "message": "Все время"
+   },
+   "browsing_cleanup_select_form_option_1": {
+      "message": "Этот сеанс браузера"
+   },
+   "browsing_cleanup_select_form_option_2": {
+      "message": "Последний час"
+   },
+   "browsing_cleanup_select_form_option_3": {
+      "message": "Последние 24 часа"
+   },
+   "browsing_cleanup_select_form_option_4": {
+      "message": "Последние 7 дней"
+   },
+   "browsing_cleanup_select_form_option_5": {
+      "message": "Последние 4 недели"
+   },
+   "browsing_cleanup_select_form_placeholder": {
+      "message": "Выберите диапазон времени"
+   },
+   "browsing_one_time_cleanup_delete_btn": {
+      "message": "Удалить данные"
+   },
+   "browsing_one_time_cleanup_delete_btn_deleted_text": {
+      "message": "Удалена"
+   },
+   "browsing_one_time_cleanup_delete_btn_deleting_text": {
+      "message": "Удаление"
+   },
+   "browsing_one_time_cleanup_select_form_title": {
+      "message": "Временные диапазоны"
+   },
+   "browsing_one_time_cleanup_tab_header": {
+      "message": "Одноразовая очистка"
+   },
+   "browsing_regular_cleanup_btn": {
+      "message": "Сохранить и запустить очистку"
+   },
+   "browsing_regular_cleanup_btn_coplete": {
+      "message": "Очистка завершена"
+   },
+   "browsing_regular_cleanup_btn_disabled": {
+      "message": "Сохранить очистку"
+   },
+   "browsing_regular_cleanup_btn_processing": {
+      "message": "Выполняется сохранение и очистка"
+   },
+   "browsing_regular_cleanup_btn_schedule": {
+      "message": "Запланировать очистку"
+   },
+   "browsing_regular_cleanup_func_change_setting_link": {
+      "message": "Изменить настройки регулярной очистки"
+   },
+   "browsing_regular_cleanup_func_disabled": {
+      "message": "После включения регулярной очистки задайте для нее время и частоту."
+   },
+   "browsing_regular_cleanup_func_header": {
+      "message": "Регулярная очистка"
+   },
+   "browsing_regular_cleanup_func_next_session_cleanup": {
+      "message": "Следующая очистка начнется автоматически при следующем открытии браузера."
+   },
+   "browsing_regular_cleanup_func_next_time_cleanup": {
+      "message": "Следующая очистка запланирована на %DATE% в %TIME%."
+   },
+   "browsing_regular_cleanup_func_not_set": {
+      "message": "Регулярная очистка еще не настроена."
+   },
+   "browsing_regular_cleanup_func_set_up_settings_link": {
+      "message": "Настроить регулярную очистку"
+   },
+   "browsing_regular_cleanup_header": {
+      "message": "Настройки регулярной очистки"
+   },
+   "browsing_regular_cleanup_header_description": {
+      "message": "Выберите частоту очистки и типы включенных в нее данных."
+   },
+   "browsing_regular_cleanup_select_form_option_1": {
+      "message": "Один раз за сеанс браузера"
+   },
+   "browsing_regular_cleanup_select_form_option_2": {
+      "message": "Один раз в час"
+   },
+   "browsing_regular_cleanup_select_form_option_3": {
+      "message": "Один раз в 24 часа"
+   },
+   "browsing_regular_cleanup_select_form_option_4": {
+      "message": "Один раз в 7 дней"
+   },
+   "browsing_regular_cleanup_select_form_option_5": {
+      "message": "Один раз в 4 недели"
+   },
+   "browsing_regular_cleanup_select_form_placeholder": {
+      "message": "Выберите периодичность"
+   },
+   "browsing_regular_cleanup_select_form_title": {
+      "message": "Частота очистки"
+   },
+   "close_icon_alt": {
+      "message": "Значок \"Закрыть\""
+   },
+   "data_collection_consent_dialog_agree_button": {
+      "message": "Принять и продолжить"
+   },
+   "data_collection_consent_dialog_decline_button": {
+      "message": "Отклонить и закрыть эту вкладку"
+   },
+   "data_collection_consent_dialog_description_1": {
+      "message": "Чтобы обеспечить полную защиту, расширению \"Конфиденциальность и безопасность браузера ESET\" требуется ваше согласие на отправку собираемых им данных в приложение ESET на вашем устройстве. Это включает в себя информацию о веб-сайтах, которые вы посещаете, такую как их веб-адреса (URL), содержимое и связанные с этим данные."
+   },
+   "data_collection_consent_dialog_description_2": {
+      "message": "Данные, которые мы обрабатываем, используются для обнаружения мошенничества, фишинга и других угроз и необходимы для таких функций, как Инспектор безопасности веб-сайтов. Большая часть обработки выполняется локально на вашем устройстве, но некоторые подозрительные URL-адреса и содержимое веб-сайтов могут отправляться на наш сервер для расширенного обнаружения угроз. Если вы выберете вариант \"Отклонить\", некоторые функции будут отключены, но остальная часть расширения все равно будет работать."
+   },
+   "data_collection_consent_dialog_description_3": {
+      "message": "В зависимости от настроек приложения ESET мы можем также собирать из расширения анонимные данные об использовании для повышения производительности. Этими настройками можно управлять в приложении."
+   },
+   "data_collection_consent_dialog_footer": {
+      "message": "Для получения дополнительной информации о том, как мы обрабатываем ваши данные и управляем ими, ознакомьтесь с нашей \u003Cspan class=\"privacy-policy-link\">политикой конфиденциальности\u003C/span>."
+   },
+   "data_collection_consent_dialog_title": {
+      "message": "Нам необходимо ваше согласие для полной защиты ваших действий в Интернете"
+   },
+   "direction": {
+      "message": "LTR"
+   },
+   "eset_logo_alt": {
+      "message": "Логотип ESET"
+   },
+   "eula_link": {
+      "message": "Лицензионное соглашение с конечным пользователем"
+   },
+   "extension_description": {
+      "message": "Функция «Конфиденциальность и безопасность браузера» обеспечивает расширенную защиту для браузера."
+   },
+   "help_support_menu_item": {
+      "message": "Справка и поддержка"
+   },
+   "info_icon_alt": {
+      "message": "Значок информации"
+   },
+   "info_page_allow_access_button": {
+      "message": "Разрешить доступ"
+   },
+   "info_page_footer": {
+      "message": "© ESET, spol. s r.o., 1992–%YEAR%. Все права защищены. Используемые здесь товарные знаки являются товарными знаками или зарегистрированными товарными знаками компании ESET, spol. s r.o. или ESET North America. Все другие названия и марки являются зарегистрированными товарными знаками соответствующих владельцев."
+   },
+   "learn_more_link": {
+      "message": "Дополнительные сведения"
+   },
+   "metadata_cleaner_func_description": {
+      "message": "Очищайте метаданные при каждой выгрузке изображений."
+   },
+   "metadata_cleaner_func_header": {
+      "message": "Очищать данные из файлов"
+   },
+   "metadata_cleaner_header": {
+      "message": "Очистка метаданных"
+   },
+   "metadata_cleaner_subheader": {
+      "message": "Удаляйте метаданные с личной информацией при публикации файлов в Интернете."
+   },
+   "metadata_notifications_func_header": {
+      "message": "Показывать уведомления после очистки"
+   },
+   "metadata_notifications_func_subheader": {
+      "message": "Отображение уведомлений в браузере."
+   },
+   "metadata_warning_status_icon_alt": {
+      "message": "Значок предупреждения о состоянии метаданных"
+   },
+   "notification_message_text": {
+      "message": "Метаданные выгруженного файла очищены:"
+   },
+   "overview_menu_item": {
+      "message": "Обзор"
+   },
+   "privacy_policy_link": {
+      "message": "Политика конфиденциальности"
+   },
+   "product_name": {
+      "message": "КОНФИДЕНЦИАЛЬНОСТЬ И БЕЗОПАСНОСТЬ БРАУЗЕРА"
+   },
+   "product_title": {
+      "message": "Конфиденциальность и безопасность браузера ESET"
+   },
+   "product_version": {
+      "message": "Версия:"
+   },
+   "progress_logo_alt": {
+      "message": "Логотип \"Progress. Protected.\""
+   },
+   "scan_search_result_func_description": {
+      "message": "Сканируйте результаты поиска, чтобы узнать, какие из них безопасны для использования."
+   },
+   "scan_search_result_func_header": {
+      "message": "Сканировать результаты поиска"
+   },
+   "secure_search_green_popup_text": {
+      "message": "Этот веб-сайт безопасен"
+   },
+   "secure_search_header": {
+      "message": "Защищенный поиск"
+   },
+   "secure_search_red_popup_text": {
+      "message": "Этот веб-сайт небезопасен"
+   },
+   "secure_search_subheader": {
+      "message": "Узнайте, какие результаты поиска безопасно открывать."
+   },
+   "secure_search_yellow_popup_text": {
+      "message": "Найдено потенциально нежелательное содержимое"
+   },
+   "settings_page_appearance_dark_mode": {
+      "message": "Темная"
+   },
+   "settings_page_appearance_description": {
+      "message": "Настройте цвет интерфейса согласно своим предпочтениям. Можно выбирать между светлым и темным цветом."
+   },
+   "settings_page_appearance_header": {
+      "message": "Внешний вид"
+   },
+   "settings_page_appearance_light_mode": {
+      "message": "Светлая"
+   },
+   "settings_page_appearance_subheader": {
+      "message": "Режим цвета"
+   },
+   "settings_page_browser_cleanup_active_tabs_text": {
+      "message": "Рекомендуемые домены на основе вкладок, открытых сейчас в браузере. Если в списке ниже не отображаются все открытые сейчас вкладки, \u003Cspan class=\"refresh-list\">обновите список\u003C/span>."
+   },
+   "settings_page_browser_cleanup_add_btn_text": {
+      "message": "Добавить"
+   },
+   "settings_page_browser_cleanup_checkbox_text": {
+      "message": "Сохранять текущий сеанс браузера для открытых вкладок после очистки"
+   },
+   "settings_page_browser_cleanup_description": {
+      "message": "Добавьте веб-сайты, на которых следует принимать файлы cookie и не выполнять выход даже после очистки браузера."
+   },
+   "settings_page_browser_cleanup_input_placeholder_text": {
+      "message": "Введите URL-адрес, который нужно добавить"
+   },
+   "settings_page_browser_cleanup_minus_img_alt": {
+      "message": "Минус"
+   },
+   "settings_page_browser_cleanup_plus_img_alt": {
+      "message": "Плюс"
+   },
+   "settings_page_browser_cleanup_subheader": {
+      "message": "Дополнительные параметры файлов cookie"
+   },
+   "settings_page_not_valid_url_warning": {
+      "message": "* Похоже, это недопустимый URL-адрес."
+   },
+   "settings_page_website_settings_allow_text": {
+      "message": "Разрешить"
+   },
+   "settings_page_website_settings_allowed_text": {
+      "message": "Разрешено"
+   },
+   "settings_page_website_settings_block_text": {
+      "message": "Блокировка"
+   },
+   "settings_page_website_settings_blocked_text": {
+      "message": "Заблокированное"
+   },
+   "settings_page_website_settings_camera_section_description": {
+      "message": "Узнайте, какие веб-сайты могут запрашивать использование камеры."
+   },
+   "settings_page_website_settings_camera_section_header": {
+      "message": "Камера"
+   },
+   "settings_page_website_settings_chrome_extension_info_text": {
+      "message": "Мы не можем изменять настройки расширений браузера. Чтобы изменить настройки для определенного расширения браузера, перейдите в раздел браузера \u003Cspan class=\"browser-site-permissions-link\">Конфиденциальность и безопасность\u003C/span>."
+   },
+   "settings_page_website_settings_description": {
+      "message": "Легко получайте доступ к разрешениям веб-сайтов и управляйте ими, чтобы контролировать, какую информацию веб-сайты могут использовать."
+   },
+   "settings_page_website_settings_edge_extension_info_text": {
+      "message": "Мы не можем изменять настройки расширений браузера. Чтобы изменить настройки для определенного расширения браузера, перейдите в раздел браузера \u003Cspan class=\"browser-site-permissions-link\">Файлы cookie и разрешения для сайтов\u003C/span>."
+   },
+   "settings_page_website_settings_header": {
+      "message": "Проверка настроек для веб-сайтов"
+   },
+   "settings_page_website_settings_location_section_description": {
+      "message": "Узнайте, какие веб-сайты могут запрашивать информацию о вашем местоположении."
+   },
+   "settings_page_website_settings_location_section_header": {
+      "message": "Местоположение"
+   },
+   "settings_page_website_settings_mic_section_description": {
+      "message": "Узнайте, какие веб-сайты могут запрашивать использование микрофона."
+   },
+   "settings_page_website_settings_mic_section_header": {
+      "message": "Микрофон"
+   },
+   "settings_page_website_settings_notif_section_description": {
+      "message": "Проверьте, какие веб-сайты могут запрашивать отправку уведомлений."
+   },
+   "settings_page_website_settings_notif_section_header": {
+      "message": "Уведомления"
+   },
+   "settings_page_website_settings_reset_to_allow_text": {
+      "message": "Сбросить, чтобы разрешить"
+   },
+   "settings_page_website_settings_reset_to_block_text": {
+      "message": "Сбросить, чтобы заблокировать"
+   },
+   "setup_btn": {
+      "message": "НАСТРОИТЬ"
+   },
+   "summary_metadata_stats_text": {
+      "message": "Удалите метаданные с личной информацией."
+   },
+   "summary_ok_header": {
+      "message": "Ваш браузер защищен"
+   },
+   "summary_privacy_stats_text": {
+      "message": "Удалите данные просмотра веб-страниц."
+   },
+   "summary_restart_header": {
+      "message": "Требуется перезапуск браузера"
+   },
+   "summary_search_stats_text": {
+      "message": "Проверьте безопасность результатов поиска."
+   },
+   "summary_website_setting_header": {
+      "message": "Проверка настроек для веб-сайтов"
+   },
+   "summary_website_setting_text": {
+      "message": "Управляйте разрешениями для веб-сайтов."
+   },
+   "website_security_inspector_description": {
+      "message": "Защита от мошенничества и угроз безопасности при просмотре веб-страниц путем сканирования посещаемых веб-сайтов."
+   },
+   "website_security_inspector_scan_func_description": {
+      "message": "Сканирование веб-сайтов на наличие угроз при их загрузке."
+   },
+   "website_security_inspector_scan_func_header": {
+      "message": "Обнаружение угроз на веб-сайтах"
+   },
+   "website_security_inspector_setup_all_set_info": {
+      "message": "\u003Cspan class=\"highlighted\">Расширение \"Конфиденциальность и безопасность браузера ESET\"\u003C/span> теперь активно и защищает ваши действия в Интернете. Вы можете в любой момент управлять его функциями в настройках."
+   },
+   "website_security_inspector_setup_all_set_title": {
+      "message": "Все готово"
+   },
+   "website_security_inspector_setup_allow_access_section_description_1": {
+      "message": "Для некоторых функций безопасности требуется дополнительное разрешение для доступа к веб-сайтам, которые вы посещаете, включая их веб-адреса (URL) и содержимое. Эти данные необходимы для обнаружения мошенничества, фишинга и других угроз в режиме реального времени и никогда не передаются третьим лицам."
+   },
+   "website_security_inspector_setup_allow_access_section_description_2": {
+      "message": "Вы можете в любой момент изменить это разрешение в настройках расширения."
+   },
+   "website_security_inspector_setup_almost_done_info": {
+      "message": "Вы включили \u003Cspan class=\"highlighted\">расширение \"Конфиденциальность и безопасность браузера ESET\"\u003C/span>."
+   },
+   "website_security_inspector_setup_almost_done_subtitle": {
+      "message": "Завершите включение всех функций безопасности"
+   },
+   "website_security_inspector_setup_almost_done_title": {
+      "message": "Почти готово"
+   },
+   "website_security_inspector_summary": {
+      "message": "Защита от мошенничества и угроз безопасности при просмотре веб-страниц."
+   },
+   "website_security_inspector_title": {
+      "message": "Инспектор безопасности веб-сайтов"
+   },
+   "welcome_page_ai_conversation_security_tile_text": {
+      "message": "Проверяйте ответы ChatGPT на наличие потенциально вредоносного содержимого перед их использованием. Скоро будут добавлены и другие платформы."
+   },
+   "welcome_page_allow_access_section_description": {
+      "message": "Некоторым функциям необходимо разрешение для доступа к веб-сайтам, которые вы посещаете. Данные о ваших действиях в Интернете обрабатываются локально на вашем устройстве. В ESET могут отправляться только потенциально опасные URL-адреса и данные телеметрии с целью исследования текущих угроз кибербезопасности и улучшения наших служб при условии, что вы включили предоставление данных в своем приложении безопасности ESET. Это разрешение в любой момент можно изменить в настройках расширения."
+   },
+   "welcome_page_allow_access_section_title": {
+      "message": "Предоставьте доступ для полной защиты"
+   },
+   "welcome_page_browser_cleanup_tile_text": {
+      "message": "Удаляйте данные просмотра веб-страниц или настройте регулярную очистку."
+   },
+   "welcome_page_chrome_info_tile_text": {
+      "message": "Оставьте расширение видимым, щелкнув значок расширения выше и закрепив его в браузере для быстрого доступа."
+   },
+   "welcome_page_edge_info_tile_text": {
+      "message": "Оставьте расширение видимым, щелкнув значок расширения выше и добавив его на панель инструментов браузера для быстрого доступа."
+   },
+   "welcome_page_header_text": {
+      "message": "Благодарим за включение в браузере расширения \u003Cspan class=\"highlighted\">Конфиденциальность и безопасность браузера ESET\u003C/span>"
+   },
+   "welcome_page_main_content_title": {
+      "message": "Функции для безопасной работы в Интернете"
+   },
+   "welcome_page_metadata_cleanup_tile_header": {
+      "message": "Очистка метаданных*"
+   },
+   "welcome_page_metadata_cleanup_tile_text": {
+      "message": "Удаляйте личную информацию из файлов перед их публикацией в Интернете."
+   },
+   "welcome_page_pin_icon_alt": {
+      "message": "Значок булавки"
+   },
+   "welcome_page_plugin_icon_alt": {
+      "message": "Значок плагина"
+   },
+   "welcome_page_right_arrow_icon_alt": {
+      "message": "Значок со стрелкой вправо"
+   },
+   "welcome_page_secure_search_tile_text": {
+      "message": "Проверяйте безопасность результатов поиска перед их открытием."
+   },
+   "welcome_page_subheader": {
+      "message": "Чтобы начать более безопасно использовать свой браузер, щелкните значок расширения рядом с адресной строкой. В некоторых браузерах этот значок быть скрыт в меню браузера."
+   },
+   "welcome_page_ultime_feature": {
+      "message": "* Доступно в ESET HOME Security Ultimate."
+   },
+   "welcome_page_website_security_inspector_tile_text": {
+      "message": "Сканируйте веб-сайты на предмет мошенничества и угроз безопасности."
+   },
+   "welcome_page_website_settings_tile_header": {
+      "message": "Проверка настроек для веб-сайтов*"
+   },
+   "welcome_page_website_settings_tile_text": {
+      "message": "Контролируйте разрешения для веб-сайтов касательно уведомлений, определения местоположения, камеры и микрофона."
+   },
+   "whats_new_page_allow_access_section_description": {
+      "message": "Этой функции необходимо разрешение для доступа к веб-сайтам, которые вы посещаете. Данные о ваших действиях в Интернете обрабатываются локально на вашем устройстве. В ESET могут отправляться только потенциально опасные URL-адреса и данные телеметрии с целью исследования текущих угроз кибербезопасности и улучшения наших служб при условии, что вы включили предоставление данных в своем приложении безопасности ESET. Это разрешение в любой момент можно изменить в настройках расширения."
+   },
+   "whats_new_page_allow_access_section_title": {
+      "message": "Разрешите доступ для функции \"Безопасность разговоров с ИИ\""
+   },
+   "whats_new_page_description": {
+      "message": "Функция \"Безопасность разговоров с ИИ\" сканирует каждый ответ ChatGPT на наличие содержимого, которое ссылается на потенциально ненадежные или небезопасные источники, а также на наличие вредоносного кода. Она работает автоматически, поэтому никак не влияет на ваш просмотр веб-страниц.\u003Cbr/>\u003Cbr/>Сканирование выполняется локально на вашем устройстве. Мы не отправляем в ESET информацию о ваших действиях в Интернете. Для улучшения нашего продукта могут передаваться только потенциально опасные URL-адреса и данные телеметрии.\u003Cbr/>\u003Cbr/>Скоро будет добавлена поддержка других платформ ИИ."
+   },
+   "whats_new_page_header": {
+      "message": "\u003Cspan class=\"highlighted\">Новые возможности\u003C/span>"
+   },
+   "whats_new_page_image_alt": {
+      "message": "Иллюстрация функции \"Безопасность разговоров с ИИ\" компании ESET: показаны два облачка чата, представляющие собой беседу с чат-ботом ИИ. В одном из ответов красным цветом выделен помеченный URL-адрес, что указывает на обнаружение небезопасной ссылки во время сканирования."
+   },
+   "whats_new_page_subheader": {
+      "message": "Узнайте о последних обновлениях и улучшениях в \u003Cspan class=\"highlighted\">расширении \"Конфиденциальность и безопасность браузера ESET\"\u003C/span>."
+   },
+   "whats_new_page_title": {
+      "message": "Повысьте безопасность разговоров с ChatGPT"
+   }
+}

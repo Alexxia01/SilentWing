@@ -1,0 +1,19 @@
+.popup-header_title {
+    font-family: Segoe UI;
+    font-size: 20px;
+    font-weight: 600;
+    color: #373c42;
+    margin-bottom: 10px;
+}
+
+.popup-header_description {
+    font-family: Segoe UI;
+    font-size: 13px;
+    font-weight: 400;
+    color: #626262;
+}
+
+.dark-mode .popup-header_title,
+.dark-mode .popup-header_description {
+    color: #e8ecee;
+}

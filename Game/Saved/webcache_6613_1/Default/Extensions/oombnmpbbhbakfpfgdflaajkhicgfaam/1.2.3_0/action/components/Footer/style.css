@@ -1,0 +1,32 @@
+.footer {
+    margin-bottom: 45px;
+}
+
+.footer__line {
+    margin: 0 0 36px 0;
+    border-width: 1px 1px 0 1px;
+    border-color: #373C421A;
+    border-style: solid;
+}
+
+.footer__copyright-section {
+    font-weight: 400;
+    font-size: 12px;
+    text-align: center;
+    margin-left: 42.5px;
+    margin-right: 42.5px;
+}
+
+@media screen and (max-width: 1279px) {
+	.footer__copyright-section {
+		margin-left: 32.5px;
+		margin-right: 32.5px;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.footer__copyright-section {
+		margin-left: 0px;
+		margin-right: 0px;
+	}
+}

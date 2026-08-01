@@ -1,0 +1,234 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<script src="../constants.js"></script>
+		<script src="preload.js"></script>
+		<link type="text/css" rel="stylesheet" href="./css/popup.css" />
+		<link type="text/css" rel="stylesheet" href="./css/loading.css" />
+		<script defer src="../utils.js"></script>
+		<script defer src="sprite.js"></script>
+		<script defer src="localize.js"></script>
+		<script defer src="header.js"></script>
+		<script defer src="navbar.js"></script>
+		<script defer src="popup.js"></script>
+		<title>product_name</title>
+	</head>
+
+	<body>
+		<div class="loading-container">
+			<div id="tl">
+				<img src="assets/loading-logo.svg" alt="" class="localizable" data-i18n-alt="eset_logo_alt" />
+			</div>
+			<div id="bl">
+				<img src="assets/loading-pp-logo.svg" alt="" class="localizable" data-i18n-alt="eset_logo_alt" />
+			</div>
+		</div>
+
+		<div class="main-container">
+			<header id="popup-header">
+				<div class="menu-box">
+					<ul class="list-container">
+						<li>
+							<a class="menu-item" id="overview-settings-btn">
+								<div class="menu-icon">
+									<svg class="overview-setting-icon">
+										<use href="#overview-setting-icon"></use>
+									</svg>
+								</div>
+								<div class="menu-text localizable" data-i18n="overview_menu_item"></div>
+							</a>
+						</li>
+						<li>
+							<a class="menu-item" id="menu-settings-btn">
+								<div class="menu-icon">
+									<svg class="menu-setting-icon">
+										<use href="#menu-setting-icon"></use>
+									</svg>
+								</div>
+								<div class="menu-text localizable" data-i18n="advanced_setup_menu_item"></div>
+							</a>
+						</li>
+						<li>
+							<a class="menu-item" id="help-settings-btn">
+								<div class="menu-icon">
+									<svg class="menu-help-icon">
+										<use href="#menu-help-icon"></use>
+									</svg>
+								</div>
+								<div class="menu-text">
+									<span class="localizable" data-i18n="help_support_menu_item"></span>
+									<div id="setting-link-icon">
+										<svg class="website-setting-external-icon">
+											<use href="#external-link"></use>
+										</svg>
+									</div>
+								</div>
+							</a>
+						</li>
+					</ul>
+					<ul id="menu-links">
+						<li><a class="privacy-policy-link localizable" target="_blank" data-i18n="privacy_policy_link"></a></li>
+						<li><a class="eula-link localizable" target="_blank" data-i18n="eula_link"></a></li>
+						<li><span class="localizable" data-i18n="product_version"></span> <span id="version_no"> </span></li>
+					</ul>
+					<div class="menu-footer">
+						<img src="./assets/progress-icon.svg" alt="" class="localizable" data-i18n-alt="progress_logo_alt" />
+					</div>
+				</div>
+			</header>
+
+			<div class="main-content">
+				<div class="ok-banner">
+					<div class="banner-wrap localizable" id="ok-bg" data-i18n-alt="banner_ok_status_icon_alt">
+						<div class="banner-icon">
+							<img
+								src="./assets/status_ok.svg"
+								width="42"
+								alt=""
+								class="localizable"
+								data-i18n-alt="banner_ok_status_icon_alt"
+							/>
+						</div>
+						<div class="banner-title localizable" data-i18n="summary_ok_header"></div>
+					</div>
+				</div>
+				<div class="restart-banner">
+					<div class="banner-wrap localizable" id="restart-bg" data-i18n-alt="banner_restart_status_icon_alt">
+						<div class="banner-icon">
+							<img
+								src="./assets/status_warning.svg"
+								width="42"
+								alt=""
+								class="localizable"
+								data-i18n-alt="banner_restart_status_icon_alt"
+							/>
+						</div>
+						<div class="banner-title localizable" data-i18n="summary_restart_header"></div>
+					</div>
+				</div>
+
+				<div id="features-section" class="features-section-grid-view">
+					<div class="grid-item item-hover" id="ai-conversation-security-popup-tile">
+						<div class="fr-heading">
+							<div class="fr-heading-row">
+								<div class="fl-icon">
+									<svg class="ai-conversation-security-icon">
+										<use href="#ai-conversation-security-icon" />
+									</svg>
+								</div>
+								<div class="fr-btn ai-conversation-security-btn">
+									<button class="setup-btn localizable" data-i18n="setup_btn"></button>
+								</div>
+							</div>
+							<div class="fr-heading-text">
+								<div class="localizable" data-i18n="ai_conversation_security_header"></div>
+							</div>
+							<div class="fr-text localizable" data-i18n="ai_conversation_security_summary"></div>
+						</div>
+					</div>
+
+					<div class="grid-item item-hover" id="secure-search-popup-tile">
+						<div class="fr-heading">
+							<div class="fr-heading-row">
+								<div class="fl-icon">
+									<svg class="secure-search-icon">
+										<use href="#secure-search-icon" />
+									</svg>
+								</div>
+								<div class="fr-btn secure-search-btn">
+									<button class="setup-btn localizable" data-i18n="setup_btn"></button>
+								</div>
+							</div>
+							<div class="fr-heading-text">
+								<div class="localizable" data-i18n="secure_search_header"></div>
+							</div>
+							<div class="fr-text localizable" data-i18n="summary_search_stats_text"></div>
+						</div>
+					</div>
+
+					<div class="grid-item item-hover" id="browser-cleanup-popup-tile">
+						<div class="fr-heading">
+							<div class="fr-heading-row">
+								<div class="fl-icon">
+									<svg class="browser-cleanup-icon">
+										<use href="#browser-cleanup-icon" />
+									</svg>
+								</div>
+							</div>
+							<div class="fr-heading-text">
+								<div class="localizable" data-i18n="browsing_cleanup_header"></div>
+							</div>
+							<div class="fr-text localizable" data-i18n="summary_privacy_stats_text"></div>
+						</div>
+					</div>
+
+					<div class="grid-item item-hover" id="website-security-inspector-popup-tile">
+						<div class="fr-heading">
+							<div class="fr-heading-row">
+								<div class="fl-icon">
+									<svg class="website-security-inspector-icon">
+										<use href="#website-security-inspector" />
+									</svg>
+								</div>
+								<div class="fr-btn website-security-inspector-setup-btn">
+									<button class="setup-btn localizable" data-i18n="setup_btn"></button>
+								</div>
+							</div>
+							<div class="fr-heading-text">
+								<div class="localizable" data-i18n="website_security_inspector_title"></div>
+							</div>
+							<div class="fr-text localizable" data-i18n="website_security_inspector_summary"></div>
+						</div>
+					</div>
+
+					<div class="grid-item item-hover" id="metadata-cleanup-popup-tile">
+						<div class="fr-heading">
+							<div class="fr-heading-row">
+								<div class="fl-icon">
+									<svg class="metadata-cleanup-icon">
+										<use href="#metadata-cleanup-icon" />
+									</svg>
+								</div>
+								<div class="fr-btn" id="metadata-btn">
+									<button class="setup-btn localizable" data-i18n="setup_btn"></button>
+								</div>
+								<div class="fr-icon" id="metadata-icon">
+									<img
+										src="./assets/status_icon.svg"
+										alt=""
+										class="localizable"
+										data-i18n-alt="metadata_warning_status_icon_alt"
+									/>
+								</div>
+							</div>
+							<div class="fr-heading-text">
+								<div class="localizable" data-i18n="metadata_cleaner_header"></div>
+							</div>
+							<div class="fr-text localizable" data-i18n="summary_metadata_stats_text"></div>
+						</div>
+					</div>
+
+					<div class="grid-item item-hover" id="website-setting-popup-tile">
+						<div class="fr-heading">
+							<div class="fr-heading-row">
+								<div class="fl-icon">
+									<svg class="website-setting-icon">
+										<use href="#website-setting-icon" />
+									</svg>
+								</div>
+							</div>
+							<div class="fr-heading-text website-setting-header">
+								<div class="localizable" data-i18n="summary_website_setting_header"></div>
+							</div>
+							<div class="fr-text localizable" data-i18n="summary_website_setting_text"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="overlay"></div>
+	</body>
+</html>

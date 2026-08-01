@@ -1,0 +1,608 @@
+{
+   "advanced_setup_menu_item": {
+      "message": "Ρυθμίσεις για προχωρημένους"
+   },
+   "ai_conversation_security_description": {
+      "message": "Μείνετε πιο ασφαλείς όταν χρησιμοποιείτε το ChatGPT. Γίνεται σάρωση κάθε απάντησης για αναφορές σε ενδεχομένως αναξιόπιστες ή μη ασφαλείς προελεύσεις και για κακόβουλο κώδικα προτού αλληλεπιδράσετε με αυτές."
+   },
+   "ai_conversation_security_detection_result_bad": {
+      "message": "Σε αυτήν την απάντηση γίνεται αναφορά σε περιεχόμενο από μια προέλευση που ταυτοποιήθηκε ως μη ασφαλής."
+   },
+   "ai_conversation_security_detection_result_bad_script": {
+      "message": "Αυτή η απάντηση περιέχει μη ασφαλή κώδικα. Η εκτέλεσή του μπορεί να θέσει σε κίνδυνο το σύστημα ή τα δεδομένα σας."
+   },
+   "ai_conversation_security_detection_result_warning": {
+      "message": "Σε αυτήν την απάντηση γίνεται αναφορά σε περιεχόμενο από μια προέλευση που ταυτοποιήθηκε ως ενδεχομένως αναξιόπιστη."
+   },
+   "ai_conversation_security_header": {
+      "message": "Ασφάλεια συνομιλίας τεχνητής νοημοσύνης"
+   },
+   "ai_conversation_security_onboarding": {
+      "message": "\u003Cp class=\"onboarding-info\">Οι συνομιλίες σας προστατεύονται πλέον. Γίνεται σάρωση κάθε απάντησης του ChatGPT για αναφορές σε ενδεχομένως αναξιόπιστες ή μη ασφαλείς προελεύσεις και για κακόβουλο κώδικα.\u003C/p>\u003Cp class=\"onboarding-info\">Μπορείτε να προσαρμόσετε αυτές τις ρυθμίσεις \u003Cspan class=\"extension-popup-link\">εδώ\u003C/span>.\u003C/p>"
+   },
+   "ai_conversation_security_scan_func_description": {
+      "message": "Ελέγξτε τις απαντήσεις τεχνητής νοημοσύνης για ενδεχόμενους κινδύνους προτού τις χρησιμοποιήσετε."
+   },
+   "ai_conversation_security_scan_func_header": {
+      "message": "Σάρωση συνομιλίας"
+   },
+   "ai_conversation_security_summary": {
+      "message": "Ελέγξτε τις απαντήσεις του ChatGPT για ενδεχόμενους κινδύνους."
+   },
+   "alert_icon_alt": {
+      "message": "Εικονίδιο συναγερμού"
+   },
+   "alert_page_connection_lost_btn": {
+      "message": "Προσπαθήστε ξανά"
+   },
+   "alert_page_connection_lost_header": {
+      "message": "Η σύνδεση χάθηκε"
+   },
+   "alert_page_connection_lost_text": {
+      "message": "Η σύνδεση μεταξύ του \u003Cspan class=\"product-info\">{%productname%}\u003C/span> και της επέκτασης του προγράμματος περιήγησης χάθηκε. Ελέγξτε τη σύνδεσή σας στο διαδίκτυο και προσπαθήστε ξανά. Σημειώνεται ότι η επέκταση δεν λειτουργεί εάν δεν έχει εγκατασταθεί το \u003Cspan class=\"product-info\">{%productname%}\u003C/span>."
+   },
+   "alert_page_expired_license_btn": {
+      "message": "Άνοιγμα \u003Cspan class=\"product-info\">{%productname%}\u003C/span> "
+   },
+   "alert_page_expired_license_header": {
+      "message": "Η συνδρομή έληξε"
+   },
+   "alert_page_expired_license_text": {
+      "message": "Η συνδρομή σας έληξε και δεν μπορείτε πλέον να αποκτήσετε πρόσβαση στην επέκταση Απορρήτου και ασφάλειας προγράμματος περιήγησης της ESET. Για να επιλύσετε αυτό το ζήτημα, ανοίξτε το \u003Cspan class=\"product-info\">{%productname%}\u003C/span> και ακολουθήστε τις οδηγίες που παρέχονται."
+   },
+   "alert_page_missing_product_header": {
+      "message": "Το προϊόν λείπει"
+   },
+   "alert_page_missing_product_text_1": {
+      "message": "Προς το παρόν, δεν υπάρχει εγκατεστημένο προϊόν ESET στον υπολογιστή σας που να υποστηρίζει την επέκταση «Απόρρητο και ασφάλεια προγράμματος περιήγησης της ESET»."
+   },
+   "alert_page_missing_product_text_2": {
+      "message": "Για να μάθετε περισσότερα σχετικά με την επέκταση, τα υποστηριζόμενα προϊόντα ESET, τα υποστηριζόμενα προγράμματα περιήγησης και την εγκατάσταση, επισκεφτείτε την \u003Cspan class=\"online-help-link\">ηλεκτρονική βοήθεια.\u003C/span>"
+   },
+   "alert_page_unsupported_browser_header": {
+      "message": "Το πρόγραμμα περιήγησης δεν υποστηρίζεται"
+   },
+   "alert_page_unsupported_browser_text_1": {
+      "message": "Φαίνεται ότι χρησιμοποιείτε ένα πρόγραμμα περιήγησης που δεν υποστηρίζεται ακόμα. Για να χρησιμοποιήσετε την επέκταση «Απόρρητο και ασφάλεια προγράμματος περιήγησης της ESET», εγκαταστήστε ένα υποστηριζόμενο πρόγραμμα περιήγησης."
+   },
+   "alert_page_unsupported_browser_text_2": {
+      "message": "\u003Cspan class=\"supported-browsers-link\">Δείτε τα υποστηριζόμενα προγράμματα περιήγησης\u003C/span>"
+   },
+   "banner_ok_status_icon_alt": {
+      "message": "Εικονίδιο πλαισίου ειδοποίησης κατάστασης OK"
+   },
+   "banner_restart_status_icon_alt": {
+      "message": "Εικονίδιο πλαισίου ειδοποίησης κατάστασης επανεκκίνησης"
+   },
+   "blocking_page_description": {
+      "message": "Η Επιθεώρηση ασφάλειας ιστότοπου ανίχνευσε ενδεχομένως απατηλό ή επιβλαβές περιεχόμενο σε \u003Cspan class=\"blocked-url-tooltip\">αυτήν τη σελίδα\u003C/span>. Για να διατηρήσετε την προστασία, συνιστάται να την αποφύγετε."
+   },
+   "blocking_page_go_back_button": {
+      "message": "Επιστροφή"
+   },
+   "blocking_page_head_title": {
+      "message": "Συναγερμός! – Απόρρητο και ασφάλεια προγράμματος περιήγησης της ESET"
+   },
+   "blocking_page_ignore_threat_button": {
+      "message": "Παράβλεψη απειλής"
+   },
+   "blocking_page_options_title": {
+      "message": "Επιστροφή στην προηγούμενη σελίδα;"
+   },
+   "blocking_page_title": {
+      "message": "Αυτή η σελίδα ενδέχεται να μην είναι ασφαλής"
+   },
+   "browser_restart_needed_p": {
+      "message": "Απαιτείται επανεκκίνηση του προγράμματος περιήγησης για να εφαρμοστεί αυτή η αλλαγή."
+   },
+   "browsing_cleanup_custom_data_btn": {
+      "message": "Προσαρμογή"
+   },
+   "browsing_cleanup_custom_data_option_1": {
+      "message": "Ιστορικό περιήγησης"
+   },
+   "browsing_cleanup_custom_data_option_1_tooltip": {
+      "message": "Αρχεία των ιστότοπων που έχετε επισκεφθεί, συμπεριλαμβανομένων ημερομηνιών και ωρών. Η κατάργηση αυτών των δεδομένων θα καταργήσει το ιστορικό δραστηριότητας στο διαδίκτυο από τη συσκευή σας."
+   },
+   "browsing_cleanup_custom_data_option_2": {
+      "message": "Ιστορικό λήψεων"
+   },
+   "browsing_cleanup_custom_data_option_2_tooltip": {
+      "message": "Μια λίστα με τα αρχεία που έχετε λάβει. Η κατάργηση αυτών των δεδομένων θα καταργήσει την εγγραφή των ληφθέντων αρχείων, αλλά όχι τα ίδια τα αρχεία."
+   },
+   "browsing_cleanup_custom_data_option_3": {
+      "message": "Cookie και δεδομένα ιστότοπου"
+   },
+   "browsing_cleanup_custom_data_option_3_tooltip": {
+      "message": "Μικρά αρχεία που αποθηκεύονται από ιστότοπους για να απομνημονεύουν τις προτιμήσεις, την κατάσταση σύνδεσης και τη δραστηριότητά σας. Η κατάργηση των cookie μπορεί να σας αποσυνδέσει από ιστότοπους και να εκτελέσει επαναφορά των προτιμήσεών σας."
+   },
+   "browsing_cleanup_custom_data_option_4": {
+      "message": "Προσωρινά αποθηκευμένες εικόνες και αρχεία"
+   },
+   "browsing_cleanup_custom_data_option_4_tooltip": {
+      "message": "Προσωρινά αρχεία που βοηθούν στην ταχύτερη φόρτωση ιστότοπων αποθηκεύοντας τμήματα αυτών στη συσκευή σας. Η κατάργηση αυτών των δεδομένων ενδέχεται να επιβραδύνει αρχικά τη φόρτωση της σελίδας, αλλά θα ελευθερώσετε χώρο."
+   },
+   "browsing_cleanup_custom_data_option_5": {
+      "message": "Κωδικοί πρόσβασης και δεδομένα σύνδεσης"
+   },
+   "browsing_cleanup_custom_data_option_5_note": {
+      "message": "Αυτό θα καταργήσει οριστικά όλα τα απομνημονευμένα ονόματα χρήστη και τους κωδικούς πρόσβασης."
+   },
+   "browsing_cleanup_custom_data_option_5_tooltip": {
+      "message": "Αποθηκευμένες πληροφορίες σύνδεσης για ιστότοπους, οι οποίες επιτρέπουν γρήγορες συνδέσεις. Η κατάργηση αυτών των δεδομένων θα καταργήσει οριστικά όλα τα απομνημονευμένα ονόματα χρήστη και τους κωδικούς πρόσβασης, επομένως απαιτείται προσοχή."
+   },
+   "browsing_cleanup_custom_data_option_6": {
+      "message": "Δεδομένα αυτόματης συμπλήρωσης φορμών"
+   },
+   "browsing_cleanup_custom_data_option_6_tooltip": {
+      "message": "Πληροφορίες που έχετε εισαγάγει σε φόρμες, όπως ονόματα, διευθύνσεις και στοιχεία επικοινωνίας, που σας βοηθούν να συμπληρώνετε φόρμες πιο γρήγορα. Η κατάργηση αυτών των δεδομένων θα καταργήσει τις αποθηκευμένες πληροφορίες σας."
+   },
+   "browsing_cleanup_custom_data_option_7": {
+      "message": "Εργαζόμενοι στον τομέα των υπηρεσιών"
+   },
+   "browsing_cleanup_custom_data_option_7_tooltip": {
+      "message": "Αρχεία που βοηθούν τους ιστότοπους και τις διαδικτυακές εφαρμογές να λειτουργούν ομαλά, ακόμα και όταν είστε εκτός σύνδεσης. Η κατάργηση αυτών των δεδομένων ενδέχεται να επηρεάσει λειτουργίες όπως η πρόσβαση εκτός σύνδεσης, ο συγχρονισμός στο παρασκήνιο και οι ειδοποιήσεις, αλλά οι περισσότεροι ιστότοποι θα εξακολουθούν να λειτουργούν ως συνήθως."
+   },
+   "browsing_cleanup_data_btns_header": {
+      "message": "Τύπος δεδομένων"
+   },
+   "browsing_cleanup_header": {
+      "message": "Εκκαθάριση προγράμματος περιήγησης"
+   },
+   "browsing_cleanup_header_text": {
+      "message": "Καταργήστε δεδομένα περιήγησης ή ρυθμίστε τακτικές εκκαθαρίσεις. Παραμείνετε συνδεδεμένοι σε επιλεγμένους ιστότοπους \u003Cspan>προσθέτοντάς τους σε μια λίστα.\u003C/span>"
+   },
+   "browsing_cleanup_private_data_btn": {
+      "message": "Ιδιωτικό"
+   },
+   "browsing_cleanup_private_data_description": {
+      "message": "Ο τύπος ιδιωτικών δεδομένων περιλαμβάνει το ιστορικό περιήγησης, το ιστορικό λήψεων, τα cookie και τα δεδομένα ιστότοπου, τα δεδομένα αυτόματης συμπλήρωσης φορμών και τους εργαζόμενους στον τομέα των υπηρεσιών."
+   },
+   "browsing_cleanup_select_form_option_0": {
+      "message": "Πάντα"
+   },
+   "browsing_cleanup_select_form_option_1": {
+      "message": "Αυτή την περίοδο λειτουργίας περιήγησης"
+   },
+   "browsing_cleanup_select_form_option_2": {
+      "message": "Τελευταία ώρα"
+   },
+   "browsing_cleanup_select_form_option_3": {
+      "message": "Τελευταίες 24 ώρες"
+   },
+   "browsing_cleanup_select_form_option_4": {
+      "message": "Τελευταίες 7 ημέρες"
+   },
+   "browsing_cleanup_select_form_option_5": {
+      "message": "Τελευταίες 4 εβδομάδες"
+   },
+   "browsing_cleanup_select_form_placeholder": {
+      "message": "Επιλογή εύρους ώρας"
+   },
+   "browsing_one_time_cleanup_delete_btn": {
+      "message": "Κατάργηση δεδομένων"
+   },
+   "browsing_one_time_cleanup_delete_btn_deleted_text": {
+      "message": "Διαγράφτηκε"
+   },
+   "browsing_one_time_cleanup_delete_btn_deleting_text": {
+      "message": "Διαγραφή"
+   },
+   "browsing_one_time_cleanup_select_form_title": {
+      "message": "Εύρη ώρας"
+   },
+   "browsing_one_time_cleanup_tab_header": {
+      "message": "Άπαξ εκκαθάριση"
+   },
+   "browsing_regular_cleanup_btn": {
+      "message": "Αποθήκευση και εκτέλεση εκκαθάρισης"
+   },
+   "browsing_regular_cleanup_btn_coplete": {
+      "message": "Η εκκαθάριση ολοκληρώθηκε"
+   },
+   "browsing_regular_cleanup_btn_disabled": {
+      "message": "Αποθήκευση εκκαθάρισης"
+   },
+   "browsing_regular_cleanup_btn_processing": {
+      "message": "Αποθήκευση και εκκαθάριση"
+   },
+   "browsing_regular_cleanup_btn_schedule": {
+      "message": "Προγραμματισμός εκκαθάρισης"
+   },
+   "browsing_regular_cleanup_func_change_setting_link": {
+      "message": "Αλλαγή ρυθμίσεων τακτικής εκκαθάρισης"
+   },
+   "browsing_regular_cleanup_func_disabled": {
+      "message": "Μετά την ενεργοποίηση της τακτικής εκκαθάρισης, ρυθμίστε την ώρα και τη συχνότητα που προτιμάτε."
+   },
+   "browsing_regular_cleanup_func_header": {
+      "message": "Τακτική εκκαθάριση"
+   },
+   "browsing_regular_cleanup_func_next_session_cleanup": {
+      "message": "Η επόμενη εκκαθάριση θα ξεκινήσει αυτόματα την επόμενη φορά που θα ανοίξετε το πρόγραμμα περιήγησης."
+   },
+   "browsing_regular_cleanup_func_next_time_cleanup": {
+      "message": "Η επόμενη εκκαθάριση έχει προγραμματιστεί για τις %DATE% στις %TIME%."
+   },
+   "browsing_regular_cleanup_func_not_set": {
+      "message": "Δεν έχετε ρυθμίσει ακόμα την τακτική εκκαθάριση."
+   },
+   "browsing_regular_cleanup_func_set_up_settings_link": {
+      "message": "Ρύθμιση τακτικής εκκαθάρισης"
+   },
+   "browsing_regular_cleanup_header": {
+      "message": "Ρυθμίσεις τακτικής εκκαθάρισης"
+   },
+   "browsing_regular_cleanup_header_description": {
+      "message": "Επιλέξτε τη συχνότητα εκκαθάρισης και τους τύπους δεδομένων που θα συμπεριληφθούν."
+   },
+   "browsing_regular_cleanup_select_form_option_1": {
+      "message": "Μία φορά ανά περίοδο λειτουργίας του προγράμματος περιήγησης"
+   },
+   "browsing_regular_cleanup_select_form_option_2": {
+      "message": "Μία φορά την ώρα"
+   },
+   "browsing_regular_cleanup_select_form_option_3": {
+      "message": "Μία φορά το 24ωρο"
+   },
+   "browsing_regular_cleanup_select_form_option_4": {
+      "message": "Μία φορά ανά 7 ημέρες"
+   },
+   "browsing_regular_cleanup_select_form_option_5": {
+      "message": "Μία φορά ανά 4 εβδομάδες"
+   },
+   "browsing_regular_cleanup_select_form_placeholder": {
+      "message": "Επιλογή συχνότητας"
+   },
+   "browsing_regular_cleanup_select_form_title": {
+      "message": "Συχνότητα εκκαθάρισης"
+   },
+   "close_icon_alt": {
+      "message": "Εικονίδιο κλεισίματος"
+   },
+   "data_collection_consent_dialog_agree_button": {
+      "message": "Συμφωνία και συνέχεια"
+   },
+   "data_collection_consent_dialog_decline_button": {
+      "message": "Απόρριψη και κλείσιμο αυτής της καρτέλας"
+   },
+   "data_collection_consent_dialog_description_1": {
+      "message": "Για την παροχή πλήρους προστασίας, η επέκταση Απορρήτου και ασφάλειας προγράμματος περιήγησης ESET χρειάζεται τη συγκατάθεσή σας για την αποστολή δεδομένων που συλλέγει στην εφαρμογή ESET στη συσκευή σας. Αυτό περιλαμβάνει πληροφορίες σχετικά με τους ιστότοπους που επισκέπτεστε, όπως τις διευθύνσεις διαδικτύου (URL), το περιεχόμενο και τα σχετικά δεδομένα."
+   },
+   "data_collection_consent_dialog_description_2": {
+      "message": "Τα δεδομένα που επεξεργάζεται η εταιρεία χρησιμοποιούνται για την ανίχνευση απάτης, phishing και άλλων απειλών, και απαιτούνται για λειτουργίες όπως η Επιθεώρηση ασφάλειας ιστότοπου. Το μεγαλύτερο μέρος της επεξεργασίας γίνεται τοπικά στη συσκευή σας, αλλά ορισμένες ύποπτες διευθύνσεις URL και περιεχόμενο ιστότοπου ενδέχεται να αποστέλλονται στον διακομιστή μας για προηγμένη ανίχνευση απειλής. Εάν απορρίψετε το αίτημα, ορισμένες λειτουργίες θα απενεργοποιηθούν, αλλά η υπόλοιπη επέκταση θα εξακολουθεί να λειτουργεί."
+   },
+   "data_collection_consent_dialog_description_3": {
+      "message": "Ανάλογα με τις ρυθμίσεις σας στην εφαρμογή ESET, η εταιρεία ενδέχεται επίσης να συλλέξει ανώνυμα δεδομένα χρήσης από την επέκταση για τη βελτίωση των επιδόσεων. Μπορείτε να διαχειριστείτε αυτές τις προτιμήσεις στην εφαρμογή."
+   },
+   "data_collection_consent_dialog_footer": {
+      "message": "Για περισσότερες πληροφορίες σχετικά με τον τρόπο επεξεργασίας και διαχείρισης των δεδομένων σας, επισκεφθείτε την \u003Cspan class=\"privacy-policy-link\">Πολιτική απορρήτου\u003C/span> της εταιρείας."
+   },
+   "data_collection_consent_dialog_title": {
+      "message": "Η εταιρεία χρειάζεται τη συγκατάθεσή σας για να προστατεύσει πλήρως την περιήγησή σας"
+   },
+   "direction": {
+      "message": "ltr"
+   },
+   "eset_logo_alt": {
+      "message": "Λογότυπο της ESET"
+   },
+   "eula_link": {
+      "message": "Συμφωνία άδειας χρήσης τελικού χρήστη"
+   },
+   "extension_description": {
+      "message": "Απολαύστε εκτεταμένη προστασία προγράμματος περιήγησης με την επέκταση «Απόρρητο και ασφάλεια προγράμματος περιήγησης της ESET»."
+   },
+   "help_support_menu_item": {
+      "message": "Βοήθεια και υποστήριξη"
+   },
+   "info_icon_alt": {
+      "message": "Εικονίδιο πληροφοριών"
+   },
+   "info_page_allow_access_button": {
+      "message": "Επιτρέπεται η πρόσβαση"
+   },
+   "info_page_footer": {
+      "message": "© 1992 - %YEAR% ESET, spol. s r.o. - Με την επιφύλαξη παντός δικαιώματος. Τα εμπορικά σήματα που χρησιμοποιούνται στο παρόν έγγραφο αποτελούν κατατεθέντα σήματα της ESET, spol. s r.o. ή της ESET North America. Όλα τα άλλα εμπορικά ονόματα και επωνυμίες αποτελούν κατατεθέντα σήματα των αντίστοιχων εταιρειών."
+   },
+   "learn_more_link": {
+      "message": "Μάθετε περισσότερα"
+   },
+   "metadata_cleaner_func_description": {
+      "message": "Πραγματοποιήστε εκκαθάριση των μεταδεδομένων κάθε φορά που αποστέλλετε μια εικόνα."
+   },
+   "metadata_cleaner_func_header": {
+      "message": "Εκκαθάριση δεδομένων από τα αρχεία σας"
+   },
+   "metadata_cleaner_header": {
+      "message": "Εκκαθάριση μεταδεδομένων"
+   },
+   "metadata_cleaner_subheader": {
+      "message": "Καταργήστε τα μεταδεδομένα με ιδιωτικές πληροφορίες κατά την κοινή χρήση αρχείων στο διαδίκτυο."
+   },
+   "metadata_notifications_func_header": {
+      "message": "Εμφάνιση ειδοποιήσεων μετά την εκκαθάριση"
+   },
+   "metadata_notifications_func_subheader": {
+      "message": "Λάβετε ειδοποιήσεις στο πρόγραμμα περιήγησης."
+   },
+   "metadata_warning_status_icon_alt": {
+      "message": "Εικονίδιο προειδοποίησης κατάστασης μεταδεδομένων"
+   },
+   "notification_message_text": {
+      "message": "Μεταδεδομένα του απεσταλμένου αρχείου που καθαρίστηκαν:"
+   },
+   "overview_menu_item": {
+      "message": "Επισκόπηση"
+   },
+   "privacy_policy_link": {
+      "message": "Πολιτική απορρήτου"
+   },
+   "product_name": {
+      "message": "ΑΠΟΡΡΗΤΟ ΚΑΙ ΑΣΦΑΛΕΙΑ ΠΡΟΓΡΑΜΜΑΤΟΣ ΠΕΡΙΗΓΗΣΗΣ"
+   },
+   "product_title": {
+      "message": "Απόρρητο και ασφάλεια προγράμματος περιήγησης της ESET"
+   },
+   "product_version": {
+      "message": "Έκδοση:"
+   },
+   "progress_logo_alt": {
+      "message": "Progress. Protected. λογότυπο"
+   },
+   "scan_search_result_func_description": {
+      "message": "Σαρώστε τα αποτελέσματα αναζήτησης για να δείτε ποια είναι ασφαλή για να κάνετε κλικ."
+   },
+   "scan_search_result_func_header": {
+      "message": "Σάρωση αποτελεσμάτων αναζήτησης"
+   },
+   "secure_search_green_popup_text": {
+      "message": "Αυτός ο ιστότοπος είναι ασφαλής"
+   },
+   "secure_search_header": {
+      "message": "Ασφαλής αναζήτηση"
+   },
+   "secure_search_red_popup_text": {
+      "message": "Αυτός ο ιστότοπος δεν είναι ασφαλής"
+   },
+   "secure_search_subheader": {
+      "message": "Δείτε ποια αποτελέσματα αναζήτησης είναι ασφαλή για άνοιγμα."
+   },
+   "secure_search_yellow_popup_text": {
+      "message": "Εντοπίστηκε ενδεχομένως ανεπιθύμητο περιεχόμενο"
+   },
+   "settings_page_appearance_dark_mode": {
+      "message": "Σκοτεινό"
+   },
+   "settings_page_appearance_description": {
+      "message": "Προσαρμόστε το χρώμα της διασύνδεσης ώστε να ταιριάζει στις προτιμήσεις σας. Μπορείτε να επιλέξετε φωτεινό ή σκοτεινό χρώμα."
+   },
+   "settings_page_appearance_header": {
+      "message": "Εμφάνιση"
+   },
+   "settings_page_appearance_light_mode": {
+      "message": "Φωτεινό"
+   },
+   "settings_page_appearance_subheader": {
+      "message": "Λειτουργία χρώματος"
+   },
+   "settings_page_browser_cleanup_active_tabs_text": {
+      "message": "Προτεινόμενοι τομείς με βάση τις καρτέλες που είναι ανοιχτές αυτήν τη στιγμή στο πρόγραμμα περιήγησης. Εάν δεν βλέπετε όλες τις καρτέλες που είναι ανοιχτές αυτήν τη στιγμή στην παρακάτω λίστα, \u003Cspan class=\"refresh-list\">ανανεώστε τη λίστα.\u003C/span>"
+   },
+   "settings_page_browser_cleanup_add_btn_text": {
+      "message": "Προσθήκη"
+   },
+   "settings_page_browser_cleanup_checkbox_text": {
+      "message": "Διατήρηση της τρέχουσας περιόδου λειτουργίας περιήγησης για τις ανοιχτές καρτέλες μετά την εκκαθάριση"
+   },
+   "settings_page_browser_cleanup_description": {
+      "message": "Προσθέστε ιστότοπους στους οποίους θέλετε να αποδέχεστε τα cookie και να παραμένετε συνδεδεμένοι ακόμα και μετά την εκτέλεση εκκαθάρισης προγράμματος περιήγησης."
+   },
+   "settings_page_browser_cleanup_input_placeholder_text": {
+      "message": "Εισαγάγετε μια διεύθυνση URL που θέλετε να προσθέσετε"
+   },
+   "settings_page_browser_cleanup_minus_img_alt": {
+      "message": "Μείον"
+   },
+   "settings_page_browser_cleanup_plus_img_alt": {
+      "message": "Συν"
+   },
+   "settings_page_browser_cleanup_subheader": {
+      "message": "Ρυθμίσεις cookie για προχωρημένους"
+   },
+   "settings_page_not_valid_url_warning": {
+      "message": "*Αυτή η μορφή διεύθυνσης URL δεν φαίνεται έγκυρη."
+   },
+   "settings_page_website_settings_allow_text": {
+      "message": "Να επιτρέπεται"
+   },
+   "settings_page_website_settings_allowed_text": {
+      "message": "Επιτρέπεται"
+   },
+   "settings_page_website_settings_block_text": {
+      "message": "Αποκλεισμός"
+   },
+   "settings_page_website_settings_blocked_text": {
+      "message": "Αποκλείστηκε"
+   },
+   "settings_page_website_settings_camera_section_description": {
+      "message": "Ελέγξτε τους ιστότοπους που μπορούν να ζητήσουν χρήση της κάμεράς σας."
+   },
+   "settings_page_website_settings_camera_section_header": {
+      "message": "Κάμερα"
+   },
+   "settings_page_website_settings_chrome_extension_info_text": {
+      "message": "Η εταιρεία δεν μπορεί να αλλάξει τις ρυθμίσεις για τις επεκτάσεις του προγράμματος περιήγησης. Για να προσαρμόσετε τις ρυθμίσεις για μια συγκεκριμένη επέκταση προγράμματος περιήγησης, μεταβείτε στην \u003Cspan class=\"browser-site-permissions-link\">ενότητα «Απόρρητο και ασφάλεια»\u003C/span> του προγράμματος περιήγησης"
+   },
+   "settings_page_website_settings_description": {
+      "message": "Αποκτήστε εύκολα πρόσβαση και διαχειριστείτε τις άδειες ιστότοπων για να ελέγξετε τις πληροφορίες που μπορούν να χρησιμοποιούν οι ιστότοποι."
+   },
+   "settings_page_website_settings_edge_extension_info_text": {
+      "message": "Η εταιρεία δεν μπορεί να αλλάξει τις ρυθμίσεις για τις επεκτάσεις του προγράμματος περιήγησης. Για να προσαρμόσετε τις ρυθμίσεις για μια συγκεκριμένη επέκταση προγράμματος περιήγησης, μεταβείτε στην \u003Cspan class=\"browser-site-permissions-link\">ενότητα «Cookie και Άδειες ιστότοπου»\u003C/span> του προγράμματος περιήγησης"
+   },
+   "settings_page_website_settings_header": {
+      "message": "Αναθεώρηση ρυθμίσεων ιστότοπου"
+   },
+   "settings_page_website_settings_location_section_description": {
+      "message": "Ελέγξτε τους ιστότοπους που μπορούν να ζητήσουν την τοποθεσία σας."
+   },
+   "settings_page_website_settings_location_section_header": {
+      "message": "Τοποθεσία"
+   },
+   "settings_page_website_settings_mic_section_description": {
+      "message": "Ελέγξτε τους ιστότοπους που μπορούν να ζητήσουν χρήση του μικροφώνου σας."
+   },
+   "settings_page_website_settings_mic_section_header": {
+      "message": "Μικρόφωνο"
+   },
+   "settings_page_website_settings_notif_section_description": {
+      "message": "Ελέγξτε τους ιστότοπους που μπορούν να ζητήσουν την αποστολή ειδοποιήσεων."
+   },
+   "settings_page_website_settings_notif_section_header": {
+      "message": "Ειδοποιήσεις"
+   },
+   "settings_page_website_settings_reset_to_allow_text": {
+      "message": "Επαναφορά για να επιτρέπεται"
+   },
+   "settings_page_website_settings_reset_to_block_text": {
+      "message": "Επαναφορά για αποκλεισμό"
+   },
+   "setup_btn": {
+      "message": "ΡΥΘΜΙΣΗ"
+   },
+   "summary_metadata_stats_text": {
+      "message": "Καταργήστε τα μεταδεδομένα με ιδιωτικές πληροφορίες."
+   },
+   "summary_ok_header": {
+      "message": "Η περιήγησή σας προστατεύεται"
+   },
+   "summary_privacy_stats_text": {
+      "message": "Καταργήστε τα δεδομένα περιήγησής σας."
+   },
+   "summary_restart_header": {
+      "message": "Απαιτείται επανεκκίνηση του προγράμματος περιήγησης"
+   },
+   "summary_search_stats_text": {
+      "message": "Ελέγξτε την ασφάλεια των αποτελεσμάτων αναζήτησης."
+   },
+   "summary_website_setting_header": {
+      "message": "Αναθεώρηση ρυθμίσεων ιστότοπου"
+   },
+   "summary_website_setting_text": {
+      "message": "Διαχείριση αδειών ιστότοπου."
+   },
+   "website_security_inspector_description": {
+      "message": "Προστατέψτε την περιήγησή σας από απάτες και απειλές ασφαλείας σαρώνοντας τους ιστότοπους που επισκέπτεστε."
+   },
+   "website_security_inspector_scan_func_description": {
+      "message": "Σαρώστε ιστότοπους για απειλές αμέσως μόλις φορτωθούν."
+   },
+   "website_security_inspector_scan_func_header": {
+      "message": "Ανίχνευση απειλών ιστότοπου"
+   },
+   "website_security_inspector_setup_all_set_info": {
+      "message": "Η \u003Cspan class=\"highlighted\">επέκταση Απορρήτου και ασφάλειας προγράμματος περιήγησης ESET\u003C/span> είναι πλέον ενεργή και προστατεύει την περιήγησή σας. Μπορείτε να διαχειριστείτε τις δυνατότητές της ανά πάσα στιγμή στις ρυθμίσεις."
+   },
+   "website_security_inspector_setup_all_set_title": {
+      "message": "Είστε έτοιμοι"
+   },
+   "website_security_inspector_setup_allow_access_section_description_1": {
+      "message": "Ορισμένες λειτουργίες ασφαλείας χρειάζονται πρόσθετες άδειες για να αποκτήσουν πρόσβαση στους ιστότοπους που επισκέπτεστε, συμπεριλαμβανομένων των διευθύνσεων διαδικτύου (URL) και του περιεχομένου τους. Αυτά τα δεδομένα απαιτούνται για την ανίχνευση απάτης, phishing και άλλων απειλών σε πραγματικό χρόνο, και δεν κοινοποιούνται ποτέ σε τρίτους."
+   },
+   "website_security_inspector_setup_allow_access_section_description_2": {
+      "message": "Μπορείτε να διαχειριστείτε αυτήν την άδεια ανά πάσα στιγμή στις ρυθμίσεις επέκτασης."
+   },
+   "website_security_inspector_setup_almost_done_info": {
+      "message": "Ενεργοποιήσατε με επιτυχία την \u003Cspan class=\"highlighted\">επέκταση Απορρήτου και ασφάλειας προγράμματος περιήγησης ESET\u003C/span>."
+   },
+   "website_security_inspector_setup_almost_done_subtitle": {
+      "message": "Ολοκληρώστε την ενεργοποίηση όλων των λειτουργιών ασφαλείας"
+   },
+   "website_security_inspector_setup_almost_done_title": {
+      "message": "Σχεδόν ολοκληρώθηκε"
+   },
+   "website_security_inspector_summary": {
+      "message": "Προστατέψτε την περιήγησή σας από απάτες και απειλές ασφαλείας."
+   },
+   "website_security_inspector_title": {
+      "message": "Επιθεώρηση ασφάλειας ιστότοπου"
+   },
+   "welcome_page_ai_conversation_security_tile_text": {
+      "message": "Ελέγξτε τις απαντήσεις του ChatGPT για ενδεχομένως επιβλαβές περιεχόμενο προτού τις χρησιμοποιήσετε. Σύντομα θα προστεθούν περισσότερες πλατφόρμες."
+   },
+   "welcome_page_allow_access_section_description": {
+      "message": "Ορισμένες λειτουργίες χρειάζονται άδεια για να αποκτήσουν πρόσβαση στους ιστότοπους που επισκέπτεστε. Τα δεδομένα σχετικά με τη δραστηριότητά σας στο διαδίκτυο υποβάλλονται σε επεξεργασία τοπικά στη συσκευή σας – μόνο ενδεχομένως επιβλαβείς διευθύνσεις URL και δεδομένα τηλεμετρίας μπορούν να αποσταλούν στην ESET για την υποστήριξη της έρευνας σχετικά με τις τρέχουσες απειλές κυβερνοασφάλειας και για τη βελτίωση των υπηρεσιών της εταιρείας, εάν έχετε ενεργοποιήσει την κοινή χρήση δεδομένων στην εφαρμογή ασφάλειας ESET. Μπορείτε να ενημερώσετε αυτήν την άδεια ανά πάσα στιγμή στις ρυθμίσεις επέκτασης."
+   },
+   "welcome_page_allow_access_section_title": {
+      "message": "Να επιτρέπεται η πρόσβαση για πλήρη προστασία"
+   },
+   "welcome_page_browser_cleanup_tile_text": {
+      "message": "Καταργήστε τα δεδομένα περιήγησης ή ρυθμίστε μια τακτική εκκαθάριση."
+   },
+   "welcome_page_chrome_info_tile_text": {
+      "message": "Διατηρήστε την επέκταση ορατή κάνοντας κλικ στο παραπάνω εικονίδιο επέκτασης και καρφιτσώνοντάς την στο πρόγραμμα περιήγησης για εύκολη πρόσβαση."
+   },
+   "welcome_page_edge_info_tile_text": {
+      "message": "Διατηρήστε την επέκταση ορατή κάνοντας κλικ στο παραπάνω εικονίδιο επέκτασης και προσθέτοντάς την στη γραμμή εργαλείων του προγράμματος περιήγησης για εύκολη πρόσβαση."
+   },
+   "welcome_page_header_text": {
+      "message": "Ευχαριστούμε που ενεργοποιήσατε την επέκταση \u003Cspan class=\"highlighted\">Απόρρητο και ασφάλεια προγράμματος περιήγησης της ESET\u003C/span> στο πρόγραμμα περιήγησής σας"
+   },
+   "welcome_page_main_content_title": {
+      "message": "Εξερευνήστε τις δυνατότητες που διατηρούν την περιήγησή σας ασφαλή"
+   },
+   "welcome_page_metadata_cleanup_tile_header": {
+      "message": "Εκκαθάριση μεταδεδομένων*"
+   },
+   "welcome_page_metadata_cleanup_tile_text": {
+      "message": "Αφαιρέστε τις ιδιωτικές πληροφορίες από αρχεία κατά την κοινή χρήση τους στο διαδίκτυο."
+   },
+   "welcome_page_pin_icon_alt": {
+      "message": "Εικονίδιο καρφίτσας"
+   },
+   "welcome_page_plugin_icon_alt": {
+      "message": "Εικονίδιο πρόσθετου"
+   },
+   "welcome_page_right_arrow_icon_alt": {
+      "message": "Εικονίδιο δεξιού βέλους"
+   },
+   "welcome_page_secure_search_tile_text": {
+      "message": "Ελέγξτε την ασφάλεια των αποτελεσμάτων αναζήτησης πριν τα ανοίξετε."
+   },
+   "welcome_page_subheader": {
+      "message": "Για να αρχίσετε να απολαμβάνετε πιο ασφαλή εμπειρία περιήγησης, κάντε κλικ στο εικονίδιο επέκτασης που βρίσκεται δίπλα στη γραμμή διευθύνσεων. Σε ορισμένα προγράμματα περιήγησης ενδέχεται να βρίσκεται σε απόκρυψη στο μενού του προγράμματος περιήγησης."
+   },
+   "welcome_page_ultime_feature": {
+      "message": "*Διαθέσιμο στο ESET HOME Security Ultimate"
+   },
+   "welcome_page_website_security_inspector_tile_text": {
+      "message": "Σαρώστε ιστότοπους για απάτες και απειλές ασφαλείας κατά την περιήγησή σας."
+   },
+   "welcome_page_website_settings_tile_header": {
+      "message": "Αναθεώρηση ρυθμίσεων ιστότοπου*"
+   },
+   "welcome_page_website_settings_tile_text": {
+      "message": "Ελέγξτε τις άδειες ιστότοπου για τις ειδοποιήσεις, τον εντοπισμό τοποθεσίας, την κάμερα και το μικρόφωνο."
+   },
+   "whats_new_page_allow_access_section_description": {
+      "message": "Αυτή η λειτουργία χρειάζεται άδεια για να αποκτήσει πρόσβαση στους ιστότοπους που επισκέπτεστε. Τα δεδομένα σχετικά με τη δραστηριότητά σας στο διαδίκτυο υποβάλλονται σε επεξεργασία τοπικά στη συσκευή σας – μόνο ενδεχομένως επιβλαβείς διευθύνσεις URL και δεδομένα τηλεμετρίας μπορούν να αποσταλούν στην ESET για την υποστήριξη της έρευνας σχετικά με τις τρέχουσες απειλές κυβερνοασφάλειας και για τη βελτίωση των υπηρεσιών της εταιρείας, εάν έχετε ενεργοποιήσει την κοινή χρήση δεδομένων στην εφαρμογή ασφάλειας ESET. Μπορείτε να ενημερώσετε αυτήν την άδεια ανά πάσα στιγμή στις ρυθμίσεις επέκτασης."
+   },
+   "whats_new_page_allow_access_section_title": {
+      "message": "Να επιτρέπεται η πρόσβαση για την Ασφάλεια συνομιλίας τεχνητής νοημοσύνης"
+   },
+   "whats_new_page_description": {
+      "message": "Η Ασφάλεια συνομιλίας τεχνητής νοημοσύνης σαρώνει κάθε απάντηση του ChatGPT για περιεχόμενο που αναφέρεται σε ενδεχομένως αναξιόπιστες ή μη ασφαλείς πηγές, καθώς και για κακόβουλο κώδικα. Εκτελείται αυτόματα, έτσι η περιήγησή σας παραμένει αδιάκοπη.\u003Cbr/>\u003Cbr/>Η σάρωση πραγματοποιείται τοπικά στη συσκευή σας. Η εταιρεία δεν αποστέλλει ούτε κοινοποιεί πληροφορίες σχετικά με τη δραστηριότητά σας στο διαδίκτυο στην ESET – μόνο ενδεχομένως επιβλαβείς διευθύνσεις URL και δεδομένα τηλεμετρίας ενδέχεται να αποστέλλονται για τη βελτίωση του προϊόντος της εταιρείας.\u003Cbr/>\u003Cbr/>Σύντομα θα προστεθεί υποστήριξη για πρόσθετες πλατφόρμες τεχνητής νοημοσύνης έρχεται σύντομα."
+   },
+   "whats_new_page_header": {
+      "message": "\u003Cspan class=\"highlighted\">Τι νέο υπάρχει\u003C/span>"
+   },
+   "whats_new_page_image_alt": {
+      "message": "Απεικόνιση της λειτουργίας Ασφάλειας συνομιλίας τεχνητής νοημοσύνης της ESET που εμφανίζει δύο συννεφάκια συνομιλίας, τα οποία αντιπροσωπεύουν μια συνομιλία τεχνητής νοημοσύνης με chatbot, με μια διεύθυνση URL με σημαία που επισημαίνεται με κόκκινο χρώμα μέσα σε μία από τις απαντήσεις, υποδεικνύοντας έναν μη ασφαλή σύνδεσμο που ανιχνεύτηκε κατά τη σάρωση."
+   },
+   "whats_new_page_subheader": {
+      "message": "Εξερευνήστε τις πιο πρόσφατες ενημερώσεις και βελτιώσεις στην \u003Cspan class=\"highlighted\">επέκταση Απορρήτου και ασφάλειας προγράμματος περιήγησης της ESET\u003C/span>."
+   },
+   "whats_new_page_title": {
+      "message": "Απολαύστε ασφαλέστερες συνομιλίες με το ChatGPT"
+   }
+}

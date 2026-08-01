@@ -1,0 +1,608 @@
+{
+   "advanced_setup_menu_item": {
+      "message": "詳細設定"
+   },
+   "ai_conversation_security_description": {
+      "message": "より安全にChatGPTを利用しましょう。操作の前に、すべての応答を検査して、信頼できない、または安全でない可能性のあるソースへの参照と、悪意のあるコードがないか確認します。"
+   },
+   "ai_conversation_security_detection_result_bad": {
+      "message": "この応答は、安全でないと特定されたソースのコンテンツを参照しています。"
+   },
+   "ai_conversation_security_detection_result_bad_script": {
+      "message": "この応答には、安全でないコードが含まれています。実行すると、システムまたはデータが危険にさらされる可能性があります。"
+   },
+   "ai_conversation_security_detection_result_warning": {
+      "message": "この応答は、信頼できない可能性があると特定されたソースのコンテンツを参照しています。"
+   },
+   "ai_conversation_security_header": {
+      "message": "AI会話セキュリティ"
+   },
+   "ai_conversation_security_onboarding": {
+      "message": "\u003Cp class=\"onboarding-info\">会話が保護されました。ChatGPTのすべての応答を検査して、信頼性できない、または安全でない可能性のあるソースへの参照と悪意のあるコードがないか確認します。\u003C/p>\u003Cp class=\"onboarding-info\">これらの設定は\u003Cspan class=\"extension-popup-link\">ここで\u003C/span>調整できます。\u003C/p>"
+   },
+   "ai_conversation_security_scan_func_description": {
+      "message": "AIの応答を使用する前に、潜在的なリスクがないか確認します。"
+   },
+   "ai_conversation_security_scan_func_header": {
+      "message": "会話のスキャン"
+   },
+   "ai_conversation_security_summary": {
+      "message": "ChatGPTの応答に潜在的なリスクがないか確認します。"
+   },
+   "alert_icon_alt": {
+      "message": "警告アイコン"
+   },
+   "alert_page_connection_lost_btn": {
+      "message": "再試行"
+   },
+   "alert_page_connection_lost_header": {
+      "message": "接続が失われました"
+   },
+   "alert_page_connection_lost_text": {
+      "message": "\u003Cspan class=\"product-info\">{%productname%}\u003C/span>とブラウザー拡張機能間の接続が失われました。インターネット接続を確認して、もう一度やり直してください。拡張機能は\u003Cspan class=\"product-info\">{%productname%}\u003C/span>がインストールされていないと機能しないことに注意してください。"
+   },
+   "alert_page_expired_license_btn": {
+      "message": "開く\u003Cspan class=\"product-info\">{%productname%}\u003C/span> "
+   },
+   "alert_page_expired_license_header": {
+      "message": "期限切れのサブスクリプション"
+   },
+   "alert_page_expired_license_text": {
+      "message": "サブスクリプションの有効期限が切れ、ESETブラウザーのプライバシーおよびセキュリティ拡張機能にアクセスできなくなりました。この問題を解決するには、\u003Cspan class=\"product-info\">{%productname%}\u003C/span>を開き、表示される指示に従ってください。"
+   },
+   "alert_page_missing_product_header": {
+      "message": "不足している製品"
+   },
+   "alert_page_missing_product_text_1": {
+      "message": "現在、ESETブラウザーのプライバシーおよびセキュリティ拡張機能をサポートしているESET製品が、お使いのコンピューターにインストールされていません。"
+   },
+   "alert_page_missing_product_text_2": {
+      "message": "拡張機能、サポートされているESET製品、サポートされているブラウザー、およびインストールの詳細については、\u003Cspan class=\"online-help-link\">オンラインヘルプ\u003C/span>を参照してください。"
+   },
+   "alert_page_unsupported_browser_header": {
+      "message": "サポートされていないブラウザー"
+   },
+   "alert_page_unsupported_browser_text_1": {
+      "message": "まだサポートされていないブラウザーを使用しているようです。ESETブラウザーのプライバシーおよびセキュリティ拡張機能を使用するには、サポートされているブラウザーをインストールしてください。"
+   },
+   "alert_page_unsupported_browser_text_2": {
+      "message": "\u003Cspan class=\"supported-browsers-link\">サポートされていないブラウザーを見る\u003C/span>"
+   },
+   "banner_ok_status_icon_alt": {
+      "message": "OKステータスのバナーアイコン"
+   },
+   "banner_restart_status_icon_alt": {
+      "message": "再起動ステータスのバナーアイコン"
+   },
+   "blocking_page_description": {
+      "message": "Webサイトセキュリティ検査は、\u003Cspan class=\"blocked-url-tooltip\">このページ\u003C/span>で詐欺または有害な可能性のあるコンテンツを検出しました。保護を継続するには、このページを避けてください。"
+   },
+   "blocking_page_go_back_button": {
+      "message": "戻る"
+   },
+   "blocking_page_head_title": {
+      "message": "警告! - ESETブラウザーのプライバシーおよびセキュリティ"
+   },
+   "blocking_page_ignore_threat_button": {
+      "message": "脅威を無視"
+   },
+   "blocking_page_options_title": {
+      "message": "前のページに戻りますか?"
+   },
+   "blocking_page_title": {
+      "message": "このページは安全でない可能性があります"
+   },
+   "browser_restart_needed_p": {
+      "message": "この変更を有効にするには、ブラウザーを再起動する必要があります。"
+   },
+   "browsing_cleanup_custom_data_btn": {
+      "message": "カスタム"
+   },
+   "browsing_cleanup_custom_data_option_1": {
+      "message": "閲覧履歴"
+   },
+   "browsing_cleanup_custom_data_option_1_tooltip": {
+      "message": "アクセスしたWebサイトの記録(日時を含む)。このデータを削除すると、デバイスからWebアクティビティの履歴が消去されます。"
+   },
+   "browsing_cleanup_custom_data_option_2": {
+      "message": "ダウンロード履歴"
+   },
+   "browsing_cleanup_custom_data_option_2_tooltip": {
+      "message": "ダウンロードしたファイルの一覧。このデータを削除すると、ダウンロードしたファイルのレコードは削除されますが、ファイル自体は削除されません。"
+   },
+   "browsing_cleanup_custom_data_option_3": {
+      "message": "CookieとWebサイトのデータ"
+   },
+   "browsing_cleanup_custom_data_option_3_tooltip": {
+      "message": "あなたの好み、ログインステータス、およびアクティビティを記憶するためにWebサイトによって保存された小さなファイル。Cookieを削除すると、Webサイトからログアウトされ、設定がリセットされる場合があります。"
+   },
+   "browsing_cleanup_custom_data_option_4": {
+      "message": "キャッシュされた画像とファイル"
+   },
+   "browsing_cleanup_custom_data_option_4_tooltip": {
+      "message": "一時ファイルは、Webサイトの一部をデバイスに保存することにより、Webサイトの読み込みを高速化するのに役立ちます。このデータを削除すると、最初はページの読み込みが遅くなる可能性がありますが、領域が解放されます。"
+   },
+   "browsing_cleanup_custom_data_option_5": {
+      "message": "パスワードとサインインデータ"
+   },
+   "browsing_cleanup_custom_data_option_5_note": {
+      "message": "これにより、記憶されているすべてのユーザー名とパスワードが完全に削除されます。"
+   },
+   "browsing_cleanup_custom_data_option_5_tooltip": {
+      "message": "Webサイトのログイン情報を保存し、迅速なログインを可能にします。このデータを削除すると、記憶されているすべてのユーザー名とパスワードが完全に削除されるため、注意して操作してください。"
+   },
+   "browsing_cleanup_custom_data_option_6": {
+      "message": "フォームの自動入力データ"
+   },
+   "browsing_cleanup_custom_data_option_6_tooltip": {
+      "message": "氏名、住所、連絡先の詳細など、フォームに入力した情報。フォームにすばやく入力するのに役立ちます。このデータを削除すると、保存した情報が削除されます。"
+   },
+   "browsing_cleanup_custom_data_option_7": {
+      "message": "サービスワーカー"
+   },
+   "browsing_cleanup_custom_data_option_7_tooltip": {
+      "message": "オフラインのときでもWebサイトやWebアプリをスムーズに動作させるのに役立つファイル。このデータを削除すると、オフラインアクセス、バックグラウンド同期、通知などの機能に影響する可能性がありますが、ほとんどのWebサイトは通常どおり機能します。"
+   },
+   "browsing_cleanup_data_btns_header": {
+      "message": "データのタイプ"
+   },
+   "browsing_cleanup_header": {
+      "message": "ブラウザークリーンアップ"
+   },
+   "browsing_cleanup_header_text": {
+      "message": "閲覧データを削除するか、定期的なクリーンアップを設定します。\u003Cspan>選択したWebサイトをリストに追加して\u003C/span>、サイトにログインしたままにできます。"
+   },
+   "browsing_cleanup_private_data_btn": {
+      "message": "プライベート"
+   },
+   "browsing_cleanup_private_data_description": {
+      "message": "プライベートデータタイプには、閲覧履歴、ダウンロード履歴、CookieとWebサイトデータ、フォームの自動入力データ、およびサービスワーカーなどがあります。"
+   },
+   "browsing_cleanup_select_form_option_0": {
+      "message": "常に"
+   },
+   "browsing_cleanup_select_form_option_1": {
+      "message": "この閲覧セッション"
+   },
+   "browsing_cleanup_select_form_option_2": {
+      "message": "過去1時間"
+   },
+   "browsing_cleanup_select_form_option_3": {
+      "message": "過去24時間"
+   },
+   "browsing_cleanup_select_form_option_4": {
+      "message": "過去7日"
+   },
+   "browsing_cleanup_select_form_option_5": {
+      "message": "過去4週間"
+   },
+   "browsing_cleanup_select_form_placeholder": {
+      "message": "時間範囲を選択"
+   },
+   "browsing_one_time_cleanup_delete_btn": {
+      "message": "データの削除"
+   },
+   "browsing_one_time_cleanup_delete_btn_deleted_text": {
+      "message": "削除済み"
+   },
+   "browsing_one_time_cleanup_delete_btn_deleting_text": {
+      "message": "削除"
+   },
+   "browsing_one_time_cleanup_select_form_title": {
+      "message": "時間範囲"
+   },
+   "browsing_one_time_cleanup_tab_header": {
+      "message": "1回限りのクリーンアップ"
+   },
+   "browsing_regular_cleanup_btn": {
+      "message": "クリーンアップを保存して実行"
+   },
+   "browsing_regular_cleanup_btn_coplete": {
+      "message": "クリーンアップが完了しました"
+   },
+   "browsing_regular_cleanup_btn_disabled": {
+      "message": "クリーンアップを保存"
+   },
+   "browsing_regular_cleanup_btn_processing": {
+      "message": "保存してクリーンアップしています"
+   },
+   "browsing_regular_cleanup_btn_schedule": {
+      "message": "クリーンアップをスケジュール"
+   },
+   "browsing_regular_cleanup_func_change_setting_link": {
+      "message": "定期クリーンアップ設定を変更"
+   },
+   "browsing_regular_cleanup_func_disabled": {
+      "message": "定期クリーンアップを有効にした後、任意の時間と頻度を設定します。"
+   },
+   "browsing_regular_cleanup_func_header": {
+      "message": "定期的なクリーンアップ"
+   },
+   "browsing_regular_cleanup_func_next_session_cleanup": {
+      "message": "次回のクリーンアップは、次にブラウザーを開いたときに自動的に開始されます。"
+   },
+   "browsing_regular_cleanup_func_next_time_cleanup": {
+      "message": "次回のクリーンアップは%DATE%%TIME%に予定されています。"
+   },
+   "browsing_regular_cleanup_func_not_set": {
+      "message": "定期クリーンアップをまだ設定していません。"
+   },
+   "browsing_regular_cleanup_func_set_up_settings_link": {
+      "message": "定期クリーンアップを設定"
+   },
+   "browsing_regular_cleanup_header": {
+      "message": "定期クリーンアップ設定"
+   },
+   "browsing_regular_cleanup_header_description": {
+      "message": "クリーンアップの頻度と対象のデータのタイプを選択します。"
+   },
+   "browsing_regular_cleanup_select_form_option_1": {
+      "message": "ブラウザーセッションごとに1回"
+   },
+   "browsing_regular_cleanup_select_form_option_2": {
+      "message": "1時間に1回"
+   },
+   "browsing_regular_cleanup_select_form_option_3": {
+      "message": "24時間に1回"
+   },
+   "browsing_regular_cleanup_select_form_option_4": {
+      "message": "7日間に1回"
+   },
+   "browsing_regular_cleanup_select_form_option_5": {
+      "message": "4週間に1回"
+   },
+   "browsing_regular_cleanup_select_form_placeholder": {
+      "message": "頻度を選択"
+   },
+   "browsing_regular_cleanup_select_form_title": {
+      "message": "クリーンアップの頻度"
+   },
+   "close_icon_alt": {
+      "message": "閉じるアイコン"
+   },
+   "data_collection_consent_dialog_agree_button": {
+      "message": "同意して続行"
+   },
+   "data_collection_consent_dialog_decline_button": {
+      "message": "拒否してこのタブを閉じる"
+   },
+   "data_collection_consent_dialog_description_1": {
+      "message": "完全な保護を提供するために、ESETブラウザーのプライバシーおよびセキュリティ拡張機能が収集したデータをデバイス上のESETアプリケーションに送信するには、ユーザーの同意が必要です。これには、Webアドレス(URL)、コンテンツ、関連データなど、アクセスするWebサイトに関する情報が含まれます。"
+   },
+   "data_collection_consent_dialog_description_2": {
+      "message": "当社が処理するデータは、詐欺、フィッシングなどの脅威を検出するために使用され、Webサイトセキュリティ検査などの機能に必要です。ほとんどの処理はデバイス上のローカルで行われますが、特定の疑わしいURLやWebサイトのコンテンツは、高度な脅威の検出のために当社のサーバーに送信される場合があります。拒否すると、特定の機能は無効になりますが、残りの拡張機能は引き続き機能します。"
+   },
+   "data_collection_consent_dialog_description_3": {
+      "message": "ESETアプリケーションの設定によっては、パフォーマンスを向上させるために拡張機能から匿名化された使用状況データを収集することもあります。これらの設定は、アプリケーションで管理できます。"
+   },
+   "data_collection_consent_dialog_footer": {
+      "message": "ESETによるお客様のデータ処理および管理方法の詳細については、\u003Cspan class=\"privacy-policy-link\">プライバシーポリシーをご覧ください\u003C/span>。"
+   },
+   "data_collection_consent_dialog_title": {
+      "message": "ブラウジングを完全に保護するには、お客様の同意が必要です"
+   },
+   "direction": {
+      "message": "LTR"
+   },
+   "eset_logo_alt": {
+      "message": "ESETロゴ"
+   },
+   "eula_link": {
+      "message": "エンドユーザーライセンス契約"
+   },
+   "extension_description": {
+      "message": "ESETブラウザーのプライバシーおよびセキュリティで強化されたブラウザーの保護をご利用ください。"
+   },
+   "help_support_menu_item": {
+      "message": "ヘルプとサポート"
+   },
+   "info_icon_alt": {
+      "message": "情報アイコン"
+   },
+   "info_page_allow_access_button": {
+      "message": "アクセスの許可"
+   },
+   "info_page_footer": {
+      "message": "© 1992 - %YEAR% ESET, spol. s r.o. - All rights reserved.使用されている商標は、ESET, spol. s r.o.またはESET North Americaの商標または登録商標です。その他の名称およびブランドは、それぞれの企業の登録商標です。"
+   },
+   "learn_more_link": {
+      "message": "詳細"
+   },
+   "metadata_cleaner_func_description": {
+      "message": "画像をアップロードするたびにメタデータを消去します。"
+   },
+   "metadata_cleaner_func_header": {
+      "message": "ファイルからデータを消去"
+   },
+   "metadata_cleaner_header": {
+      "message": "メタデータクリーンアップ"
+   },
+   "metadata_cleaner_subheader": {
+      "message": "オンラインでファイルを共有するときに、個人情報を含むメタデータを削除します。"
+   },
+   "metadata_notifications_func_header": {
+      "message": "クリーンアップ後に通知を表示"
+   },
+   "metadata_notifications_func_subheader": {
+      "message": "ブラウザー内通知を受け取ります。"
+   },
+   "metadata_warning_status_icon_alt": {
+      "message": "メタデータステータスの警告アイコン"
+   },
+   "notification_message_text": {
+      "message": "アップロードされたファイルのメタデータが消去されました:"
+   },
+   "overview_menu_item": {
+      "message": "概要"
+   },
+   "privacy_policy_link": {
+      "message": "プライバシーポリシー"
+   },
+   "product_name": {
+      "message": "ブラウザーのプライバシーおよびセキュリティ"
+   },
+   "product_title": {
+      "message": "ESETブラウザーのプライバシーおよびセキュリティ"
+   },
+   "product_version": {
+      "message": "バージョン:"
+   },
+   "progress_logo_alt": {
+      "message": "Progress. Protected.ロゴ"
+   },
+   "scan_search_result_func_description": {
+      "message": "検索結果を検査して、クリックしても安全な結果を確認します。"
+   },
+   "scan_search_result_func_header": {
+      "message": "検索結果を検査"
+   },
+   "secure_search_green_popup_text": {
+      "message": "このWebサイトは安全です"
+   },
+   "secure_search_header": {
+      "message": "セキュア検索"
+   },
+   "secure_search_red_popup_text": {
+      "message": "このWebサイトは安全ではありません"
+   },
+   "secure_search_subheader": {
+      "message": "安全に開ける検索結果を確認します。"
+   },
+   "secure_search_yellow_popup_text": {
+      "message": "潜在的に望ましくないコンテンツが見つかりました"
+   },
+   "settings_page_appearance_dark_mode": {
+      "message": "暗い"
+   },
+   "settings_page_appearance_description": {
+      "message": "好みに合わせてインターフェイスの色をカスタマイズします。明るい色または暗い色から選択できます。"
+   },
+   "settings_page_appearance_header": {
+      "message": "外観"
+   },
+   "settings_page_appearance_light_mode": {
+      "message": "明るい"
+   },
+   "settings_page_appearance_subheader": {
+      "message": "色モード"
+   },
+   "settings_page_browser_cleanup_active_tabs_text": {
+      "message": "ブラウザーで現在開いているタブに基づいて推奨されるドメイン。以下のリストに現在開いているタブがすべて表示されていない場合は、\u003Cspan class=\"refresh-list\">リストを更新してください。\u003C/span>"
+   },
+   "settings_page_browser_cleanup_add_btn_text": {
+      "message": "追加"
+   },
+   "settings_page_browser_cleanup_checkbox_text": {
+      "message": "クリーンアップ後も開いているタブの現在の閲覧セッションを保持します"
+   },
+   "settings_page_browser_cleanup_description": {
+      "message": "Cookieを受け入れ、ブラウザークリーンアップを実行した後もログインしたままにするWebサイトを追加します。"
+   },
+   "settings_page_browser_cleanup_input_placeholder_text": {
+      "message": "追加するURLを入力します"
+   },
+   "settings_page_browser_cleanup_minus_img_alt": {
+      "message": "マイナス"
+   },
+   "settings_page_browser_cleanup_plus_img_alt": {
+      "message": "プラス"
+   },
+   "settings_page_browser_cleanup_subheader": {
+      "message": "Cookieの詳細設定"
+   },
+   "settings_page_not_valid_url_warning": {
+      "message": "*有効なURLではないようです。"
+   },
+   "settings_page_website_settings_allow_text": {
+      "message": "許可"
+   },
+   "settings_page_website_settings_allowed_text": {
+      "message": "許可済み"
+   },
+   "settings_page_website_settings_block_text": {
+      "message": "ブロック"
+   },
+   "settings_page_website_settings_blocked_text": {
+      "message": "ブロック"
+   },
+   "settings_page_website_settings_camera_section_description": {
+      "message": "カメラの使用をリクエストできるWebサイトを確認します。"
+   },
+   "settings_page_website_settings_camera_section_header": {
+      "message": "カメラ"
+   },
+   "settings_page_website_settings_chrome_extension_info_text": {
+      "message": "ブラウザー拡張機能の設定を変更することはできません。特定のブラウザー拡張機能の設定を調整するには、ブラウザーの\u003Cspan class=\"browser-site-permissions-link\">プライバシーとセキュリティのセクション\u003C/span>に移動します。"
+   },
+   "settings_page_website_settings_description": {
+      "message": "Webサイトの権限に簡単にアクセスして管理し、Webサイトが使用できる情報を制御します。"
+   },
+   "settings_page_website_settings_edge_extension_info_text": {
+      "message": "ブラウザー拡張機能の設定を変更することはできません。特定のブラウザー拡張機能の設定を調整するには、ブラウザーの\u003Cspan class=\"browser-site-permissions-link\">プライバシーとサイト権限のセクション\u003C/span>に移動します。"
+   },
+   "settings_page_website_settings_header": {
+      "message": "Webサイト設定の確認"
+   },
+   "settings_page_website_settings_location_section_description": {
+      "message": "現在地を確認できるWebサイトを確認します。"
+   },
+   "settings_page_website_settings_location_section_header": {
+      "message": "位置"
+   },
+   "settings_page_website_settings_mic_section_description": {
+      "message": "マイクの使用をリクエストできるWebサイトを確認します。"
+   },
+   "settings_page_website_settings_mic_section_header": {
+      "message": "マイク"
+   },
+   "settings_page_website_settings_notif_section_description": {
+      "message": "通知の送信を確認するWebサイトを確認します。"
+   },
+   "settings_page_website_settings_notif_section_header": {
+      "message": "通知"
+   },
+   "settings_page_website_settings_reset_to_allow_text": {
+      "message": "許可に再設定"
+   },
+   "settings_page_website_settings_reset_to_block_text": {
+      "message": "ブロックに再設定"
+   },
+   "setup_btn": {
+      "message": "設定"
+   },
+   "summary_metadata_stats_text": {
+      "message": "個人情報を含むメタデータを削除します。"
+   },
+   "summary_ok_header": {
+      "message": "あなたの閲覧は保護されています"
+   },
+   "summary_privacy_stats_text": {
+      "message": "閲覧データを削除します。"
+   },
+   "summary_restart_header": {
+      "message": "ブラウザーの再起動が必要です"
+   },
+   "summary_search_stats_text": {
+      "message": "検索結果の安全性を確認します。"
+   },
+   "summary_website_setting_header": {
+      "message": "Webサイト設定の確認"
+   },
+   "summary_website_setting_text": {
+      "message": "Webサイトの権限を管理します。"
+   },
+   "website_security_inspector_description": {
+      "message": "アクセスしたWebサイトを検査して、詐欺やセキュリティの脅威から閲覧を保護します。"
+   },
+   "website_security_inspector_scan_func_description": {
+      "message": "Webサイトが読み込まれたらすぐに検査して脅威を検出します。"
+   },
+   "website_security_inspector_scan_func_header": {
+      "message": "Webサイトの脅威の検出"
+   },
+   "website_security_inspector_setup_all_set_info": {
+      "message": "\u003Cspan class=\"highlighted\">ESETブラウザーのプライバシーおよびセキュリティ拡張機能\u003C/span>がアクティブになり、ブラウジングが保護されるようになりました。拡張機能は設定でいつでも管理できます。"
+   },
+   "website_security_inspector_setup_all_set_title": {
+      "message": "設定が完了しました"
+   },
+   "website_security_inspector_setup_allow_access_section_description_1": {
+      "message": "特定のセキュリティ機能では、Webアドレス(URL)やコンテンツなど、訪問するWebサイトにアクセスするために追加の権限が必要になります。このデータは、詐欺、フィッシングなどの脅威をリアルタイムで検出するために必要であり、第三者と共有されることはありません。"
+   },
+   "website_security_inspector_setup_allow_access_section_description_2": {
+      "message": "この権限は、拡張機能の設定でいつでも管理できます。"
+   },
+   "website_security_inspector_setup_almost_done_info": {
+      "message": "\u003Cspan class=\"highlighted\">ESETブラウザーのプライバシーおよびセキュリティ拡張機能\u003C/span>が正常に有効化されました。"
+   },
+   "website_security_inspector_setup_almost_done_subtitle": {
+      "message": "すべてのセキュリティ機能の有効化を終了する"
+   },
+   "website_security_inspector_setup_almost_done_title": {
+      "message": "あともう少しです"
+   },
+   "website_security_inspector_summary": {
+      "message": "詐欺やセキュリティの脅威から閲覧を保護します。"
+   },
+   "website_security_inspector_title": {
+      "message": "Webサイトセキュリティ検査"
+   },
+   "welcome_page_ai_conversation_security_tile_text": {
+      "message": "ChatGPTの応答を使用する前に、有害な可能性のあるコンテンツがないか確認します。近日中に、さらに多くのプラットフォームに対応予定です。"
+   },
+   "welcome_page_allow_access_section_description": {
+      "message": "一部の機能では、訪問したWebサイトへのアクセスに許可が必要です。Webアクティビティに関するデータは、デバイス上のローカルで処理されます。最新のサイバーセキュリティ脅威の調査を支援し、サービスの改善に役立てるため(ESETセキュリティアプリケーションでデータ共有を有効にしている場合)、潜在的に有害なURLとテレメトリのみがESETに送信される場合があります。この権限は、拡張機能の設定でいつでも更新できます。"
+   },
+   "welcome_page_allow_access_section_title": {
+      "message": "完全な保護のアクセスを許可"
+   },
+   "welcome_page_browser_cleanup_tile_text": {
+      "message": "閲覧データを削除するか、定期的なクリーンアップを設定します。"
+   },
+   "welcome_page_chrome_info_tile_text": {
+      "message": "上の拡張機能アイコンをクリックして、簡単にアクセスできるようブラウザーに拡張機能を固定し、拡張機能を表示させたままにします。"
+   },
+   "welcome_page_edge_info_tile_text": {
+      "message": "上の拡張機能アイコンをクリックして、簡単にアクセスできるようブラウザーのツールバーに追加し、拡張機能を表示させたままにします。"
+   },
+   "welcome_page_header_text": {
+      "message": "ブラウザーで\u003Cspan class=\"highlighted\">ESETブラウザーのプライバシーおよびセキュリティ\u003C/span>拡張機能を有効にしていただき、ありがとうございます"
+   },
+   "welcome_page_main_content_title": {
+      "message": "ブラウジングを安全に保つ機能の詳細"
+   },
+   "welcome_page_metadata_cleanup_tile_header": {
+      "message": "メタデータクリーンアップ*"
+   },
+   "welcome_page_metadata_cleanup_tile_text": {
+      "message": "オンラインで共有するときに、個人情報のファイルを削除します。"
+   },
+   "welcome_page_pin_icon_alt": {
+      "message": "ピンアイコン"
+   },
+   "welcome_page_plugin_icon_alt": {
+      "message": "プラグインアイコン"
+   },
+   "welcome_page_right_arrow_icon_alt": {
+      "message": "右矢印アイコン"
+   },
+   "welcome_page_secure_search_tile_text": {
+      "message": "検索結果を開く前に、その安全性を確認します。"
+   },
+   "welcome_page_subheader": {
+      "message": "より安全な閲覧体験を楽しむには、アドレスバーの横の拡張機能アイコンをクリックします。一部のブラウザーでは、ブラウザーメニューが非表示になっている場合があります。"
+   },
+   "welcome_page_ultime_feature": {
+      "message": "*ESET Security Ultimateで利用可能"
+   },
+   "welcome_page_website_security_inspector_tile_text": {
+      "message": "閲覧中にWebサイトを検査して、詐欺やセキュリティの脅威を検出します。"
+   },
+   "welcome_page_website_settings_tile_header": {
+      "message": "Webサイト設定の確認*"
+   },
+   "welcome_page_website_settings_tile_text": {
+      "message": "通知、場所、カメラ、マイクのWebサイト権限を制御します。"
+   },
+   "whats_new_page_allow_access_section_description": {
+      "message": "この機能では、訪問したWebサイトへのアクセスに許可が必要です。Webアクティビティに関するデータは、デバイス上のローカルで処理されます。最新のサイバーセキュリティ脅威の調査を支援し、サービスの改善に役立てるため(ESETセキュリティアプリケーションでデータ共有を有効にしている場合)、潜在的に有害なURLとテレメトリのみがESETに送信される場合があります。この権限は、拡張機能の設定でいつでも更新できます。"
+   },
+   "whats_new_page_allow_access_section_title": {
+      "message": "AI会話セキュリティのアクセスを許可"
+   },
+   "whats_new_page_description": {
+      "message": "AI会話セキュリティは、ChatGPTのすべての応答を検査して、信頼できない、または安全でない可能性があるソースを参照するコンテンツや、悪意のあるコードを探します。自動的に実行されるため、閲覧が中断されることはありません。\u003Cbr/>\u003Cbr/>検査はデバイス上のローカルで実行されます。ESETは、お客様のWebアクティビティに関する情報をESETに送信または共有することはありません。製品の改善に役立てるために、潜在的に有害なURLとテレメトリのみが送信されることがあります。\u003Cbr/>\u003Cbr/>近日中に、AIプラットフォームのサポートの追加が予定されています。"
+   },
+   "whats_new_page_header": {
+      "message": "\u003Cspan class=\"highlighted\">新機能の紹介\u003C/span>"
+   },
+   "whats_new_page_image_alt": {
+      "message": "ESETのAI会話セキュリティ機能の図。AIチャットボットの会話を表す2つの吹き出しが示され、応答の1つでは、検査中に安全でないリンクが検出されたことを示す、フラグが設定されたURLが赤色で強調表示されています。"
+   },
+   "whats_new_page_subheader": {
+      "message": "\u003Cspan class=\"highlighted\">ESETブラウザーのプライバシーおよびセキュリティ拡張機能\u003C/span>の最新のアップデートと改善点をご覧ください。"
+   },
+   "whats_new_page_title": {
+      "message": "ChatGPTの会話をより自然に楽しむ"
+   }
+}

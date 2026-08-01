@@ -1,0 +1,124 @@
+.popup-container {
+    margin: 6px 10px 25px 10px;
+}
+
+.regular-cleanup-header {
+    margin-bottom: 33.7px;
+}
+
+.time-range-section {
+    margin-bottom: 20.2px;
+}
+
+.popup-section_title {
+    font-size: 12px;
+    font-weight: 400;
+    color: #373c42;
+    margin-bottom: 5px;
+}
+
+.dark-mode .popup-section_title {
+    color: #e8ecee;
+}
+
+.data-type-section {
+    margin-bottom: 15px;
+}
+
+.data-type-btn {
+    font-family: "Segoe UI";
+    font-size: 14px;
+    font-weight: 400;
+    text-decoration: none;
+    color: #757575;
+    border: 1px solid #d4d4d4;
+    border-radius: 15px;
+    background-color: var(--white);
+    padding: 5px 15px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.dark-mode .data-type-btn {
+    background-color: #474a4c;
+    color: #a6a6a6;
+    border: 1px solid #999999;
+}
+
+.data-type-btn:hover {
+    background-color: var(--btn-disabled-bg-color);
+}
+
+.data-type-btn_active {
+    background-color: #168b8f1a;
+    border-color: #168b8f;
+    color: #373c42;
+}
+
+.dark-mode .data-type-btn_active {
+    background-color: #00c7d11a;
+    border-color: #00c7d1;
+    color: var(--light);
+}
+
+.private-data-description {
+    gap: 10px;
+}
+
+.private-data-description_text {
+    font-size: 12px;
+    font-weight: 400;
+    color: #757575;
+}
+
+.info-icon {
+    width: 15px;
+    height: 15px;
+}
+
+.reguar-cleanup-checkboxes {
+    height: 147px;
+}
+
+.cleanup-btn-container {
+    position: absolute;
+    bottom: 25px;
+    left: 25px;
+    right: 25px;
+}
+
+.cleanup-btn {
+    font-family: "Segoe UI";
+    font-size: 14px;
+    font-weight: 600;
+    color: #ffffff;
+    width: 100%;
+    padding: 11px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 50px;
+    background-color: #187daf;
+    cursor: pointer;
+    transition: transform 200ms, box-shadow 200ms;
+}
+
+.cleanup-btn:hover {
+    background-color: #125d82;
+}
+
+.cleanup-btn-disabled {
+    background-color: #d4d4d4;
+    color: #999999;
+    cursor: unset;
+}
+
+.dark-mode .cleanup-btn:hover {
+    background-color: #3ca1d4;
+}
+
+.dark-mode .cleanup-btn-disabled {
+    background-color: #393939;
+    color: #777777;
+}

@@ -1,0 +1,608 @@
+{
+   "advanced_setup_menu_item": {
+      "message": "Configuração avançada"
+   },
+   "ai_conversation_security_description": {
+      "message": "Fique mais seguro ao usar o ChatGPT. Escaneamos todas as respostas em busca de referências a fontes potencialmente não confiáveis ou inseguras e em busca de código malicioso antes de você interagir com elas."
+   },
+   "ai_conversation_security_detection_result_bad": {
+      "message": "Essa resposta faz referência ao conteúdo de uma fonte que identificamos como insegura."
+   },
+   "ai_conversation_security_detection_result_bad_script": {
+      "message": "Esta resposta contém código inseguro. Executá-lo pode colocar seu sistema ou dados em risco."
+   },
+   "ai_conversation_security_detection_result_warning": {
+      "message": "Essa resposta faz referência ao conteúdo de uma fonte que identificamos como potencialmente não confiável."
+   },
+   "ai_conversation_security_header": {
+      "message": "Segurança de Conversa com IA"
+   },
+   "ai_conversation_security_onboarding": {
+      "message": "\u003Cp class=\"onboarding-info\">Suas conversas agora estão protegidas. Escaneamos todas as respostas do ChatGPT em busca de referências a fontes potencialmente não confiáveis ou inseguras e a códigos maliciosos.\u003C/p>\u003Cp class=\"onboarding-info\">Você pode ajustar essas configurações \u003Cspan class=\"extension-popup-link\">aqui\u003C/span>.\u003C/p>"
+   },
+   "ai_conversation_security_scan_func_description": {
+      "message": "Verifique as respostas da IA quanto a riscos potenciais antes de usá-las."
+   },
+   "ai_conversation_security_scan_func_header": {
+      "message": "Escaneamento de conversas"
+   },
+   "ai_conversation_security_summary": {
+      "message": "Verifique as respostas do ChatGPT quanto a riscos potenciais."
+   },
+   "alert_icon_alt": {
+      "message": "Ícone de alerta"
+   },
+   "alert_page_connection_lost_btn": {
+      "message": "Tente novamente"
+   },
+   "alert_page_connection_lost_header": {
+      "message": "Conexão perdida"
+   },
+   "alert_page_connection_lost_text": {
+      "message": "A conexão entre \u003Cspan class=\"product-info\">{%productname%}\u003C/span> e a extensão do navegador foi perdida. Verifique sua conexão com a internet e tente novamente. Observe que a extensão não funcionará sem o \u003Cspan class=\"product-info\">{%productname%}\u003C/span> instalado."
+   },
+   "alert_page_expired_license_btn": {
+      "message": "Mostrar \u003Cspan class=\"product-info\">{%productname%}\u003C/span> "
+   },
+   "alert_page_expired_license_header": {
+      "message": "Assinatura expirada"
+   },
+   "alert_page_expired_license_text": {
+      "message": "Sua assinatura expirou e você não pode mais acessar a extensão Privacidade e segurança do navegador ESET. Para resolver esse problema, abra o \u003Cspan class=\"product-info\">{%productname%}\u003C/span> e siga as instruções fornecidas."
+   },
+   "alert_page_missing_product_header": {
+      "message": "Produto ausente"
+   },
+   "alert_page_missing_product_text_1": {
+      "message": "No momento, não há nenhum produto ESET instalado em seu computador que seja compatível com a extensão de Privacidade e segurança do navegador ESET."
+   },
+   "alert_page_missing_product_text_2": {
+      "message": "Para saber mais sobre a extensão, produtos ESET compatíveis, navegadores compatíveis e instalação, visite nossa \u003Cspan class=\"online-help-link\">ajuda on-line.\u003C/span>"
+   },
+   "alert_page_unsupported_browser_header": {
+      "message": "Navegador incompatível"
+   },
+   "alert_page_unsupported_browser_text_1": {
+      "message": "Parece que ainda não oferecemos compatibilidade com o navegador que você está usando. Para usar a extensão de Privacidade e segurança do navegador ESET, instale um navegador compatível."
+   },
+   "alert_page_unsupported_browser_text_2": {
+      "message": "\u003Cspan class=\"supported-browsers-link\">Consultar os navegadores compatíveis\u003C/span>"
+   },
+   "banner_ok_status_icon_alt": {
+      "message": "Ícone de banner de status OK"
+   },
+   "banner_restart_status_icon_alt": {
+      "message": "Ícone de banner de status de reinicialização"
+   },
+   "blocking_page_description": {
+      "message": "O Inspetor de segurança de sites detectou conteúdo potencialmente fraudulento ou prejudicial \u003Cspan class=\"blocked-url-tooltip\">nesta página\u003C/span>. Para se manter protegido, recomendamos evitar a página."
+   },
+   "blocking_page_go_back_button": {
+      "message": "Voltar"
+   },
+   "blocking_page_head_title": {
+      "message": "Alerta! – Privacidade e segurança do navegador ESET"
+   },
+   "blocking_page_ignore_threat_button": {
+      "message": "Ignorar ameaça"
+   },
+   "blocking_page_options_title": {
+      "message": "Voltar para a página anterior?"
+   },
+   "blocking_page_title": {
+      "message": "Esta página pode não ser segura"
+   },
+   "browser_restart_needed_p": {
+      "message": "É preciso reiniciar o navegador para que as alterações sejam implementadas."
+   },
+   "browsing_cleanup_custom_data_btn": {
+      "message": "Personalizado"
+   },
+   "browsing_cleanup_custom_data_option_1": {
+      "message": "Histórico de navegação"
+   },
+   "browsing_cleanup_custom_data_option_1_tooltip": {
+      "message": "Registros dos sites que você visitou, incluindo datas e horários. A exclusão desses dados apagará seu histórico de atividades na web do seu dispositivo."
+   },
+   "browsing_cleanup_custom_data_option_2": {
+      "message": "Histórico de downloads"
+   },
+   "browsing_cleanup_custom_data_option_2_tooltip": {
+      "message": "Uma lista de arquivos que você baixou. A exclusão desses dados removerá o registro dos arquivos baixados, mas não os arquivos em si."
+   },
+   "browsing_cleanup_custom_data_option_3": {
+      "message": "Cookies e dados do site"
+   },
+   "browsing_cleanup_custom_data_option_3_tooltip": {
+      "message": "Pequenos arquivos armazenados por sites para lembrar suas preferências, status de login e atividade. A exclusão de cookies pode desconectar você de sites e redefinir suas preferências."
+   },
+   "browsing_cleanup_custom_data_option_4": {
+      "message": "Imagens e arquivos armazenados em cache"
+   },
+   "browsing_cleanup_custom_data_option_4_tooltip": {
+      "message": "Arquivos temporários que ajudam a carregar sites mais rapidamente, armazenando partes deles em seu dispositivo. A exclusão desses dados pode retardar o carregamento da página inicialmente, mas você liberará espaço."
+   },
+   "browsing_cleanup_custom_data_option_5": {
+      "message": "Senhas e dados de entrada"
+   },
+   "browsing_cleanup_custom_data_option_5_note": {
+      "message": "Isso excluirá permanentemente todos os nomes de usuário e senhas lembrados."
+   },
+   "browsing_cleanup_custom_data_option_5_tooltip": {
+      "message": "Informações de login armazenadas para sites, o que permite logins rápidos. A exclusão desses dados removerá permanentemente todos os nomes de usuário e senhas lembrados, portanto, proceda com cuidado."
+   },
+   "browsing_cleanup_custom_data_option_6": {
+      "message": "Dados de preenchimento automático de formulário"
+   },
+   "browsing_cleanup_custom_data_option_6_tooltip": {
+      "message": "Informações que você inseriu em formulários, como nomes, endereços e detalhes de contato, que ajudam você a preencher formulários mais rapidamente. A exclusão desses dados removerá suas informações salvas."
+   },
+   "browsing_cleanup_custom_data_option_7": {
+      "message": "Service workers"
+   },
+   "browsing_cleanup_custom_data_option_7_tooltip": {
+      "message": "Arquivos que ajudam sites e aplicativos da web a funcionar sem problemas, mesmo quando você está off-line. A exclusão desses dados pode afetar recursos como acesso off-line, sincronização em segundo plano e notificações, mas a maioria dos sites ainda funcionará normalmente."
+   },
+   "browsing_cleanup_data_btns_header": {
+      "message": "Tipo de dados"
+   },
+   "browsing_cleanup_header": {
+      "message": "Limpeza do navegador"
+   },
+   "browsing_cleanup_header_text": {
+      "message": "Remova dados de navegação ou configure limpezas regulares. Mantenha-se conectado em sites selecionados \u003Cspan>adicionando-os a uma lista.\u003C/span>"
+   },
+   "browsing_cleanup_private_data_btn": {
+      "message": "Privado"
+   },
+   "browsing_cleanup_private_data_description": {
+      "message": "O tipo de dados privados inclui seu histórico de navegação, histórico de downloads, cookies e dados do site, dados de preenchimento automático de formulários e service workers."
+   },
+   "browsing_cleanup_select_form_option_0": {
+      "message": "Sempre"
+   },
+   "browsing_cleanup_select_form_option_1": {
+      "message": "Esta sessão de navegação"
+   },
+   "browsing_cleanup_select_form_option_2": {
+      "message": "Última hora"
+   },
+   "browsing_cleanup_select_form_option_3": {
+      "message": "Últimas 24 horas"
+   },
+   "browsing_cleanup_select_form_option_4": {
+      "message": "Últimos 7 dias"
+   },
+   "browsing_cleanup_select_form_option_5": {
+      "message": "Últimas 4 semanas"
+   },
+   "browsing_cleanup_select_form_placeholder": {
+      "message": "Selecione o intervalo de tempo"
+   },
+   "browsing_one_time_cleanup_delete_btn": {
+      "message": "Remover dados"
+   },
+   "browsing_one_time_cleanup_delete_btn_deleted_text": {
+      "message": "Removido"
+   },
+   "browsing_one_time_cleanup_delete_btn_deleting_text": {
+      "message": "Excluindo"
+   },
+   "browsing_one_time_cleanup_select_form_title": {
+      "message": "Intervalos de tempo"
+   },
+   "browsing_one_time_cleanup_tab_header": {
+      "message": "Limpeza única"
+   },
+   "browsing_regular_cleanup_btn": {
+      "message": "Salvar e executar a limpeza"
+   },
+   "browsing_regular_cleanup_btn_coplete": {
+      "message": "Limpeza concluída"
+   },
+   "browsing_regular_cleanup_btn_disabled": {
+      "message": "Salvar limpeza"
+   },
+   "browsing_regular_cleanup_btn_processing": {
+      "message": "Salvando e limpando"
+   },
+   "browsing_regular_cleanup_btn_schedule": {
+      "message": "Agendar limpeza"
+   },
+   "browsing_regular_cleanup_func_change_setting_link": {
+      "message": "Alterar as configurações de limpeza regulares"
+   },
+   "browsing_regular_cleanup_func_disabled": {
+      "message": "Depois de ativar a limpeza regular, defina seu horário e frequência preferidos."
+   },
+   "browsing_regular_cleanup_func_header": {
+      "message": "Limpeza regular"
+   },
+   "browsing_regular_cleanup_func_next_session_cleanup": {
+      "message": "A próxima limpeza será iniciada automaticamente na próxima vez que você abrir o navegador."
+   },
+   "browsing_regular_cleanup_func_next_time_cleanup": {
+      "message": "A próxima limpeza está agendada para %DATE% às %TIME%."
+   },
+   "browsing_regular_cleanup_func_not_set": {
+      "message": "Você ainda não configurou a limpeza regular."
+   },
+   "browsing_regular_cleanup_func_set_up_settings_link": {
+      "message": "Configurar a limpeza regular"
+   },
+   "browsing_regular_cleanup_header": {
+      "message": "Configurações de limpeza regulares"
+   },
+   "browsing_regular_cleanup_header_description": {
+      "message": "Selecione a frequência de limpeza e os tipos de dados a serem incluídos."
+   },
+   "browsing_regular_cleanup_select_form_option_1": {
+      "message": "Uma vez por sessão do navegador"
+   },
+   "browsing_regular_cleanup_select_form_option_2": {
+      "message": "Uma vez por hora"
+   },
+   "browsing_regular_cleanup_select_form_option_3": {
+      "message": "Uma vez a cada 24 horas"
+   },
+   "browsing_regular_cleanup_select_form_option_4": {
+      "message": "Uma vez a cada 7 dias"
+   },
+   "browsing_regular_cleanup_select_form_option_5": {
+      "message": "Uma vez a cada 4 semanas"
+   },
+   "browsing_regular_cleanup_select_form_placeholder": {
+      "message": "Selecione a frequência"
+   },
+   "browsing_regular_cleanup_select_form_title": {
+      "message": "Frequência de limpeza"
+   },
+   "close_icon_alt": {
+      "message": "Ícone Fechar"
+   },
+   "data_collection_consent_dialog_agree_button": {
+      "message": "Concordar e continuar"
+   },
+   "data_collection_consent_dialog_decline_button": {
+      "message": "Recusar e fechar esta guia"
+   },
+   "data_collection_consent_dialog_description_1": {
+      "message": "Para fornecer proteção total, a extensão ESET Privacidade e segurança do navegador precisa do seu consentimento para enviar os dados coletados para o aplicativo ESET em seu dispositivo. Isso inclui informações sobre os sites que você visita, como endereços da Web (URLs), conteúdo e dados relacionados."
+   },
+   "data_collection_consent_dialog_description_2": {
+      "message": "Os dados que processamos são usados para detectar golpes, phishing e outras ameaças e são necessários para recursos como o Inspetor de Segurança de Sites. A maior parte do processamento é feita localmente em seu dispositivo, mas certos URLs suspeitos e conteúdo do site podem ser enviados ao nosso servidor para detecção de ameaças avançada. Se você recusar, alguns recursos serão desativados, mas o restante da extensão ainda funcionará."
+   },
+   "data_collection_consent_dialog_description_3": {
+      "message": "Dependendo de suas configurações no aplicativo ESET, também podemos coletar dados de uso anônimos da extensão para melhorar o desempenho. Você pode gerenciar essas preferências no aplicativo."
+   },
+   "data_collection_consent_dialog_footer": {
+      "message": "Para obter mais informações sobre como processamos e gerenciamos seus dados, visite nossa \u003Cspan class=\"privacy-policy-link\">Política de Privacidade\u003C/span>."
+   },
+   "data_collection_consent_dialog_title": {
+      "message": "Precisamos do seu consentimento para proteger totalmente a sua navegação"
+   },
+   "direction": {
+      "message": "ltr"
+   },
+   "eset_logo_alt": {
+      "message": "Logo da ESET"
+   },
+   "eula_link": {
+      "message": "Acordo de Licença para o Usuário final"
+   },
+   "extension_description": {
+      "message": "Aproveite a proteção do navegador estendida com o ESET Privacidade e segurança do navegador."
+   },
+   "help_support_menu_item": {
+      "message": "Ajuda e suporte"
+   },
+   "info_icon_alt": {
+      "message": "Ícone de informações"
+   },
+   "info_page_allow_access_button": {
+      "message": "Permitir acesso"
+   },
+   "info_page_footer": {
+      "message": "© 1992 – %YEAR% ESET, spol. s r.o. – Todos os direitos reservados. As marcas registradas usadas aqui são marcas registradas ou marcas comerciais da ESET, spol. s r.o. ou ESET North America. Todos os outros nomes ou marcas são marcas registradas de suas respectivas empresas."
+   },
+   "learn_more_link": {
+      "message": "Saiba mais"
+   },
+   "metadata_cleaner_func_description": {
+      "message": "Limpe os metadados sempre que carregar uma imagem."
+   },
+   "metadata_cleaner_func_header": {
+      "message": "Limpe os dados de seus arquivos"
+   },
+   "metadata_cleaner_header": {
+      "message": "Limpeza de metadados"
+   },
+   "metadata_cleaner_subheader": {
+      "message": "Remova metadados com informações privadas ao compartilhar arquivos on-line."
+   },
+   "metadata_notifications_func_header": {
+      "message": "Mostrar notificações após a limpeza"
+   },
+   "metadata_notifications_func_subheader": {
+      "message": "Receba notificações no navegador."
+   },
+   "metadata_warning_status_icon_alt": {
+      "message": "Ícone de aviso de status de metadados"
+   },
+   "notification_message_text": {
+      "message": "Metadados limpos do arquivo carregado:"
+   },
+   "overview_menu_item": {
+      "message": "Visão geral"
+   },
+   "privacy_policy_link": {
+      "message": "Política de Privacidade"
+   },
+   "product_name": {
+      "message": "PRIVACIDADE E SEGURANÇA DO NAVEGADOR"
+   },
+   "product_title": {
+      "message": "Privacidade e segurança do navegador ESET"
+   },
+   "product_version": {
+      "message": "Versão:"
+   },
+   "progress_logo_alt": {
+      "message": "Progress. Protected. logo"
+   },
+   "scan_search_result_func_description": {
+      "message": "Escaneie os resultados da pesquisa para ver quais são seguros para clicar."
+   },
+   "scan_search_result_func_header": {
+      "message": "Escaneie os resultados da pesquisa"
+   },
+   "secure_search_green_popup_text": {
+      "message": "Este site é seguro"
+   },
+   "secure_search_header": {
+      "message": "Pesquisa segura"
+   },
+   "secure_search_red_popup_text": {
+      "message": "Este site não é seguro"
+   },
+   "secure_search_subheader": {
+      "message": "Veja quais resultados de pesquisa são seguros para abrir."
+   },
+   "secure_search_yellow_popup_text": {
+      "message": "Conteúdo potencialmente indesejado encontrado"
+   },
+   "settings_page_appearance_dark_mode": {
+      "message": "Escuro"
+   },
+   "settings_page_appearance_description": {
+      "message": "Personalize a cor da interface de acordo com sua preferência. Você pode escolher entre uma cor clara ou escura."
+   },
+   "settings_page_appearance_header": {
+      "message": "Aparência"
+   },
+   "settings_page_appearance_light_mode": {
+      "message": "Claro"
+   },
+   "settings_page_appearance_subheader": {
+      "message": "Modo colorido"
+   },
+   "settings_page_browser_cleanup_active_tabs_text": {
+      "message": "Domínios sugeridos com base nas guias que você tem abertas atualmente em seu navegador. Se você não vir todas as guias abertas no momento na lista abaixo, \u003Cspan class=\"refresh-list\">atualize a lista.\u003C/span>"
+   },
+   "settings_page_browser_cleanup_add_btn_text": {
+      "message": "Adicionar"
+   },
+   "settings_page_browser_cleanup_checkbox_text": {
+      "message": "Manter a sessão de navegação atual para guias abertas após a limpeza"
+   },
+   "settings_page_browser_cleanup_description": {
+      "message": "Adicione sites onde você deseja aceitar cookies e permanecer conectado mesmo depois de executar a limpeza do navegador."
+   },
+   "settings_page_browser_cleanup_input_placeholder_text": {
+      "message": "Insira um URL que pretende adicionar"
+   },
+   "settings_page_browser_cleanup_minus_img_alt": {
+      "message": "Menos"
+   },
+   "settings_page_browser_cleanup_plus_img_alt": {
+      "message": "Mais"
+   },
+   "settings_page_browser_cleanup_subheader": {
+      "message": "Configurações avançadas de cookies"
+   },
+   "settings_page_not_valid_url_warning": {
+      "message": "* Isso não parece um URL válido."
+   },
+   "settings_page_website_settings_allow_text": {
+      "message": "Permitir"
+   },
+   "settings_page_website_settings_allowed_text": {
+      "message": "Permitido"
+   },
+   "settings_page_website_settings_block_text": {
+      "message": "Bloquear"
+   },
+   "settings_page_website_settings_blocked_text": {
+      "message": "Bloqueado"
+   },
+   "settings_page_website_settings_camera_section_description": {
+      "message": "Analise quais sites podem pedir para usar sua câmera."
+   },
+   "settings_page_website_settings_camera_section_header": {
+      "message": "Câmera"
+   },
+   "settings_page_website_settings_chrome_extension_info_text": {
+      "message": "Não foi possível alterar as configurações das extensões do navegador. Para ajustar as configurações de uma extensão de navegador específica, vá para a \u003Cspan class=\"browser-site-permissions-link\">seção Privacidade e segurança\u003C/span> do seu navegador"
+   },
+   "settings_page_website_settings_description": {
+      "message": "Acesse e gerencie facilmente as permissões do site para controlar quais informações os sites podem usar."
+   },
+   "settings_page_website_settings_edge_extension_info_text": {
+      "message": "Não foi possível alterar as configurações das extensões do navegador. Para ajustar as configurações de uma extensão de navegador específica, vá para a \u003Cspan class=\"browser-site-permissions-link\">seção Cookies e permissões do site\u003C/span> do seu navegador"
+   },
+   "settings_page_website_settings_header": {
+      "message": "Revisão das configurações do site"
+   },
+   "settings_page_website_settings_location_section_description": {
+      "message": "Analise quais sites podem solicitar sua localização."
+   },
+   "settings_page_website_settings_location_section_header": {
+      "message": "Localização"
+   },
+   "settings_page_website_settings_mic_section_description": {
+      "message": "Analise quais sites podem pedir para usar seu microfone."
+   },
+   "settings_page_website_settings_mic_section_header": {
+      "message": "Microfone"
+   },
+   "settings_page_website_settings_notif_section_description": {
+      "message": "Analise quais sites podem pedir para enviar notificações."
+   },
+   "settings_page_website_settings_notif_section_header": {
+      "message": "Notificações"
+   },
+   "settings_page_website_settings_reset_to_allow_text": {
+      "message": "Redefinir para permitir"
+   },
+   "settings_page_website_settings_reset_to_block_text": {
+      "message": "Redefinir para bloquear"
+   },
+   "setup_btn": {
+      "message": "CONFIGURAR"
+   },
+   "summary_metadata_stats_text": {
+      "message": "Remova metadados com informações privadas."
+   },
+   "summary_ok_header": {
+      "message": "Sua navegação está protegida"
+   },
+   "summary_privacy_stats_text": {
+      "message": "Remova seus dados de navegação."
+   },
+   "summary_restart_header": {
+      "message": "É necessário reiniciar o navegador"
+   },
+   "summary_search_stats_text": {
+      "message": "Verifique a segurança dos resultados da pesquisa."
+   },
+   "summary_website_setting_header": {
+      "message": "Revisão das configurações do site"
+   },
+   "summary_website_setting_text": {
+      "message": "Gerenciar permissões do sites."
+   },
+   "website_security_inspector_description": {
+      "message": "Proteja sua navegação contra fraudes e ameaças de segurança escaneando os sites que você visita."
+   },
+   "website_security_inspector_scan_func_description": {
+      "message": "Escaneie os sites para verificar se há ameaças assim que eles forem carregados."
+   },
+   "website_security_inspector_scan_func_header": {
+      "message": "Detecção de ameaças de sites"
+   },
+   "website_security_inspector_setup_all_set_info": {
+      "message": "A \u003Cspan class=\"highlighted\">extensão ESET Privacidade e segurança do navegador\u003C/span> agora está ativa e protegendo sua navegação. Você pode gerenciar seus recursos a qualquer momento nas configurações."
+   },
+   "website_security_inspector_setup_all_set_title": {
+      "message": "Tudo pronto"
+   },
+   "website_security_inspector_setup_allow_access_section_description_1": {
+      "message": "Certos recursos de segurança precisam de permissão adicional para acessar os sites que você visita, incluindo seus endereços da Web (URLs) e conteúdo. Esses dados são necessários para detectar golpes, phishing e outras ameaças em tempo real e nunca são compartilhados com terceiros."
+   },
+   "website_security_inspector_setup_allow_access_section_description_2": {
+      "message": "Você pode gerenciar essa permissão a qualquer momento nas configurações da extensão."
+   },
+   "website_security_inspector_setup_almost_done_info": {
+      "message": "Você ativou com sucesso a \u003Cspan class=\"highlighted\">extensão ESET Privacidade e segurança do navegador\u003C/span>."
+   },
+   "website_security_inspector_setup_almost_done_subtitle": {
+      "message": "Conclua a ativação de todos os recursos de segurança"
+   },
+   "website_security_inspector_setup_almost_done_title": {
+      "message": "Você está quase terminando"
+   },
+   "website_security_inspector_summary": {
+      "message": "Proteja sua navegação contra fraudes e ameaças à segurança."
+   },
+   "website_security_inspector_title": {
+      "message": "Inspetor de segurança de sites"
+   },
+   "welcome_page_ai_conversation_security_tile_text": {
+      "message": "Verifique as respostas do ChatGPT quanto a conteúdo potencialmente prejudicial antes de usá-las. Mais plataformas em breve."
+   },
+   "welcome_page_allow_access_section_description": {
+      "message": "Alguns recursos precisam de permissão para acessar os sites que você visita. Os dados sobre sua atividade na web são processados localmente em seu dispositivo — apenas URLs potencialmente prejudiciais e telemetria podem ser enviados à ESET para apoiar a pesquisa sobre as ameaças atuais à segurança cibernética e para ajudar a melhorar nossos serviços, se você tiver ativado o compartilhamento de dados em seu aplicativo de segurança ESET. Você pode atualizar essa permissão a qualquer momento nas configurações da extensão."
+   },
+   "welcome_page_allow_access_section_title": {
+      "message": "Permitir acesso para proteção total"
+   },
+   "welcome_page_browser_cleanup_tile_text": {
+      "message": "Remova os dados de navegação ou configure uma limpeza regular."
+   },
+   "welcome_page_chrome_info_tile_text": {
+      "message": "Mantenha a extensão visível clicando no ícone da extensão acima e fixando-a no navegador para facilitar o acesso."
+   },
+   "welcome_page_edge_info_tile_text": {
+      "message": "Mantenha a extensão visível clicando no ícone de extensão acima e adicionando-a à barra de ferramentas do navegador para facilitar o acesso."
+   },
+   "welcome_page_header_text": {
+      "message": "Obrigado por ativar a extensão \u003Cspan class=\"highlighted\">Privacidade e segurança do navegador ESET\u003C/span> em seu navegador"
+   },
+   "welcome_page_main_content_title": {
+      "message": "Explore os recursos que mantêm sua navegação segura"
+   },
+   "welcome_page_metadata_cleanup_tile_header": {
+      "message": "Limpeza de metadados*"
+   },
+   "welcome_page_metadata_cleanup_tile_text": {
+      "message": "Retire as informações privadas dos arquivos ao compartilhá-los on-line."
+   },
+   "welcome_page_pin_icon_alt": {
+      "message": "Ícone de fixação"
+   },
+   "welcome_page_plugin_icon_alt": {
+      "message": "Ícone de plugin"
+   },
+   "welcome_page_right_arrow_icon_alt": {
+      "message": "Ícone de seta para a direita"
+   },
+   "welcome_page_secure_search_tile_text": {
+      "message": "Verifique a segurança dos resultados da pesquisa antes de abri-los."
+   },
+   "welcome_page_subheader": {
+      "message": "Para começar a aproveitar uma experiência de navegação mais segura, clique no ícone de extensão ao lado da barra de endereços. Em alguns navegadores, ele pode estar oculto no menu do navegador."
+   },
+   "welcome_page_ultime_feature": {
+      "message": "*Disponível no ESET HOME Security Ultimate"
+   },
+   "welcome_page_website_security_inspector_tile_text": {
+      "message": "Escaneie os sites para verificar se há fraudes e ameaças à segurança enquanto navega."
+   },
+   "welcome_page_website_settings_tile_header": {
+      "message": "Revisão das configurações do site*"
+   },
+   "welcome_page_website_settings_tile_text": {
+      "message": "Controle as permissões do site para notificações, localização, câmera e microfone."
+   },
+   "whats_new_page_allow_access_section_description": {
+      "message": "Esse recurso precisa de permissão para acessar os sites que você visita. Os dados sobre sua atividade na web são processados localmente em seu dispositivo — apenas URLs potencialmente prejudiciais e telemetria podem ser enviados à ESET para apoiar a pesquisa sobre as ameaças atuais à segurança cibernética e para ajudar a melhorar nossos serviços, se você tiver ativado o compartilhamento de dados em seu aplicativo de segurança ESET. Você pode atualizar essa permissão a qualquer momento nas configurações da extensão."
+   },
+   "whats_new_page_allow_access_section_title": {
+      "message": "Permitir acesso à Segurança de Conversas com IA"
+   },
+   "whats_new_page_description": {
+      "message": "A Segurança de Conversas com IA verifica todas as respostas do ChatGPT em busca de conteúdo que faça referência a fontes potencialmente não confiáveis ou inseguras, bem como códigos maliciosos. Ela é executada automaticamente, para que sua navegação permaneça ininterrupta.\u003Cbr/>\u003Cbr/>O escaneamento acontece localmente no seu dispositivo. Não enviamos ou compartilhamos informações sobre sua atividade na web para a ESET, apenas URLs e telemetria potencialmente prejudiciais podem ser enviados para ajudar a melhorar nosso produto.\u003Cbr/>\u003Cbr/>O suporte para plataformas de IA adicionais estará disponível em breve."
+   },
+   "whats_new_page_header": {
+      "message": "\u003Cspan class=\"highlighted\">Novidades\u003C/span>"
+   },
+   "whats_new_page_image_alt": {
+      "message": "Ilustração do recurso de Segurança de Conversa com IA da ESET mostrando dois balões de bate-papo representando uma conversa com um chatbot de IA, com um URL sinalizado destacado em vermelho dentro de uma das respostas, indicando um link inseguro detectado durante o escaneamento."
+   },
+   "whats_new_page_subheader": {
+      "message": "Explore as atualizações e melhorias mais recentes da \u003Cspan class=\"highlighted\">extensão Privacidade e segurança do navegador\u003C/span>."
+   },
+   "whats_new_page_title": {
+      "message": "Tenha conversas mais seguras com o ChatGPT"
+   }
+}

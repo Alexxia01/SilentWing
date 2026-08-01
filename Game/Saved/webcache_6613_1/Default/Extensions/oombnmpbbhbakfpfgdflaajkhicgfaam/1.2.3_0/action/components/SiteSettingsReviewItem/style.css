@@ -1,0 +1,67 @@
+.url-section {
+    display: flex;
+    align-items: center;
+    max-width: calc(100% - 260px);
+}
+
+.url-detail {
+    margin: 7px 0px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.extension-url-tooltip {
+    max-width: calc(100% - 60px);
+}
+
+.site-url-tooltip {
+    max-width: calc(100% - 28px);
+}
+
+.info-icon-tooltip .tooltip-content {
+    width: 412px;
+    left: -60px;
+}
+
+.site-icon-img {
+    width: 16px;
+    height: 16px;
+    margin-__MSG_@@bidi_end_edge__: 12px;
+}
+
+.site-info-icon-img {
+    cursor: pointer;
+    width: 15px;
+    height: 15px;
+    margin: 10px 8px;
+}
+
+.tooltip-container {
+    display: flex;
+    padding: 4px;
+}
+
+.link-last-part {
+    white-space: nowrap;
+    display: inline-flex;
+    gap: 3px;
+    align-items: center;
+}
+
+.website-setting-external-icon {
+    --blue: #187DAF;
+    width: 11px;
+    height: 11px;
+    fill: none;
+}
+
+html[dir="rtl"] .website-setting-external-icon {
+    transform: scaleX(-1);
+}
+
+@media screen and (max-width: 1060px) {
+    .info-icon-tooltip .tooltip-content {
+        max-width: 360px;
+    }
+}

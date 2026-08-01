@@ -1,0 +1,37 @@
+.custom-button {
+    font-family: "Segoe UI";
+    font-size: 14px;
+    font-weight: 600;
+    white-space: nowrap;
+    width: 100%;
+    height: max-content;
+    padding: 8px 33px;
+    border-radius: 50px;
+    cursor: pointer;
+    border: 2px solid #187daf;
+}
+
+.custom-button_primary {
+    background-color: #187daf;
+    color: #ffffff;
+}
+
+.custom-button_secondary {
+    background-color: #ffffff;
+    color: #187daf;
+}
+
+.custom-button_primary:hover {
+    background-color: #125d82;
+    border-color: #125d82;
+}
+
+.custom-button_secondary:hover {
+    color: #19729f;
+    border-color: #19729f;
+}
+
+.custom-button_secondary:active {
+    background-color: #ddecf3;
+    border-color: #125d82;
+}

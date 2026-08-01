@@ -1,0 +1,608 @@
+{
+   "advanced_setup_menu_item": {
+      "message": "高级设置"
+   },
+   "ai_conversation_security_description": {
+      "message": "在使用 ChatGPT 时改善安全状况。在您与响应交互前，我们会扫描每个响应，以查找对潜在不可靠或不安全源的引用以及恶意代码。"
+   },
+   "ai_conversation_security_detection_result_bad": {
+      "message": "此响应引用的内容来自我们识别为不安全的源。"
+   },
+   "ai_conversation_security_detection_result_bad_script": {
+      "message": "此响应包含不安全代码。运行它可能会使您的系统或数据面临风险。"
+   },
+   "ai_conversation_security_detection_result_warning": {
+      "message": "此响应引用的内容来自我们识别为可能不可靠的源。"
+   },
+   "ai_conversation_security_header": {
+      "message": "AI 对话安全"
+   },
+   "ai_conversation_security_onboarding": {
+      "message": "\u003Cp class=\"onboarding-info\">您的对话现在受到保护。我们会扫描每个 ChatGPT 响应，以查找对可能不可靠或不安全的源的引用以及恶意代码。\u003C/p>\u003Cp class=\"onboarding-info\">您可以\u003Cspan class=\"extension-popup-link\">在此处\u003C/span>调整这些设置。\u003C/p>"
+   },
+   "ai_conversation_security_scan_func_description": {
+      "message": "在使用 AI 响应前检查其是否存在潜在风险。"
+   },
+   "ai_conversation_security_scan_func_header": {
+      "message": "对话扫描"
+   },
+   "ai_conversation_security_summary": {
+      "message": "检查 ChatGPT 响应是否存在潜在风险。"
+   },
+   "alert_icon_alt": {
+      "message": "警报图标"
+   },
+   "alert_page_connection_lost_btn": {
+      "message": "重试"
+   },
+   "alert_page_connection_lost_header": {
+      "message": "连接丢失"
+   },
+   "alert_page_connection_lost_text": {
+      "message": "\u003Cspan class=\"product-info\">{%productname%}\u003C/span> 和浏览器扩展之间的连接已丢失。请检查 Internet 连接，然后重试。请注意，在未安装 \u003Cspan class=\"product-info\">{%productname%}\u003C/span> 的情况下，该扩展将不会工作。"
+   },
+   "alert_page_expired_license_btn": {
+      "message": "打开 \u003Cspan class=\"product-info\">{%productname%}\u003C/span> "
+   },
+   "alert_page_expired_license_header": {
+      "message": "订阅已到期"
+   },
+   "alert_page_expired_license_text": {
+      "message": "您的订阅已到期，您将无法再访问 ESET 浏览器隐私政策和安全性扩展。要解决此问题，请打开 \u003Cspan class=\"product-info\">{%productname%}\u003C/span>，然后按照提供的说明进行操作。"
+   },
+   "alert_page_missing_product_header": {
+      "message": "缺少产品"
+   },
+   "alert_page_missing_product_text_1": {
+      "message": "您的计算机上当前未安装支持 ESET 浏览器隐私政策和安全性扩展的 ESET 产品。"
+   },
+   "alert_page_missing_product_text_2": {
+      "message": "如需详细了解该扩展、支持的 ESET 产品、支持的浏览器和安装信息，请访问我们的\u003Cspan class=\"online-help-link\">联机帮助\u003C/span>。"
+   },
+   "alert_page_unsupported_browser_header": {
+      "message": "不受支持的浏览器"
+   },
+   "alert_page_unsupported_browser_text_1": {
+      "message": "您使用的浏览器似乎尚不受支持。要使用 ESET 浏览器隐私政策和安全性扩展，请安装受支持的浏览器。"
+   },
+   "alert_page_unsupported_browser_text_2": {
+      "message": "\u003Cspan class=\"supported-browsers-link\">查看受支持的浏览器\u003C/span>"
+   },
+   "banner_ok_status_icon_alt": {
+      "message": "确定状态横幅图标"
+   },
+   "banner_restart_status_icon_alt": {
+      "message": "重新启动状态横幅图标"
+   },
+   "blocking_page_description": {
+      "message": "网站安全检查器已检测到\u003Cspan class=\"blocked-url-tooltip\">此页面\u003C/span>上可能存在欺诈或有害内容。为了保持保护，建议您避免访问该页面。"
+   },
+   "blocking_page_go_back_button": {
+      "message": "返回"
+   },
+   "blocking_page_head_title": {
+      "message": "警报！- ESET 浏览器隐私政策和安全性"
+   },
+   "blocking_page_ignore_threat_button": {
+      "message": "忽略威胁"
+   },
+   "blocking_page_options_title": {
+      "message": "返回上一页？"
+   },
+   "blocking_page_title": {
+      "message": "此页面可能不安全"
+   },
+   "browser_restart_needed_p": {
+      "message": "需要重新启动浏览器才能使此更改生效。"
+   },
+   "browsing_cleanup_custom_data_btn": {
+      "message": "自定义"
+   },
+   "browsing_cleanup_custom_data_option_1": {
+      "message": "浏览历史记录"
+   },
+   "browsing_cleanup_custom_data_option_1_tooltip": {
+      "message": "您访问过的网站的记录，包括日期和时间。删除此数据将从您的设备中删除您的 Web 活动历史记录。"
+   },
+   "browsing_cleanup_custom_data_option_2": {
+      "message": "下载历史记录"
+   },
+   "browsing_cleanup_custom_data_option_2_tooltip": {
+      "message": "您已下载的文件列表。删除此数据将删除已下载文件的记录，但不会删除文件本身。"
+   },
+   "browsing_cleanup_custom_data_option_3": {
+      "message": "Cookie 和网站数据"
+   },
+   "browsing_cleanup_custom_data_option_3_tooltip": {
+      "message": "网站存储的小文件，用于记住您的偏好、登录状态和活动。删除 Cookie 可能会让您退出网站并重置您的偏好设置。"
+   },
+   "browsing_cleanup_custom_data_option_4": {
+      "message": "缓存的图像和文件"
+   },
+   "browsing_cleanup_custom_data_option_4_tooltip": {
+      "message": "临时文件，通过将网站的部分内容存储在您的设备上，帮助您加快网站的加载速度。删除此数据可能会减慢初次加载页面时的速度，但您可以释放空间。"
+   },
+   "browsing_cleanup_custom_data_option_5": {
+      "message": "密码和登录数据"
+   },
+   "browsing_cleanup_custom_data_option_5_note": {
+      "message": "这将永久删除所有记住的用户名和密码。"
+   },
+   "browsing_cleanup_custom_data_option_5_tooltip": {
+      "message": "存储的网站登录信息，可用于快速登录。删除此数据将永久删除所有记住的用户名和密码，因此请谨慎操作。"
+   },
+   "browsing_cleanup_custom_data_option_6": {
+      "message": "表单自动填充数据"
+   },
+   "browsing_cleanup_custom_data_option_6_tooltip": {
+      "message": "您在表单中输入的信息，例如姓名、地址和联系方式，可帮助您更快地填写表单。删除此数据将删除您保存的信息。"
+   },
+   "browsing_cleanup_custom_data_option_7": {
+      "message": "服务工作者"
+   },
+   "browsing_cleanup_custom_data_option_7_tooltip": {
+      "message": "帮助网站和 Web 应用平稳运行的文件，即使您处于离线状态也不受影响。删除此数据可能会影响离线访问、后台同步和通知等功能，但大多数网站仍会照常运行。"
+   },
+   "browsing_cleanup_data_btns_header": {
+      "message": "数据类型"
+   },
+   "browsing_cleanup_header": {
+      "message": "浏览器清理"
+   },
+   "browsing_cleanup_header_text": {
+      "message": "删除浏览数据或设置定期清理。通过\u003Cspan>将选定网站添加到列表中\u003C/span>，以在这些网站上保持登录状态。"
+   },
+   "browsing_cleanup_private_data_btn": {
+      "message": "私人"
+   },
+   "browsing_cleanup_private_data_description": {
+      "message": "私人数据类型包括您的浏览历史记录、下载历史记录、cookies 和网站数据、表单自动填充数据和服务工作者。"
+   },
+   "browsing_cleanup_select_form_option_0": {
+      "message": "所有时间"
+   },
+   "browsing_cleanup_select_form_option_1": {
+      "message": "此浏览会话"
+   },
+   "browsing_cleanup_select_form_option_2": {
+      "message": "过去 1 小时"
+   },
+   "browsing_cleanup_select_form_option_3": {
+      "message": "过去 24 小时"
+   },
+   "browsing_cleanup_select_form_option_4": {
+      "message": "过去 7 天"
+   },
+   "browsing_cleanup_select_form_option_5": {
+      "message": "过去 4 周"
+   },
+   "browsing_cleanup_select_form_placeholder": {
+      "message": "选择时间范围"
+   },
+   "browsing_one_time_cleanup_delete_btn": {
+      "message": "删除数据"
+   },
+   "browsing_one_time_cleanup_delete_btn_deleted_text": {
+      "message": "已删除"
+   },
+   "browsing_one_time_cleanup_delete_btn_deleting_text": {
+      "message": "正在删除"
+   },
+   "browsing_one_time_cleanup_select_form_title": {
+      "message": "时间范围"
+   },
+   "browsing_one_time_cleanup_tab_header": {
+      "message": "一次性清理"
+   },
+   "browsing_regular_cleanup_btn": {
+      "message": "保存并运行清理"
+   },
+   "browsing_regular_cleanup_btn_coplete": {
+      "message": "清理完成"
+   },
+   "browsing_regular_cleanup_btn_disabled": {
+      "message": "保存清理"
+   },
+   "browsing_regular_cleanup_btn_processing": {
+      "message": "保存和清理"
+   },
+   "browsing_regular_cleanup_btn_schedule": {
+      "message": "计划清理"
+   },
+   "browsing_regular_cleanup_func_change_setting_link": {
+      "message": "更改定期清理设置"
+   },
+   "browsing_regular_cleanup_func_disabled": {
+      "message": "启用定期清理后，请设置您的首选时间和频率。"
+   },
+   "browsing_regular_cleanup_func_header": {
+      "message": "定期清理"
+   },
+   "browsing_regular_cleanup_func_next_session_cleanup": {
+      "message": "下一次清理将在您下次打开浏览器时自动开始。"
+   },
+   "browsing_regular_cleanup_func_next_time_cleanup": {
+      "message": "%DATE% 的下一次清理计划在 %TIME% 进行。"
+   },
+   "browsing_regular_cleanup_func_not_set": {
+      "message": "您尚未设置定期清理。"
+   },
+   "browsing_regular_cleanup_func_set_up_settings_link": {
+      "message": "设置定期清理"
+   },
+   "browsing_regular_cleanup_header": {
+      "message": "定期清理设置"
+   },
+   "browsing_regular_cleanup_header_description": {
+      "message": "选择清理频率和要包含的数据类型。"
+   },
+   "browsing_regular_cleanup_select_form_option_1": {
+      "message": "每个浏览器会话一次"
+   },
+   "browsing_regular_cleanup_select_form_option_2": {
+      "message": "每小时一次"
+   },
+   "browsing_regular_cleanup_select_form_option_3": {
+      "message": "每 24 小时一次"
+   },
+   "browsing_regular_cleanup_select_form_option_4": {
+      "message": "每 7 天一次"
+   },
+   "browsing_regular_cleanup_select_form_option_5": {
+      "message": "每 4 周一次"
+   },
+   "browsing_regular_cleanup_select_form_placeholder": {
+      "message": "选择频率"
+   },
+   "browsing_regular_cleanup_select_form_title": {
+      "message": "清理频率"
+   },
+   "close_icon_alt": {
+      "message": "关闭图标"
+   },
+   "data_collection_consent_dialog_agree_button": {
+      "message": "同意并继续"
+   },
+   "data_collection_consent_dialog_decline_button": {
+      "message": "拒绝并关闭此选项卡"
+   },
+   "data_collection_consent_dialog_description_1": {
+      "message": "为了提供全面保护，ESET 浏览器隐私政策和安全性扩展需要您同意将其收集的数据发送到您设备上的 ESET 应用程序。这些数据包括您所访问网站的相关信息，例如网址(URL)、内容及其他相关数据。"
+   },
+   "data_collection_consent_dialog_description_2": {
+      "message": "我们处理这些数据是为了检测诈骗、网络钓鱼和其他威胁，同时也是网站安全检查器等功能正常运行所必需的。大部分数据处理会在您的设备上本地进行，但某些可疑的 URL 和网站内容可能会被发送到我们的服务器，以进行高级威胁检测。如果您拒绝，该扩展的某些功能将被禁用，但其余功能仍可正常使用。"
+   },
+   "data_collection_consent_dialog_description_3": {
+      "message": "根据您在 ESET 应用程序中的设置，我们可能还会收集该扩展的匿名使用数据，以改进其性能。您可以在该应用程序中管理这些偏好设置。"
+   },
+   "data_collection_consent_dialog_footer": {
+      "message": "有关我们如何处理和管理您的数据的更多信息，请访问我们的\u003Cspan class=\"privacy-policy-link\">隐私政策\u003C/span>。"
+   },
+   "data_collection_consent_dialog_title": {
+      "message": "我们需要您的同意才能全面保护您的浏览安全"
+   },
+   "direction": {
+      "message": "ltr"
+   },
+   "eset_logo_alt": {
+      "message": "ESET 徽标"
+   },
+   "eula_link": {
+      "message": "最终用户许可协议"
+   },
+   "extension_description": {
+      "message": "尽情使用通过 ESET 浏览器隐私政策和安全性功能扩展后的浏览器防护功能。"
+   },
+   "help_support_menu_item": {
+      "message": "帮助和支持"
+   },
+   "info_icon_alt": {
+      "message": "信息图标"
+   },
+   "info_page_allow_access_button": {
+      "message": "允许访问"
+   },
+   "info_page_footer": {
+      "message": "© 1992 - %YEAR% ESET, spol. s r.o. - 保留所有权利。在此使用的商标为 ESET, spol. s r.o. 或 ESET North America 的商标或注册商标。所有其他名称和品牌为其各自公司的注册商标。"
+   },
+   "learn_more_link": {
+      "message": "了解更多"
+   },
+   "metadata_cleaner_func_description": {
+      "message": "每次上传图像时都清理元数据。"
+   },
+   "metadata_cleaner_func_header": {
+      "message": "清理文件中的数据"
+   },
+   "metadata_cleaner_header": {
+      "message": "元数据清理"
+   },
+   "metadata_cleaner_subheader": {
+      "message": "在线共享文件时删除包含私人信息的元数据。"
+   },
+   "metadata_notifications_func_header": {
+      "message": "清理后显示通知"
+   },
+   "metadata_notifications_func_subheader": {
+      "message": "获取浏览器内的通知。"
+   },
+   "metadata_warning_status_icon_alt": {
+      "message": "元数据状态警告图标"
+   },
+   "notification_message_text": {
+      "message": "已清理上传的文件元数据:"
+   },
+   "overview_menu_item": {
+      "message": "概述"
+   },
+   "privacy_policy_link": {
+      "message": "隐私政策"
+   },
+   "product_name": {
+      "message": "浏览器隐私政策和安全性"
+   },
+   "product_title": {
+      "message": "ESET 浏览器隐私政策和安全性"
+   },
+   "product_version": {
+      "message": "版本:"
+   },
+   "progress_logo_alt": {
+      "message": "Progress. Protected. 徽标"
+   },
+   "scan_search_result_func_description": {
+      "message": "扫描搜索结果以查看哪些搜索结果可以安全点击。"
+   },
+   "scan_search_result_func_header": {
+      "message": "扫描搜索结果"
+   },
+   "secure_search_green_popup_text": {
+      "message": "此网站是安全的"
+   },
+   "secure_search_header": {
+      "message": "安全搜索"
+   },
+   "secure_search_red_popup_text": {
+      "message": "此网站不安全"
+   },
+   "secure_search_subheader": {
+      "message": "查看哪些搜索结果可以安全打开。"
+   },
+   "secure_search_yellow_popup_text": {
+      "message": "发现潜在不受欢迎的内容"
+   },
+   "settings_page_appearance_dark_mode": {
+      "message": "深色"
+   },
+   "settings_page_appearance_description": {
+      "message": "根据您的喜好，自定义界面的颜色。可以选择浅色或深色。"
+   },
+   "settings_page_appearance_header": {
+      "message": "外观"
+   },
+   "settings_page_appearance_light_mode": {
+      "message": "浅色"
+   },
+   "settings_page_appearance_subheader": {
+      "message": "颜色模式"
+   },
+   "settings_page_browser_cleanup_active_tabs_text": {
+      "message": "基于您当前在浏览器中打开的选项卡的建议域。如果您在下面的列表中没有看到所有当前打开的选项卡，请\u003Cspan class=\"refresh-list\">刷新列表\u003C/span>。"
+   },
+   "settings_page_browser_cleanup_add_btn_text": {
+      "message": "添加"
+   },
+   "settings_page_browser_cleanup_checkbox_text": {
+      "message": "清理后保留打开选项卡的当前浏览会话"
+   },
+   "settings_page_browser_cleanup_description": {
+      "message": "添加要接受 Cookie 的网站，即使在执行浏览器清理后仍保持登录状态。"
+   },
+   "settings_page_browser_cleanup_input_placeholder_text": {
+      "message": "输入要添加的 URL"
+   },
+   "settings_page_browser_cleanup_minus_img_alt": {
+      "message": "减"
+   },
+   "settings_page_browser_cleanup_plus_img_alt": {
+      "message": "加"
+   },
+   "settings_page_browser_cleanup_subheader": {
+      "message": "高级 Cookie 设置"
+   },
+   "settings_page_not_valid_url_warning": {
+      "message": "*这看起来不像是一个有效的 URL。"
+   },
+   "settings_page_website_settings_allow_text": {
+      "message": "允许"
+   },
+   "settings_page_website_settings_allowed_text": {
+      "message": "已允许"
+   },
+   "settings_page_website_settings_block_text": {
+      "message": "阻止"
+   },
+   "settings_page_website_settings_blocked_text": {
+      "message": "已阻止"
+   },
+   "settings_page_website_settings_camera_section_description": {
+      "message": "查看哪些网站可以要求使用您的相机。"
+   },
+   "settings_page_website_settings_camera_section_header": {
+      "message": "相机"
+   },
+   "settings_page_website_settings_chrome_extension_info_text": {
+      "message": "我们无法更改浏览器扩展程序的设置。要调整特定浏览器扩展程序的设置，请转到浏览器的\u003Cspan class=\"browser-site-permissions-link\">“隐私和安全性”部分\u003C/span>"
+   },
+   "settings_page_website_settings_description": {
+      "message": "轻松访问和管理网站权限，以控制网站可以使用的信息。"
+   },
+   "settings_page_website_settings_edge_extension_info_text": {
+      "message": "我们无法更改浏览器扩展程序的设置。要调整特定浏览器扩展程序的设置，请转到浏览器的\u003Cspan class=\"browser-site-permissions-link\">“Cookie 和网站权限”部分\u003C/span>"
+   },
+   "settings_page_website_settings_header": {
+      "message": "网站设置查看"
+   },
+   "settings_page_website_settings_location_section_description": {
+      "message": "查看哪些网站可以要求获取您的位置。"
+   },
+   "settings_page_website_settings_location_section_header": {
+      "message": "位置"
+   },
+   "settings_page_website_settings_mic_section_description": {
+      "message": "查看哪些网站可以要求使用您的麦克风。"
+   },
+   "settings_page_website_settings_mic_section_header": {
+      "message": "麦克风"
+   },
+   "settings_page_website_settings_notif_section_description": {
+      "message": "查看哪些网站可以要求发送通知。"
+   },
+   "settings_page_website_settings_notif_section_header": {
+      "message": "通知"
+   },
+   "settings_page_website_settings_reset_to_allow_text": {
+      "message": "重置为允许"
+   },
+   "settings_page_website_settings_reset_to_block_text": {
+      "message": "重置为阻止"
+   },
+   "setup_btn": {
+      "message": "设置"
+   },
+   "summary_metadata_stats_text": {
+      "message": "删除包含私人信息的元数据。"
+   },
+   "summary_ok_header": {
+      "message": "您的浏览受保护"
+   },
+   "summary_privacy_stats_text": {
+      "message": "删除您的浏览数据。"
+   },
+   "summary_restart_header": {
+      "message": "需要重新启动浏览器"
+   },
+   "summary_search_stats_text": {
+      "message": "检查搜索结果的安全性。"
+   },
+   "summary_website_setting_header": {
+      "message": "网站设置查看"
+   },
+   "summary_website_setting_text": {
+      "message": "管理网站权限。"
+   },
+   "website_security_inspector_description": {
+      "message": "通过扫描您访问的网站，保护您的浏览免受欺诈和安全威胁。"
+   },
+   "website_security_inspector_scan_func_description": {
+      "message": "加载完网站后便立即执行扫描，检查是否存在威胁。"
+   },
+   "website_security_inspector_scan_func_header": {
+      "message": "网站威胁检测"
+   },
+   "website_security_inspector_setup_all_set_info": {
+      "message": "\u003Cspan class=\"highlighted\">ESET 浏览器隐私政策和安全性扩展\u003C/span>现已激活并正在保护您的浏览安全。您可以随时在设置中管理其功能。"
+   },
+   "website_security_inspector_setup_all_set_title": {
+      "message": "全部完成"
+   },
+   "website_security_inspector_setup_allow_access_section_description_1": {
+      "message": "某些安全功能需要额外权限才能访问您所访问的网站，包括这些网站的网址(URL)和内容。这些数据是实时检测诈骗、网络钓鱼及其他威胁所必需的，且绝不会与第三方共享。"
+   },
+   "website_security_inspector_setup_allow_access_section_description_2": {
+      "message": "您可以随时在扩展设置中管理此权限。"
+   },
+   "website_security_inspector_setup_almost_done_info": {
+      "message": "您已成功启用 \u003Cspan class=\"highlighted\">ESET 浏览器隐私政策和安全性扩展\u003C/span>。"
+   },
+   "website_security_inspector_setup_almost_done_subtitle": {
+      "message": "完成启用所有安全功能"
+   },
+   "website_security_inspector_setup_almost_done_title": {
+      "message": "几乎就要完成了"
+   },
+   "website_security_inspector_summary": {
+      "message": "保护您的浏览免受欺诈和安全威胁。"
+   },
+   "website_security_inspector_title": {
+      "message": "网站安全检查器"
+   },
+   "welcome_page_ai_conversation_security_tile_text": {
+      "message": "在使用 ChatGPT 响应前检查其是否存在潜在有害内容。即将在更多平台推出。"
+   },
+   "welcome_page_allow_access_section_description": {
+      "message": "某些功能需要权限才能访问您访问的网站。如果您的 Web 活动相关数据在您的设备上进行本地处理 - 如果您已在 ESET 安全应用程序中启用了数据共享，则仅可能会将可能有害的 URL 和遥测数据发送给 ESET，以支持对当前网络安全威胁的研究并帮助改进我们的服务。您可以随时在扩展设置中更新此权限。"
+   },
+   "welcome_page_allow_access_section_title": {
+      "message": "允许访问以获得全面保护"
+   },
+   "welcome_page_browser_cleanup_tile_text": {
+      "message": "删除浏览数据或设置定期清理。"
+   },
+   "welcome_page_chrome_info_tile_text": {
+      "message": "通过单击上面的扩展图标并将其固定在浏览器中以使扩展保持可见，从而方便访问。"
+   },
+   "welcome_page_edge_info_tile_text": {
+      "message": "通过单击上面的扩展图标并将其添加到浏览器的工具栏中以使扩展保持可见，从而方便访问。"
+   },
+   "welcome_page_header_text": {
+      "message": "感谢您在浏览器中启用 \u003Cspan class=\"highlighted\">ESET 浏览器隐私政策和安全性\u003C/span>扩展"
+   },
+   "welcome_page_main_content_title": {
+      "message": "探索确保浏览安全的功能"
+   },
+   "welcome_page_metadata_cleanup_tile_header": {
+      "message": "元数据清理*"
+   },
+   "welcome_page_metadata_cleanup_tile_text": {
+      "message": "在线共享文件时剥离文件中的私人信息。"
+   },
+   "welcome_page_pin_icon_alt": {
+      "message": "固定图标"
+   },
+   "welcome_page_plugin_icon_alt": {
+      "message": "插件图标"
+   },
+   "welcome_page_right_arrow_icon_alt": {
+      "message": "右箭头图标"
+   },
+   "welcome_page_secure_search_tile_text": {
+      "message": "在打开搜索结果之前，请检查搜索结果的安全性。"
+   },
+   "welcome_page_subheader": {
+      "message": "要开始享受更安全的浏览体验，请单击地址栏旁边的扩展图标。在某些浏览器中，它可能隐藏在浏览器菜单中。"
+   },
+   "welcome_page_ultime_feature": {
+      "message": "*在 ESET HOME Security Ultimate 中可用"
+   },
+   "welcome_page_website_security_inspector_tile_text": {
+      "message": "在浏览时扫描网站是否存在欺诈和安全威胁。"
+   },
+   "welcome_page_website_settings_tile_header": {
+      "message": "网站设置查看*"
+   },
+   "welcome_page_website_settings_tile_text": {
+      "message": "控制通知、位置、摄像头和麦克风的网站权限。"
+   },
+   "whats_new_page_allow_access_section_description": {
+      "message": "此功能需要权限才能访问您访问的网站。如果您的 Web 活动相关数据在您的设备上进行本地处理 - 如果您已在 ESET 安全应用程序中启用了数据共享，则仅可能会将可能有害的 URL 和遥测数据发送给 ESET，以支持对当前网络安全威胁的研究并帮助改进我们的服务。您可以随时在扩展设置中更新此权限。"
+   },
+   "whats_new_page_allow_access_section_title": {
+      "message": "允许访问 AI 对话安全"
+   },
+   "whats_new_page_description": {
+      "message": "AI 对话安全会扫描每个 ChatGPT 响应，以查找引用可能不可靠或不安全源的内容以及恶意代码。它会自动运行，因此您的浏览不会中断。\u003Cbr/>\u003Cbr/>扫描在您的设备上本地进行。我们不会向 ESET 发送或共享有关您的 Web 活动的信息 - 仅可能会发送可能有害的 URL 和遥测数据，以帮助改进我们的产品。\u003Cbr/>\u003Cbr/>即将推出对其他 AI 平台的支持。"
+   },
+   "whats_new_page_header": {
+      "message": "\u003Cspan class=\"highlighted\">新功能\u003C/span>"
+   },
+   "whats_new_page_image_alt": {
+      "message": "ESET 的 AI 对话安全功能图示，显示了两个表示 AI 聊天机器人对话的聊天气泡，其中一个响应中有用红色突出显示的已标记 URL，表示在扫描期间检测到不安全的链接。"
+   },
+   "whats_new_page_subheader": {
+      "message": "探索 \u003Cspan class=\"highlighted\">ESET 浏览器隐私政策和安全性扩展\u003C/span>的最新更新和改进。"
+   },
+   "whats_new_page_title": {
+      "message": "体验更安全的 ChatGPT 对话"
+   }
+}

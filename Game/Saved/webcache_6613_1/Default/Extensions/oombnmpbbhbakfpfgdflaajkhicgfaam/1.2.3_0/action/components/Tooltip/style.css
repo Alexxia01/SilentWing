@@ -1,0 +1,29 @@
+.tooltip {
+	position: relative;
+	display: flex;
+}
+
+.tooltip[data-show-tooltip="true"] {
+	cursor: pointer;
+}
+
+.tooltip-content {
+	display: none;
+	position: absolute;
+	cursor: initial;
+	padding: 6px;
+	border-radius: 4px;
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 15.96px;
+	color: #373C42;
+	border: 1px solid #D3D3D3;
+	background: #FFFFFF;
+	top: 100%;
+	z-index: 3;
+	overflow-wrap: break-word;
+}
+
+.tooltip[data-show-tooltip="true"]:hover .tooltip-content {
+	display: unset;
+}

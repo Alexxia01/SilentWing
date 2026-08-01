@@ -1,0 +1,608 @@
+{
+   "advanced_setup_menu_item": {
+      "message": "Geavanceerde instellingen"
+   },
+   "ai_conversation_security_description": {
+      "message": "Blijf veiliger bij het gebruik van ChatGPT. We scannen elk antwoord op verwijzingen naar mogelijk onbetrouwbare of onveilige bronnen en op kwaadaardige code voordat u ermee in aanraking komt."
+   },
+   "ai_conversation_security_detection_result_bad": {
+      "message": "Dit antwoord verwijst naar inhoud van een bron die we als potentieel onveilig hebben aangemerkt."
+   },
+   "ai_conversation_security_detection_result_bad_script": {
+      "message": "Dit antwoord bevat onveilige code. Als u deze code uitvoert, kan dit een risico zijn voor uw systeem of gegevens."
+   },
+   "ai_conversation_security_detection_result_warning": {
+      "message": "Dit antwoord verwijst naar inhoud van een bron die we als potentieel onbetrouwbaar hebben aangemerkt."
+   },
+   "ai_conversation_security_header": {
+      "message": "AI Conversation Security"
+   },
+   "ai_conversation_security_onboarding": {
+      "message": "\u003Cp class=\"onboarding-info\">Uw gesprekken zijn nu beveiligd. We scannen elk ChatGPT-antwoord op verwijzingen naar potentieel onbetrouwbare of onveilige bronnen en op schadelijke code.\u003C/p>\u003Cp class=\"onboarding-info\">U kunt deze instellingen \u003Cspan class=\"extension-popup-link\">hier\u003C/span> aanpassen.\u003C/p>"
+   },
+   "ai_conversation_security_scan_func_description": {
+      "message": "Controleer AI-antwoorden op mogelijke risico's voordat u ze gebruikt."
+   },
+   "ai_conversation_security_scan_func_header": {
+      "message": "Gespreksscans"
+   },
+   "ai_conversation_security_summary": {
+      "message": "Controleer de antwoorden van ChatGPT op mogelijke risico's."
+   },
+   "alert_icon_alt": {
+      "message": "Pictogram Waarschuwing"
+   },
+   "alert_page_connection_lost_btn": {
+      "message": "Opnieuw"
+   },
+   "alert_page_connection_lost_header": {
+      "message": "Verbinding verbroken"
+   },
+   "alert_page_connection_lost_text": {
+      "message": "De verbinding tussen \u003Cspan class=\"product-info\">{%productname%}\u003C/span> en de browserextensie is verbroken. Controleer uw internetverbinding en probeer het opnieuw. Let op: de extensie werkt alleen als \u003Cspan class=\"product-info\">{%productname%}\u003C/span> is geïnstalleerd."
+   },
+   "alert_page_expired_license_btn": {
+      "message": "Openen \u003Cspan class=\"product-info\">{%productname%}\u003C/span> "
+   },
+   "alert_page_expired_license_header": {
+      "message": "Verlopen abonnement"
+   },
+   "alert_page_expired_license_text": {
+      "message": "Uw abonnement is verlopen en u hebt geen toegang meer tot de extensie ESET Browserprivacy en -beveiliging. U kunt dit probleem oplossen door \u003Cspan class=\"product-info\">{%productname%}\u003C/span> te openen en de instructies te volgen."
+   },
+   "alert_page_missing_product_header": {
+      "message": "Ontbrekend product"
+   },
+   "alert_page_missing_product_text_1": {
+      "message": "Er is momenteel geen ESET-product op uw computer geïnstalleerd dat de extensie ESET Browserprivacy en -beveiliging ondersteunt."
+   },
+   "alert_page_missing_product_text_2": {
+      "message": "Bekijk onze \u003Cspan class=\"online-help-link\">Online-Help\u003C/span> voor meer informatie over de extensie, ondersteunde ESET-producten, ondersteunde browsers en installatie."
+   },
+   "alert_page_unsupported_browser_header": {
+      "message": "Niet-ondersteunde browser"
+   },
+   "alert_page_unsupported_browser_text_1": {
+      "message": "Waarschijnlijk gebruikt u een browser die we nog niet ondersteunen. Als u de extensie ESET Browserprivacy en -beveiliging wilt gebruiken, moet u een ondersteunde browser installeren."
+   },
+   "alert_page_unsupported_browser_text_2": {
+      "message": "\u003Cspan class=\"supported-browsers-link\">Bekijk de ondersteunde browsers\u003C/span>"
+   },
+   "banner_ok_status_icon_alt": {
+      "message": "Pictogram van banner voor Status OK"
+   },
+   "banner_restart_status_icon_alt": {
+      "message": "Pictogram van banner voor Status Opnieuw opstarten"
+   },
+   "blocking_page_description": {
+      "message": "Websitebeveiligingsinspectie heeft mogelijk frauduleuze of schadelijke inhoud op \u003Cspan class=\"blocked-url-tooltip\">deze pagina\u003C/span> gedetecteerd. Als u veilig wilt blijven, raden we aan om deze pagina te vermijden."
+   },
+   "blocking_page_go_back_button": {
+      "message": "Ga terug"
+   },
+   "blocking_page_head_title": {
+      "message": "Waarschuwing! - ESET Browserprivacy en -beveiliging"
+   },
+   "blocking_page_ignore_threat_button": {
+      "message": "Bedreiging negeren"
+   },
+   "blocking_page_options_title": {
+      "message": "Terug naar vorige pagina?"
+   },
+   "blocking_page_title": {
+      "message": "Deze pagina is mogelijk onveilig"
+   },
+   "browser_restart_needed_p": {
+      "message": "De browser moet opnieuw worden opgestart om deze wijziging door te voeren."
+   },
+   "browsing_cleanup_custom_data_btn": {
+      "message": "Aangepast"
+   },
+   "browsing_cleanup_custom_data_option_1": {
+      "message": "Surfgeschiedenis"
+   },
+   "browsing_cleanup_custom_data_option_1_tooltip": {
+      "message": "Gegevens over de websites die u hebt bezocht, inclusief datums en tijden. Als u deze gegevens verwijdert, wordt de geschiedenis van uw webactiviteiten gewist van uw apparaat."
+   },
+   "browsing_cleanup_custom_data_option_2": {
+      "message": "Downloadgeschiedenis"
+   },
+   "browsing_cleanup_custom_data_option_2_tooltip": {
+      "message": "Een lijst met bestanden die u hebt gedownload. Als u deze gegevens verwijdert, worden de gegevens over de gedownloade bestanden verwijderd, maar niet de bestanden zelf."
+   },
+   "browsing_cleanup_custom_data_option_3": {
+      "message": "Cookies en websitegegevens"
+   },
+   "browsing_cleanup_custom_data_option_3_tooltip": {
+      "message": "Kleine bestanden die door websites worden opgeslagen om uw voorkeuren, aanmeldingsstatus en activiteit te onthouden. Als u cookies verwijdert, wordt u mogelijk afgemeld bij websites en moet u uw voorkeuren mogelijk opnieuw instellen."
+   },
+   "browsing_cleanup_custom_data_option_4": {
+      "message": "Afbeeldingen en bestanden in de cache"
+   },
+   "browsing_cleanup_custom_data_option_4_tooltip": {
+      "message": "Tijdelijke bestanden die helpen websites sneller te laden door delen ervan op uw apparaat op te slaan. Als u deze gegevens verwijdert, worden de pagina's de eerste keer mogelijk trager geladen, maar u beschikt wel over meer vrije ruimte."
+   },
+   "browsing_cleanup_custom_data_option_5": {
+      "message": "Wachtwoorden en aanmeldingsgegevens"
+   },
+   "browsing_cleanup_custom_data_option_5_note": {
+      "message": "Hiermee worden alle onthouden gebruikersnamen en wachtwoorden permanent verwijderd."
+   },
+   "browsing_cleanup_custom_data_option_5_tooltip": {
+      "message": "Opgeslagen aanmeldingsgegevens voor websites, waardoor u zich snel kunt aanmelden. Als u deze gegevens verwijdert, worden alle onthouden gebruikersnamen en wachtwoorden permanent verwijderd, dus ga voorzichtig te werk."
+   },
+   "browsing_cleanup_custom_data_option_6": {
+      "message": "Gegevens voor automatisch invullen van formulieren"
+   },
+   "browsing_cleanup_custom_data_option_6_tooltip": {
+      "message": "Gegevens die u in formulieren hebt ingevoerd, zoals namen, adressen en contactgegevens, zodat u formulieren sneller kunt invullen. Als u deze gegevens verwijdert, worden uw opgeslagen gegevens verwijderd."
+   },
+   "browsing_cleanup_custom_data_option_7": {
+      "message": "Serviceworkers"
+   },
+   "browsing_cleanup_custom_data_option_7_tooltip": {
+      "message": "Bestanden die helpen om een soepele werking van websites en web-apps te waarborgen, zelfs als u offline bent. Als u deze gegevens verwijdert, heeft dit mogelijk invloed op functies zoals offline toegang, synchronisatie op de achtergrond en meldingen, maar de meeste websites werken nog steeds zoals gewoonlijk."
+   },
+   "browsing_cleanup_data_btns_header": {
+      "message": "Type gegevens"
+   },
+   "browsing_cleanup_header": {
+      "message": "Browseropschoning"
+   },
+   "browsing_cleanup_header_text": {
+      "message": "Verwijder browsegegevens of stel regelmatige intervallen voor opschonen in. Selecteer op welke websites u ingelogd wilt blijven en \u003Cspan>voeg ze toe aan een lijst.\u003C/span>"
+   },
+   "browsing_cleanup_private_data_btn": {
+      "message": "Privé"
+   },
+   "browsing_cleanup_private_data_description": {
+      "message": "Het type privégegevens omvat uw browsegeschiedenis, downloadgeschiedenis, cookies en websitegegevens, gegevens voor automatisch invullen van formulieren en serviceworkers."
+   },
+   "browsing_cleanup_select_form_option_0": {
+      "message": "Alle"
+   },
+   "browsing_cleanup_select_form_option_1": {
+      "message": "Deze browsersessie"
+   },
+   "browsing_cleanup_select_form_option_2": {
+      "message": "Laatste uur"
+   },
+   "browsing_cleanup_select_form_option_3": {
+      "message": "Afgelopen 24 uur"
+   },
+   "browsing_cleanup_select_form_option_4": {
+      "message": "Afgelopen 7 dagen"
+   },
+   "browsing_cleanup_select_form_option_5": {
+      "message": "Afgelopen 4 weken"
+   },
+   "browsing_cleanup_select_form_placeholder": {
+      "message": "Selecteer tijdsbereik"
+   },
+   "browsing_one_time_cleanup_delete_btn": {
+      "message": "Gegevens verwijderen"
+   },
+   "browsing_one_time_cleanup_delete_btn_deleted_text": {
+      "message": "Verwijderd"
+   },
+   "browsing_one_time_cleanup_delete_btn_deleting_text": {
+      "message": "Verwijderen"
+   },
+   "browsing_one_time_cleanup_select_form_title": {
+      "message": "Tijdbereiken"
+   },
+   "browsing_one_time_cleanup_tab_header": {
+      "message": "Eenmalige opschoning"
+   },
+   "browsing_regular_cleanup_btn": {
+      "message": "Opslaan en opschonen"
+   },
+   "browsing_regular_cleanup_btn_coplete": {
+      "message": "Opschoning is voltooid"
+   },
+   "browsing_regular_cleanup_btn_disabled": {
+      "message": "Opschoning opslaan"
+   },
+   "browsing_regular_cleanup_btn_processing": {
+      "message": "Opslaan en opschonen..."
+   },
+   "browsing_regular_cleanup_btn_schedule": {
+      "message": "Opschoning plannen"
+   },
+   "browsing_regular_cleanup_func_change_setting_link": {
+      "message": "Instellingen voor regelmatig opschonen wijzigen"
+   },
+   "browsing_regular_cleanup_func_disabled": {
+      "message": "Nadat u regelmatig opschonen hebt ingeschakeld, stelt u de gewenste tijd en frequentie in."
+   },
+   "browsing_regular_cleanup_func_header": {
+      "message": "Regelmatig opschonen"
+   },
+   "browsing_regular_cleanup_func_next_session_cleanup": {
+      "message": "De volgende opschoning wordt automatisch gestart wanneer u de browser opnieuw opent."
+   },
+   "browsing_regular_cleanup_func_next_time_cleanup": {
+      "message": "De volgende opschoning is gepland voor %DATE% om %TIME%."
+   },
+   "browsing_regular_cleanup_func_not_set": {
+      "message": "U hebt regelmatig opschonen nog niet ingesteld."
+   },
+   "browsing_regular_cleanup_func_set_up_settings_link": {
+      "message": "Regelmatig opschonen instellen"
+   },
+   "browsing_regular_cleanup_header": {
+      "message": "Instellingen voor regelmatig opschonen"
+   },
+   "browsing_regular_cleanup_header_description": {
+      "message": "Selecteer de opschoningsfrequentie en de typen gegevens die u wilt opnemen."
+   },
+   "browsing_regular_cleanup_select_form_option_1": {
+      "message": "Eenmaal per browsersessie"
+   },
+   "browsing_regular_cleanup_select_form_option_2": {
+      "message": "Eenmaal per uur"
+   },
+   "browsing_regular_cleanup_select_form_option_3": {
+      "message": "Eenmaal per 24 uur"
+   },
+   "browsing_regular_cleanup_select_form_option_4": {
+      "message": "Eenmaal per 7 dagen"
+   },
+   "browsing_regular_cleanup_select_form_option_5": {
+      "message": "Eenmaal per 4 weken"
+   },
+   "browsing_regular_cleanup_select_form_placeholder": {
+      "message": "Frequentie selecteren"
+   },
+   "browsing_regular_cleanup_select_form_title": {
+      "message": "Opschoningsfrequentie"
+   },
+   "close_icon_alt": {
+      "message": "Pictogram Sluiten"
+   },
+   "data_collection_consent_dialog_agree_button": {
+      "message": "Accepteren en doorgaan"
+   },
+   "data_collection_consent_dialog_decline_button": {
+      "message": "Weigeren en dit tabblad sluiten"
+   },
+   "data_collection_consent_dialog_description_1": {
+      "message": "Voor volledige beveiliging heeft de ESET Browserprivacy en -beveiliging-extensie uw toestemming nodig om verzamelde gegevens naar de ESET-toepassing op uw apparaat te verzenden. Dit omvat informatie over de websites die u bezoekt, zoals de betreffende webadressen (URL's), inhoud en gerelateerde gegevens."
+   },
+   "data_collection_consent_dialog_description_2": {
+      "message": "De gegevens die we verwerken, worden gebruikt om oplichting, phishing en andere bedreigingen te detecteren en zijn vereist voor functies zoals Websitebeveiligingsinspectie. De meeste verwerkingen worden lokaal op uw apparaat uitgevoerd, maar bepaalde verdachte URL's en website-inhoud kunnen naar onze server worden verzonden voor geavanceerde bedreigingsdetectie. Als u weigert, worden bepaalde functies uitgeschakeld, maar de rest van de extensie werkt nog wel."
+   },
+   "data_collection_consent_dialog_description_3": {
+      "message": "Mogelijk verzamelen we ook geanonimiseerde gebruiksgegevens van de extensie om de prestaties te verbeteren. Dit hangt af van uw instellingen in de ESET-toepassing. U kunt deze voorkeuren beheren in de toepassing."
+   },
+   "data_collection_consent_dialog_footer": {
+      "message": "Lees ons \u003Cspan class=\"privacy-policy-link\">Privacybeleid\u003C/span> voor meer informatie over hoe wij uw gegevens verwerken en beheren."
+   },
+   "data_collection_consent_dialog_title": {
+      "message": "We hebben uw toestemming nodig voor volledige beveiliging tijdens het browsen"
+   },
+   "direction": {
+      "message": "ltr"
+   },
+   "eset_logo_alt": {
+      "message": "ESET-logo"
+   },
+   "eula_link": {
+      "message": "Licentieovereenkomst voor eindgebruikers"
+   },
+   "extension_description": {
+      "message": "Profiteer van uitgebreide browserbeveiliging met ESET Browserprivacy en -beveiliging."
+   },
+   "help_support_menu_item": {
+      "message": "Help en ondersteuning"
+   },
+   "info_icon_alt": {
+      "message": "Pictogram Informatie"
+   },
+   "info_page_allow_access_button": {
+      "message": "Toegang toestaan"
+   },
+   "info_page_footer": {
+      "message": "© 1992 - %YEAR% ESET, spol. s r.o. - Alle rechten voorbehouden. De hier gebruikte merken zijn merken of gedeponeerde merken van ESET, spol. s r.o. of ESET North America. Alle overige namen en merken zijn gedeponeerde merken van de respectieve bedrijven."
+   },
+   "learn_more_link": {
+      "message": "Meer informatie"
+   },
+   "metadata_cleaner_func_description": {
+      "message": "Schoon metadata op telkens wanneer u een afbeelding uploadt."
+   },
+   "metadata_cleaner_func_header": {
+      "message": "Gegevens uit uw bestanden opschonen"
+   },
+   "metadata_cleaner_header": {
+      "message": "Metadataopschoning"
+   },
+   "metadata_cleaner_subheader": {
+      "message": "Verwijder metadata met privégegevens wanneer u bestanden online deelt."
+   },
+   "metadata_notifications_func_header": {
+      "message": "Meldingen weergeven na opschonen"
+   },
+   "metadata_notifications_func_subheader": {
+      "message": "Ontvang meldingen in de browser."
+   },
+   "metadata_warning_status_icon_alt": {
+      "message": "Pictogram van Waarschuwing status metadata"
+   },
+   "notification_message_text": {
+      "message": "Metadata van geüploade bestanden opgeschoond:"
+   },
+   "overview_menu_item": {
+      "message": "Overzicht"
+   },
+   "privacy_policy_link": {
+      "message": "Privacybeleid"
+   },
+   "product_name": {
+      "message": "Browserprivacy en -beveiliging"
+   },
+   "product_title": {
+      "message": "ESET Browserprivacy en -beveiliging"
+   },
+   "product_version": {
+      "message": "Versie:"
+   },
+   "progress_logo_alt": {
+      "message": "Logo Progress. Protected."
+   },
+   "scan_search_result_func_description": {
+      "message": "Scan zoekresultaten om te zien op welke u veilig kunt klikken."
+   },
+   "scan_search_result_func_header": {
+      "message": "Zoekresultaten scannen"
+   },
+   "secure_search_green_popup_text": {
+      "message": "Deze website is veilig"
+   },
+   "secure_search_header": {
+      "message": "Veilig zoeken"
+   },
+   "secure_search_red_popup_text": {
+      "message": "Deze website is niet veilig"
+   },
+   "secure_search_subheader": {
+      "message": "Bekijk welke zoekresultaten veilig kunnen worden geopend."
+   },
+   "secure_search_yellow_popup_text": {
+      "message": "Potentieel ongewenste inhoud gevonden"
+   },
+   "settings_page_appearance_dark_mode": {
+      "message": "Donker"
+   },
+   "settings_page_appearance_description": {
+      "message": "Pas de kleur van de interface aan. U kunt kiezen tussen een lichte of donkere kleur."
+   },
+   "settings_page_appearance_header": {
+      "message": "Uiterlijk"
+   },
+   "settings_page_appearance_light_mode": {
+      "message": "Licht"
+   },
+   "settings_page_appearance_subheader": {
+      "message": "Kleurmodus"
+   },
+   "settings_page_browser_cleanup_active_tabs_text": {
+      "message": "Voorgestelde domeinen op basis van de tabbladen die u momenteel in uw browser hebt geopend. Als u niet alle momenteel geopende tabbladen in de onderstaande lijst ziet, moet \u003Cspan class=\"refresh-list\">u de lijst vernieuwen\u003C/span>."
+   },
+   "settings_page_browser_cleanup_add_btn_text": {
+      "message": "Toevoegen"
+   },
+   "settings_page_browser_cleanup_checkbox_text": {
+      "message": "Behoud de geopende tabbladen van de huidige browsersessie na het opschonen"
+   },
+   "settings_page_browser_cleanup_description": {
+      "message": "Voeg websites toe waarop u cookies wilt accepteren en ingelogd wilt blijven, zelfs na het opschonen van de browser."
+   },
+   "settings_page_browser_cleanup_input_placeholder_text": {
+      "message": "Voer een URL in die u wilt toevoegen"
+   },
+   "settings_page_browser_cleanup_minus_img_alt": {
+      "message": "Minus"
+   },
+   "settings_page_browser_cleanup_plus_img_alt": {
+      "message": "Plus"
+   },
+   "settings_page_browser_cleanup_subheader": {
+      "message": "Geavanceerde cookie-instellingen"
+   },
+   "settings_page_not_valid_url_warning": {
+      "message": "*Dat ziet er niet uit als een geldige URL."
+   },
+   "settings_page_website_settings_allow_text": {
+      "message": "Toestaan"
+   },
+   "settings_page_website_settings_allowed_text": {
+      "message": "Toegestaan"
+   },
+   "settings_page_website_settings_block_text": {
+      "message": "Blokkeren"
+   },
+   "settings_page_website_settings_blocked_text": {
+      "message": "Geblokkeerd"
+   },
+   "settings_page_website_settings_camera_section_description": {
+      "message": "Bekijk welke websites kunnen vragen om uw camera te gebruiken."
+   },
+   "settings_page_website_settings_camera_section_header": {
+      "message": "Camera"
+   },
+   "settings_page_website_settings_chrome_extension_info_text": {
+      "message": "We kunnen de instellingen voor browserextensies niet wijzigen. Als u de instellingen voor een specifieke browserextensie wilt aanpassen, gaat u naar het gedeelte \u003Cspan class=\"browser-site-permissions-link\">Privacy en beveiliging\u003C/span> van uw browser"
+   },
+   "settings_page_website_settings_description": {
+      "message": "Open en beheer eenvoudig uw websitemachtigingen om te bepalen welke informatie kan worden gebruikt door websites."
+   },
+   "settings_page_website_settings_edge_extension_info_text": {
+      "message": "We kunnen de instellingen voor browserextensies niet wijzigen. Als u de instellingen voor een specifieke browserextensie wilt aanpassen, gaat u naar het gedeelte \u003Cspan class=\"browser-site-permissions-link\">Cookies en sitemachtigingen\u003C/span> van uw browser"
+   },
+   "settings_page_website_settings_header": {
+      "message": "Website-instellingenbeheer"
+   },
+   "settings_page_website_settings_location_section_description": {
+      "message": "Bekijk welke websites kunnen vragen naar uw locatie."
+   },
+   "settings_page_website_settings_location_section_header": {
+      "message": "Locatie"
+   },
+   "settings_page_website_settings_mic_section_description": {
+      "message": "Bekijk welke websites kunnen vragen om uw microfoon te gebruiken."
+   },
+   "settings_page_website_settings_mic_section_header": {
+      "message": "Microfoon"
+   },
+   "settings_page_website_settings_notif_section_description": {
+      "message": "Bekijk welke websites kunnen vragen om meldingen te verzenden."
+   },
+   "settings_page_website_settings_notif_section_header": {
+      "message": "Meldingen"
+   },
+   "settings_page_website_settings_reset_to_allow_text": {
+      "message": "Opnieuw instellen om toe te staan"
+   },
+   "settings_page_website_settings_reset_to_block_text": {
+      "message": "Opnieuw instellen om te blokkeren"
+   },
+   "setup_btn": {
+      "message": "INSTELLEN"
+   },
+   "summary_metadata_stats_text": {
+      "message": "Verwijder metadata met privégegevens."
+   },
+   "summary_ok_header": {
+      "message": "Uw browseactiviteiten zijn beveiligd"
+   },
+   "summary_privacy_stats_text": {
+      "message": "Verwijder uw browsegegevens."
+   },
+   "summary_restart_header": {
+      "message": "Browser moet opnieuw worden opgestart"
+   },
+   "summary_search_stats_text": {
+      "message": "Controleer of de zoekresultaten veilig zijn."
+   },
+   "summary_website_setting_header": {
+      "message": "Website-instellingenbeheer"
+   },
+   "summary_website_setting_text": {
+      "message": "Beheer websitemachtigingen."
+   },
+   "website_security_inspector_description": {
+      "message": "Scan de websites die u bezoekt, zodat u beschermd bent tegen fraude en beveiligingsrisico's tijdens het browsen."
+   },
+   "website_security_inspector_scan_func_description": {
+      "message": "Scan websites op bedreigingen zodra ze zijn geladen."
+   },
+   "website_security_inspector_scan_func_header": {
+      "message": "Detectie van websitebedreigingen"
+   },
+   "website_security_inspector_setup_all_set_info": {
+      "message": "De \u003Cspan class=\"highlighted\">ESET Browserprivacy en -beveiliging-extensie\u003C/span> is nu actief en beveiligt u tijdens het browsen. U kunt de functies op elk moment beheren in de instellingen."
+   },
+   "website_security_inspector_setup_all_set_title": {
+      "message": "U bent helemaal klaar"
+   },
+   "website_security_inspector_setup_allow_access_section_description_1": {
+      "message": "Bepaalde beveiligingsfuncties vereisen een aanvullende machtiging om toegang te krijgen tot de websites die u bezoekt, waaronder de betreffende webadressen (URL's) en inhoud. Deze gegevens zijn nodig om oplichting, phishing en andere bedreigingen in real time te detecteren en worden nooit gedeeld met derden."
+   },
+   "website_security_inspector_setup_allow_access_section_description_2": {
+      "message": "U kunt deze machtiging op elk moment beheren in de instellingen van de extensie."
+   },
+   "website_security_inspector_setup_almost_done_info": {
+      "message": "U hebt de \u003Cspan class=\"highlighted\">ESET Browserprivacy en -beveiliging-extensie\u003C/span> ingeschakeld."
+   },
+   "website_security_inspector_setup_almost_done_subtitle": {
+      "message": "Inschakelen van alle beveiligingsfuncties voltooien"
+   },
+   "website_security_inspector_setup_almost_done_title": {
+      "message": "U bent bijna klaar"
+   },
+   "website_security_inspector_summary": {
+      "message": "Bescherm u tegen fraude en beveiligingsrisico's tijdens het browsen."
+   },
+   "website_security_inspector_title": {
+      "message": "Websitebeveiligingsinspectie"
+   },
+   "welcome_page_ai_conversation_security_tile_text": {
+      "message": "Controleer de antwoorden van ChatGPT op mogelijk schadelijke inhoud voordat u ze gebruikt. Meer platforms komen binnenkort."
+   },
+   "welcome_page_allow_access_section_description": {
+      "message": "Voor sommige functies hebt u een machtiging nodig om toegang te krijgen tot de websites die u bezoekt. Gegevens over uw webactiviteiten worden lokaal op uw apparaat verwerkt. Alleen potentieel schadelijke URL's en telemetrie worden mogelijk naar ESET verzonden ter ondersteuning van onderzoek naar huidige cyberbeveiligingsdreigingen en om onze diensten te verbeteren, mits u gegevensdeling hebt ingeschakeld in uw ESET Security-toepassing. U kunt deze machtiging op elk moment aanpassen in de instellingen van de extensie."
+   },
+   "welcome_page_allow_access_section_title": {
+      "message": "Sta toegang toe voor volledige beveiliging"
+   },
+   "welcome_page_browser_cleanup_tile_text": {
+      "message": "Verwijder browsegegevens of stel een regelmatig interval voor opschonen in."
+   },
+   "welcome_page_chrome_info_tile_text": {
+      "message": "Houd de extensie zichtbaar voor eenvoudige toegang: klik hierboven op het pictogram van de extensie en maak het vast in de browser."
+   },
+   "welcome_page_edge_info_tile_text": {
+      "message": "Houd de extensie zichtbaar voor eenvoudige toegang: klik hierboven op het pictogram van de extensie en voeg het toe aan de werkbalk van de browser."
+   },
+   "welcome_page_header_text": {
+      "message": "Bedankt dat u de extensie \u003Cspan class=\"highlighted\">ESET Browserprivacy en -beveiliging\u003C/span> hebt ingeschakeld in uw browser"
+   },
+   "welcome_page_main_content_title": {
+      "message": "Ontdek de functies waardoor u veilig kunt surfen"
+   },
+   "welcome_page_metadata_cleanup_tile_header": {
+      "message": "Metadataopschoning*"
+   },
+   "welcome_page_metadata_cleanup_tile_text": {
+      "message": "Verwijder uw privégegevens uit bestanden wanneer u deze online deelt."
+   },
+   "welcome_page_pin_icon_alt": {
+      "message": "Pictogram Vastmaken"
+   },
+   "welcome_page_plugin_icon_alt": {
+      "message": "Pictogram Plug-in"
+   },
+   "welcome_page_right_arrow_icon_alt": {
+      "message": "Pictogram Pijl-rechts"
+   },
+   "welcome_page_secure_search_tile_text": {
+      "message": "Controleer of zoekresultaten veilig zijn voordat u ze opent."
+   },
+   "welcome_page_subheader": {
+      "message": "Als u veiliger wilt browsen, klikt u op het pictogram van de extensie naast de adresbalk. Het pictogram is in sommige browsers mogelijk verborgen in het browsermenu."
+   },
+   "welcome_page_ultime_feature": {
+      "message": "*Beschikbaar in ESET HOME Security Ultimate"
+   },
+   "welcome_page_website_security_inspector_tile_text": {
+      "message": "Scan websites op fraude en beveiligingsrisico's terwijl u surft."
+   },
+   "welcome_page_website_settings_tile_header": {
+      "message": "Website-instellingenbeheer*"
+   },
+   "welcome_page_website_settings_tile_text": {
+      "message": "Beheer websitemachtigingen voor meldingen, locatie, camera en microfoon."
+   },
+   "whats_new_page_allow_access_section_description": {
+      "message": "Voor deze functie hebt u een machtiging nodig om toegang te krijgen tot de websites die u bezoekt. Gegevens over uw webactiviteiten worden lokaal op uw apparaat verwerkt. Alleen potentieel schadelijke URL's en telemetrie worden mogelijk naar ESET verzonden ter ondersteuning van onderzoek naar huidige cyberbeveiligingsdreigingen en om onze diensten te verbeteren, mits u gegevensdeling hebt ingeschakeld in uw ESET Security-toepassing. U kunt deze machtiging op elk moment aanpassen in de instellingen van de extensie."
+   },
+   "whats_new_page_allow_access_section_title": {
+      "message": "Toegang verlenen voor AI Conversation Security"
+   },
+   "whats_new_page_description": {
+      "message": "AI Conversation Security scant elk antwoord van ChatGPT op inhoud die verwijst naar potentieel onbetrouwbare of onveilige bronnen en op schadelijke code. De functie wordt automatisch uitgevoerd, dus u kunt zonder onderbreking blijven browsen.\u003Cbr/>\u003Cbr/>De scans worden lokaal op uw apparaat uitgevoerd. We verzenden of delen geen informatie over uw webactiviteiten naar ESET. Alleen potentieel schadelijke URL's en telemetrie worden mogelijk verzonden om ons product te verbeteren.\u003Cbr/>\u003Cbr/>Ondersteuning voor extra AI-platforms komt binnenkort."
+   },
+   "whats_new_page_header": {
+      "message": "\u003Cspan class=\"highlighted\">Nieuwe functies\u003C/span>"
+   },
+   "whats_new_page_image_alt": {
+      "message": "Illustratie van de ESET-functie AI Conversation Security met twee chatbubbels die een AI-chatbotgesprek voorstellen. Eén URL is rood gemarkeerd in een van de antwoorden. Dit wijst op een onveilige koppeling die tijdens de scan is gedetecteerd."
+   },
+   "whats_new_page_subheader": {
+      "message": "Ontdek de nieuwste updates en verbeteringen van de \u003Cspan class=\"highlighted\">extensie ESET Browserprivacy en -beveiliging\u003C/span>."
+   },
+   "whats_new_page_title": {
+      "message": "Ervaar veiligere ChatGPT-gesprekken"
+   }
+}

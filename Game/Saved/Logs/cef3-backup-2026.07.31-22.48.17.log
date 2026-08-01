@@ -1,0 +1,7 @@
+[6724:36576:0731/183722.098:WARNING:chrome_main_delegate.cc(745)] This is Chrome version 128.0.6613.138 (not a warning)
+[6724:34000:0731/183722.132:ERROR:google_update_settings.cc(265)] Failed opening key Software\Chromium to set usagestats; result: 5
+[6724:36576:0731/183722.148:WARNING:account_consistency_mode_manager.cc(77)] Desktop Identity Consistency cannot be enabled as no OAuth client ID and client secret have been configured.
+[3648:26568:0731/183725.751:WARNING:frame_impl.cc(430)] virtual CefFrameImpl::SendProcessMessage sent to detached frame 5-FA953439910DCE0F189D39A361C4E0A8 will be ignored
+[6724:20504:0731/183824.101:ERROR:dns_config_service.cc(273)] DNS config watch failed.
+[28076:23732:0731/183824.102:ERROR:dns_config_service.cc(273)] DNS config watch failed.
+[6724:36576:0731/184817.498:ERROR:device_event_log_impl.cc(196)] [18:48:17.453] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)

@@ -1,0 +1,608 @@
+{
+   "advanced_setup_menu_item": {
+      "message": "Konfigurasi lanjutan"
+   },
+   "ai_conversation_security_description": {
+      "message": "Tetap aman saat menggunakan ChatGPT. Kami memindai setiap respons untuk referensi ke sumber yang berpotensi tidak dapat dipercaya atau tidak aman dan berisi kode berbahaya sebelum Anda berinteraksi dengannya."
+   },
+   "ai_conversation_security_detection_result_bad": {
+      "message": "Respons ini mereferensikan konten dari sumber yang kami identifikasi sebagai tidak aman."
+   },
+   "ai_conversation_security_detection_result_bad_script": {
+      "message": "Respons ini berisi kode yang tidak aman. Menjalankannya dapat membahayakan sistem atau data Anda."
+   },
+   "ai_conversation_security_detection_result_warning": {
+      "message": "Respons ini merujuk konten dari sumber yang kami identifikasi berpotensi tidak dapat diandalkan."
+   },
+   "ai_conversation_security_header": {
+      "message": "Keamanan Percakapan AI"
+   },
+   "ai_conversation_security_onboarding": {
+      "message": "\u003Cp class=\"onboarding-info\">Percakapan Anda sekarang dilindungi. Kami memindai setiap respons ChatGPT untuk referensi ke sumber yang berpotensi tidak dapat dipercaya atau tidak aman dan berisi kode berbahaya.\u003C/p>\u003Cp class=\"onboarding-info\">Anda dapat menyesuaikan pengaturan ini \u003Cspan class=\"extension-popup-link\">di sini\u003C/span>.\u003C/p>"
+   },
+   "ai_conversation_security_scan_func_description": {
+      "message": "Periksa potensi risiko pada respons AI sebelum menggunakannya."
+   },
+   "ai_conversation_security_scan_func_header": {
+      "message": "Pemindaian percakapan"
+   },
+   "ai_conversation_security_summary": {
+      "message": "Periksa potensi risiko pada tanggapan ChatGPT."
+   },
+   "alert_icon_alt": {
+      "message": "Ikon peringatan"
+   },
+   "alert_page_connection_lost_btn": {
+      "message": "Coba lagi"
+   },
+   "alert_page_connection_lost_header": {
+      "message": "Koneksi terputus"
+   },
+   "alert_page_connection_lost_text": {
+      "message": "Koneksi antara \u003Cspan class=\"product-info\">{%productname%}\u003C/span> dan ekstensi browser telah terputus. Periksa koneksi internet Anda lalu coba lagi. Perlu diingat bahwa ekstensi tidak akan berfungsi tanpa menginstal \u003Cspan class=\"product-info\">{%productname%}\u003C/span> terlebih dahulu."
+   },
+   "alert_page_expired_license_btn": {
+      "message": "Buka \u003Cspan class=\"product-info\">{%productname%}\u003C/span> "
+   },
+   "alert_page_expired_license_header": {
+      "message": "Langganan kedaluwarsa"
+   },
+   "alert_page_expired_license_text": {
+      "message": "Langganan Anda telah kedaluwarsa, dan Anda tidak dapat lagi mengakses ekstensi Privasi & Keamanan Browser ESET. Untuk mengatasi masalah ini, buka \u003Cspan class=\"product-info\">{%productname%}\u003C/span> lalu ikuti petunjuk yang diberikan."
+   },
+   "alert_page_missing_product_header": {
+      "message": "Produk tidak ada"
+   },
+   "alert_page_missing_product_text_1": {
+      "message": "Saat ini tidak ada produk ESET yang dipasang di komputer Anda yang mendukung ekstensi Privasi & Keamanan Browser ESET."
+   },
+   "alert_page_missing_product_text_2": {
+      "message": "Untuk mempelajari lebih lanjut tentang ekstensi, produk ESET yang didukung, browser yang didukung, dan pemasangan, kunjungi \u003Cspan class=\"online-help-link\">Bantuan online.\u003C/span>"
+   },
+   "alert_page_unsupported_browser_header": {
+      "message": "Browser yang tidak didukung"
+   },
+   "alert_page_unsupported_browser_text_1": {
+      "message": "Tampaknya Anda menggunakan browser yang belum didukung. Untuk menggunakan ekstensi Privasi & Keamanan Browser ESET, pasang browser yang didukung."
+   },
+   "alert_page_unsupported_browser_text_2": {
+      "message": "\u003Cspan class=\"supported-browsers-link\">Lihat browser yang didukung\u003C/span>"
+   },
+   "banner_ok_status_icon_alt": {
+      "message": "Ikon spanduk status OK"
+   },
+   "banner_restart_status_icon_alt": {
+      "message": "Ikon spanduk status mulai ulang"
+   },
+   "blocking_page_description": {
+      "message": "Inspektur Keamanan Situs Web telah mendeteksi konten yang berpotensi penipuan atau berbahaya di \u003Cspan class=\"blocked-url-tooltip\">halaman ini\u003C/span>. Agar tetap terlindungi, sebaiknya Anda menghindarinya."
+   },
+   "blocking_page_go_back_button": {
+      "message": "Kembali"
+   },
+   "blocking_page_head_title": {
+      "message": "Peringatan! - Privasi & Keamanan Browser ESET"
+   },
+   "blocking_page_ignore_threat_button": {
+      "message": "Abaikan ancaman"
+   },
+   "blocking_page_options_title": {
+      "message": "Kembali ke halaman sebelumnya?"
+   },
+   "blocking_page_title": {
+      "message": "Halaman ini mungkin tidak aman"
+   },
+   "browser_restart_needed_p": {
+      "message": "Perubahan ini akan berlaku setelah memulai ulang browser."
+   },
+   "browsing_cleanup_custom_data_btn": {
+      "message": "Kustom"
+   },
+   "browsing_cleanup_custom_data_option_1": {
+      "message": "Riwayat penjelajahan"
+   },
+   "browsing_cleanup_custom_data_option_1_tooltip": {
+      "message": "Catatan situs web yang Anda kunjungi, termasuk tanggal dan waktu. Menghapus data ini akan menghapus riwayat aktivitas web dari perangkat Anda."
+   },
+   "browsing_cleanup_custom_data_option_2": {
+      "message": "Riwayat unduhan"
+   },
+   "browsing_cleanup_custom_data_option_2_tooltip": {
+      "message": "Daftar file yang telah Anda unduh. Menghapus data ini akan menghapus catatan file yang diunduh, tetapi tidak menghapus filenya."
+   },
+   "browsing_cleanup_custom_data_option_3": {
+      "message": "Cookie dan data situs web"
+   },
+   "browsing_cleanup_custom_data_option_3_tooltip": {
+      "message": "File kecil yang disimpan oleh situs web untuk mengingat preferensi, status masuk, dan aktivitas Anda. Menghapus cookie dapat mengeluarkan Anda dari situs web dan mengatur ulang preferensi Anda."
+   },
+   "browsing_cleanup_custom_data_option_4": {
+      "message": "Gambar dan file cache"
+   },
+   "browsing_cleanup_custom_data_option_4_tooltip": {
+      "message": "File sementara yang membantu memuat situs web lebih cepat dengan menyimpan sebagian data situs web di perangkat Anda. Menghapus data ini mungkin memperlambat pemuatan halaman pada awalnya, tetapi dapat mengosongkan ruang Anda."
+   },
+   "browsing_cleanup_custom_data_option_5": {
+      "message": "Kata sandi dan data kredensial masuk"
+   },
+   "browsing_cleanup_custom_data_option_5_note": {
+      "message": "Ini akan menghapus secara permanen semua nama pengguna dan kata sandi yang diingat."
+   },
+   "browsing_cleanup_custom_data_option_5_tooltip": {
+      "message": "Informasi masuk tersimpan untuk situs web, yang memungkinkan masuk lebih cepat. Menghapus data ini akan menghapus secara permanen semua nama pengguna dan kata sandi yang diingat, jadi harap berhati-hati."
+   },
+   "browsing_cleanup_custom_data_option_6": {
+      "message": "Data isi otomatis formulir"
+   },
+   "browsing_cleanup_custom_data_option_6_tooltip": {
+      "message": "Informasi yang Anda masukkan dalam formulir, seperti nama, alamat, dan detail kontak, yang membantu Anda mengisi formulir lebih cepat. Menghapus data ini akan menghapus informasi yang tersimpan."
+   },
+   "browsing_cleanup_custom_data_option_7": {
+      "message": "Pekerja layanan"
+   },
+   "browsing_cleanup_custom_data_option_7_tooltip": {
+      "message": "File yang membantu situs web dan aplikasi web berjalan lancar, bahkan saat Anda sedang offline. Menghapus data ini dapat memengaruhi fitur seperti akses offline, sinkronisasi latar belakang, dan pemberitahuan, tetapi sebagian besar situs web akan tetap berfungsi seperti biasa."
+   },
+   "browsing_cleanup_data_btns_header": {
+      "message": "Jenis data"
+   },
+   "browsing_cleanup_header": {
+      "message": "Pembersihan Browser"
+   },
+   "browsing_cleanup_header_text": {
+      "message": "Hapus data penjelajahan atau siapkan pembersihan rutin. Tetap masuk di situs web yang dipilih dengan \u003Cspan>menambahkannya ke dalam daftar.\u003C/span>"
+   },
+   "browsing_cleanup_private_data_btn": {
+      "message": "Privat"
+   },
+   "browsing_cleanup_private_data_description": {
+      "message": "Jenis data pribadi mencakup riwayat penelusuran, riwayat unduhan, cookie dan data situs web, data isi otomatis formulir, serta pekerja layanan."
+   },
+   "browsing_cleanup_select_form_option_0": {
+      "message": "Sepanjang waktu"
+   },
+   "browsing_cleanup_select_form_option_1": {
+      "message": "Sesi penjelajahan ini"
+   },
+   "browsing_cleanup_select_form_option_2": {
+      "message": "Jam terakhir"
+   },
+   "browsing_cleanup_select_form_option_3": {
+      "message": "24 jam terakhir"
+   },
+   "browsing_cleanup_select_form_option_4": {
+      "message": "7 hari terakhir"
+   },
+   "browsing_cleanup_select_form_option_5": {
+      "message": "4 minggu terakhir"
+   },
+   "browsing_cleanup_select_form_placeholder": {
+      "message": "Pilih rentang waktu"
+   },
+   "browsing_one_time_cleanup_delete_btn": {
+      "message": "Hapus data"
+   },
+   "browsing_one_time_cleanup_delete_btn_deleted_text": {
+      "message": "Dihapus"
+   },
+   "browsing_one_time_cleanup_delete_btn_deleting_text": {
+      "message": "Menghapus"
+   },
+   "browsing_one_time_cleanup_select_form_title": {
+      "message": "Rentang waktu"
+   },
+   "browsing_one_time_cleanup_tab_header": {
+      "message": "Pembersihan satu kali"
+   },
+   "browsing_regular_cleanup_btn": {
+      "message": "Simpan dan jalankan pembersihan"
+   },
+   "browsing_regular_cleanup_btn_coplete": {
+      "message": "Pembersihan selesai"
+   },
+   "browsing_regular_cleanup_btn_disabled": {
+      "message": "Simpan pembersihan"
+   },
+   "browsing_regular_cleanup_btn_processing": {
+      "message": "Menyimpan dan membersihkan"
+   },
+   "browsing_regular_cleanup_btn_schedule": {
+      "message": "Jadwalkan pembersihan"
+   },
+   "browsing_regular_cleanup_func_change_setting_link": {
+      "message": "Ubah pengaturan pembersihan rutin"
+   },
+   "browsing_regular_cleanup_func_disabled": {
+      "message": "Setelah mengaktifkan pembersihan rutin, atur waktu dan frekuensi yang Anda inginkan."
+   },
+   "browsing_regular_cleanup_func_header": {
+      "message": "Pembersihan rutin"
+   },
+   "browsing_regular_cleanup_func_next_session_cleanup": {
+      "message": "Pembersihan berikutnya akan secara otomatis dimulai saat Anda membuka browser berikutnya."
+   },
+   "browsing_regular_cleanup_func_next_time_cleanup": {
+      "message": "Pembersihan berikutnya dijadwalkan pada %DATE% pukul %TIME%."
+   },
+   "browsing_regular_cleanup_func_not_set": {
+      "message": "Anda belum mengatur pembersihan rutin."
+   },
+   "browsing_regular_cleanup_func_set_up_settings_link": {
+      "message": "Atur pembersihan rutin"
+   },
+   "browsing_regular_cleanup_header": {
+      "message": "Pengaturan pembersihan reguler"
+   },
+   "browsing_regular_cleanup_header_description": {
+      "message": "Pilih frekuensi pembersihan dan jenis data yang akan disertakan."
+   },
+   "browsing_regular_cleanup_select_form_option_1": {
+      "message": "Sekali per sesi browser"
+   },
+   "browsing_regular_cleanup_select_form_option_2": {
+      "message": "Sekali per jam"
+   },
+   "browsing_regular_cleanup_select_form_option_3": {
+      "message": "Sekali per 24 jam"
+   },
+   "browsing_regular_cleanup_select_form_option_4": {
+      "message": "Sekali per 7 hari"
+   },
+   "browsing_regular_cleanup_select_form_option_5": {
+      "message": "Sekali per 4 minggu"
+   },
+   "browsing_regular_cleanup_select_form_placeholder": {
+      "message": "Pilih frekuensi"
+   },
+   "browsing_regular_cleanup_select_form_title": {
+      "message": "Frekuensi pembersihan"
+   },
+   "close_icon_alt": {
+      "message": "Ikon tutup"
+   },
+   "data_collection_consent_dialog_agree_button": {
+      "message": "Setujui and lanjutkan"
+   },
+   "data_collection_consent_dialog_decline_button": {
+      "message": "Tolak dan tutup tab ini"
+   },
+   "data_collection_consent_dialog_description_1": {
+      "message": "Untuk memberikan perlindungan penuh, ekstensi Privasi & Keamanan Browser ESET memerlukan persetujuan Anda untuk mengirim data yang dikumpulkannya ke aplikasi ESET di perangkat Anda. Ini termasuk informasi tentang situs web yang Anda kunjungi, seperti alamat web (URL), konten, dan data terkait."
+   },
+   "data_collection_consent_dialog_description_2": {
+      "message": "Data yang kami proses digunakan untuk mendeteksi penipuan, phishing, dan ancaman lainnya dan diperlukan untuk fitur seperti Inspektur Keamanan Situs Web. Sebagian besar pemrosesan dilakukan secara lokal di perangkat Anda, tetapi URL dan konten situs web tertentu yang mencurigakan dapat dikirim ke server kami untuk pendeteksi ancaman tingkat lanjut. Jika Anda menolak, fitur tertentu akan dinonaktifkan, tetapi ekstensi lainnya akan tetap berfungsi."
+   },
+   "data_collection_consent_dialog_description_3": {
+      "message": "Bergantung pada pengaturan di aplikasi ESET, kami juga dapat mengumpulkan data penggunaan anonim dari ekstensi untuk meningkatkan kinerja. Anda dapat mengelola preferensi ini di aplikasi."
+   },
+   "data_collection_consent_dialog_footer": {
+      "message": "Untuk informasi lebih lanjut tentang cara kami memproses dan mengelola data Anda, kunjungi halaman \u003Cspan class=\"privacy-policy-link\">Kebijakan Privasi\u003C/span> kami."
+   },
+   "data_collection_consent_dialog_title": {
+      "message": "Kami memerlukan persetujuan Anda untuk sepenuhnya melindungi penelusuran Anda"
+   },
+   "direction": {
+      "message": "ltr"
+   },
+   "eset_logo_alt": {
+      "message": "Logo ESET"
+   },
+   "eula_link": {
+      "message": "Perjanjian Lisensi Pengguna Akhir"
+   },
+   "extension_description": {
+      "message": "Nikmati proteksi browser yang diperluas dengan Privasi & Keamanan Browser ESET."
+   },
+   "help_support_menu_item": {
+      "message": "Bantuan dan dukungan"
+   },
+   "info_icon_alt": {
+      "message": "Ikon informasi"
+   },
+   "info_page_allow_access_button": {
+      "message": "Izinkan akses"
+   },
+   "info_page_footer": {
+      "message": "© 1992 - %YEAR% ESET, spol. s r.o. - Semua hak dilindungi undang-undang. Merek dagang yang digunakan adalah merek dagang atau merek dagang terdaftar dari ESET, spol. s r.o. atau ESET Amerika Utara. Semua nama dan merek lain adalah merek dagang terdaftar dari perusahaan masing-masing."
+   },
+   "learn_more_link": {
+      "message": "Pelajari lebih lanjut"
+   },
+   "metadata_cleaner_func_description": {
+      "message": "Bersihkan metadata setiap kali mengunggah gambar."
+   },
+   "metadata_cleaner_func_header": {
+      "message": "Bersihkan data dari file"
+   },
+   "metadata_cleaner_header": {
+      "message": "Pembersihan Metadata"
+   },
+   "metadata_cleaner_subheader": {
+      "message": "Hapus metadata berisi informasi pribadi saat berbagi file secara online."
+   },
+   "metadata_notifications_func_header": {
+      "message": "Tampilkan pemberitahuan setelah pembersihan"
+   },
+   "metadata_notifications_func_subheader": {
+      "message": "Dapatkan pemberitahuan dalam browser."
+   },
+   "metadata_warning_status_icon_alt": {
+      "message": "Ikon peringatan status metadata"
+   },
+   "notification_message_text": {
+      "message": "Metadata file yang diunggah dibersihkan:"
+   },
+   "overview_menu_item": {
+      "message": "Gambaran Umum"
+   },
+   "privacy_policy_link": {
+      "message": "Kebijakan Privasi"
+   },
+   "product_name": {
+      "message": "PRIVASI & KEAMANAN BROWSER"
+   },
+   "product_title": {
+      "message": "Privasi & Keamanan Browser ESET"
+   },
+   "product_version": {
+      "message": "Versi:"
+   },
+   "progress_logo_alt": {
+      "message": "Logo Progress. Protected."
+   },
+   "scan_search_result_func_description": {
+      "message": "Pindai hasil pencarian untuk melihat mana yang aman diklik."
+   },
+   "scan_search_result_func_header": {
+      "message": "Pindai hasil pencarian"
+   },
+   "secure_search_green_popup_text": {
+      "message": "Situs web ini aman"
+   },
+   "secure_search_header": {
+      "message": "Pencarian Aman"
+   },
+   "secure_search_red_popup_text": {
+      "message": "Situs web ini tidak aman"
+   },
+   "secure_search_subheader": {
+      "message": "Lihat hasil pencarian mana yang aman dibuka."
+   },
+   "secure_search_yellow_popup_text": {
+      "message": "Ditemukan konten yang berpotensi tidak diinginkan"
+   },
+   "settings_page_appearance_dark_mode": {
+      "message": "Gelap"
+   },
+   "settings_page_appearance_description": {
+      "message": "Sesuaikan warna antarmuka agar sesuai dengan preferensi Anda. Anda dapat memilih warna terang atau gelap."
+   },
+   "settings_page_appearance_header": {
+      "message": "Tampilan"
+   },
+   "settings_page_appearance_light_mode": {
+      "message": "Terang"
+   },
+   "settings_page_appearance_subheader": {
+      "message": "Mode warna"
+   },
+   "settings_page_browser_cleanup_active_tabs_text": {
+      "message": "Domain yang disarankan berdasarkan tab yang saat ini terbuka di browser. Jika Anda tidak melihat semua tab yang sedang dibuka dalam daftar di bawah, \u003Cspan class=\"refresh-list\">segarkan daftar.\u003C/span>"
+   },
+   "settings_page_browser_cleanup_add_btn_text": {
+      "message": "Tambahkan"
+   },
+   "settings_page_browser_cleanup_checkbox_text": {
+      "message": "Pertahankan sesi penjelajahan saat ini untuk tab yang terbuka setelah pembersihan"
+   },
+   "settings_page_browser_cleanup_description": {
+      "message": "Tambahkan situs web tempat Anda ingin menerima cookie dan tetap masuk bahkan setelah melakukan pembersihan browser."
+   },
+   "settings_page_browser_cleanup_input_placeholder_text": {
+      "message": "Masukkan URL yang ingin Anda tambahkan"
+   },
+   "settings_page_browser_cleanup_minus_img_alt": {
+      "message": "Minus"
+   },
+   "settings_page_browser_cleanup_plus_img_alt": {
+      "message": "Plus"
+   },
+   "settings_page_browser_cleanup_subheader": {
+      "message": "Pengaturan cookie tingkat lanjut"
+   },
+   "settings_page_not_valid_url_warning": {
+      "message": "*URL sepertinya tidak valid."
+   },
+   "settings_page_website_settings_allow_text": {
+      "message": "Izinkan"
+   },
+   "settings_page_website_settings_allowed_text": {
+      "message": "Diizinkan"
+   },
+   "settings_page_website_settings_block_text": {
+      "message": "Blokir"
+   },
+   "settings_page_website_settings_blocked_text": {
+      "message": "Diblokir"
+   },
+   "settings_page_website_settings_camera_section_description": {
+      "message": "Tinjau situs web mana yang dapat meminta untuk menggunakan kamera Anda."
+   },
+   "settings_page_website_settings_camera_section_header": {
+      "message": "Kamera"
+   },
+   "settings_page_website_settings_chrome_extension_info_text": {
+      "message": "Kami tidak dapat mengubah pengaturan untuk ekstensi browser. Untuk menyesuaikan pengaturan ekstensi browser, buka \u003Cspan class=\"browser-site-permissions-link\">bagian Privasi dan keamanan\u003C/span> di browser Anda"
+   },
+   "settings_page_website_settings_description": {
+      "message": "Akses dan kelola izin situs web dengan mudah untuk mengontrol informasi apa yang dapat digunakan situs web."
+   },
+   "settings_page_website_settings_edge_extension_info_text": {
+      "message": "Kami tidak dapat mengubah pengaturan untuk ekstensi browser. Untuk menyesuaikan pengaturan ekstensi browser tertentu, buka \u003Cspan class=\"browser-site-permissions-link\">bagian Cookie dan izin situs\u003C/span> di browser Anda"
+   },
+   "settings_page_website_settings_header": {
+      "message": "Tinjauan Pengaturan Situs Web"
+   },
+   "settings_page_website_settings_location_section_description": {
+      "message": "Tinjau situs web mana yang dapat meminta lokasi Anda."
+   },
+   "settings_page_website_settings_location_section_header": {
+      "message": "Lokasi"
+   },
+   "settings_page_website_settings_mic_section_description": {
+      "message": "Tinjau situs web mana yang dapat meminta untuk menggunakan mikrofon Anda."
+   },
+   "settings_page_website_settings_mic_section_header": {
+      "message": "Mikrofon"
+   },
+   "settings_page_website_settings_notif_section_description": {
+      "message": "Tinjau situs web mana yang dapat meminta untuk mengirim pemberitahuan."
+   },
+   "settings_page_website_settings_notif_section_header": {
+      "message": "Pemberitahuan"
+   },
+   "settings_page_website_settings_reset_to_allow_text": {
+      "message": "Atur ulang untuk mengizinkan"
+   },
+   "settings_page_website_settings_reset_to_block_text": {
+      "message": "Atur ulang untuk memblokir"
+   },
+   "setup_btn": {
+      "message": "SIAPKAN"
+   },
+   "summary_metadata_stats_text": {
+      "message": "Hapus metadata berisi informasi pribadi."
+   },
+   "summary_ok_header": {
+      "message": "Penjelajahan Anda terlindungi"
+   },
+   "summary_privacy_stats_text": {
+      "message": "Hapus data penjelajahan."
+   },
+   "summary_restart_header": {
+      "message": "Browser perlu dimulai ulang"
+   },
+   "summary_search_stats_text": {
+      "message": "Periksa keamanan hasil pencarian."
+   },
+   "summary_website_setting_header": {
+      "message": "Tinjauan Pengaturan Situs Web"
+   },
+   "summary_website_setting_text": {
+      "message": "Kelola izin situs web."
+   },
+   "website_security_inspector_description": {
+      "message": "Lindungi penjelajahan Anda dari penipuan dan ancaman keamanan dengan memindai situs web yang dikunjungi."
+   },
+   "website_security_inspector_scan_func_description": {
+      "message": "Pindai situs web untuk mencari ancaman segera setelah dimuat."
+   },
+   "website_security_inspector_scan_func_header": {
+      "message": "Pendeteksi ancaman situs web"
+   },
+   "website_security_inspector_setup_all_set_info": {
+      "message": "\u003Cspan class=\"highlighted\">Ekstensi Privasi & Keamanan Browser ESET\u003C/span> sekarang aktif dan melindungi penelusuran Anda. Fitur-fiturnya dapat Anda kelola kapan saja di pengaturan."
+   },
+   "website_security_inspector_setup_all_set_title": {
+      "message": "Semua sudah siap"
+   },
+   "website_security_inspector_setup_allow_access_section_description_1": {
+      "message": "Fitur keamanan tertentu memerlukan izin tambahan untuk mengakses situs web yang Anda kunjungi, termasuk alamat web (URL) dan kontennya. Data ini diperlukan untuk mendeteksi penipuan, phishing, dan ancaman lainnya secara real time, dan tidak pernah dibagikan dengan pihak ketiga."
+   },
+   "website_security_inspector_setup_allow_access_section_description_2": {
+      "message": "Anda dapat mengelola izin ini kapan saja di pengaturan ekstensi."
+   },
+   "website_security_inspector_setup_almost_done_info": {
+      "message": "Anda telah berhasil mengaktifkan \u003Cspan class=\"highlighted\">ekstensi Privasi & Keamanan Browser ESET\u003C/span>."
+   },
+   "website_security_inspector_setup_almost_done_subtitle": {
+      "message": "Selesaikan pengaktifan semua fitur keamanan"
+   },
+   "website_security_inspector_setup_almost_done_title": {
+      "message": "Anda hampir selesai"
+   },
+   "website_security_inspector_summary": {
+      "message": "Lindungi penjelajahan Anda dari penipuan dan ancaman keamanan."
+   },
+   "website_security_inspector_title": {
+      "message": "Inspektur Keamanan Situs Web"
+   },
+   "welcome_page_ai_conversation_security_tile_text": {
+      "message": "Periksa tanggapan ChatGPT untuk konten yang berpotensi berbahaya sebelum menggunakannya. Deteksi untuk platform lainnya akan segera hadir."
+   },
+   "welcome_page_allow_access_section_description": {
+      "message": "Beberapa fitur memerlukan izin untuk mengakses situs web yang Anda kunjungi. Data tentang aktivitas web Anda diproses secara lokal di perangkat Anda—hanya URL dan telemetri yang berpotensi berbahaya yang dapat dikirim ke ESET untuk mendukung riset tentang ancaman keamanan siber saat ini dan untuk membantu meningkatkan layanan kami, jika Anda telah mengaktifkan berbagi data di aplikasi keamanan ESET Anda. Anda dapat memperbarui izin ini kapan saja di pengaturan ekstensi."
+   },
+   "welcome_page_allow_access_section_title": {
+      "message": "Izinkan akses untuk proteksi penuh"
+   },
+   "welcome_page_browser_cleanup_tile_text": {
+      "message": "Hapus data penjelajahan atau atur pembersihan rutin."
+   },
+   "welcome_page_chrome_info_tile_text": {
+      "message": "Buat agar ekstensi tetap terlihat dengan mengeklik ikon ekstensi di atas dan menyematkannya di browser agar mudah diakses."
+   },
+   "welcome_page_edge_info_tile_text": {
+      "message": "Buat agar ekstensi tetap terlihat dengan mengeklik ikon ekstensi di atas dan menambahkannya ke toolbar browser agar mudah diakses."
+   },
+   "welcome_page_header_text": {
+      "message": "Terima kasih telah mengaktifkan ekstensi \u003Cspan class=\"highlighted\">Privasi & Keamanan Browser ESET\u003C/span> di browser Anda"
+   },
+   "welcome_page_main_content_title": {
+      "message": "Jelajahi fitur yang menjaga keamanan penjelajahan Anda"
+   },
+   "welcome_page_metadata_cleanup_tile_header": {
+      "message": "Pembersihan Metadata*"
+   },
+   "welcome_page_metadata_cleanup_tile_text": {
+      "message": "Hapus file informasi pribadi saat membagikannya secara online."
+   },
+   "welcome_page_pin_icon_alt": {
+      "message": "Ikon pin"
+   },
+   "welcome_page_plugin_icon_alt": {
+      "message": "Ikon plugin"
+   },
+   "welcome_page_right_arrow_icon_alt": {
+      "message": "Ikon panah kanan"
+   },
+   "welcome_page_secure_search_tile_text": {
+      "message": "Periksa keamanan hasil pencarian sebelum membukanya."
+   },
+   "welcome_page_subheader": {
+      "message": "Untuk mulai menikmati pengalaman menjelajah yang lebih aman, klik ikon ekstensi di samping bilah alamat. Pada beberapa browser, ikon mungkin tersembunyi di menu browser."
+   },
+   "welcome_page_ultime_feature": {
+      "message": "*Tersedia di ESET HOME Security Ultimate"
+   },
+   "welcome_page_website_security_inspector_tile_text": {
+      "message": "Pindai situs web dari penipuan dan ancaman keamanan saat Anda menjelajah."
+   },
+   "welcome_page_website_settings_tile_header": {
+      "message": "Tinjauan Pengaturan Situs Web*"
+   },
+   "welcome_page_website_settings_tile_text": {
+      "message": "Kontrol izin pemberitahuan, lokasi, kamera, dan mikrofon pada situs web."
+   },
+   "whats_new_page_allow_access_section_description": {
+      "message": "Fitur ini memerlukan izin untuk mengakses situs web yang Anda kunjungi. Data tentang aktivitas web Anda diproses secara lokal di perangkat Anda—hanya URL dan telemetri yang berpotensi berbahaya yang dapat dikirim ke ESET untuk mendukung riset tentang ancaman keamanan siber saat ini dan untuk membantu meningkatkan layanan kami, jika Anda telah mengaktifkan berbagi data di aplikasi keamanan ESET Anda. Anda dapat memperbarui izin ini kapan saja di pengaturan ekstensi."
+   },
+   "whats_new_page_allow_access_section_title": {
+      "message": "Izinkan akses untuk Keamanan Percakapan AI"
+   },
+   "whats_new_page_description": {
+      "message": "Keamanan Percakapan AI memindai setiap respons ChatGPT untuk konten yang mereferensikan sumber yang berpotensi tidak dapat dipercaya atau tidak aman, serta yang berisi kode berbahaya. Fitur ini berjalan secara otomatis, sehingga penjelajahan Anda tetap tidak terganggu.\u003Cbr/>\u003Cbr/>Pemindaian terjadi secara lokal di perangkat Anda. Kami tidak mengirim atau membagikan informasi tentang aktivitas web Anda ke ESET—hanya URL dan telemetri yang berpotensi berbahaya yang dapat dikirim untuk membantu meningkatkan produk kami.\u003Cbr/>\u003Cbr/>Dukungan untuk platform AI tambahan akan segera hadir."
+   },
+   "whats_new_page_header": {
+      "message": "\u003Cspan class=\"highlighted\">Yang baru\u003C/span>"
+   },
+   "whats_new_page_image_alt": {
+      "message": "Ilustrasi fitur Keamanan Percakapan AI ESET menunjukkan dua gelembung obrolan yang mewakili percakapan chatbot AI, dengan URL yang ditandai disorot dengan warna merah di dalam salah satu respons, yang menunjukkan tautan tidak aman yang terdeteksi selama pemindaian."
+   },
+   "whats_new_page_subheader": {
+      "message": "Jelajahi pembaruan dan peningkatan terbaru pada \u003Cspan class=\"highlighted\">ekstensi Privasi & Keamanan Browser ESET\u003C/span>."
+   },
+   "whats_new_page_title": {
+      "message": "Nikmati percakapan ChatGPT yang lebih aman"
+   }
+}

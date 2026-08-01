@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="../constants.js"></script>
+	<script src="preload.js"></script>
+	<link type="text/css" rel="stylesheet" href="./css/popup.css">
+	<script defer src="../utils.js"></script>
+	<script defer src="localize.js"></script>
+	<script defer src="header.js"></script>
+	<script defer src="navigation.js"></script>
+	<script defer src="browsingprivacy.js"></script>
+	<title>browsing_cleanup_header</title>
+</head>
+
+<body>
+	<div class="main-container">
+		<header id="popup-header"></header>
+		<div class="main-content">
+			<div id="popup-subheader">
+				<h3 class="localizable" data-i18n="browsing_cleanup_header"></h3>
+				<div id="popup-subheader-text" class="localizable" data-i18n="browsing_cleanup_header_text"></div>
+			</div>
+			<div id="main-section">
+				<div id="tab-menu">
+					<div id="left-tab">
+						<p id="left-tab-text" class="localizable" data-i18n="browsing_one_time_cleanup_tab_header"></p>
+					</div>
+					<div id="right-tab">
+						<p id="right-tab-text" class="localizable" data-i18n="browsing_regular_cleanup_func_header"></p>
+					</div>
+				</div>
+				<div id="form-otr-content">
+					<div class="form-section">
+						<p class="form-title localizable" data-i18n="browsing_one_time_cleanup_select_form_title"></p>
+						<div class="custom-select" id="period-select">
+							<select id="period-selector" disabled>
+								<option value="0" disabled class="localizable" data-i18n="browsing_cleanup_select_form_placeholder"></option>
+								<option value="1" class="localizable" data-i18n="browsing_cleanup_select_form_option_0"></option>
+								<option value="2" class="localizable" data-i18n="browsing_cleanup_select_form_option_1"></option>
+								<option value="3" class="localizable" data-i18n="browsing_cleanup_select_form_option_2"></option>
+								<option value="4" class="localizable" data-i18n="browsing_cleanup_select_form_option_3"></option>
+								<option value="5" class="localizable" data-i18n="browsing_cleanup_select_form_option_4"></option>
+								<option value="6" class="localizable" data-i18n="browsing_cleanup_select_form_option_5"></option>
+							</select>
+						</div>
+					</div>
+					<div class="data-btn-section">
+						<p class="form-title localizable" data-i18n="browsing_cleanup_data_btns_header"></p>
+						<div class="flex-row">
+							<button class="data-btn data-otr-btn localizable" value="1" data-i18n="browsing_cleanup_private_data_btn"></button>
+							<button class="data-btn data-otr-btn localizable" value="2" data-i18n="browsing_cleanup_custom_data_btn"></button>
+						</div>
+					</div>
+					<div id="data-description-section">
+						<div class="data-description-icon">
+							<img src="./assets/info-icon.svg" width="15" alt="" class="localizable" data-i18n-alt="info_icon_alt">
+						</div>
+						<div class="data-description-text">
+							<p class="localizable" data-i18n="browsing_cleanup_private_data_description"></p>
+						</div>
+					</div>
+
+					<div class="custom-input custom-input-data custom-scrollbar">
+						<div class="checkbox-row">
+							<input type="checkbox" id="custom1" name="custom" value="browsingHistory">
+							<label for="custom1" class="localizable" data-i18n="browsing_cleanup_custom_data_option_1"></label>
+						</div>
+						<div class="checkbox-row">
+							<input type="checkbox" id="custom2" name="custom" value="downloadHistory">
+							<label for="custom2" class="localizable" data-i18n="browsing_cleanup_custom_data_option_2"></label>
+						</div>
+						<div class="checkbox-row">
+							<input type="checkbox" id="custom3" name="custom" value="cookiesAndSiteData">
+							<label for="custom3" class="localizable" data-i18n="browsing_cleanup_custom_data_option_3"></label>
+						</div>
+						<div class="checkbox-row">
+							<input type="checkbox" id="custom4" name="custom" value="cachedImages">
+							<label for="custom4" class="localizable" data-i18n="browsing_cleanup_custom_data_option_4"></label>
+						</div>
+						<div class="checkbox-row">
+							<input type="checkbox" id="custom5" name="custom" value="passwords">
+							<label for="custom5" class="localizable" data-i18n="browsing_cleanup_custom_data_option_5"></label>
+						</div>
+						<div class="checkbox-row">
+							<input type="checkbox" id="custom6" name="custom" value="formData">
+							<label for="custom6" class="localizable" data-i18n="browsing_cleanup_custom_data_option_6"></label>
+						</div>
+						<div class="checkbox-row">
+							<input type="checkbox" id="custom7" name="custom" value="serviceWorkers">
+							<label for="custom7" class="localizable" data-i18n="browsing_cleanup_custom_data_option_7"></label>
+						</div>
+					</div>
+				</div>
+				<div id="form-ar-content">
+					<div class="flex-row">
+						<div class="fl">
+							<h4 class="ar-switch-title localizable" data-i18n="browsing_regular_cleanup_func_header"></h4>
+						</div>
+						<div class="fr">
+							<div class="box-center">
+								<label for="ar-switch" class="switch">
+									<input type="checkbox" name="search" id="ar-switch">
+									<span class="slider round"></span>
+								</label>
+							</div>
+						</div>
+					</div>
+					<div class="ar-status">
+						<p class="ar-status_text localizable" data-i18n="browsing_regular_cleanup_func_disabled"></p>
+						<span class="ar-settings-link"></span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="cleanup-btn-section clean-btn-div btn-section">
+			<label for="clean-btn">
+				<button name="button" id="clean-btn" class="cleanup-btn">
+					<span class="rotating-circle"></span><span
+						class="btn-text localizable" data-i18n="browsing_one_time_cleanup_delete_btn"></span>
+				</button>
+			</label>
+		</div>
+	</div>
+	<div id="overlay"></div>
+</body>
+
+</html>

@@ -1,0 +1,608 @@
+{
+   "advanced_setup_menu_item": {
+      "message": "Rozšířená nastavení"
+   },
+   "ai_conversation_security_description": {
+      "message": "Zajistěte si větší bezpečnost při používání ChatGPT. Každou odpověď před vaší interakcí kontrolujeme, zda neobsahuje odkazy na potenciálně nedůvěryhodné nebo nebezpečné zdroje a škodlivý kód."
+   },
+   "ai_conversation_security_detection_result_bad": {
+      "message": "Tato odpověď odkazuje na zdroj, který jsme označili za nebezpečný."
+   },
+   "ai_conversation_security_detection_result_bad_script": {
+      "message": "Tato odpověď obsahuje nebezpečný kód. Jeho spuštění může ohrozit váš systém nebo data."
+   },
+   "ai_conversation_security_detection_result_warning": {
+      "message": "Tato odpověď odkazuje na zdroj, který jsme označili za potenciálně nedůvěryhodný."
+   },
+   "ai_conversation_security_header": {
+      "message": "AI Conversation Security"
+   },
+   "ai_conversation_security_onboarding": {
+      "message": "\u003Cp class=\"onboarding-info\">Vaše konverzace jsou nyní chráněny. Každou odpověď ChatGPT kontrolujeme, zda neobsahuje odkazy na potenciálně nedůvěryhodné nebo nebezpečné zdroje ani škodlivý kód.\u003C/p>\u003Cp class=\"onboarding-info\">Tato nastavení můžete upravit \u003Cspan class=\"extension-popup-link\">zde\u003C/span>.\u003C/p>"
+   },
+   "ai_conversation_security_scan_func_description": {
+      "message": "Zkontrolujte odpovědi AI na možná rizika ještě před jejich použitím."
+   },
+   "ai_conversation_security_scan_func_header": {
+      "message": "Kontrola konverzací"
+   },
+   "ai_conversation_security_summary": {
+      "message": "Kontrolujte odpovědi ChatGPT z hlediska možných rizik."
+   },
+   "alert_icon_alt": {
+      "message": "Ikona upozornění"
+   },
+   "alert_page_connection_lost_btn": {
+      "message": "Zkusit znovu"
+   },
+   "alert_page_connection_lost_header": {
+      "message": "Spojení bylo ztraceno"
+   },
+   "alert_page_connection_lost_text": {
+      "message": "Spojení mezi \u003Cspan class=\"product-info\">{%productname%}\u003C/span> a rozšířením prohlížeče bylo ztraceno. Zkontrolujte prosím své internetové připojení a zkuste to znovu. Rozšíření nebude fungovat bez nainstalovaného \u003Cspan class=\"product-info\">{%productname%}\u003C/span>."
+   },
+   "alert_page_expired_license_btn": {
+      "message": "Otevřít \u003Cspan class=\"product-info\">{%productname%}\u003C/span> "
+   },
+   "alert_page_expired_license_header": {
+      "message": "Předplatné vypršelo"
+   },
+   "alert_page_expired_license_text": {
+      "message": "Vaše předplatné vypršelo a nemáte již přístup k rozšíření ESET Ochrana soukromí a zabezpečení v prohlížeči. Chcete-li tento problém vyřešit, otevřete prosím \u003Cspan class=\"product-info\">{%productname%}\u003C/span> a postupujte podle uvedených pokynů."
+   },
+   "alert_page_missing_product_header": {
+      "message": "Chybí bezpečnostní řešení"
+   },
+   "alert_page_missing_product_text_1": {
+      "message": "V současné době není ve vašem zařízení nainstalováno žádné bezpečnostní řešení ESET, které by podporovalo rozšíření ESET Ochrana soukromí a zabezpečení v prohlížeči."
+   },
+   "alert_page_missing_product_text_2": {
+      "message": "Více informací o tomto rozšíření, podporovaných bezpečnostních řešeních ESET, podporovaných prohlížečích a instalaci naleznete v naší \u003Cspan class=\"online-help-link\">Online nápovědě\u003C/span>."
+   },
+   "alert_page_unsupported_browser_header": {
+      "message": "Nepodporovaný prohlížeč"
+   },
+   "alert_page_unsupported_browser_text_1": {
+      "message": "Pravděpodobně používáte prohlížeč, který zatím nepodporujeme. Pro použití rozšíření ESET Ochrana soukromí a zabezpečení v prohlížeči je třeba mít nainstalovaný podporovaný prohlížeč."
+   },
+   "alert_page_unsupported_browser_text_2": {
+      "message": "\u003Cspan class=\"supported-browsers-link\">Podporované prohlížeče\u003C/span>"
+   },
+   "banner_ok_status_icon_alt": {
+      "message": "Ikona stavu OK"
+   },
+   "banner_restart_status_icon_alt": {
+      "message": "Ikona stavu restart"
+   },
+   "blocking_page_description": {
+      "message": "Inspekce zabezpečení webových stránek zjistila na \u003Cspan class=\"blocked-url-tooltip\">této stránce\u003C/span> potenciálně podvodný nebo škodlivý obsah. Pokud chcete zůstat chráněni, nedoporučujeme vám tuto stránku navštěvovat."
+   },
+   "blocking_page_go_back_button": {
+      "message": "Vrátit se zpět"
+   },
+   "blocking_page_head_title": {
+      "message": "Výstraha! – ESET Ochrana soukromí a zabezpečení v prohlížeči"
+   },
+   "blocking_page_ignore_threat_button": {
+      "message": "Ignorovat hrozbu"
+   },
+   "blocking_page_options_title": {
+      "message": "Vrátit se na předchozí stránku?"
+   },
+   "blocking_page_title": {
+      "message": "Tato stránka může být nebezpečná"
+   },
+   "browser_restart_needed_p": {
+      "message": "Pro provedení změn je vyžadován restart prohlížeče."
+   },
+   "browsing_cleanup_custom_data_btn": {
+      "message": "Vlastní"
+   },
+   "browsing_cleanup_custom_data_option_1": {
+      "message": "Historie prohlížení internetu"
+   },
+   "browsing_cleanup_custom_data_option_1_tooltip": {
+      "message": "Záznamy o navštívených webových stránkách včetně dat a časů. Vymazáním těchto dat dojde k odstranění historie prohlížení ve vašem zařízení."
+   },
+   "browsing_cleanup_custom_data_option_2": {
+      "message": "Historie stahování"
+   },
+   "browsing_cleanup_custom_data_option_2_tooltip": {
+      "message": "Seznam stažených souborů. Vymazáním těchto dat se odstraní záznam o stažených souborech, ale nikoli soubory samotné."
+   },
+   "browsing_cleanup_custom_data_option_3": {
+      "message": "Cookies a údaje o webových stránkách"
+   },
+   "browsing_cleanup_custom_data_option_3_tooltip": {
+      "message": "Malé soubory ukládané webovými stránkami, které si pamatují vaše preference, stav přihlášení a aktivitu. Vymazaní cookies vás může odhlásit z webových stránek a vrátit do původního stavu vaše předvolby."
+   },
+   "browsing_cleanup_custom_data_option_4": {
+      "message": "Obrázky a soubory v mezipaměti"
+   },
+   "browsing_cleanup_custom_data_option_4_tooltip": {
+      "message": "Dočasné soubory, které pomáhají rychleji načítat webové stránky tím, že ukládají jejich části do vašeho zařízení. Vymazání těchto dat může zpočátku zpomalit načítání stránek, ale uvolníte tím místo."
+   },
+   "browsing_cleanup_custom_data_option_5": {
+      "message": "Hesla a přihlašovací údaje"
+   },
+   "browsing_cleanup_custom_data_option_5_note": {
+      "message": "Tím trvale odstraníte všechna zapamatovaná uživatelská jména a hesla."
+   },
+   "browsing_cleanup_custom_data_option_5_tooltip": {
+      "message": "Uložené přihlašovací údaje k webovým stránkám, které umožňují rychlé přihlášení. Odstraněním těchto údajů dojde k trvalému vymazání všech zapamatovaných uživatelských jmen a hesel, proto postupujte opatrně."
+   },
+   "browsing_cleanup_custom_data_option_6": {
+      "message": "Data automatického vyplňování formulářů"
+   },
+   "browsing_cleanup_custom_data_option_6_tooltip": {
+      "message": "Informace, které jste zadali do formulářů, jako jsou jména, adresy a kontaktní údaje, které vám pomohou rychleji vyplnit formuláře. Vymazáním těchto údajů dojde k odstranění uložených informací."
+   },
+   "browsing_cleanup_custom_data_option_7": {
+      "message": "Service workers"
+   },
+   "browsing_cleanup_custom_data_option_7_tooltip": {
+      "message": "Soubory, které pomáhají webovým stránkám a webovým aplikacím fungovat bez problémů, i když jste offline. Odstranění těchto dat může mít vliv na funkce, jako je offline přístup, synchronizace na pozadí a oznámení. Většina webových stránek však bude stále fungovat jako obvykle."
+   },
+   "browsing_cleanup_data_btns_header": {
+      "message": "Typ dat"
+   },
+   "browsing_cleanup_header": {
+      "message": "Vyčištění prohlížeče"
+   },
+   "browsing_cleanup_header_text": {
+      "message": "Odstraňte údaje o procházení internetu nebo nastavte pravidelné čištění. \u003Cspan>Přidejte do seznamu\u003C/span> webové stránky, na kterých chcete zůstat přihlášeni."
+   },
+   "browsing_cleanup_private_data_btn": {
+      "message": "Privátní"
+   },
+   "browsing_cleanup_private_data_description": {
+      "message": "Mezi soukromé údaje patří historie procházení, historie stahování, cookies a data webových stránek, data pro automatické vyplňování formulářů a skripty service workers."
+   },
+   "browsing_cleanup_select_form_option_0": {
+      "message": "Po celou dobu"
+   },
+   "browsing_cleanup_select_form_option_1": {
+      "message": "Tato relace prohlížení internetu"
+   },
+   "browsing_cleanup_select_form_option_2": {
+      "message": "Poslední hodina"
+   },
+   "browsing_cleanup_select_form_option_3": {
+      "message": "Posledních 24 hodin"
+   },
+   "browsing_cleanup_select_form_option_4": {
+      "message": "Posledních 7 dní"
+   },
+   "browsing_cleanup_select_form_option_5": {
+      "message": "Poslední 4 týdny"
+   },
+   "browsing_cleanup_select_form_placeholder": {
+      "message": "Vyberte časový rozsah"
+   },
+   "browsing_one_time_cleanup_delete_btn": {
+      "message": "Odstranit data"
+   },
+   "browsing_one_time_cleanup_delete_btn_deleted_text": {
+      "message": "Vymazáno"
+   },
+   "browsing_one_time_cleanup_delete_btn_deleting_text": {
+      "message": "Vymazání"
+   },
+   "browsing_one_time_cleanup_select_form_title": {
+      "message": "Rozsah času"
+   },
+   "browsing_one_time_cleanup_tab_header": {
+      "message": "Jednorázové čištění"
+   },
+   "browsing_regular_cleanup_btn": {
+      "message": "Uložit a spustit čištění"
+   },
+   "browsing_regular_cleanup_btn_coplete": {
+      "message": "Čištění bylo dokončeno"
+   },
+   "browsing_regular_cleanup_btn_disabled": {
+      "message": "Uložit nastavení"
+   },
+   "browsing_regular_cleanup_btn_processing": {
+      "message": "Ukládání a čištění"
+   },
+   "browsing_regular_cleanup_btn_schedule": {
+      "message": "Naplánovat čištění"
+   },
+   "browsing_regular_cleanup_func_change_setting_link": {
+      "message": "Změnit nastavení pravidelného čištění"
+   },
+   "browsing_regular_cleanup_func_disabled": {
+      "message": "Po zapnutí pravidelného čištění nastavte preferovaný čas a frekvenci."
+   },
+   "browsing_regular_cleanup_func_header": {
+      "message": "Pravidelné čištění"
+   },
+   "browsing_regular_cleanup_func_next_session_cleanup": {
+      "message": "Další čištění začne automaticky spustí při dalším otevření prohlížeče."
+   },
+   "browsing_regular_cleanup_func_next_time_cleanup": {
+      "message": "Další čištění je naplánováno na %DATE%, %TIME%."
+   },
+   "browsing_regular_cleanup_func_not_set": {
+      "message": "Dosud jste nenastavili pravidelné čištění."
+   },
+   "browsing_regular_cleanup_func_set_up_settings_link": {
+      "message": "Nastavit pravidelné čištění"
+   },
+   "browsing_regular_cleanup_header": {
+      "message": "Nastavení pravidelného čištění"
+   },
+   "browsing_regular_cleanup_header_description": {
+      "message": "Zvolte frekvenci čištění a typy dat, které chcete vymazat."
+   },
+   "browsing_regular_cleanup_select_form_option_1": {
+      "message": "Po každé relaci prohlížeče"
+   },
+   "browsing_regular_cleanup_select_form_option_2": {
+      "message": "Jednou za hodinu"
+   },
+   "browsing_regular_cleanup_select_form_option_3": {
+      "message": "Jednou za 24 hodin"
+   },
+   "browsing_regular_cleanup_select_form_option_4": {
+      "message": "Jednou za 7 dní"
+   },
+   "browsing_regular_cleanup_select_form_option_5": {
+      "message": "Jednou za 4 týdny"
+   },
+   "browsing_regular_cleanup_select_form_placeholder": {
+      "message": "Vybrat frekvenci"
+   },
+   "browsing_regular_cleanup_select_form_title": {
+      "message": "Frekvence čištění"
+   },
+   "close_icon_alt": {
+      "message": "Ikona Zavřít"
+   },
+   "data_collection_consent_dialog_agree_button": {
+      "message": "Přijmout a pokračovat"
+   },
+   "data_collection_consent_dialog_decline_button": {
+      "message": "Odmítnout a zavřít tuto kartu"
+   },
+   "data_collection_consent_dialog_description_1": {
+      "message": "Aby rozšíření ESET Browser Privacy & Security mohlo zajišťovat úplnou ochranu, je třeba váš souhlas s odesíláním shromažďovaných dat do aplikace ESET ve vašem zařízení. Jedná se o informace o vámi navštívených webových stránkách, tj. jejich URL adresy, obsah a další data."
+   },
+   "data_collection_consent_dialog_description_2": {
+      "message": "Data, která zpracováváme, se používají k detekci podvodů, phishingu a dalších hrozeb. Jsou také potřebné pro funkce, jako je Inspekce zabezpečení webových stránek. Zpracování dat probíhá většinou lokálně ve vašem zařízení, ale některé podezřelé URL adresy a obsah webových stránek mohou být odeslány na náš server pro pokročilou detekci hrozeb. Pokud souhlas odmítnete, některé funkce budou deaktivovány, ale zbytek rozšíření bude stále fungovat."
+   },
+   "data_collection_consent_dialog_description_3": {
+      "message": "V závislosti na vašem nastavení aplikace ESET můžeme také shromažďovat anonymizovaná data o používání tohoto rozšíření za účelem zlepšení jeho výkonu. Toto nastavení můžete spravovat v aplikaci."
+   },
+   "data_collection_consent_dialog_footer": {
+      "message": "Další informace o tom, jak zpracováváme a spravujeme vaše údaje, najdete v našich \u003Cspan class=\"privacy-policy-link\">Zásadách ochrany osobních údajů\u003C/span>."
+   },
+   "data_collection_consent_dialog_title": {
+      "message": "Pro úplnou ochranu vašeho prohlížení potřebujeme váš souhlas"
+   },
+   "direction": {
+      "message": "ltr"
+   },
+   "eset_logo_alt": {
+      "message": "Logo společnosti ESET"
+   },
+   "eula_link": {
+      "message": "Licenční ujednání s koncovým uživatelem"
+   },
+   "extension_description": {
+      "message": "Rozšířená ochrana prohlížeče ESET Ochrana soukromí a zabezpečení v prohlížeči."
+   },
+   "help_support_menu_item": {
+      "message": "Nápověda a podpora"
+   },
+   "info_icon_alt": {
+      "message": "Informační ikona"
+   },
+   "info_page_allow_access_button": {
+      "message": "Povolit přístup"
+   },
+   "info_page_footer": {
+      "message": "© 1992 – %YEAR% ESET, spol. s r.o. – Všechna práva vyhrazena. Použité ochranné známky jsou ochranné známky nebo registrované ochranné známky společnosti ESET, spol. s r.o. nebo ESET Severní Amerika. Všechny ostatní názvy a značky jsou registrovanými obchodními značkami příslušných společností."
+   },
+   "learn_more_link": {
+      "message": "Zjistit více"
+   },
+   "metadata_cleaner_func_description": {
+      "message": "Vyčistěte metadata při každém nahrání obrázku."
+   },
+   "metadata_cleaner_func_header": {
+      "message": "Vyčistit data ze souborů"
+   },
+   "metadata_cleaner_header": {
+      "message": "Vyčištění metadat"
+   },
+   "metadata_cleaner_subheader": {
+      "message": "Odstraňte metadata se soukromými informacemi při sdílení souborů online."
+   },
+   "metadata_notifications_func_header": {
+      "message": "Zobrazení oznámení po vyčištění"
+   },
+   "metadata_notifications_func_subheader": {
+      "message": "Dostávat oznámení v prohlížeči."
+   },
+   "metadata_warning_status_icon_alt": {
+      "message": "Ikona upozornění na stav metadat"
+   },
+   "notification_message_text": {
+      "message": "Vyčištění metadat nahraného souboru:"
+   },
+   "overview_menu_item": {
+      "message": "Přehled"
+   },
+   "privacy_policy_link": {
+      "message": "Zásady ochrany osobních údajů"
+   },
+   "product_name": {
+      "message": "OCHRANA SOUKROMÍ A ZABEZPEČENÍ V PROHLÍŽEČI"
+   },
+   "product_title": {
+      "message": "ESET Ochrana soukromí a zabezpečení v prohlížeči"
+   },
+   "product_version": {
+      "message": "Verze:"
+   },
+   "progress_logo_alt": {
+      "message": "Progress. Protected. logo"
+   },
+   "scan_search_result_func_description": {
+      "message": "Zkontrolujte výsledky vyhledávání a zjistěte, na které z nich lze bezpečně kliknout."
+   },
+   "scan_search_result_func_header": {
+      "message": "Kontrolovat výsledky vyhledávání"
+   },
+   "secure_search_green_popup_text": {
+      "message": "Tyto webové stránky jsou bezpečné"
+   },
+   "secure_search_header": {
+      "message": "Zabezpečené vyhledávání"
+   },
+   "secure_search_red_popup_text": {
+      "message": "Tato webová stránka není bezpečná"
+   },
+   "secure_search_subheader": {
+      "message": "Podívejte se, které výsledky vyhledávání lze bezpečně otevřít."
+   },
+   "secure_search_yellow_popup_text": {
+      "message": "Nalezen potenciálně nechtěný obsah"
+   },
+   "settings_page_appearance_dark_mode": {
+      "message": "Tmavý"
+   },
+   "settings_page_appearance_description": {
+      "message": "Přizpůsobte si vzhled rozhraní podle svých preferencí. Můžete si vybrat mezi světlým a tmavým režimem."
+   },
+   "settings_page_appearance_header": {
+      "message": "Vzhled"
+   },
+   "settings_page_appearance_light_mode": {
+      "message": "Světlé"
+   },
+   "settings_page_appearance_subheader": {
+      "message": "Barevný režim"
+   },
+   "settings_page_browser_cleanup_active_tabs_text": {
+      "message": "Domény navrhované na základě aktuálně otevřených karet v prohlížeči. Pokud se v seznamu níže nezobrazí všechny aktuálně otevřené karty, \u003Cspan class=\"refresh-list\">obnovte seznam.\u003C/span>"
+   },
+   "settings_page_browser_cleanup_add_btn_text": {
+      "message": "Přidat"
+   },
+   "settings_page_browser_cleanup_checkbox_text": {
+      "message": "Zachovat aktuální relaci prohlížení internetu pro otevřené karty po vyčištění"
+   },
+   "settings_page_browser_cleanup_description": {
+      "message": "Přidejte webové stránky, na kterých chcete přijímat cookies a zůstat přihlášeni i po vyčištění prohlížeče."
+   },
+   "settings_page_browser_cleanup_input_placeholder_text": {
+      "message": "Zadejte adresu URL, kterou chcete přidat"
+   },
+   "settings_page_browser_cleanup_minus_img_alt": {
+      "message": "Minus"
+   },
+   "settings_page_browser_cleanup_plus_img_alt": {
+      "message": "Plus"
+   },
+   "settings_page_browser_cleanup_subheader": {
+      "message": "Pokročilé nastavení cookies"
+   },
+   "settings_page_not_valid_url_warning": {
+      "message": "*Toto není platná URL adresa."
+   },
+   "settings_page_website_settings_allow_text": {
+      "message": "Povolit"
+   },
+   "settings_page_website_settings_allowed_text": {
+      "message": "Povoleno"
+   },
+   "settings_page_website_settings_block_text": {
+      "message": "Blokovat"
+   },
+   "settings_page_website_settings_blocked_text": {
+      "message": "Blokováno"
+   },
+   "settings_page_website_settings_camera_section_description": {
+      "message": "Zkontrolujte, které webové stránky mají přístup k vašemu fotoaparátu."
+   },
+   "settings_page_website_settings_camera_section_header": {
+      "message": "Fotoaparát"
+   },
+   "settings_page_website_settings_chrome_extension_info_text": {
+      "message": "Nastavení rozšíření prohlížeče nemůžeme změnit. Pokud si jej přejete upravit, přejděte do nastavení prohlížeče a vyhledejte sekci pro nastavení vašeho \u003Cspan class=\"browser-site-permissions-link\">soukromí a zabezpečení\u003C/span>"
+   },
+   "settings_page_website_settings_description": {
+      "message": "Snadný přístup k oprávněním webových stránek a jejich správa umožňuje kontrolovat, jaké informace mohou webové stránky používat."
+   },
+   "settings_page_website_settings_edge_extension_info_text": {
+      "message": "Nastavení rozšíření prohlížeče nemůžeme změnit. Pokud si jej přejete upravit, přejděte do nastavení prohlížeče a vyhledejte sekci pro nastavení vašich \u003Cspan class=\"browser-site-permissions-link\">souborů cookies a oprávnění webů\u003C/span>"
+   },
+   "settings_page_website_settings_header": {
+      "message": "Přehled nastavení webových stránek"
+   },
+   "settings_page_website_settings_location_section_description": {
+      "message": "Zkontrolujte, které webové stránky mají přístup k vaší poloze."
+   },
+   "settings_page_website_settings_location_section_header": {
+      "message": "Poloha"
+   },
+   "settings_page_website_settings_mic_section_description": {
+      "message": "Zkontrolujte, které webové stránky mají přístup k vašemu mikrofonu."
+   },
+   "settings_page_website_settings_mic_section_header": {
+      "message": "Mikrofon"
+   },
+   "settings_page_website_settings_notif_section_description": {
+      "message": "Zkontrolujte, které webové stránky mohou požádat o zasílání oznámení."
+   },
+   "settings_page_website_settings_notif_section_header": {
+      "message": "Oznámení"
+   },
+   "settings_page_website_settings_reset_to_allow_text": {
+      "message": "Obnovit pro povolení"
+   },
+   "settings_page_website_settings_reset_to_block_text": {
+      "message": "Obnovit pro blokování"
+   },
+   "setup_btn": {
+      "message": "NASTAVIT"
+   },
+   "summary_metadata_stats_text": {
+      "message": "Odstraňte metadata se soukromými informacemi."
+   },
+   "summary_ok_header": {
+      "message": "Vaše prohlížení internetu je chráněno"
+   },
+   "summary_privacy_stats_text": {
+      "message": "Odstraňte údaje o prohlížení internetu."
+   },
+   "summary_restart_header": {
+      "message": "Vyžadován restart prohlížeče"
+   },
+   "summary_search_stats_text": {
+      "message": "Zkontrolujte bezpečnost výsledků vyhledávání."
+   },
+   "summary_website_setting_header": {
+      "message": "Přehled nastavení webových stránek"
+   },
+   "summary_website_setting_text": {
+      "message": "Spravujte oprávnění k webovým stránkám."
+   },
+   "website_security_inspector_description": {
+      "message": "Chraňte se při prohlížení webu před podvody a bezpečnostními hrozbami pomocí kontroly webových stránek, které navštěvujete."
+   },
+   "website_security_inspector_scan_func_description": {
+      "message": "Odhalte hrozby ihned po načtení webových stránek."
+   },
+   "website_security_inspector_scan_func_header": {
+      "message": "Detekce hrozeb na webových stránkách"
+   },
+   "website_security_inspector_setup_all_set_info": {
+      "message": "Rozšíření \u003Cspan class=\"highlighted\">ESET Browser Privacy & Security\u003C/span> je nyní aktivní a chrání vaše online aktivity. Jeho funkce můžete kdykoli spravovat v nastavení."
+   },
+   "website_security_inspector_setup_all_set_title": {
+      "message": "Vše je připraveno"
+   },
+   "website_security_inspector_setup_allow_access_section_description_1": {
+      "message": "Některé bezpečnostní funkce potřebují další oprávnění pro přístup k navštíveným webovým stránkám, včetně jejich webových adres (URL) a obsahu. Tyto údaje jsou potřebné k detekci podvodů, phishingu a dalších hrozeb v reálném čase. Získané údaje nikdy nesdílíme s třetími stranami."
+   },
+   "website_security_inspector_setup_allow_access_section_description_2": {
+      "message": "Tato oprávnění můžete kdykoli upravit v nastavení rozšíření."
+   },
+   "website_security_inspector_setup_almost_done_info": {
+      "message": "Úspěšně jste aktivovali rozšíření \u003Cspan class=\"highlighted\">ESET Browser Privacy & Security\u003C/span>."
+   },
+   "website_security_inspector_setup_almost_done_subtitle": {
+      "message": "Dokončete aktivaci všech bezpečnostních funkcí"
+   },
+   "website_security_inspector_setup_almost_done_title": {
+      "message": "Už to skoro bude"
+   },
+   "website_security_inspector_summary": {
+      "message": "Chraňte se při prohlížení webu před podvody a bezpečnostními hrozbami."
+   },
+   "website_security_inspector_title": {
+      "message": "Inspekce zabezpečení webových stránek"
+   },
+   "welcome_page_ai_conversation_security_tile_text": {
+      "message": "Zkontrolujte odpovědi ChatGPT na potenciálně škodlivý obsah před jejich použitím. Další platformy budou brzy k dispozici."
+   },
+   "welcome_page_allow_access_section_description": {
+      "message": "Některé funkce vyžadují oprávnění k přístupu na webové stránky, které navštěvujete. Údaje o vaší aktivitě na webu se zpracovávají lokálně na vašem zařízení – společnosti ESET mohou být odesílány pouze potenciálně škodlivé adresy URL a telemetrické údaje, a to za účelem podpory výzkumu aktuálních kybernetických hrozeb a zlepšování našich služeb, pokud jste ve své bezpečnostní aplikaci ESET povolili sdílení dat. Toto oprávnění můžete kdykoli změnit v nastavení rozšíření."
+   },
+   "welcome_page_allow_access_section_title": {
+      "message": "Udělit oprávnění pro úplné zabezpečení"
+   },
+   "welcome_page_browser_cleanup_tile_text": {
+      "message": "Odstraňte data procházení nebo nastavte pravidelné čištění."
+   },
+   "welcome_page_chrome_info_tile_text": {
+      "message": "Snadný přístup k tomuto rozšíření získáte kliknutím na výše uvedenou ikonu a jejím připnutím do prohlížeče."
+   },
+   "welcome_page_edge_info_tile_text": {
+      "message": "Snadný přístup k tomuto rozšíření získáte kliknutím na výše uvedenou ikonu a jejím přidáním na panel nástrojů prohlížeče."
+   },
+   "welcome_page_header_text": {
+      "message": "Děkujeme za důvěru a zapnutí rozšíření ESET Browser Privacy & Security \u003Cspan class=\"highlighted\">(Ochrana soukromí a zabezpečení v prohlížeči)\u003C/span>"
+   },
+   "welcome_page_main_content_title": {
+      "message": "Objevte nové funkce, které chrání vaše bezpečí na internetu"
+   },
+   "welcome_page_metadata_cleanup_tile_header": {
+      "message": "Vyčištění metadat*"
+   },
+   "welcome_page_metadata_cleanup_tile_text": {
+      "message": "Při sdílení souborů online je zbavte soukromých informací."
+   },
+   "welcome_page_pin_icon_alt": {
+      "message": "Ikona špendlíku"
+   },
+   "welcome_page_plugin_icon_alt": {
+      "message": "Ikona pluginu"
+   },
+   "welcome_page_right_arrow_icon_alt": {
+      "message": "Ikona šipky doprava"
+   },
+   "welcome_page_secure_search_tile_text": {
+      "message": "Před otevřením výsledků vyhledávání zkontrolujte jejich bezpečnost."
+   },
+   "welcome_page_subheader": {
+      "message": "Pro využití užitečných funkcí, které vám zabezpečené prohlížení webu nabízí, klikněte na ikonu rozšíření vedle adresního řádku. V některých prohlížečích může být tato nabídka skrytá v menu prohlížeče."
+   },
+   "welcome_page_ultime_feature": {
+      "message": "*Dostupné v ESET HOME Security Ultimate"
+   },
+   "welcome_page_website_security_inspector_tile_text": {
+      "message": "Nechte si zkontrolovat webové stránky, zda nejsou podvodné a jsou bezpečné."
+   },
+   "welcome_page_website_settings_tile_header": {
+      "message": "Přehled nastavení webových stránek*"
+   },
+   "welcome_page_website_settings_tile_text": {
+      "message": "Nastavení oprávnění webových stránek pro oznámení, polohu, kameru a mikrofon."
+   },
+   "whats_new_page_allow_access_section_description": {
+      "message": "Tato funkce vyžaduje oprávnění k přístupu k webovým stránkám, které navštěvujete. Údaje o vaší aktivitě na webu se zpracovávají lokálně na vašem zařízení – společnosti ESET mohou být odesílány pouze potenciálně škodlivé adresy URL a telemetrické údaje, a to za účelem podpory výzkumu aktuálních kybernetických hrozeb a zlepšování našich služeb, pokud jste ve své bezpečnostní aplikaci ESET povolili sdílení dat. Toto oprávnění můžete kdykoli změnit v nastavení rozšíření."
+   },
+   "whats_new_page_allow_access_section_title": {
+      "message": "Povolte přístup pro AI Conversation Security"
+   },
+   "whats_new_page_description": {
+      "message": "AI Conversation Security kontroluje každou odpověď ChatGPT na odkazy na potenciálně nedůvěryhodné nebo nebezpečné zdroje a také na škodlivý kód. Probíhá automaticky, takže vás při procházení webu nijak neruší.\u003Cbr/>\u003Cbr/>Kontrola probíhá lokálně na vašem zařízení. Informace o vaší aktivitě na webu neodesíláme ani nesdílíme se společností ESET – odesílat se mohou pouze potenciálně škodlivé adresy URL a telemetrická data, která pomáhají vylepšovat naši aplikaci.\u003Cbr/>\u003Cbr/>Již brzy rozšíříme podporu i na další AI platformy."
+   },
+   "whats_new_page_header": {
+      "message": "\u003Cspan class=\"highlighted\">Co je nového?\u003C/span>"
+   },
+   "whats_new_page_image_alt": {
+      "message": "Ilustrace funkce ESET AI Conversation Security, na které jsou zobrazeny dvě bubliny znázorňující konverzaci s AI chatbotem. V jedné z odpovědí je červeně zvýrazněna URL adresa, což signalizuje, že při kontrole byl zjištěn nebezpečný odkaz."
+   },
+   "whats_new_page_subheader": {
+      "message": "Prohlédněte si nejnovější vylepšení vašeho rozšíření ESET Browser Privacy & Security \u003Cspan class=\"highlighted\">(Ochrana soukromí a zabezpečení v prohlížeči)\u003C/span>."
+   },
+   "whats_new_page_title": {
+      "message": "Užijte si bezpečnější konverzace s ChatGPT"
+   }
+}

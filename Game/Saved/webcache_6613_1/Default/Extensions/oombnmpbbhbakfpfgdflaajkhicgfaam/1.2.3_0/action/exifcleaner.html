@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="../constants.js"></script>
+	<script src="preload.js"></script>
+	<link type="text/css" rel="stylesheet" href="./css/popup.css">
+	<script defer src="../utils.js"></script>
+	<script defer src="localize.js"></script>
+	<script defer src="header.js"></script>
+	<script defer src="navigation.js"></script>
+	<script defer src="exifcleaner.js"></script>
+	<title>metadata_cleaner_header</title>
+</head>
+
+<body>
+	<div class="main-container">
+		<header id="popup-header"></header>
+		<div class="main-content">
+			<div id="popup-subheader">
+				<h3 class="localizable" data-i18n="metadata_cleaner_header"></h3>
+				<p class="localizable" data-i18n="metadata_cleaner_subheader"></p>
+			</div>
+
+			<div id="main-section">
+				<form id="optionsForm">
+					<div class="flex-row feature-activation-section">
+						<div class="fl">
+
+							<h4 class="localizable" data-i18n="metadata_cleaner_func_header"></h4>
+							<div class="sub-text">
+								<p class="localizable" data-i18n="metadata_cleaner_func_description"></p>
+							</div>
+						</div>
+						<div class="fr">
+							<div class="box-center">
+								<label for="exif-switch" class="switch">
+									<input type="checkbox" name="exif" id="exif-switch">
+									<span id="exif-slider" class="slider round"></span>
+								</label>
+							</div>
+						</div>
+					</div>
+					<div id="metadata-tooltip">
+						<img src="./assets/status_icon.svg" width="21" alt="" class="localizable" data-i18n-alt="info_icon_alt">
+						<p class="localizable" data-i18n="browser_restart_needed_p"></p>
+					</div>
+					<hr>
+					<div class="flex-row feature-activation-section" id="exif-notif-section">
+						<div class="fl">
+							<h4 class="localizable" data-i18n="metadata_notifications_func_header"></h4>
+							<div class="sub-text">
+								<p class="localizable" data-i18n="metadata_notifications_func_subheader"></p>
+							</div>
+						</div>
+						<div class="fr">
+							<div class="box-center">
+								<label for="notif-switch" class="switch">
+									<input type="checkbox" name="notif" id="notif-switch">
+									<span id="notif-slider" class="slider round"></span>
+								</label>
+							</div>
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+	<div id="overlay"></div>
+</body>
+
+</html>
